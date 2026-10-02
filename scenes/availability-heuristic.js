@@ -115,6 +115,34 @@
           "Δες τα πραγματικά νούμερα και μετά αποφάσισε πώς θα ταξιδέψεις.",
           "Ευρετική της διαθεσιμότητας. Ό,τι θυμάσαι εύκολα δεν είναι απαραίτητα και πιθανό. Δες πόσο συχνά συμβαίνει στ’ αλήθεια."
         ]
+      },
+      es: {
+        name: "Heurística de disponibilidad", shareTitle: "La heurística de disponibilidad en 30 segundos",
+        ecline: "Fácil de recordar no significa probable. Comprueba cuántas veces pasa de verdad.",
+        memory: "Tu memoria", or: "o", head: "Cae un avión", cw: 122, note: "choque", daily: "cada día",
+        q1: ["¿Qué me viene", "a la mente?"], q2: ["¿Cuántas veces", "pasa de verdad?"],
+        feels: "Riesgo que sientes", actual: "Riesgo real por km",
+        caps: [
+          "¿Ir a la costa en avión o por carretera? ¿Qué es más <b>arriesgado</b>?",
+          "Esta semana, un accidente aéreo <b>copa todas las noticias</b>.",
+          "Los accidentes de tráfico ocurren <b>cada día</b>, pero casi nunca son titular.",
+          "Tu mente se pregunta: ¿qué ejemplos <b>me vienen antes a la mente</b>?",
+          "Así que volar, de pronto, <b>parece</b> más peligroso.",
+          "Pero, por kilómetro recorrido, <b>la carretera es mucho más arriesgada</b>.",
+          "<b>La solución:</b> pregúntate cuántas veces ocurre, no cuánto se recuerda.",
+          "Mira los <b>números reales</b> y luego decide cómo viajar."
+        ],
+        say: [
+          "¿Ir a la costa en avión o por carretera? ¿Qué es más arriesgado?",
+          "Esta semana, un accidente aéreo copa todas las noticias.",
+          "Los accidentes de tráfico ocurren cada día, pero casi nunca son titular.",
+          "Tu mente se pregunta: ¿qué ejemplos me vienen antes a la mente?",
+          "Así que volar, de pronto, parece más peligroso.",
+          "Pero, por kilómetro recorrido, la carretera es mucho más arriesgada.",
+          "La solución: pregúntate cuántas veces ocurre, no cuánto se recuerda.",
+          "Mira los números reales, y luego decide cómo viajar.",
+          "Heurística de disponibilidad. Fácil de recordar no significa probable. Comprueba cuántas veces pasa de verdad."
+        ]
       }
     },
     svg(T) {

@@ -111,6 +111,33 @@ ${P} .check path{fill:none;stroke:var(--good);stroke-width:2.4;stroke-linecap:ro
           "Σκέψου μόνο το από δω και πέρα. Μείνε σπίτι και ξεκουράσου.",
           "Πλάνη του βυθισμένου κόστους. Ό,τι ξόδεψες χάθηκε έτσι κι αλλιώς. Αποφάσισε με βάση όσα έρχονται."
         ]
+      },
+      es: {
+        name: "Falacia del costo hundido", shareTitle: "La falacia del costo hundido en 30 segundos",
+        ecline: "El dinero ya gastado no vuelve, hagas lo que hagas. Decide según lo que viene.",
+        concert: "CONCIERTO", price: "60 €", noref: "sin reembolso", spent: "Gastado", sunk: "costo hundido", sunkW: 95, tired: "agotado",
+        go: "Voy", stay: "Me quedo", music: "Música", rest: "Descanso", dry: "Sin lluvia", minus: "−60 €",
+        caps: [
+          "Pagaste <b>60 €</b> por una entrada de concierto. Sin reembolso.",
+          "Llega la noche: estás agotado y llueve a cántaros.",
+          "¿Ir o quedarte en casa? Lo sopesas.",
+          "Esta noche, quedarte en casa es lo que <b>más disfrutarías</b>.",
+          "Y entonces piensas: «Pagué 60 €. No puedo <b>desperdiciarlos</b>».",
+          "Pero esos 60 € ya no vuelven, <b>vayas o no</b>.",
+          "<b>La solución:</b> saca de la balanza el dinero ya gastado.",
+          "Decide según lo que viene. <b>Quédate en casa</b> y descansa."
+        ],
+        say: [
+          "Pagaste sesenta euros por una entrada de concierto. Sin reembolso.",
+          "Llega la noche: estás agotado, y llueve a cántaros.",
+          "¿Ir, o quedarte en casa? Lo sopesas.",
+          "Esta noche, quedarte en casa es lo que más disfrutarías.",
+          "Y entonces piensas: pagué sesenta euros. No puedo desperdiciarlos.",
+          "Pero esos sesenta euros ya no vuelven, vayas o no.",
+          "La solución: saca de la balanza el dinero que ya gastaste.",
+          "Decide según lo que viene. Quédate en casa, y descansa.",
+          "La falacia del costo hundido. El dinero ya gastado no vuelve, hagas lo que hagas. Decide según lo que viene."
+        ]
       }
     },
     svg(T) {

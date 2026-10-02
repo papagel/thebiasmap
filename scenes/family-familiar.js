@@ -142,6 +142,35 @@
           "Χωρίς ονόματα, οι δύο δουλειές βγαίνουν ισάξιες, και κερδίζει η καλύτερη ιδέα, όποιου κι αν είναι.",
           "Προτιμάμε το οικείο. Όμως οικείο δεν σημαίνει καλύτερο, γι’ αυτό κρίνε τη δουλειά κι όχι ποιος την έκανε."
         ]
+      },
+      es: {
+        name: "Lo familiar es mejor", shareTitle: "Por qué lo nuestro siempre parece mejor, en 30 segundos",
+        ecline: "Familiar no significa mejor, así que juzga el trabajo, no a quien lo hizo.",
+        us: "tu equipo", them: "otro equipo", same: "mismo trabajo", safe: "familiar = seguro",
+        traits: ["ingenio", "humor", "calma"], blur: "«todos iguales»",
+        check: "misma lista", crit: ["Claridad", "Precisión", "Utilidad"], cover: ["A", "B"],
+        bias: "sesgo", fix: "solución", tags: ["Sesgo endogrupal", "Sesgo de homogeneidad exogrupal", "No inventado aquí", "Revisión a ciegas"], tw: [153, 234, 146, 170],
+        caps: [
+          "Dos equipos entregan <b>el mismo trabajo</b>. Uno de ellos es el tuyo.",
+          "Tu cerebro toma un atajo: <b>lo familiar parece mejor</b>. Suele ser una apuesta segura.",
+          "Mismo trabajo, pero tu equipo saca un <b>9</b> y el suyo, un <b>6</b>.",
+          "Los tuyos son todos distintos. ¿Los otros? «<b>Todos iguales.</b>»",
+          "Entonces el otro equipo propone una <b>forma mejor</b> de hacerlo.",
+          "Tu equipo la descarta: <b>no se inventó aquí</b>. Una buena idea, perdida.",
+          "<b>La solución:</b> oculta los nombres y evalúa ambos con <b>la misma lista</b>.",
+          "A ciegas, quedan <b>igualados</b>, y gana la mejor idea, <b>sea de quien sea</b>."
+        ],
+        say: [
+          "Dos equipos entregan el mismo trabajo. Uno de ellos es el tuyo.",
+          "Tu cerebro toma un atajo: lo familiar parece mejor. Suele ser una apuesta segura, y te ahorra juzgarlo todo desde cero.",
+          "Sin embargo, el mismo trabajo saca un nueve si es de tu equipo, y un seis si es del suyo. Es el sesgo endogrupal.",
+          "Los tuyos son todos distintos, cada uno con sus puntos fuertes. ¿Los otros? Todos iguales. Es el sesgo de homogeneidad exogrupal.",
+          "Entonces el otro equipo propone una forma mejor de hacerlo.",
+          "Tu equipo la descarta. No se inventó aquí. Una buena idea, perdida solo por su origen.",
+          "La solución: oculta los nombres, y evalúa ambos con la misma lista.",
+          "Evaluado a ciegas, el trabajo queda igualado, y gana la mejor idea, sea de quien sea.",
+          "Lo familiar es mejor. O eso parece. Familiar no significa mejor, así que juzga el trabajo, no a quien lo hizo."
+        ]
       }
     },
     svg(T) {

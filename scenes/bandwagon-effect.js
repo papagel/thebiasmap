@@ -162,6 +162,33 @@
           "Διάλεξε με δικά σου κριτήρια, όχι επειδή έχει ουρά.",
           "Φαινόμενο της αγέλης. Ο πολύς κόσμος είναι ένδειξη, όχι απόδειξη. Δες το με τα μάτια σου."
         ]
+      },
+      es: {
+        name: "Efecto de arrastre", shareTitle: "El efecto de arrastre en 30 segundos",
+        ecline: "Una multitud es una señal, no una prueba. Compruébalo por tu cuenta.",
+        a: "A", b: "B", bubble: "¡Será bueno!", follow: "siguiendo al resto", empty: "vacío", you: "tú",
+        menu: "MENÚ", rA: "3,6", rB: "4,7",
+        caps: [
+          "Abren dos restaurantes nuevos, uno al lado del otro.",
+          "La primera pareja elige uno <b>al azar</b>.",
+          "Los siguientes ven clientes en el A y <b>los siguen</b>.",
+          "Se forma una cola. <b>Será bueno</b>… ¿no?",
+          "Todos <b>copian a los demás</b>, sin haber probado la comida.",
+          "El B sigue vacío, aunque quizá sea <b>mejor</b>.",
+          "<b>La solución:</b> juzga con tus propias pruebas. Menú, reseñas, probar algo.",
+          "Elige por tus propias razones, <b>no por la cola</b>."
+        ],
+        say: [
+          "Abren dos restaurantes nuevos, uno al lado del otro.",
+          "La primera pareja elige uno al azar.",
+          "Los siguientes ven clientes en el restaurante A, y entran detrás.",
+          "Se forma una cola. Será bueno... ¿no?",
+          "Todos copian a los demás. Nadie en la cola ha probado la comida.",
+          "El restaurante B sigue vacío, aunque quizá sea mejor.",
+          "La solución: juzga con tus propias pruebas. El menú, las reseñas, probar algo.",
+          "Elige por tus propias razones, no porque haya cola.",
+          "Efecto de arrastre. Una multitud es una señal, no una prueba. Compruébalo por tu cuenta."
+        ]
       }
     },
     svg(T) {

@@ -176,6 +176,34 @@
           "Σχεδίαζε για έναν αυριανό εαυτό λίγο διαφορετικό από σένα. Θα σε ευχαριστήσει.",
           "Κρίνουμε με το σήμερα. Ο χθεσινός κι ο αυριανός εαυτός σου δεν είναι αντίγραφα του σημερινού, οπότε κοίτα τι έγινε στ’ αλήθεια και σχεδίαζε γι’ αυτούς."
         ]
+      },
+      es: {
+        name: "Proyectarnos", shareTitle: "Por qué juzgamos el pasado y el futuro según cómo nos sentimos hoy, en 30 segundos",
+        ecline: "Tu yo pasado y tu yo futuro no son copias del de hoy, así que revisa lo que pasó y planifica pensando en ellos.",
+        times: ["antes", "ahora", "después"], hungry: "con hambre", full: "sin hambre", setback: "revés", wasted: "a la basura",
+        months: "meses", weeks: "semanas", felt: "cómo lo viviste", recall: "cómo lo recuerdas",
+        labs: ["Sesgo de proyección", "Sesgo de impacto", "Retrospección rosada"], note: ["esperaba", "pasó"], thanks: "¡gracias!",
+        caps: [
+          "Imaginarte en el pasado o el futuro cuesta. Tu cerebro parte de <b>hoy</b>.",
+          "Ve ambos con <b>la lente de hoy</b>. Normalmente, se acerca bastante.",
+          "Si compras <b>con hambre</b>, compras para un yo futuro hambriento.",
+          "Luego ya no tienes hambre, y <b>la mitad</b> acaba en la basura.",
+          "Crees que un revés dolerá durante <b>meses</b>. Se pasa en <b>semanas</b>.",
+          "Al recordarlo, el viaje del verano pasado parece <b>mejor</b> de lo que lo viviste.",
+          "<b>La solución:</b> anota lo que esperas y luego <b>comprueba</b> qué pasó.",
+          "Planifica para tu yo futuro como <b>alguien algo distinto</b>. Te lo agradecerá."
+        ],
+        say: [
+          "Imaginarte en el pasado o en el futuro cuesta. Así que tu cerebro parte de hoy.",
+          "Ve ambos con la lente de hoy, y da por hecho que las cosas seguirán más o menos como ahora. Normalmente, se acerca bastante.",
+          "Sesgo de proyección. Si compras con hambre, compras para un yo futuro hambriento.",
+          "Luego ya no tienes hambre, y la mitad acaba en la basura.",
+          "Sesgo de impacto. Crees que un revés dolerá durante meses. Se pasa en semanas.",
+          "Retrospección rosada. Al recordarlo, el viaje del verano pasado parece mejor de lo que lo viviste en su momento.",
+          "La solución: anota lo que esperas, y luego comprueba qué pasó de verdad.",
+          "Planifica para tu yo futuro como alguien algo distinto. Te lo agradecerá.",
+          "Proyectarnos. Tu yo pasado y tu yo futuro no son copias del de hoy, así que revisa lo que pasó y planifica pensando en ellos."
+        ]
       }
     },
     svg(T) {

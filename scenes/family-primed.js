@@ -164,6 +164,37 @@
           "Σημείωνε ό,τι έχεις ελέγξει. Εμπιστέψου αυτό, όχι την ηχώ.",
           "Ό,τι έχουμε ξαναδεί. Οικείο δεν σημαίνει αληθινό: εμπιστέψου ό,τι έχεις ελέγξει, όχι την ηχώ."
         ]
+      },
+      es: {
+        name: "Ya visto y repetido", shareTitle: "Por qué lo repetido parece verdad, en 30 segundos",
+        ecline: "Familiar no es lo mismo que cierto: fíate de lo que has comprobado, no del eco.",
+        today: "publicaciones hoy", ask: "¿Ya lo has visto?", yes: "sí → te fijas", no: "no → lo pasas",
+        myth: ["Los murciélagos", "son ciegos."], fact: ["Los murciélagos", "¡sí ven!"], word: "umami", wordW: 27,
+        feel: ["parece verdad", "te gusta", "parece común"],
+        names: ["Efecto de la verdad ilusoria", "Efecto de mera exposición", "Ilusión de frecuencia"], pw: [171, 155, 131],
+        nf0: "datos nuevos: 0", nf1: "datos nuevos: 1",
+        notes: "Mis notas", claim: "¿Los murciélagos son ciegos?", claimW: 157, ok: "No, sí que ven.",
+        caps: [
+          "Cada día pasan <b>cientos de publicaciones</b>. No puedes comprobarlas todas.",
+          "Así que tu cerebro prefiere <b>lo que ya ha visto</b>. Normalmente, ahorra tiempo.",
+          "Pasa una afirmación: <b>«Los murciélagos son ciegos.»</b> No lo tienes claro.",
+          "Cada repetición la hace <b>parecer más cierta</b>, pero no aprendiste nada nuevo.",
+          "Con una canción pasa igual: <b>cuanto más la oyes, más te gusta</b>.",
+          "Aprendes una palabra nueva y de pronto está <b>en todas partes</b>. Siempre lo estuvo.",
+          "<b>La solución:</b> busca voces que <b>no sueles oír</b>.",
+          "Anota lo que has comprobado. <b>Fíate de eso, no del eco.</b>"
+        ],
+        say: [
+          "Cada día pasan cientos de publicaciones. No puedes comprobarlas todas.",
+          "Así que tu cerebro prefiere lo que ya ha visto. Normalmente, eso ahorra tiempo.",
+          "Pasa una afirmación. Los murciélagos son ciegos. No lo tienes claro.",
+          "Vuelve, una y otra vez, y cada vez parece un poco más cierta. Pero no aprendiste nada nuevo. Es el efecto de la verdad ilusoria.",
+          "Con una canción pasa igual. Cuanto más la oyes, más te gusta. El efecto de mera exposición.",
+          "Aprendes una palabra nueva, y de pronto está en todas partes. Siempre lo estuvo. Es la ilusión de frecuencia.",
+          "La solución: busca voces que no sueles oír.",
+          "Anota lo que has comprobado. Fíate de eso, no del eco.",
+          "Ya visto y repetido. Familiar no es lo mismo que cierto: fíate de lo que has comprobado, no del eco."
+        ]
       }
     },
     svg(T) {

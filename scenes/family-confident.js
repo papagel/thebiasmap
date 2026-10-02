@@ -162,6 +162,35 @@
           "Ρύθμισε τη σιγουριά με βάση τις επιδόσεις σου. Και πάλι φτάνει για να δράσεις.",
           "Σιγουριά για να δράσουμε. Άφησε τη σιγουριά να σε βάζει σε κίνηση, αλλά ρύθμιζέ τη με βάση τις επιδόσεις σου."
         ]
+      },
+      es: {
+        name: "Confianza para actuar", shareTitle: "Por qué nos sentimos más seguros de lo que deberíamos, en 30 segundos",
+        ecline: "Deja que la confianza te ponga en marcha, pero ajústala a tu historial.",
+        conf: "tu confianza", rec: "tu historial", tooSure: "demasiado alta",
+        bub: ["¿Puedo?", "Puedo hacerlo.", "¡Fácil!", "Entra… entra…", "Vale la pena."],
+        skill: "habilidad", luck: "mala suerte", note: ["Certeza", "Entraron"],
+        names: ["Efecto de exceso de confianza", "Ilusión de control", "Sesgo de autoservicio"],
+        caps: [
+          "Antes de intentar algo, necesitas sentir que <b>puedes hacerlo</b>.",
+          "Así que tu cerebro <b>sube</b> tu confianza. Eso te pone en marcha.",
+          "Pero a menudo <b>se pasa</b>: un 95% de certeza de que entra.",
+          "Sin embargo, solo entran <b>6 de cada 10</b> lanzamientos.",
+          "La pelota ya salió de tu mano, pero te inclinas para <b>guiarla</b>.",
+          "¿Entró? <b>Habilidad</b>. ¿Falló? <b>Mala suerte</b>. La confianza sigue alta.",
+          "<b>La solución:</b> anota tu nivel de certeza y luego comprueba <b>qué pasó</b>.",
+          "Ajusta tu confianza a tu <b>historial</b>. Sigue bastando para actuar."
+        ],
+        say: [
+          "Antes de intentar algo, necesitas sentir que puedes hacerlo.",
+          "Así que tu cerebro sube tu confianza. Un poco de más te pone en marcha, y te ayuda a seguir tras un fallo.",
+          "Pero a menudo se pasa. Un noventa y cinco por ciento de certeza de que entra.",
+          "Sin embargo, solo entran seis de cada diez lanzamientos. Es el efecto de exceso de confianza.",
+          "La pelota ya salió de tu mano, pero te inclinas para guiarla. Es la ilusión de control.",
+          "¿Entró? Es habilidad. ¿Falló? Mala suerte. Tu confianza sigue alta. Es el sesgo de autoservicio.",
+          "La solución: anota tu nivel de certeza, y luego comprueba qué pasó de verdad.",
+          "Ajusta tu confianza a tu historial. Sigue bastando para actuar.",
+          "Confianza para actuar. Deja que la confianza te ponga en marcha, pero ajústala a tu historial."
+        ]
       }
     },
     svg(T) {

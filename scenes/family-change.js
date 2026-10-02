@@ -151,6 +151,38 @@
           "Μετά βγάλε το κόστος ανά χρήση. Εξήντα ευρώ για τριακόσιες χρήσεις κάνουν είκοσι λεπτά τη φορά. Τώρα βλέπεις πόσο στοιχίζουν στ’ αλήθεια.",
           "Προσέχουμε την αλλαγή. Κρίνουμε συγκρίνοντας, γι’ αυτό η αφετηρία καθορίζει πώς μας φαίνονται τα πράγματα."
         ]
+      },
+      es: {
+        name: "El cambio", shareTitle: "Por qué juzgamos la diferencia y no la cosa en sí, en 30 segundos",
+        ecline: "Juzgamos comparando, así que el punto de partida decide cómo vemos las cosas.",
+        price: "60 €", old: "70 €", was: "150 €", seen: "15 €", off: "¡10 € menos!", fee: "+10 € de recargo",
+        lOld: "los que tenías", lWas: "antes", lSeen: "recién vistos", lWord: "cómo se dice",
+        start: "punto de partida", starts: "puntos de partida", pm: "±10 €", diffL: "diferencia", money: v => `${v < 0 ? "−" : "+"}${Math.abs(v)} €`,
+        cheap: "baratos", pricey: "caros", feels: "cómo ves los 60 €", same: "mismos 60 €",
+        verdict: ["?", "buen precio", "¡una ganga!", "¡demasiado!", "ganancia", "pérdida"],
+        pills: [["Anclaje", 84], ["Efecto de contraste", 150], ["Efecto marco", 112]],
+        morning: "al día siguiente", cpu: "costo por uso", sum: "60 € ÷ 300 usos", res: "= 0,20 € por uso",
+        caps: [
+          "Auriculares por <b>60 €</b>. ¿Baratos o caros? El precio por sí solo dice poco.",
+          "Así que tu cerebro <b>compara</b>. Es rápido, y casi siempre basta.",
+          "La etiqueta dice «antes <b>150 €</b>». Ahora 60 € parecen <b>una ganga</b>.",
+          "¿Acabas de ver unos por <b>15 €</b>? Ahora 60 € parecen <b>demasiado</b>.",
+          "«<b>10 € menos</b>» suena a ganancia. «<b>10 € de recargo</b>», a pérdida.",
+          "Mismos auriculares, mismos 60 €. Solo cambió el <b>punto de partida</b>.",
+          "<b>La solución:</b> consúltalo con la almohada y juzga el precio <b>sin comparaciones</b>.",
+          "Luego calcula el <b>costo por uso</b> y verás su <b>tamaño real</b>."
+        ],
+        say: [
+          "Auriculares por sesenta euros. ¿Baratos o caros? El precio por sí solo no te dice mucho.",
+          "Así que tu cerebro compara, con un punto de partida, como los que tenías, de setenta. Es rápido, y casi siempre basta.",
+          "Anclaje. La etiqueta dice que antes costaban ciento cincuenta. Ahora sesenta parecen una ganga.",
+          "El efecto de contraste. Acabas de ver unos por quince. Ahora sesenta parecen demasiado.",
+          "El efecto marco. Diez euros menos suena a ganancia. Diez euros de recargo suenan a pérdida.",
+          "Mismos auriculares, mismos sesenta euros. Solo cambió el punto de partida.",
+          "La solución: consúltalo con la almohada, y juzga el precio sin comparaciones.",
+          "Luego calcula el costo por uso. Sesenta euros entre trescientos usos son veinte céntimos cada vez. Ahora ves su tamaño real.",
+          "Notamos el cambio. Juzgamos comparando, así que el punto de partida decide cómo vemos las cosas."
+        ]
       }
     },
     svg(T) {

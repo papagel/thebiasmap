@@ -144,6 +144,34 @@
           "Την επόμενη φορά μουρμουρίζεις τις πρώτες νότες. Το βρίσκει αμέσως.",
           "Κατάρα της γνώσης. Όταν ξέρεις κάτι, δύσκολα φαντάζεσαι πώς είναι να μην το ξέρεις. Δοκίμασε να το εξηγήσεις σε έναν αρχάριο."
         ]
+      },
+      es: {
+        name: "Maldición del conocimiento", shareTitle: "La maldición del conocimiento en 30 segundos",
+        ecline: "Cuando sabes algo, cuesta imaginar no saberlo. Prueba a explicárselo a un principiante.",
+        head: "en tu cabeza", assume: "lo que supones", hear: "lo que oye", stuck: "no te la quitas",
+        song: "Cumpleaños feliz", toks: "toc… toc-toc… toc… toc… toc", miss: "la melodía que falta",
+        guess: "¿Jingle Bells?", right: "¡Cumpleaños feliz!",
+        caps: [
+          "Das golpecitos en la mesa al ritmo de una canción famosa. <b>¿Cuál es?</b>",
+          "En tu cabeza suena <b>Cumpleaños feliz</b>, alta y clara.",
+          "Parece obvio. Das por hecho que <b>también la oye</b>.",
+          "Pero solo oye golpes: <b>toc… toc-toc… toc</b>.",
+          "Su respuesta: «¿Jingle Bells?» <b>¿Cómo no la reconoce?</b>",
+          "Cuando conoces la melodía, no puedes imaginar <b>no conocerla</b>.",
+          "<b>La solución:</b> piensa en un principiante de verdad y explica los pasos que te saltas.",
+          "La próxima vez, tarareas las primeras notas. <b>La adivina al instante.</b>"
+        ],
+        say: [
+          "Das golpecitos en la mesa al ritmo de una canción famosa, y le pides a un amigo que la adivine.",
+          "En tu cabeza suena Cumpleaños feliz, alta y clara.",
+          "Parece obvio. Das por hecho que también la oye.",
+          "Pero solo oye golpes. Toc... toc-toc... toc.",
+          "Su respuesta: ¿Jingle Bells? ¿Cómo no la reconoce?",
+          "Cuando conoces la melodía, no puedes imaginar no conocerla.",
+          "La solución: antes de explicar algo, piensa en un principiante de verdad, o pruébalo con uno. Luego explica los pasos que te saltas.",
+          "La próxima vez, tarareas las primeras notas. La adivina al instante.",
+          "Maldición del conocimiento. Cuando sabes algo, cuesta imaginar no saberlo. Prueba a explicárselo a un principiante."
+        ]
       }
     },
     svg(T) {

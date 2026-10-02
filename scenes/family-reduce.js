@@ -162,6 +162,34 @@
           "Κι όταν μιλάς εσύ, άνοιξε και κλείσε με το βασικό σου μήνυμα. Θα μείνει.",
           "Βασικά στοιχεία. Η μνήμη κρατά την αρχή, το τέλος και το καλύτερο κομμάτι, γι’ αυτό σημείωνε και τη μέση."
         ]
+      },
+      es: {
+        name: "Lo esencial", shareTitle: "Por qué recordamos el inicio, el final y lo mejor, en 30 segundos",
+        ecline: "La memoria guarda el inicio, el final y lo mejor, así que anota también el medio.",
+        week: "una semana después", kl: ["inicio", "lo mejor", "final"], ylab: "recordado",
+        chip: ["Efecto de posición serial", "Nivelación y acentuación", "Efecto de desinformación"],
+        lvl: "nivelado", shl: "acentuado", notes: "tus notas", rej: "no está en tus notas", kp: "idea clave",
+        caps: [
+          "Escuchas una charla con <b>diez puntos</b>. No puedes retenerlos todos.",
+          "Así que la memoria guarda unos pocos <b>elementos clave</b>. Compacto y rápido de usar.",
+          "El <b>primer</b> y el <b>último</b> punto se quedan. Los del <b>medio</b> se borran.",
+          "Al contarlo, <b>quitas</b> lo borroso y <b>acentúas</b> lo mejor.",
+          "Más tarde, alguien dice: «¡Me encantó lo de los precios!». <b>No hubo tal cosa</b>.",
+          "Aun así, se cuela en tu memoria y pronto parece <b>igual de real</b>.",
+          "<b>La solución:</b> toma notas, <b>también del medio</b>. Luego comprueba lo que recuerdas.",
+          "Cuando hables, abre y cierra con tu <b>idea clave</b>. Se quedará."
+        ],
+        say: [
+          "Escuchas una charla con diez puntos. No puedes retenerlos todos.",
+          "Así que la memoria guarda unos pocos elementos clave: el inicio, el final, lo mejor. Compacto, y rápido de usar.",
+          "El efecto de posición serial: el primer y el último punto se quedan. Los del medio se borran.",
+          "Nivelación y acentuación: al contarlo, quitas lo borroso y acentúas lo mejor.",
+          "El efecto de desinformación: más tarde, alguien dice, ¡me encantó lo de los precios! No hubo tal cosa.",
+          "Aun así, se cuela en tu memoria, y pronto parece igual de real.",
+          "La solución: toma notas, también del medio. Luego comprueba lo que recuerdas.",
+          "Y cuando hables, abre y cierra con tu idea clave. Se quedará.",
+          "Lo esencial. La memoria guarda el inicio, el final y lo mejor, así que anota también el medio."
+        ]
       }
     },
     svg(T) {

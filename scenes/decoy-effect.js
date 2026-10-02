@@ -140,6 +140,33 @@
           "Μετά αναρωτήσου: εσύ θα έδινες τέσσερα ευρώ παραπάνω για το μεγάλο;",
           "Φαινόμενο δολώματος. Μια επιλογή που κανείς δεν θέλει μπορεί να κάνει μια άλλη να μοιάζει ευκαιρία. Σύγκρινε μόνο όσα θα διάλεγες στ’ αλήθεια."
         ]
+      },
+      es: {
+        name: "Efecto señuelo", shareTitle: "El efecto señuelo en 30 segundos",
+        ecline: "Una opción que nadie quiere puede hacer que otra parezca una ganga. Compara solo las opciones reales.",
+        size: { s: "pequeño", m: "mediano", l: "grande" }, price: { s: "3 €", m: "6,50 €", l: "7 €" },
+        diff: "+4 €", diffW: 48, more: "¡solo 0,50 € más!", moreW: 124, decoy: "SEÑUELO", decoyW: 109, real: "la diferencia real",
+        caps: [
+          "En el cine: palomitas pequeñas a <b>3 €</b>, grandes a <b>7 €</b>.",
+          "¿4 € más por las grandes? La mayoría elige las <b>pequeñas</b>.",
+          "Entonces el cine añade unas medianas a <b>6,50 €</b>.",
+          "Al lado de las medianas, las grandes parecen <b>una ganga</b>.",
+          "De pronto, mucha más gente <b>se pasa a las grandes</b>.",
+          "Casi nadie compra las medianas. Son un <b>señuelo</b> para vender las grandes.",
+          "<b>La solución:</b> tacha la opción que nunca elegirías.",
+          "Luego pregúntate: ¿las grandes valen 4 € más <b>para ti</b>?"
+        ],
+        say: [
+          "En el cine, las palomitas pequeñas cuestan tres euros. Las grandes, siete.",
+          "¿Cuatro euros más por las grandes? La mayoría elige las pequeñas.",
+          "Entonces el cine añade unas medianas, a seis cincuenta.",
+          "Al lado de las medianas, las grandes parecen una ganga. ¡Solo cincuenta céntimos más!",
+          "De pronto, mucha más gente se pasa a las grandes.",
+          "Casi nadie compra las medianas. Son un señuelo, puesto ahí para vender las grandes.",
+          "La solución: tacha la opción que nunca elegirías.",
+          "Luego pregúntate: ¿las grandes valen cuatro euros más para ti?",
+          "Efecto señuelo. Una opción que nadie quiere puede hacer que otra parezca una ganga. Compara solo las opciones reales."
+        ]
       }
     },
     svg(T) {

@@ -145,6 +145,36 @@
           "Η εφαρμογή βγαίνει κανονικά, με τους κινδύνους υπό έλεγχο.",
           "Κάνε μια νεκροψία από πριν. Φαντάσου την αποτυχία πριν έρθει και αντιμετώπισε από σήμερα τις πιο πιθανές αιτίες της."
         ]
+      },
+      es: {
+        name: "Haz un premortem", shareTitle: "Haz un premortem: un hábito en 30 segundos",
+        ecline: "Imagina el fracaso antes de que ocurra y arregla hoy sus causas más probables.",
+        today: "hoy", launch: "lanzamiento", next: "el mes que viene", later: "un año después",
+        great: "¡Saldrá genial!", bubW: 108, ask: "¿qué puede salir mal?", why: "por qué fracasó",
+        reasons: ["nadie supo que existía", "el servidor cayó el primer día", "el registro era muy largo"], rw: [113.2, 146.9, 124.2],
+        fixes: ["plan de lanzamiento", "prueba de carga", "registro más corto"],
+        bias: "Sesgo de optimismo", tagW: 144,
+        caps: [
+          "Tu equipo lanza una nueva app <b>el mes que viene</b>.",
+          "Todos esperan que <b>salga genial</b>.",
+          "Nadie se para a preguntar <b>qué puede salir mal</b>.",
+          "<b>Premortem:</b> imagina que ha pasado un año y el lanzamiento <b>fracasó</b>.",
+          "Cada uno apunta <b>las razones más probables</b> del fracaso.",
+          "Luego <b>arregla lo que puedas</b> hoy, antes del lanzamiento.",
+          "Detecta el <b>sesgo de optimismo</b>: «a nosotros no nos pasará».",
+          "El lanzamiento sigue adelante, <b>con esos riesgos bajo control</b>."
+        ],
+        say: [
+          "Tu equipo lanza una nueva app el mes que viene.",
+          "Todos esperan que salga genial.",
+          "Nadie se para a preguntar qué puede salir mal.",
+          "Haz un premortem. Imagina que ha pasado un año, y el lanzamiento fracasó.",
+          "Cada uno apunta las razones más probables del fracaso.",
+          "Luego arregla lo que puedas hoy, antes del lanzamiento.",
+          "Detecta el sesgo de optimismo: la creencia de que a nosotros no nos pasará.",
+          "El lanzamiento sigue adelante, con esos riesgos bajo control.",
+          "Haz un premortem. Imagina el fracaso antes de que ocurra, y arregla hoy sus causas más probables."
+        ]
       }
     },
     svg(T) {

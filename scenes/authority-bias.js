@@ -114,6 +114,35 @@
           "Ψάξε λίγο, και αποφάσισε με βάση τα στοιχεία, όποιος κι αν το λέει.",
           "Μεροληψία υπέρ της αυθεντίας. Να εμπιστεύεσαι την πραγματική γνώση, όχι τη στολή. Ζήτα τα στοιχεία."
         ]
+      },
+      es: {
+        name: "Sesgo de autoridad", shareTitle: "El sesgo de autoridad en 30 segundos",
+        ecline: "Confía en el conocimiento real, no en el disfraz. Pide las pruebas.",
+        claim: "«¡Los médicos lo avalan!»", same: "mismas palabras", you: "tú", proof: "¿Pruebas?",
+        coat: "bata blanca", tee: "camiseta", anyone: "sea quien sea", doubt: "duda", trust: "confianza",
+        gap: "la bata, no las pruebas", evid: "las pruebas",
+        qs: ["¿Qué pruebas hay?", "¿Y si lo dijera otro?", "¿Es su especialidad?"],
+        caps: [
+          "Sale un anuncio de un nuevo suplemento para dormir.",
+          "Alguien con <b>bata blanca</b> dice: «¡Los médicos lo avalan!»",
+          "Te lo crees <b>al instante</b>, sin hacer preguntas.",
+          "Mismo anuncio, <b>mismas palabras</b>, pero esta vez con camiseta.",
+          "De pronto ya no lo tienes tan claro. ¿Dónde están las <b>pruebas</b>?",
+          "Misma afirmación, mismas pruebas. <b>Solo cambió el disfraz.</b>",
+          "<b>La solución:</b> pide las pruebas y pregunta si es su especialidad.",
+          "Infórmate y decide <b>según las pruebas</b>, lo diga quien lo diga."
+        ],
+        say: [
+          "Sale un anuncio de un nuevo suplemento para dormir.",
+          "Alguien con bata blanca dice: ¡los médicos lo avalan!",
+          "Te lo crees al instante, sin hacer preguntas.",
+          "Mismo anuncio, mismas palabras. Pero esta vez, con camiseta.",
+          "De pronto ya no lo tienes tan claro. ¿Dónde están las pruebas?",
+          "Misma afirmación, mismas pruebas. Solo cambió el disfraz.",
+          "La solución: pide las pruebas, y pregunta si es su especialidad.",
+          "Infórmate, y decide según las pruebas, lo diga quien lo diga.",
+          "Sesgo de autoridad. Confía en el conocimiento real, no en el disfraz. Pide las pruebas."
+        ]
       }
     },
     svg(T) {

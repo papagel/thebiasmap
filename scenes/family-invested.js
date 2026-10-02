@@ -127,6 +127,36 @@
           "Αν ναι, συνέχισε. Αν όχι, βάλε τα επόμενα τούβλα σου κάπου καλύτερα.",
           "Τελειώνουμε ό,τι αρχίσαμε. Να τελειώνεις ό,τι αξίζει ακόμα: αποφάσιζε με βάση το σήμερα, όχι όσα έχεις ήδη βάλει."
         ]
+      },
+      es: {
+        name: "Terminar lo empezado", shareTitle: "Por qué seguimos solo porque ya empezamos, en 30 segundos",
+        ecline: "Termina lo que aún vale la pena: decide desde hoy, no desde lo que ya has puesto.",
+        goal: "la meta", wrong: "no es ahí", put: "lo ya invertido", gone: "ya no vuelve", keep: "no pares",
+        months: n => (n === 1 ? "1 mes" : `${n} meses`), lost: n => `−${n} ${n === 1 ? "mes" : "meses"}`,
+        yours: "tu plan", theirs: "idea de otros", sticks: "se queda", fades: "se borra", stop: "¿parar?", stopW: 73,
+        today: "desde hoy", left: "lo que queda",
+        pills: [["Escalada de compromiso", 170], ["Efecto de generación", 148], ["Aversión a la pérdida", 168]],
+        caps: [
+          "Empiezas a construir algo grande, como un negocio o una carrera.",
+          "Tu cerebro dice: <b>termina lo que empezaste</b>. Normalmente, así se hacen las cosas.",
+          "Luego, malas noticias: vas hacia <b>el lugar equivocado</b>.",
+          "Aun así, <b>redoblas la apuesta</b> para demostrar que no fue un error.",
+          "El plan que <b>hiciste tú</b> se queda. Las ideas de otros <b>se borran</b>.",
+          "Y parar ahora sería como <b>perder</b> todo lo que pusiste.",
+          "<b>La solución:</b> pregúntate: «Si empezara hoy de cero, ¿elegiría esto?»",
+          "Si es que sí, <b>sigue</b>. Si no, pon tus ladrillos <b>en un sitio mejor</b>."
+        ],
+        say: [
+          "Empiezas a construir algo grande, como un negocio o una carrera.",
+          "Tu cerebro dice: termina lo que empezaste. Normalmente, así es justo como se hacen las cosas.",
+          "Luego, malas noticias. Resulta que vas hacia el lugar equivocado.",
+          "Escalada de compromiso. En vez de parar, redoblas la apuesta, para demostrar que no fue un error.",
+          "El efecto de generación. El plan que se te ocurrió a ti se queda en tu mente, mientras que las ideas de otros se borran.",
+          "Aversión a la pérdida. Parar ahora sería como perder todo lo que has puesto.",
+          "La solución: pregúntate, si empezara hoy de cero, ¿elegiría esto?",
+          "Si es que sí, sigue. Si no, pon tus próximos ladrillos en un sitio mejor.",
+          "Terminar lo empezado. Termina lo que aún vale la pena: decide desde hoy, no desde lo que ya has puesto."
+        ]
       }
     },
     svg(T) {

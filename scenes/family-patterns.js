@@ -159,6 +159,33 @@
           "Μετά μάζεψε κι άλλες κουκκίδες. Όσα μοτίβα αντέξουν, αξίζουν εμπιστοσύνη.",
           "Ιστορίες και μοτίβα. Το μυαλό σου βρίσκει ιστορίες ακόμα και σε τυχαίες κουκκίδες. Πριν πιστέψεις κάποια, σκέψου τι θα έβγαζε η τύχη."
         ]
+      },
+      es: {
+        name: "Historias y patrones", shareTitle: "Por qué vemos patrones en el ruido, en 30 segundos",
+        ecline: "Tu cerebro encuentra historias hasta en puntos al azar, así que pregúntate qué dibujaría el azar antes de creerte una.",
+        note: "más vale prevenir", b1: "Ilusión de agrupamiento", b2: "Pareidolia", b3: "Insensibilidad al tamaño muestral",
+        rand: "lanzados al azar", chance: "por azar", q1: "¿Qué dibujaría el azar?", q2: "¿Bastan los puntos?",
+        caps: [
+          "La vida solo te da <b>puntos sueltos</b>: algunas pistas, nunca la imagen completa.",
+          "Tu cerebro <b>une los puntos</b>: ¡un lobo! Los instintos rápidos salvaron a nuestros antepasados.",
+          "También ve patrones en el ruido: un grupo al azar parece <b>significar algo</b>.",
+          "Tres puntos en triángulo y, de pronto, <b>una cara</b> te mira.",
+          "Solo cuatro puntos, pero parecen <b>una tendencia segura</b>.",
+          "Pero los puntos cayeron <b>al azar</b>. Las historias salieron de tu mente.",
+          "<b>La solución:</b> pregúntate qué dibujaría el azar por sí solo. También grupos y caras.",
+          "Luego reúne <b>más puntos</b>. Los patrones que se mantienen merecen confianza."
+        ],
+        say: [
+          "La vida solo te da puntos sueltos: algunas pistas, nunca la imagen completa.",
+          "Tu cerebro une los puntos. ¡Un lobo! Instintos rápidos como este mantuvieron con vida a nuestros antepasados. Más vale prevenir que curar.",
+          "Pero también ve patrones en el ruido. Un grupo al azar parece significar algo. Se llama ilusión de agrupamiento.",
+          "Tres puntos en triángulo y, de pronto, una cara te mira. Es la pareidolia.",
+          "Solo cuatro puntos, pero parecen una tendencia segura. Es la insensibilidad al tamaño muestral.",
+          "Pero los puntos cayeron al azar. Las historias salieron de tu mente.",
+          "La solución: pregúntate qué dibujaría el azar por sí solo. También forma grupos y caras.",
+          "Luego reúne más puntos. Los patrones que se mantienen merecen confianza.",
+          "Historias y patrones. Tu cerebro encuentra historias hasta en puntos al azar, así que pregúntate qué dibujaría el azar antes de creerte una."
+        ]
       }
     },
     svg(T) {

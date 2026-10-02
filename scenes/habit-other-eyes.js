@@ -131,6 +131,34 @@
           "Προσθέτεις το βήμα που έλειπε. Τώρα βγάζουν άκρη και οι άλλοι.",
           "Ζήτα μια δεύτερη γνώμη. Τα δικά σου κενά δεν τα βλέπεις, αλλά μια φρέσκια ματιά τα βρίσκει γρήγορα."
         ]
+      },
+      es: {
+        name: "Pide otra mirada", shareTitle: "Pide otra mirada: un hábito en 30 segundos",
+        ecline: "No ves tus propios huecos, pero unos ojos nuevos los encuentran rápido.",
+        title: "Primeros pasos", steps: ["Descarga la app", "Inicia sesión", "Crea una lista", "Invita a amigos"], missing: "Registro",
+        head: "en tu cabeza", you: "tú", fresh: "otra mirada", ask: "¡Busca el fallo!", gap: "falta un paso",
+        stuck: ["¿Con qué", "cuenta?"], got: "¡Ahora sí!", caught: "detecta", bias: "Maldición del conocimiento", tagW: 217,
+        caps: [
+          "Acabas de escribir la guía de inicio de tu nueva app.",
+          "A ti te parece perfecta. Cada paso es <b>obvio</b>.",
+          "Tu cabeza rellena sin avisar <b>un paso que nunca escribiste</b>.",
+          "<b>El hábito:</b> dásela a alguien de otro ámbito.",
+          "Pídele que <b>busque el fallo</b>, no que te diga que está bien.",
+          "Se atasca en el paso 2: «<b>¿Iniciar sesión con qué cuenta?</b>».",
+          "Detecta la <b>maldición del conocimiento</b>: no puedes imaginar no saberlo.",
+          "Añades el paso que faltaba. Ahora funciona <b>también para los demás</b>."
+        ],
+        say: [
+          "Acabas de escribir la guía de inicio de tu nueva app.",
+          "A ti te parece perfecta. Cada paso es obvio.",
+          "Tienes cuenta desde hace mucho, así que tu cabeza rellena sin avisar un paso que nunca escribiste: registrarse primero.",
+          "El hábito: dásela a alguien de otro ámbito.",
+          "Pídele que busque el fallo, no que te diga que está bien.",
+          "Se atasca en el paso dos. ¿Iniciar sesión con qué cuenta?",
+          "Detecta la maldición del conocimiento. Cuando sabes algo, no puedes imaginar no saberlo.",
+          "Añades el paso que faltaba. Ahora funciona también para los demás.",
+          "Pide otra mirada. No ves tus propios huecos, pero unos ojos nuevos los encuentran rápido."
+        ]
       }
     },
     svg(T) {

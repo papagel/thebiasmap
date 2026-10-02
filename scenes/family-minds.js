@@ -166,6 +166,35 @@
           "Η αληθινή απάντηση κερδίζει κάθε μάντεμα, κι οι άλλοι νιώθουν ότι τους ακούς.",
           "Διαβάζουμε σκέψεις. Το μυαλό των άλλων δεν είναι αντίγραφο του δικού σου, γι’ αυτό ρώτα αντί να υποθέτεις."
         ]
+      },
+      es: {
+        name: "Leer mentes", shareTitle: "Por qué creemos saber lo que piensan los demás, en 30 segundos",
+        ecline: "Las mentes ajenas no son copias de la tuya, así que pregunta en vez de suponer.",
+        you: "tú", lg: ["tu suposición", "lo que piensan de verdad"],
+        labs: ["Ilusión de transparencia", "Maldición del conocimiento", "Ilusión de conocimiento asimétrico"],
+        nervous: ["¡Qué nervios!"], calm: ["¡Qué calma!"], got: ["¡Entendido!"], what: ["¿Qué es", "la caché?"],
+        cache: ["Solo borra", "la caché."], ask: ["¿Tú qué", "opinas?"],
+        caps: [
+          "No puedes ver dentro de la cabeza de los demás, así que <b>supones</b>.",
+          "El atajo del cerebro: suponer que piensan <b>como tú</b>. A menudo funciona.",
+          "Tienes nervios y crees que <b>se notan</b>. Desde fuera, apenas se ven.",
+          "Lo conoces bien, así que das por hecho que <b>lo han entendido</b>. No es así.",
+          "Sientes que los lees <b>mejor</b> de lo que ellos te leen a ti.",
+          "Mientras, ellos creen con la misma certeza que te leen <b>a ti</b>.",
+          "<b>La solución:</b> no completes sus pensamientos. <b>Pregunta</b> y escucha.",
+          "Las respuestas reales superan tu mejor suposición, y la gente <b>se siente escuchada</b>."
+        ],
+        say: [
+          "No puedes ver dentro de la cabeza de los demás, así que supones lo que piensan.",
+          "El atajo del cerebro: suponer que piensan como tú. Las personas compartimos mucho, así que a menudo funciona.",
+          "La ilusión de transparencia. Tienes nervios, y crees que se notan. Desde fuera, apenas se ven.",
+          "La maldición del conocimiento. Lo conoces bien, así que das por hecho que lo han entendido. No es así.",
+          "La ilusión de conocimiento asimétrico. Sientes que los lees mejor de lo que ellos te leen a ti.",
+          "Mientras, ellos creen con la misma certeza que te leen a ti.",
+          "La solución: no completes sus pensamientos por ellos. Pregunta, y escucha.",
+          "Las respuestas reales superan tu mejor suposición, y la gente se siente escuchada.",
+          "Leer mentes. Las mentes ajenas no son copias de la tuya, así que pregunta en vez de suponer."
+        ]
       }
     },
     svg(T) {

@@ -146,6 +146,38 @@
           "Με λίγα σημειώματα, βλέπεις πόσο καλά προβλέπεις στ’ αλήθεια.",
           "Γράψε τις προβλέψεις σου. Ένα σημείωμα με ημερομηνία θυμάται τι πίστευες πραγματικά, ακόμα κι όταν η μνήμη σου το έχει ξαναγράψει."
         ]
+      },
+      es: {
+        name: "Apunta tus predicciones", shareTitle: "Apunta tus predicciones: un hábito en 30 segundos",
+        ecline: "Una nota con fecha recuerda lo que de verdad pensabas, aunque tu memoria lo reescriba.",
+        hd0: "SÁB 14 MAR · 21:00", hd1: "FINAL", us: "Tu equipo", them: "Rivales",
+        later: "3 semanas después", laterW: 146,
+        chance: "probabilidad de ganar", draw: "probable empate", memory: "tu memoria", knew: "¡Lo sabía!", knewW: 117,
+        date: "SÁB 14 MAR", before: "antes de empezar", line: "Probable empate.", win: "Ganar:", result: "Ganamos 2–1",
+        rowW: [119, 109, 100],
+        noteLab: "tu nota", tag: "Sesgo retrospectivo", tagW: 141,
+        days: ["12 ENE", "3 FEB", "20 FEB", "1 MAR", "14 MAR"], right: "acertaste", score: "3 de 5",
+        caps: [
+          "Gran partido el sábado. Piensas: probable empate, un <b>40%</b> de ganar.",
+          "Tu equipo <b>gana 2–⁠1</b>. Pasan las semanas.",
+          "Tu memoria se reescribe sin que lo notes: «<b>¡Lo sabía!</b>».",
+          "<b>El hábito:</b> antes del partido, apunta tu predicción <b>con la fecha</b>.",
+          "Semanas después, abre la nota. Dice <b>40%</b>, no «¡Lo sabía!».",
+          "Luego califícala. Habías dicho empate, así que es un <b>fallo</b>.",
+          "Una nota con fecha deja en evidencia el <b>sesgo retrospectivo</b>.",
+          "Tras unas cuantas notas, ves lo buenas que son <b>de verdad</b> tus predicciones."
+        ],
+        say: [
+          "Gran partido el sábado. Piensas: probablemente empate. Quizá un cuarenta por ciento de ganar.",
+          "Tu equipo gana, dos a uno. Pasan las semanas.",
+          "Tu memoria se reescribe sin que lo notes. ¡Lo sabía!",
+          "El hábito: antes del partido, apunta tu predicción, con la fecha.",
+          "Semanas después, abre la nota. Dice cuarenta por ciento, no que lo sabías.",
+          "Luego califícala. Habías dicho empate, así que es un fallo.",
+          "Una nota con fecha deja en evidencia el sesgo retrospectivo.",
+          "Tras unas cuantas notas, ves lo buenas que son de verdad tus predicciones.",
+          "Apunta tus predicciones. Una nota con fecha recuerda lo que de verdad pensabas, aunque tu memoria lo reescriba."
+        ]
       }
     },
     svg(T) {

@@ -152,6 +152,40 @@
           "Βάλε το κοντινό και το μακρινό δίπλα δίπλα, στο πραγματικό τους μέγεθος, και η επιλογή ξεκαθαρίζει. Κι αν κάτι καινούργιο σου φαίνεται επείγον, περίμενε μια μέρα.",
           "Το εδώ και τώρα. Ό,τι είναι κοντά φαίνεται μεγαλύτερο απ’ όσο είναι, γι’ αυτό φέρε και το μακρινό κοντά σου πριν διαλέξεις."
         ]
+      },
+      es: {
+        name: "El aquí y ahora", shareTitle: "Por qué gana lo que tenemos delante, en 30 segundos",
+        ecline: "Lo cercano parece más grande de lo que es, así que imagina lo lejano de cerca antes de elegir.",
+        lens: "aquí y ahora", wide: "la imagen completa", kid: "Alex", bias: "sesgo", real: ["tamaño real"],
+        tags: ["Descuento hiperbólico", "Efecto de la víctima identificable", "Apelación a la novedad"], tw: [176, 262, 184],
+        labs: [
+          [["aquí mismo"], ["lejos"]],
+          [["un capricho", "ahora"], ["ahorros", "el año que viene"]],
+          [["un niño", "con nombre"], ["miles", "sin nombre"]],
+          [["el nuevo modelo", "recién salido"], ["el que tienes", "funciona bien"]]
+        ],
+        rows: ["ahora o después", "uno o miles", "nuevo o probado"],
+        caps: [
+          "Lo cercano y lo lejano compiten por tu <b>atención limitada</b>.",
+          "Tu cerebro se centra en <b>el aquí y ahora</b>. Normalmente, es lo sensato.",
+          "Un capricho <b>ahora</b> parece enorme. ¿Ahorrar para <b>el año que viene</b>? Un punto.",
+          "Un niño <b>con nombre</b> te conmueve más que <b>miles</b> de necesitados.",
+          "El modelo <b>nuevo</b> parece mejor solo porque es nuevo.",
+          "Pero lo que se encoge suele ser lo que <b>más importa</b>.",
+          "<b>La solución:</b> amplía la vista. Imagina lo lejano <b>de cerca</b>.",
+          "Uno al lado del otro, a <b>tamaño real</b>, la elección se aclara."
+        ],
+        say: [
+          "Lo cercano y lo lejano compiten por tu atención. Y tu atención es limitada.",
+          "Así que tu cerebro se centra en el aquí y ahora. Lo cercano parece enorme, y lo lejano se encoge hasta ser un punto. Normalmente, es lo sensato: la recompensa o la amenaza que tienes delante suele ser lo que más importa.",
+          "Un capricho ahora parece enorme. ¿Tus ahorros para el año que viene? Solo un punto. Es el descuento hiperbólico.",
+          "Un niño con nombre y cara te conmueve más que miles de personas con la misma necesidad. Es el efecto de la víctima identificable.",
+          "Y el modelo nuevo parece mejor solo porque es nuevo, mientras el teléfono que funciona bien se desvanece. Es la apelación a la novedad.",
+          "Pero lo que se encoge suele ser lo que más importa: una recompensa mayor, más personas, algo probado.",
+          "La solución: amplía la vista. Imagina lo lejano de cerca, como a tu yo de dentro de un año.",
+          "Pon lo cercano y lo lejano uno al lado del otro, a su tamaño real, y la elección se aclara. Y si algo nuevo te parece urgente, dale un día.",
+          "El aquí y ahora. Lo cercano parece más grande de lo que es, así que imagina lo lejano de cerca antes de elegir."
+        ]
       }
     },
     svg(T) {

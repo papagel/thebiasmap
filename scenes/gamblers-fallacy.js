@@ -157,6 +157,33 @@
           "Τα σερί συμβαίνουν τυχαία. Δεν επηρεάζουν το επόμενο αποτέλεσμα.",
           "Πλάνη του τζογαδόρου. Η τύχη δεν έχει μνήμη. Ένα σερί δεν σημαίνει ότι ήρθε η σειρά του άλλου αποτελέσματος."
         ]
+      },
+      es: {
+        name: "Falacia del jugador", shareTitle: "La falacia del jugador en 30 segundos",
+        ecline: "El azar no tiene memoria. Una racha no hace que ahora le toque al otro resultado.",
+        last: "Últimas tiradas", next: "siguiente", row: "5 seguidos", red: "rojo", black: "negro",
+        due: "¡Toca negro!", kept: "Guardé mis fichas", fresh: "cada tirada parte de cero", same: "mismas probabilidades siempre",
+        caps: [
+          "En la ruleta, la bola cae en <b>rojo</b>…",
+          "…y otra vez, y otra más: <b>cinco rojos seguidos</b>.",
+          "Sientes que al negro <b>ya le toca</b>. Seguro que ahora sale.",
+          "Así que apuestas <b>fuerte al negro</b>.",
+          "Pero la ruleta <b>no tiene memoria</b>.",
+          "El negro tiene <b>las mismas</b> probabilidades que en cualquier otra tirada.",
+          "<b>La solución:</b> juzga cada tirada por sus propias probabilidades, no por la racha.",
+          "Las rachas ocurren <b>por azar</b>. No cambian lo que viene después."
+        ],
+        say: [
+          "En la ruleta, la bola cae en rojo...",
+          "...y otra vez, y otra más. Cinco rojos seguidos.",
+          "Sientes que al negro ya le toca. Seguro que ahora sale.",
+          "Así que apuestas fuerte al negro.",
+          "Pero la ruleta no tiene memoria.",
+          "El negro tiene las mismas probabilidades que en cualquier otra tirada.",
+          "La solución: juzga cada tirada por sus propias probabilidades, no por la racha.",
+          "Las rachas ocurren por azar. No cambian lo que viene después.",
+          "La falacia del jugador. El azar no tiene memoria. Una racha no hace que ahora le toque al otro resultado."
+        ]
       }
     },
     svg(T) {

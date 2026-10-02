@@ -129,6 +129,33 @@
           "Ίδια βιβλιοθήκη, ίδια τιμή. Κρίνε το αποτέλεσμα, όχι τον κόπο.",
           "Φαινόμενο IKEA. Ό,τι φτιάχνεις με τα χέρια σου μοιάζει πιο πολύτιμο. Κρίνε το σαν να το έφτιαξε κάποιος άλλος."
         ]
+      },
+      es: {
+        name: "Efecto IKEA", shareTitle: "El efecto IKEA en 30 segundos",
+        ecline: "Lo que construyes tú mismo parece valer más. Júzgalo como si lo hubiera hecho otra persona.",
+        yours: "La tuya", yoursW: 42, shops: "De la tienda", stranger: "De un extraño", same: "mismo modelo",
+        hrs: n => (n === 1 ? "1 hora" : `${n} horas`), eur: v => `${v} €`, plus: "+40 €", effort: "tu esfuerzo",
+        caps: [
+          "Montas <b>tú mismo</b> una estantería que viene por piezas.",
+          "Dos horas, una llave Allen y <b>un tornillo que sobra</b>.",
+          "Está un poco torcida. Pero te <b>encanta</b>.",
+          "Al lado, <b>la misma estantería</b>, montada por la tienda.",
+          "¿Venderla? Pedirías <b>80 €</b> por la tuya y <b>40 €</b> por la de la tienda.",
+          "Tu <b>esfuerzo</b> hizo que pareciera <b>valer más</b>.",
+          "<b>La solución:</b> imagina que la montó un extraño. ¿Cuánto vale ahora?",
+          "Misma estantería, mismo precio. <b>Juzga el objeto, no el esfuerzo.</b>"
+        ],
+        say: [
+          "Montas tú mismo una estantería que viene por piezas.",
+          "Dos horas, una llave Allen, y un tornillo que sobra.",
+          "Está un poco torcida. Pero te encanta.",
+          "Al lado, la misma estantería, montada por la tienda.",
+          "¿Venderla? Pedirías ochenta euros por la tuya, y cuarenta por la de la tienda.",
+          "Tu esfuerzo hizo que pareciera valer más.",
+          "La solución: imagina que la montó un extraño. ¿Cuánto vale ahora?",
+          "Misma estantería, mismo precio. Juzga el objeto, no el esfuerzo.",
+          "El efecto IKEA. Lo que construyes tú mismo parece valer más. Júzgalo como si lo hubiera hecho otra persona."
+        ]
       }
     },
     svg(T) {

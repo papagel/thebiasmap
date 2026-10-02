@@ -96,6 +96,33 @@
           "Αν κρίνεις ένα ένα τα προσόντα, οι δύο βγαίνουν ισάξιοι.",
           "Φαινόμενο της άλω. Ένα καλό γνώρισμα κάνει και τα υπόλοιπα να φαίνονται καλά. Κρίνε το καθένα με τα δικά του στοιχεία."
         ]
+      },
+      es: {
+        name: "Efecto halo", shareTitle: "El efecto halo en 30 segundos",
+        ecline: "Un rasgo bueno hace que los demás también parezcan buenos. Juzga cada uno por sus propias pruebas.",
+        same: ["mismo", "currículum"], traits: ["Habilidades", "Honestidad", "Fiabilidad"],
+        evidence: ["prueba práctica", "referencias", "trayectoria"], halo: "halo",
+        caps: [
+          "Dos candidatos con <b>el mismo currículum</b>.",
+          "Uno entra seguro, elegante y sonriente.",
+          "Esa primera impresión <b>ilumina</b> todo lo demás.",
+          "¿Habilidades? <b>Muchas.</b> ¿Honesto? <b>Seguro.</b> ¿Fiable? <b>Por supuesto.</b>",
+          "El otro recibe puntuaciones medias <b>con los mismos datos</b>.",
+          "Esa diferencia es el <b>halo</b>: un solo rasgo tiñó toda la imagen.",
+          "<b>La solución:</b> puntúa cada cualidad según sus propias pruebas.",
+          "Juzgados rasgo a rasgo, quedan <b>empatados</b>."
+        ],
+        say: [
+          "Dos candidatos con el mismo currículum.",
+          "Uno entra seguro, elegante y sonriente.",
+          "Esa primera impresión ilumina todo lo demás.",
+          "¿Habilidades? Muchas. ¿Honesto? Seguro. ¿Fiable? Por supuesto.",
+          "El otro recibe puntuaciones medias, con los mismos datos.",
+          "Esa diferencia es el halo. Un solo rasgo tiñó toda la imagen.",
+          "La solución: puntúa cada cualidad según sus propias pruebas.",
+          "Juzgados rasgo a rasgo, quedan empatados.",
+          "El efecto halo. Un rasgo bueno hace que los demás también parezcan buenos. Juzga cada uno por sus propias pruebas."
+        ]
       }
     },
     svg(T) {

@@ -116,6 +116,35 @@
           "Ή αποφάσισε από πριν και κλείδωσέ το, με πάγια εντολή για αποταμίευση.",
           "Υπερβολική προεξόφληση. Ό,τι είναι κοντά φαντάζει τεράστιο. Αποφάσισε από μακριά και κλείδωσέ το."
         ]
+      },
+      es: {
+        name: "Descuento hiperbólico", shareTitle: "El descuento hiperbólico en 30 segundos",
+        ecline: "Lo cercano pesa más. Decide desde lejos y luego déjalo fijado.",
+        eur: v => v + " €", today: "hoy", inWeek: "+1 semana", inYear: "en un año", plusWeek: "+1 semana",
+        week: "1 semana", ten: "+10 €", looms: "el ahora pesa más", away: "imagínalo dentro de un año",
+        now: "¡Lo quiero ya!", nowW: 104, wait: "Claro, espero.", waitW: 110,
+        auto: "ahorro automático", autoW: 106,
+        caps: [
+          "¿Qué prefieres: <b>100 € hoy</b> o <b>110 € dentro de una semana</b>?",
+          "Te quedas los <b>100 € ya</b>. ¿Para qué esperar una semana entera?",
+          "Ahora: ¿<b>100 € dentro de un año</b> o <b>110 € una semana después</b>?",
+          "Esta vez <b>esperas la semana extra</b> sin problema por 110 €.",
+          "La misma <b>semana de espera</b>, los mismos <b>10 € de más</b>. Elección opuesta.",
+          "De cerca, <b>el ahora pesa más</b>. De lejos, la semana <b>se encoge</b>.",
+          "<b>La solución:</b> imagina las dos opciones como si fueran dentro de un año.",
+          "O <b>decide de antemano</b> y déjalo fijado, con <b>ahorro automático</b>."
+        ],
+        say: [
+          "¿Qué prefieres: cien euros hoy, o ciento diez dentro de una semana?",
+          "Te quedas los cien ya. ¿Para qué esperar una semana entera?",
+          "Ahora: ¿cien euros dentro de un año, o ciento diez una semana después?",
+          "Esta vez esperas la semana extra sin problema por ciento diez.",
+          "La misma semana de espera. Los mismos diez euros de más. Elección opuesta.",
+          "De cerca, el ahora pesa más. De lejos, la misma semana se encoge.",
+          "La solución: imagina las dos opciones como si fueran dentro de un año.",
+          "O decide de antemano y déjalo fijado, con ahorro automático.",
+          "El descuento hiperbólico. Lo cercano pesa más. Decide desde lejos, y luego déjalo fijado."
+        ]
       }
     },
     svg(T) {

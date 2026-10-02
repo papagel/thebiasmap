@@ -125,6 +125,34 @@
           "Η προφύλαξη κοστίζει λίγο: κάνε αντίγραφο σήμερα κιόλας.",
           "Μεροληψία αισιοδοξίας. Η ατυχία δεν κάνει εξαιρέσεις. Να προετοιμάζεσαι σαν να κινδυνεύεις όσο και οι άλλοι."
         ]
+      },
+      es: {
+        name: "Sesgo de optimismo", shareTitle: "El sesgo de optimismo en 30 segundos",
+        ecline: "La mala suerte no hace excepciones contigo. Planifica como si te pudiera pasar igual que a cualquiera.",
+        nob: "sin copia", nobW: 78, notme: "A mí no.", bubW: 96,
+        hits: { broken: "roto", lost: "perdido", stolen: "robado" }, you: "tú", people: ["gente", "como tú"],
+        avg: "promedio", imp: "imposible", backup: "Copia de seguridad",
+        caps: [
+          "Tu portátil guarda años de fotos. <b>Sin copia de seguridad.</b>",
+          "Los portátiles se pierden, se roban o se rompen <b>constantemente</b>.",
+          "Pero eso les pasa <b>a otros</b>, piensas.",
+          "Pregunta a un grupo y <b>la mayoría</b> cree que su riesgo está por debajo del promedio.",
+          "<b>No pueden estar todos</b> por debajo del promedio.",
+          "Hasta que un día te pasa <b>a ti</b>. Las fotos se han perdido.",
+          "<b>La solución:</b> asume que te puede pasar igual que a cualquiera.",
+          "Y toma la precaución barata. <b>Haz una copia hoy.</b>"
+        ],
+        say: [
+          "Tu portátil guarda años de fotos. Sin copia de seguridad.",
+          "Los portátiles se pierden, se roban o se rompen constantemente.",
+          "Pero eso les pasa a otros, piensas.",
+          "Pregunta a un grupo y la mayoría cree que su riesgo está por debajo del promedio.",
+          "No pueden estar todos por debajo del promedio.",
+          "Hasta que un día te pasa a ti. Las fotos se han perdido.",
+          "La solución: asume que te puede pasar igual que a cualquiera.",
+          "Y toma la precaución barata. Haz una copia hoy.",
+          "El sesgo de optimismo. La mala suerte no hace excepciones contigo. Planifica como si te pudiera pasar igual que a cualquiera."
+        ]
       }
     },
     svg(T) {

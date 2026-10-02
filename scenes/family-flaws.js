@@ -147,6 +147,38 @@
           "Μετά πες ένα σημείο όπου μπορεί να έχουν δίκιο. Τα πνεύματα ηρεμούν, και μαθαίνεις κι εσύ κάτι.",
           "Τα λάθη των άλλων. Όποια μεροληψία βλέπεις στους άλλους, ψάξε την και στον εαυτό σου."
         ]
+      },
+      es: {
+        name: "Defectos ajenos", shareTitle: "Por qué vemos los defectos ajenos y no los propios, en 30 segundos",
+        ecline: "Sea cual sea el sesgo que ves en los demás, búscalo también en ti.",
+        others: "los demás", you: "tú", outside: "desde fuera", inside: "desde dentro",
+        asIs: ["Veo las cosas", "como son."], notMe: "Yo no.", meToo: "¿Yo también?", fair: "Ahí tienes razón.",
+        sayA: "No lo veo así.", sayB: "¿Te echo una mano?",
+        tags: ["ignorante", "egoísta", "parcial"], point: "tiene razón",
+        names: ["Realismo ingenuo", "Cinismo ingenuo", "Punto ciego de los sesgos"],
+        w: { ignorante: 47, "egoísta": 36, parcial: 34, "tiene razón": 55, "Veo las cosas": 72, "como son.": 55, "Yo no.": 33, "¿Yo también?": 70,
+          "Ahí tienes razón.": 88, "No lo veo así.": 70, "¿Te echo una mano?": 106, "Realismo ingenuo": 103, "Cinismo ingenuo": 97, "Punto ciego de los sesgos": 150 },
+        caps: [
+          "A los demás solo los ves <b>desde fuera</b>.",
+          "A ti te ves <b>desde dentro</b>, y eso te ayuda a actuar con confianza.",
+          "Así que sientes que ves el mundo <b>tal como es</b>…",
+          "…y quien no está de acuerdo debe de ser un <b>ignorante</b>.",
+          "¿Alguien se ofrece a ayudarte? Sospechas un motivo <b>egoísta</b>.",
+          "Ves <b>sesgos</b> en todo el mundo, menos en la cara del espejo.",
+          "<b>La solución:</b> ¿ves un sesgo en alguien? Búscalo <b>en ti</b>.",
+          "Luego di un punto en el que <b>podría tener razón</b>. Los ánimos se calman."
+        ],
+        say: [
+          "A los demás solo los ves desde fuera: lo que hacen, no por qué.",
+          "A ti te ves desde dentro: tus razones, tus intenciones, tu situación. Fiarte de esa visión te ayuda a actuar con confianza.",
+          "Así que sientes que ves el mundo tal como es. Es el realismo ingenuo...",
+          "...y quien no está de acuerdo contigo debe de ser un ignorante.",
+          "¿Alguien se ofrece a ayudarte? Sospechas un motivo egoísta. Es el cinismo ingenuo.",
+          "Ves sesgos en todo el mundo, menos en la cara del espejo. Es el punto ciego de los sesgos.",
+          "La solución: cuando veas un sesgo en otra persona, busca ese mismo sesgo en ti.",
+          "Luego di un punto en el que podría tener razón. Los ánimos se calman, y además aprendes algo.",
+          "Defectos ajenos. Sea cual sea el sesgo que ves en los demás, búscalo también en ti."
+        ]
       }
     },
     svg(T) {

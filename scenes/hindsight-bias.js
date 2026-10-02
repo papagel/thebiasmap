@@ -115,6 +115,35 @@
           "Κοίτα το σημείωμά σου: πενήντα τοις εκατό. Μάθε από αυτό που πραγματικά πίστευες.",
           "Μεροληψία εκ των υστέρων. Μόλις μάθεις το αποτέλεσμα, όλα μοιάζουν προφανή. Γράφε τις προβλέψεις σου από πριν."
         ]
+      },
+      es: {
+        name: "Sesgo retrospectivo", shareTitle: "El sesgo retrospectivo en 30 segundos",
+        ecline: "Cuando ya ha pasado, todo parece obvio. Apunta antes tus predicciones.",
+        hd0: "FINAL · 21:00", hd1: "FINAL · RESULTADO", home: "Local", away: "Visitante",
+        why: "por qué era obvio:", reasons: ["Delantero en forma", "Mejor defensa", "Afición local"],
+        dial: "opciones de victoria local", hind: "a posteriori",
+        noteH: "20:45 · antes de empezar", noteL: "Gana el local:", mark: "tu nota",
+        caps: [
+          "Antes de la final, crees que está <b>muy igualada</b>.",
+          "Al equipo local le darías más o menos un <b>50%</b>.",
+          "Final del partido: gana el local <b>3–1</b>.",
+          "Ahora la victoria parece <b>obvia</b>. Enumeras las razones.",
+          "Tu memoria retoca tu pronóstico sin avisar: «Estaba <b>seguro al 80%</b>».",
+          "Visto a posteriori, el pasado parece <b>más predecible</b> de lo que fue.",
+          "<b>La solución:</b> apunta tus predicciones y lo seguro que estás.",
+          "Mira tu nota: <b>50%</b>. Aprende de lo que pensabas de verdad."
+        ],
+        say: [
+          "Antes de la final, crees que está muy igualada.",
+          "Al equipo local le darías más o menos un cincuenta por ciento.",
+          "Final del partido. Gana el local, tres a uno.",
+          "Ahora la victoria parece obvia. Enumeras las razones.",
+          "Tu memoria retoca tu pronóstico sin avisar. Estaba seguro al ochenta por ciento.",
+          "Visto a posteriori, el pasado parece más predecible de lo que fue.",
+          "La solución: apunta tus predicciones y lo seguro que estás.",
+          "Mira tu nota: cincuenta por ciento. Aprende de lo que pensabas de verdad.",
+          "El sesgo retrospectivo. Cuando ya ha pasado, todo parece obvio. Apunta antes tus predicciones."
+        ]
       }
     },
     svg(T) {

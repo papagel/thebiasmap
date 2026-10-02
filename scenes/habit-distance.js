@@ -156,6 +156,38 @@
           "Με καθαρό μυαλό, ξαναγράφεις την απάντηση και στέλνεις την καλύτερη εκδοχή.",
           "Πάρε απόσταση από την επιλογή. Πάνω στη βράση, μια κακή επιλογή μοιάζει σωστή. Άφησε να περάσει μια νύχτα ή σκέψου τι θα έλεγες σε έναν φίλο."
         ]
+      },
+      es: {
+        name: "Toma distancia de la decisión",
+        shareTitle: "Toma distancia de la decisión: un hábito en 30 segundos",
+        ecline: "En el calor del momento, una mala decisión parece correcta: consúltalo con la almohada o piensa qué le dirías a un amigo.",
+        time: m => { const [h, mm] = hm(m); return `${pad(h)}:${pad(mm)}`; }, from: "Álex", quote: "«Por tercera vez…»", repLab: "Tu respuesta",
+        sharp: "«¡Aprende a leer!»", calm: "«Tienes razón. Aquí está:»",
+        save: "Guardar", saved: "Guardado", send: "Enviar", sent: "Enviado",
+        anger: "rabia", think: "Se lo merece.", thinkW: 134, dont: "No lo envíes.", dontW: 124, dist: "distancia",
+        youAt: t => `tú a las ${t}`, cant1: "no imaginas la calma", cant2: "no imaginas la rabia",
+        catches: "detecta", gap: "Brecha de empatía", gapFs: 15,
+        caps: [
+          "<b>Las 11 de la noche.</b> Te llega un correo molesto de un compañero.",
+          "Estás que echas humo. Escribes una respuesta cortante, con el dedo sobre <b>Enviar</b>.",
+          "En ese estado, la respuesta parece <b>totalmente justificada</b>.",
+          "<b>Toma distancia</b> de la decisión: guárdala como <b>borrador</b>.",
+          "Piensa qué le dirías a <b>un amigo</b> en tu lugar: «No lo envíes».",
+          "Luego <b>consúltalo con la almohada</b>. Por la mañana, la rabia se ha enfriado.",
+          "Detecta la <b>brecha de empatía</b>: con rabia, no logras imaginar la calma.",
+          "Ya en calma, la reescribes y envías <b>una versión mejor</b>."
+        ],
+        say: [
+          "Son las once de la noche. Te llega un correo molesto de un compañero.",
+          "Estás que echas humo. Escribes una respuesta cortante, y tienes el dedo sobre Enviar.",
+          "En ese estado, la respuesta parece totalmente justificada. Se lo merece.",
+          "Toma distancia de la decisión. Guárdala como borrador y aléjate un poco.",
+          "Piensa qué le dirías a un amigo en tu lugar. Le dirías: no lo envíes.",
+          "Luego consúltalo con la almohada. Por la mañana, la rabia se ha enfriado.",
+          "Detecta la brecha de empatía. Con rabia, no logras imaginarte tranquilo. Ya tranquilo, no logras sentir la rabia.",
+          "Ya en calma, la reescribes y envías una versión mejor.",
+          "Toma distancia de la decisión. En el calor del momento, una mala decisión parece correcta. Consúltalo con la almohada, o piensa qué le dirías a un amigo."
+        ]
       }
     },
     svg(T) {

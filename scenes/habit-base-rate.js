@@ -160,6 +160,36 @@
           "Οπότε σχεδιάζει με βάση ένα ρεαλιστικό εύρος και κρατά μαξιλάρι ασφαλείας.",
           "Ξεκίνα από το βασικό ποσοστό. Αναρωτήσου πώς καταλήγουν συνήθως τέτοιες περιπτώσεις και μετά διόρθωσε λίγο την εκτίμηση, ανάλογα με ό,τι κάνει αυτήν εδώ ξεχωριστή."
         ]
+      },
+      es: {
+        name: "Empieza por la tasa base", shareTitle: "Empieza por la tasa base: un hábito en 30 segundos",
+        ecline: "Pregunta cómo suelen salir las cosas así y luego ajusta un poco por lo que este caso tiene de especial.",
+        bubble: "«¡La comida es increíble!»", savings: "todos sus ahorros", invest: "invertir", cushion: "colchón de seguridad",
+        h1: "10 restaurantes nuevos así", later: "3 años después", open: "4 de 10 siguen abiertos",
+        h2: "¿qué tiene de especial?", chance: "probabilidad de seguir abierto en 3 años",
+        sure: "seguro", base: "tasa base", adj: "+ gran comida", n: v => `${v} de 10`,
+        gap: "Efecto de exceso de confianza", range: "rango realista",
+        caps: [
+          "Tu amigo quiere abrir un restaurante con <b>todos sus ahorros</b>.",
+          "«La comida es increíble», dice. «<b>No puede fallar</b>».",
+          "Solo ve <b>este local</b>, así que está <b>seguro</b>.",
+          "<b>El hábito:</b> pregunta primero cómo les suele ir a locales así.",
+          "A los tres años, <b>6 de 10</b> han cerrado. Empieza por <b>4 de 10</b>.",
+          "Luego ajusta por lo especial. ¿Gran comida? <b>Sube un poco</b>.",
+          "Esa diferencia es el <b>efecto de exceso de confianza</b>. Este hábito lo detecta.",
+          "Planea con un <b>rango realista</b> y guarda un <b>colchón de seguridad</b>."
+        ],
+        say: [
+          "Tu amigo quiere abrir un restaurante con todos sus ahorros.",
+          "La comida es increíble, dice. No puede fallar.",
+          "Solo ve este local, así que está seguro.",
+          "El hábito: pregunta primero cómo les suele ir a locales así.",
+          "Imagina diez restaurantes nuevos como este. A los tres años, seis han cerrado. Así que empieza por cuatro de diez.",
+          "Luego ajusta por lo especial. ¿Gran comida? Eso lo sube un poco, no lo convierte en algo seguro.",
+          "Esa diferencia es el efecto de exceso de confianza. Este hábito lo detecta.",
+          "Así que planea con un rango realista y guarda un colchón de seguridad.",
+          "Empieza por la tasa base. Pregunta cómo suelen salir las cosas así y luego ajusta un poco por lo que este caso tiene de especial."
+        ]
       }
     },
     svg(T) {

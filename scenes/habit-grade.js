@@ -150,6 +150,35 @@
           "Με όσα ήξερες, σωστά έφυγες νωρίς. Θα το ξανάκανες.",
           "Κρίνε τις αποφάσεις με βάση όσα ήξερες. Κρίνε μια απόφαση με βάση όσα ήξερες όταν την πήρες, όχι από το πώς κατέληξε."
         ]
+      },
+      es: {
+        name: "Juzga las decisiones por lo que sabías", shareTitle: "Juzga las decisiones por lo que sabías: un hábito en 30 segundos",
+        ecline: "Juzga una decisión por lo que sabías cuando la tomaste, no por cómo salió.",
+        flH: "TU VUELO", alH: "ALERTA", alV: "Mucho tráfico", knew: "lo que sabías",
+        early: "salir temprano", late: "salir tarde", empty: "sin tráfico", waitN: "2 horas", wait: "en la puerta",
+        judged: "juzgado por el resultado", when: "cuando decidiste", unknown: "aún no se sabe",
+        worst: "peor caso", w1: "larga espera", w2: "vuelo perdido", made: "a tiempo", luck: "suerte", bias: "Sesgo de resultado",
+        caps: [
+          "Tu vuelo sale a las 18:00. La app avisa de <b>mucho tráfico</b>.",
+          "Así que sales <b>dos horas antes</b>. Al final, no hay nada de tráfico.",
+          "Esperas en la puerta una eternidad. «Qué <b>decisión más tonta</b>».",
+          "<b>El hábito:</b> rebobina hasta el momento en que decidiste.",
+          "Sabías que era probable que hubiera tráfico, y <b>perder el vuelo</b> cuesta mucho más.",
+          "Quien salió tarde y llegó a tiempo tuvo <b>suerte</b>, no buen criterio.",
+          "Esto detecta el <b>sesgo de resultado</b>: juzgar una decisión por cómo terminó.",
+          "Con lo que sabías, salir antes fue <b>lo correcto</b>. Lo volverías a hacer."
+        ],
+        say: [
+          "Tu vuelo sale a las seis de la tarde. La app avisa de mucho tráfico.",
+          "Así que sales dos horas antes. Al final, no hay nada de tráfico.",
+          "Esperas en la puerta una eternidad. Qué decisión más tonta.",
+          "El hábito: rebobina hasta el momento en que decidiste.",
+          "Sabías que era probable que hubiera tráfico, y perder el vuelo cuesta mucho más.",
+          "Quien salió tarde y llegó a tiempo tuvo suerte, no buen criterio.",
+          "Esto detecta el sesgo de resultado: juzgar una decisión por cómo terminó.",
+          "Con lo que sabías, salir antes fue lo correcto. Lo volverías a hacer.",
+          "Juzga las decisiones por lo que sabías. Juzga una decisión por lo que sabías cuando la tomaste, no por cómo salió."
+        ]
       }
     },
     svg(T) {

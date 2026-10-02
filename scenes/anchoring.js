@@ -60,6 +60,34 @@
           "Ξεκίνα από το δικό σου εύρος, και καταλήγεις κοντά στην πραγματική αξία.",
           "Αγκύρωση. Ο πρώτος αριθμός που ακούς γίνεται η αφετηρία σου. Να ξέρεις τον δικό σου πρώτα."
         ]
+      },
+      es: {
+        name: "Anclaje", shareTitle: "El anclaje en 30 segundos",
+        ecline: "El primer número que oyes se vuelve tu punto de partida. Ten claro el tuyo antes.",
+        bubble: "«Pido 900 mil €»", truth: "Valor real", hidden: "no lo sabes", start: "punto de partida",
+        adj: "ajustando", pull: "tirón", padh: "Tu estimación", padv: "550–650 mil", guess: "Tu cálculo",
+        withAnchor: "Con el ancla", withRange: "Desde tu rango", gap: v => `${v} mil € de más`, axis: "Precio, miles de €",
+        caps: [
+          "Quieres comprar esta casa. ¿Cuánto vale?",
+          "Su valor real ronda los <b>600 mil €</b>. Tú aún no lo sabes.",
+          "El vendedor habla primero: «Pido <b>900 mil €</b>».",
+          "Tu mente toma esos 900 mil como <b>punto de partida</b>.",
+          "Te parece demasiado, así que bajas…",
+          "…pero te detienes antes de tiempo: <b>180 mil € de más</b>.",
+          "<b>La solución:</b> anota primero tu propia estimación.",
+          "Parte de tu propio rango. Acabas cerca del <b>valor real</b>."
+        ],
+        say: [
+          "Quieres comprar esta casa. ¿Cuánto vale?",
+          "Su valor real ronda los seiscientos mil euros. Pero tú aún no lo sabes.",
+          "El vendedor habla primero. Pido novecientos mil.",
+          "Tu mente toma ese número como punto de partida.",
+          "Te parece demasiado, así que bajas...",
+          "...pero te detienes antes de tiempo. Acabas ciento ochenta mil euros por encima.",
+          "La solución: anota primero tu propia estimación.",
+          "Parte de tu propio rango, y acabas cerca del valor real.",
+          "Anclaje. El primer número que oyes se vuelve tu punto de partida. Ten claro el tuyo antes."
+        ]
       }
     },
     svg(T) {

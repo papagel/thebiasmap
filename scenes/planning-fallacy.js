@@ -131,6 +131,36 @@
           "Υπολόγισε με βάση αυτό, βάλε κι ένα περιθώριο. Τελειώνεις στην ώρα σου.",
           "Πλάνη του σχεδιασμού. Όταν σχεδιάζεις, φαντάζεσαι το καλύτερο σενάριο. Υπολόγιζε με βάση το πόσο σου πήρε στ’ αλήθεια τις άλλες φορές."
         ]
+      },
+      es: {
+        name: "Falacia de la planificación", shareTitle: "La falacia de la planificación en 30 segundos",
+        ecline: "Tus planes imaginan el mejor caso. Planifica según lo que de verdad tardaste antes.",
+        days: ["LUN", "MAR", "MIÉ", "JUE", "VIE"], report: "Informe", three: "3 días",
+        plan: "Tu plan", newPlan: "Nuevo plan", dur: n => (n === 1 ? "1 día" : `${n} días`), over: "+4 días",
+        due: "plazo", dueW: 58, snags: ["reunión", "revisión", "gripe"], snagW: [54, 58, 56],
+        past: "Tus informes anteriores", best: "mejor caso", bestW: 67, ign: "ignorado",
+        ov: "visión externa", ovn: "lo normal: 7 días", buffer: "+ margen",
+        caps: [
+          "Tienes que escribir un informe. ¿Cuánto vas a tardar?",
+          "Te lo imaginas sin contratiempos: <b>3 días</b>.",
+          "Entonces aparece <b>la vida real</b>, un imprevisto tras otro.",
+          "Tardas <b>7 días</b>, más del doble.",
+          "¿Tus informes anteriores? <b>Todos</b> se alargaron también.",
+          "Pero planeaste según el <b>mejor caso</b>, no según ese historial.",
+          "<b>La solución:</b> pregúntate cuánto tardaron de verdad tareas parecidas.",
+          "Planifica según eso y añade un margen. <b>Terminas a tiempo.</b>"
+        ],
+        say: [
+          "Tienes que escribir un informe. ¿Cuánto vas a tardar?",
+          "Te lo imaginas sin contratiempos. Tres días.",
+          "Entonces aparece la vida real, un imprevisto tras otro.",
+          "Tardas siete días. Más del doble.",
+          "¿Tus informes anteriores? Todos se alargaron también.",
+          "Pero planeaste según el mejor caso, no según ese historial.",
+          "La solución: pregúntate cuánto tardaron de verdad tareas parecidas.",
+          "Planifica según eso y añade un margen. Terminas a tiempo.",
+          "La falacia de la planificación. Tus planes imaginan el mejor caso. Planifica según lo que de verdad tardaste antes."
+        ]
       }
     },
     svg(T) {

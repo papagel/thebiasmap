@@ -144,6 +144,37 @@
           "Για τα μικρά, το περίπου αρκεί. Για τα μεγάλα, άνοιξε το κουτί.",
           "Απλοποιούμε τους αριθμούς. Τα απλά κουτιά αρκούν για τα μικρά, αλλά οι μεγάλες αποφάσεις θέλουν τους πραγματικούς αριθμούς."
         ]
+      },
+      es: {
+        name: "Números más simples", shareTitle: "Por qué metemos riesgos y dinero en cajas simples, en 30 segundos",
+        ecline: "Las cajas simples sirven para lo pequeño, pero las decisiones grandes merecen los números reales.",
+        tok: ["3,7%", "1 de 250", "0,4%", "68%", "92%", "7/12"],
+        box: [["no pasará", "pasará"], ["caprichos", "facturas"], ["poca cosa", "no lo toques"]],
+        chip: ["Contabilidad mental", "Efecto de denominación", "Sesgo de normalidad"],
+        n50: "50 €", n10: "10 €", coin: "2", gift: "regalo", salary: "sueldo", coins: "cinco monedas de 2 €", note: "un billete de 10 €", spent: "gastado",
+        flood: "inundación", rate: "3% al año", bubble: "«Aquí nunca ha pasado.»",
+        cnt: ["3 años", "de cada 100"], legend: "1 cuadro = 1 año",
+        caps: [
+          "Probabilidades, porcentajes, fracciones: a tu cerebro le <b>cuestan</b>.",
+          "Así que las mete en <b>cajas simples</b>. Es rápido, y casi siempre basta.",
+          "Un regalo de 50 € parece dinero para <b>caprichos</b>. Los 50 € del sueldo van a facturas.",
+          "Las monedas parecen <b>poca cosa</b>. Se van antes que un billete de 10 €.",
+          "Aquí nunca se ha inundado, así que el riesgo va a la caja <b>no pasará</b>.",
+          "Pero raro no es nunca. La etiqueta <b>ocultó el riesgo real</b>.",
+          "<b>La solución:</b> convierte las probabilidades en casos, como <b>3 años de cada 100</b>.",
+          "Lo aproximado vale para lo pequeño. Para lo grande, <b>abre la caja</b>."
+        ],
+        say: [
+          "Probabilidades, porcentajes, fracciones. A tu cerebro le cuestan.",
+          "Así que las mete en cajas simples. Es rápido, y casi siempre basta.",
+          "Contabilidad mental: un regalo de cincuenta euros parece dinero para caprichos. Los cincuenta euros del sueldo van a facturas.",
+          "El efecto de denominación: las monedas parecen poca cosa, así que se van antes que un billete de diez euros.",
+          "Sesgo de normalidad: aquí nunca se ha inundado, así que el riesgo va a la caja de no pasará.",
+          "Pero raro no es nunca. La etiqueta ocultó el riesgo real.",
+          "La solución: convierte las probabilidades en casos. Un tres por ciento al año son tres años de cada cien.",
+          "Lo aproximado vale para lo pequeño. Para las decisiones grandes, abre la caja.",
+          "Números más simples. Las cajas simples sirven para lo pequeño, pero las decisiones grandes merecen los números reales."
+        ]
       }
     },
     svg(T) {

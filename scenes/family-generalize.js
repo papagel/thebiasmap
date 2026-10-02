@@ -211,6 +211,35 @@
           "Πέντε φιλικοί σκύλοι, ένα δάγκωμα. Με τις εξαιρέσεις, η περίληψη βγαίνει δίκαιη.",
           "Γενικεύσεις. Η μνήμη κρατά τη γενική εικόνα και πετά τις λεπτομέρειες, γι’ αυτό θυμήσου τις εξαιρέσεις πριν κρίνεις."
         ]
+      },
+      es: {
+        name: "Generalidades", shareTitle: "Por qué la memoria se queda con lo esencial y olvida los detalles, en 30 segundos",
+        ecline: "La memoria cambia los detalles por resúmenes, así que recuerda las excepciones antes de juzgar.",
+        memory: "memoria", more: "+ cientos más", dropped: "sin detalles", left: "descartados", newDog: "perro nuevo", count: "5 amables · 1 mordisco",
+        dogs: "perros", friendly: "amables", scary: "peligrosos", mostly: "casi todos amables",
+        trip: "el viaje", perfect: "perfecto", link: "vínculo automático", glasses: "gafas → genio", imp: "peligroso",
+        names: ["Sesgo de negatividad", "Sesgo del afecto que se desvanece", "Asociaciones implícitas"],
+        caps: [
+          "Has conocido a <b>cientos de perros</b>. La memoria no puede guardar <b>cada uno</b>.",
+          "Así que los comprime en <b>un resumen</b>. ¿El próximo perro? Una <b>suposición rápida</b>.",
+          "Entonces un perro te <b>muerde</b>. Ese recuerdo <b>pesa más</b> que todos los demás.",
+          "Un viaje pasado: lo <b>malo se borra antes</b>. Ahora fue <b>«perfecto»</b>.",
+          "En pantalla, los <b>genios</b> llevan <b>gafas</b>. Pronto el vínculo es <b>automático</b>.",
+          "El resumen se queda. ¿Un <b>perro nuevo y amable</b>? Sigues pensando <b>«peligroso»</b>.",
+          "<b>La solución:</b> recuerda <b>casos concretos</b>, sobre todo los que <b>no encajan</b>.",
+          "Cinco amables, un mordisco. Guarda las <b>excepciones</b> y el resumen será <b>justo</b>."
+        ],
+        say: [
+          "Has conocido a cientos de perros. La memoria no puede guardarlos todos.",
+          "Así que los comprime en un solo resumen: los perros son amables. La próxima vez, tienes una suposición rápida.",
+          "Entonces un perro te muerde. Ese recuerdo pesa más que todos los demás. Es el sesgo de negatividad.",
+          "Piensa en un viaje pasado. Lo malo se borra antes que lo bueno, así que ahora fue perfecto. Es el sesgo del afecto que se desvanece.",
+          "En pantalla, los genios llevan gafas. Pronto el vínculo es automático. Es una asociación implícita.",
+          "Y el resumen se queda. Pasa un perro nuevo y amable, y aun así piensas: peligroso.",
+          "La solución: recuerda casos concretos, sobre todo los que no encajan.",
+          "Cinco perros amables, un mordisco. Guarda las excepciones, y el resumen será justo.",
+          "Generalidades. La memoria cambia los detalles por resúmenes, así que recuerda las excepciones antes de juzgar."
+        ]
       }
     },
     svg(T) {

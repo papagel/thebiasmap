@@ -141,6 +141,36 @@
           "Δίνε και στους άλλους τα ίδια ελαφρυντικά. Συχνά θα έχεις δίκιο.",
           "Θεμελιώδες σφάλμα απόδοσης. Για τους άλλους φταίει ο χαρακτήρας, για εμάς οι συνθήκες. Αναρωτήσου τι μπορεί να συμβαίνει."
         ]
+      },
+      es: {
+        name: "Error fundamental de atribución", shareTitle: "El error fundamental de atribución en 30 segundos",
+        ecline: "Culpamos a los demás por su carácter y nos excusamos por la situación. Pregúntate qué le estará pasando.",
+        you: "tú", jerk: "¡Qué idiota!", bubAW: 104,
+        char: "carácter", char2: "¿carácter?", sit: "situación",
+        careless: "persona descuidada", emergency: "quizá una urgencia", late: "llegaba tarde",
+        card: ["Va corriendo", "al hospital"], cardW: 132, hidden: "no lo ves",
+        mine: ["¡Voy tarde a", "una reunión!"], ask: "¿Qué le estará pasando?", askW: 158,
+        caps: [
+          "Un conductor se te cruza delante.",
+          "Lo primero que piensas: «<b>¡Qué idiota!</b>».",
+          "Juzgas <b>cómo es</b>, no lo que le está pasando.",
+          "Lo que no ves: <b>va corriendo al hospital</b>.",
+          "Cuando <b>tú</b> te cruzas delante de alguien, sabes por qué: llegabas tarde.",
+          "A los demás los culpas por <b>cómo son</b>. A ti te excusa <b>tu situación</b>.",
+          "<b>La solución:</b> pregúntate qué situación podría explicarlo.",
+          "Dales a los demás <b>el mismo beneficio de la duda</b> que te das a ti. A menudo acertarás."
+        ],
+        say: [
+          "Un conductor se te cruza delante.",
+          "Lo primero que piensas: ¡qué idiota!",
+          "Juzgas cómo es, no lo que le está pasando.",
+          "Lo que no ves: va corriendo al hospital.",
+          "Pero cuando tú te cruzas delante de alguien, sabes por qué. Llegabas tarde.",
+          "A los demás los culpas por cómo son. A ti te excusa tu situación.",
+          "La solución: pregúntate qué situación podría explicarlo.",
+          "Dales a los demás el mismo beneficio de la duda que te das a ti. A menudo acertarás.",
+          "El error fundamental de atribución. Culpamos a los demás por su carácter y nos excusamos por la situación. Pregúntate qué le estará pasando."
+        ]
       }
     },
     svg(T) {

@@ -114,6 +114,37 @@
           "Σύγκρινε τον βαθμό με την εκτίμησή σου, και φέρ' την πιο κοντά στην αλήθεια.",
           "Φαινόμενο Dunning-Kruger. Όσο λιγότερα ξέρεις, τόσο πιο δύσκολα βλέπεις τι σου λείπει. Ζήτα αξιολόγηση από άλλους."
         ]
+      },
+      es: {
+        name: "Efecto Dunning-Kruger", shareTitle: "El efecto Dunning-Kruger en 30 segundos",
+        ecline: "Cuanto menos sabes, más te cuesta verlo. Busca una evaluación externa.",
+        yTitle: "Percentil", avg: "media", xTitle: "Grupos según su nota real",
+        groups: [["25%", "inferior"], ["Medio", "bajo"], ["Medio", "alto"], ["25%", "superior"]],
+        legA: "Posición real", legG: "Su estimación",
+        tooSure: ["demasiado", "seguros"], modest: ["algo modestos"],
+        noSee: "no ve errores", see: "ve los errores",
+        fbT: "Evaluación", fbS: "simulacro corregido", score: "6/20",
+        caps: [
+          "Un grupo de personas hace un examen y luego calcula su <b>posición</b> frente a los demás.",
+          "Aquí está la posición <b>real</b> de cada grupo.",
+          "Y aquí, la que <b>creían</b> tener: todas por encima de la media.",
+          "Los que peor puntúan son los que <b>más</b> se sobrevaloran.",
+          "Una explicación: ver los errores exige <b>la misma habilidad</b> que evitarlos.",
+          "Los mejores se <b>infravaloran</b> un poco. Creen que fue fácil para todos.",
+          "<b>La solución:</b> contrasta tu idea con una evaluación externa.",
+          "Compara la nota con tu estimación. Ajústala <b>hacia la realidad</b>."
+        ],
+        say: [
+          "Un grupo de personas hace un examen, y luego calcula su posición frente a los demás.",
+          "Aquí está la posición real de cada grupo.",
+          "Y aquí, la que creían tener. Todas por encima de la media.",
+          "Los que peor puntúan son los que más se sobrevaloran.",
+          "Una explicación: ver los errores exige la misma habilidad que evitarlos.",
+          "Los mejores se infravaloran un poco. Creen que fue fácil para todos.",
+          "La solución: contrasta tu idea con una evaluación externa.",
+          "Compara la nota con tu estimación, y ajústala hacia la realidad.",
+          "El efecto Dunning-Kruger. Cuanto menos sabes, más te cuesta verlo. Busca una evaluación externa."
+        ]
       }
     },
     svg(T) {

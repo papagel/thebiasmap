@@ -104,6 +104,36 @@
           "Ζύγισε και τις δύο πλευρές, και η σιγουριά σου θα συμβαδίζει με τα στοιχεία.",
           "Μεροληψία επιβεβαίωσης. Βρίσκεις αυτό που ψάχνεις. Ψάξε και ό,τι θα μπορούσε να σε διαψεύσει."
         ]
+      },
+      es: {
+        name: "Sesgo de confirmación", shareTitle: "El sesgo de confirmación en 30 segundos",
+        ecline: "Encuentras lo que buscas. Busca lo que demostraría que te equivocas.",
+        tag: "vago", tag2: "¿vago?", tagW: 70,
+        cards: [["Llegó tarde", "el lunes"], ["Salió tarde", "el martes"], ["No contestó", "un correo"],
+          ["Acabó pronto", "el informe"], ["Alargó", "la comida"], ["Ayudó a", "un cliente"]],
+        fits: "Encaja", nofit: "No encaja", pro: "3 a favor", con: "3 en contra",
+        meter: ["Tu certeza"], gap: ["exceso de", "certeza"],
+        caps: [
+          "Has decidido que tu nuevo compañero de trabajo es <b>vago</b>.",
+          "Toda la semana llegan pruebas, <b>a favor y en contra</b>.",
+          "Te fijas en lo que <b>encaja</b> con tu idea…",
+          "…y apenas registras lo que <b>no encaja</b>.",
+          "Cada coincidencia parece una prueba. Tu certeza <b>no para de crecer</b>.",
+          "Pero las pruebas estaban repartidas: <b>3 a favor, 3 en contra</b>.",
+          "<b>La solución:</b> busca lo que demostraría que te equivocas.",
+          "Sopesa los dos montones. Tu certeza <b>se ajusta a las pruebas</b>."
+        ],
+        say: [
+          "Has decidido que tu nuevo compañero de trabajo es vago.",
+          "Toda la semana llegan pruebas, a favor y en contra.",
+          "Te fijas en lo que encaja con tu idea...",
+          "...y apenas registras lo que no encaja.",
+          "Cada coincidencia parece una prueba. Tu certeza no para de crecer.",
+          "Pero las pruebas estaban repartidas. Tres a favor, tres en contra.",
+          "La solución: busca lo que demostraría que te equivocas.",
+          "Sopesa los dos montones, y tu certeza se ajusta a las pruebas.",
+          "Sesgo de confirmación. Encuentras lo que buscas. Busca lo que demostraría que te equivocas."
+        ]
       }
     },
     svg(T) {

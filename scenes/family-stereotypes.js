@@ -143,6 +143,38 @@
           "Από κοντά, κάθε άνθρωπος είναι κάτι πολύ περισσότερο από μια ταμπέλα.",
           "Στερεότυπα. Μια ταμπέλα συμπληρώνει όσα δεν ξέρεις, γι’ αυτό μάθε ένα πραγματικό στοιχείο πριν κρίνεις."
         ]
+      },
+      es: {
+        name: "Estereotipos", shareTitle: "Por qué una sola etiqueta basta para imaginar a toda una persona, en 30 segundos",
+        ecline: "Una etiqueta rellena lo que no sabes, así que averigua un dato real antes de juzgar.",
+        badge: "Ingeniero",
+        guess: ["callado", "ama las matemáticas", "juega al ajedrez", "lo planea todo", "lo arregla todo", "madrugador"],
+        real: ["muy gracioso", "ama las matemáticas", "toca la batería", "improvisa", "lo arregla todo", "trasnochador"],
+        gaps: "6 huecos", filled: "los rellenó la etiqueta", seen: "vistos: 0 de 6", fact1: "1 dato real", close: "de cerca",
+        claim: ["La vitamina X", "frena los resfriados."], trust: "tu confianza", evidence: "pruebas aportadas", none: "ninguna",
+        loud: "ruidoso", fact: ["¡Toco la batería", "en una banda!"],
+        names: ["Uso de estereotipos", "Sesgo de autoridad", "Error de atribución grupal"],
+        caps: [
+          "Conoces a alguien. Lo único que sabes es <b>una etiqueta</b>.",
+          "Tu cerebro rellena los huecos con <b>lo que espera</b>. Así ahorra esfuerzo.",
+          "Eso es el <b>uso de estereotipos</b>: seis rasgos que <b>nunca llegaste a ver</b>.",
+          "Con una <b>bata blanca</b>, una afirmación <b>sin pruebas</b> suena cierta.",
+          "En el partido, un aficionado <b>grita</b> sin parar…",
+          "…y concluyes que <b>todos</b> los aficionados del equipo son ruidosos.",
+          "<b>La solución:</b> averigua primero un <b>dato real</b> sobre esa persona.",
+          "De cerca, cada persona es <b>más que una etiqueta</b>."
+        ],
+        say: [
+          "Conoces a alguien. Lo único que sabes es una etiqueta: ingeniero.",
+          "Tu cerebro rellena los huecos con lo que espera de esa etiqueta. Así se ahorra mucho esfuerzo.",
+          "Eso es el uso de estereotipos: seis rasgos que nunca llegaste a ver.",
+          "Con una bata blanca, una afirmación sin pruebas suena cierta. Es el sesgo de autoridad.",
+          "En el partido, un aficionado grita sin parar...",
+          "...y concluyes que todos los aficionados del equipo son ruidosos. Es el error de atribución grupal.",
+          "La solución: averigua primero un dato real sobre esa persona.",
+          "De cerca, cada persona es más que una etiqueta.",
+          "Estereotipos. Una etiqueta rellena lo que no sabes, así que averigua un dato real antes de juzgar."
+        ]
       }
     },
     svg(T) {

@@ -133,6 +133,36 @@
           "Τώρα κρατάνε. Μάθε απέξω ό,τι μετράει και ψάχνε τα υπόλοιπα.",
           "Η μνήμη κρατά ό,τι έχεις δουλέψει, γι’ αυτό δούλεψε ό,τι θέλεις να θυμάσαι."
         ]
+      },
+      es: {
+        name: "Cómo se guardó", shareTitle: "Por qué la forma en que aprendes algo decide lo que recuerdas, en 30 segundos",
+        ecline: "La memoria guarda lo que trabajas, así que trabaja lo que quieras guardar.",
+        mem: "TU MEMORIA", week: "TU MEMORIA · UNA SEMANA DESPUÉS",
+        lgThick: "lo que usas o en lo que piensas", lgThin: "lo que apenas notaste",
+        words: ["hojeado", "¿por qué?", "", "test", "buscado"], reread: n => `releído ×${n}`, fixed: { 0: "explicado", 2: "test" },
+        labels: [["Efecto de niveles", "de procesamiento"], ["Efecto de", "la prueba"], ["Efecto Google"]],
+        pill: "búscalo",
+        caps: [
+          "Tu memoria <b>no puede guardar</b> todo lo que ves. Tiene que elegir.",
+          "Por eso ata con <b>hilos gruesos</b> lo que usas. Y suele acertar.",
+          "¿Lo <b>hojeaste</b>? Hilo fino. ¿Te preguntaste <b>por qué</b> es cierto? Hilo grueso.",
+          "<b>Releer</b> aporta poco. <b>Ponerte a prueba</b> ata un hilo grueso.",
+          "¿Sabes que puedes <b>buscarlo</b>? Sueles recordarlo <b>peor</b>.",
+          "Una semana después, tiras de los hilos. <b>Los finos se rompen</b>.",
+          "<b>La solución:</b> no releas, <b>ponte a prueba</b>. Explícalo con tus palabras.",
+          "Ahora <b>aguantan</b>. Apréndete de memoria lo que importa y busca el resto."
+        ],
+        say: [
+          "Tu memoria no puede guardar todo lo que ves. Tiene que elegir.",
+          "Por eso ata con hilos gruesos lo que usas y lo que piensas, y con hilos finos lo que apenas notaste. Y suele acertar: tu memoria se dedica a lo que vale la pena.",
+          "¿Lo hojeaste? Hilo fino. ¿Te preguntaste por qué es cierto? Hilo grueso. Es el efecto de niveles de procesamiento.",
+          "Releer aporta poco. Ponerte a prueba ata un hilo grueso. Es el efecto de la prueba.",
+          "¿Sabes que puedes buscarlo? Sueles recordarlo peor. Es el efecto Google.",
+          "Una semana después, tiras de los hilos. Los finos se rompen.",
+          "La solución: no releas, ponte a prueba. Explícalo con tus propias palabras.",
+          "Ahora aguantan. Apréndete de memoria lo que importa y busca el resto.",
+          "La memoria guarda lo que trabajas, así que trabaja lo que quieras guardar."
+        ]
       }
     },
     svg(T) {

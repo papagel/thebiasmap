@@ -114,6 +114,34 @@
           "Θα τα μεταφέρεις και σε άλλους; Κάνε το σημαντικό να ξεχωρίζει, για να τους μείνει.",
           "Ό,τι ξεχωρίζει σου μένει, είτε μετράει είτε όχι. Σημείωσε πρώτα ό,τι μετράει."
         ]
+      },
+      es: {
+        name: "Lo que destaca", shareTitle: "Por qué recordamos lo raro, en 30 segundos",
+        ecline: "Lo que destaca se queda, importe o no. Anota primero lo que importa.",
+        meeting: "La reunión", recall: "Lo que recuerdas", useful: "útil",
+        vr: "Efecto Von Restorff", hu: "Efecto del humor", ps: "Superioridad de las imágenes",
+        due: "Plazo: viernes", noteH: "Primero lo clave", stick: "se queda",
+        caps: [
+          "Una reunión larga: ocho puntos, <b>todos iguales</b>. No puedes retenerlos todos.",
+          "Tu cerebro se queda con lo que <b>destaca</b>. Lo inusual suele importar.",
+          "¿Un punto en <b>color llamativo</b>? Ese también se queda.",
+          "Y un <b>chiste</b>, aunque no venga a cuento.",
+          "Y una <b>imagen</b> se recuerda mejor que las palabras.",
+          "Al día siguiente, el <b>plazo</b>, simple pero importante, se te ha olvidado.",
+          "<b>La solución:</b> justo después, anota primero <b>lo clave</b>.",
+          "¿Lo vas a compartir? Haz que lo clave <b>destaque</b>, para que se quede."
+        ],
+        say: [
+          "Una reunión larga. Ocho puntos, todos iguales. No puedes retenerlos todos.",
+          "Así que tu cerebro se queda con lo que destaca. Suele ser buena idea: lo inusual a menudo importa.",
+          "¿Un punto en color llamativo? Ese también se queda. Es el efecto Von Restorff.",
+          "Y un chiste, aunque no venga a cuento. El efecto del humor.",
+          "Y una imagen se recuerda mejor que las palabras. La superioridad de las imágenes.",
+          "Al día siguiente, el plazo, simple pero importante, se te ha olvidado.",
+          "La solución: justo después de la reunión, anota primero lo clave.",
+          "¿Lo vas a compartir con otros? Haz que lo clave destaque, para que se quede.",
+          "Lo que destaca se queda, importe o no. Anota primero lo que importa."
+        ]
       }
     },
     svg(T) {

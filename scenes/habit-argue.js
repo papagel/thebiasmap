@@ -126,6 +126,37 @@
           "Και προχωράς, αλλά αυτή τη φορά με ανοιχτά μάτια.",
           "Υπερασπίσου την άλλη πλευρά. Βρες πρώτα τα πιο δυνατά επιχειρήματα κατά του σχεδίου σου και μετά προχώρα με ανοιχτά μάτια."
         ]
+      },
+      es: {
+        name: "Defiende la postura contraria", shareTitle: "Defiende la postura contraria: un hábito en 30 segundos",
+        ecline: "Busca primero los mejores argumentos contra tu plan y luego sigue adelante con los ojos abiertos.",
+        forH: "A favor", agH: "En contra", empty: "vacío",
+        pros: ["Los cafés triunfan", "Haz lo que amas", "Sé tu propio jefe"],
+        cons: ["Alquiler caro", "Arranque lento", "Días de 12 horas"],
+        job: "Tu trabajo", cafe: "Tu café", quit: "renunciar", quitW: 54, notYet: "aún no",
+        popup: "Puesto", popupSub: "fines de semana",
+        sure: "100% seguro", sureW: 91, bias: "Sesgo de confirmación", biasW: 160,
+        caps: [
+          "Quieres dejar tu trabajo y abrir un <b>café</b>. Lo tienes claro.",
+          "Todo lo que lees parece <b>darte la razón</b>.",
+          "Así que solo reúnes razones <b>a favor</b>. El otro lado sigue vacío.",
+          "<b>El hábito:</b> antes de lanzarte, defiende la postura contraria.",
+          "Escribe <b>los mejores argumentos en contra</b> de tu propio plan.",
+          "Luego ajusta el plan: <b>pruébalo</b> antes con un puesto los fines de semana.",
+          "Este hábito detecta el <b>sesgo de confirmación</b>: ver solo lo que te da la razón.",
+          "Sigues adelante, pero <b>con los ojos abiertos</b>."
+        ],
+        say: [
+          "Quieres dejar tu trabajo y abrir un café. Lo tienes claro.",
+          "Todo lo que lees parece darte la razón.",
+          "Así que solo reúnes razones a favor. El otro lado sigue vacío.",
+          "El hábito: antes de lanzarte, defiende la postura contraria.",
+          "Escribe los mejores argumentos en contra de tu propio plan. Alquiler caro. Arranque lento. Días de doce horas.",
+          "Luego ajusta el plan. Pruébalo antes con un puesto los fines de semana.",
+          "Este hábito detecta el sesgo de confirmación: ver solo lo que te da la razón.",
+          "Sigues adelante, pero con los ojos abiertos.",
+          "Defiende la postura contraria. Busca primero los mejores argumentos contra tu plan y luego sigue adelante con los ojos abiertos."
+        ]
       }
     },
     svg(T) {

@@ -122,6 +122,35 @@
           "Σε δέκα γύρους, περιμένεις να βγεις εκατό ευρώ μπροστά. Παίζε τα καλά στοιχήματα, αν αντέχεις τη χασούρα.",
           "Αποστροφή στην απώλεια. Οι απώλειες φαντάζουν μεγαλύτερες από τα κέρδη. Κρίνε ένα στοίχημα από τα νούμερα, όχι από το πόσο τσούζει."
         ]
+      },
+      es: {
+        name: "Aversión a la pérdida", shareTitle: "La aversión a la pérdida en 30 segundos",
+        ecline: "Las pérdidas pesan más que las ganancias. Juzga una apuesta por sus probabilidades, no por lo que duele.",
+        eur: v => (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v) + " €", heads: "Cara", tails: "Cruz", hl: "C", tl: "X",
+        evs: "media por tirada", no: "No, gracias", yes: "¡Me apunto!",
+        feels: "Cómo se siente", win: "ganar", lose: "perder",
+        gap1: "parece", gap2: "mala apuesta", after: n => `Tras ${n} ${n === 1 ? "tirada" : "tiradas"}`,
+        caps: [
+          "Una moneda al aire: cara, <b>ganas 120 €</b>; cruz, <b>pierdes 100 €</b>.",
+          "En promedio, saldrías <b>10 € por delante</b> en cada tirada.",
+          "Aun así, la mayoría <b>dice que no</b>.",
+          "Perder <b>duele más</b> de lo que alegra ganar.",
+          "Las pérdidas se sienten <b>casi el doble de fuertes</b> que ganancias iguales.",
+          "Así que una buena apuesta <b>parece mala</b>.",
+          "<b>La solución:</b> piensa en ella como una de muchas tiradas.",
+          "Diez tiradas: espera <b>+100 €</b>. Acepta buenas apuestas que te puedas permitir perder."
+        ],
+        say: [
+          "Una moneda al aire. Si sale cara, ganas ciento veinte euros. Si sale cruz, pierdes cien.",
+          "En promedio, saldrías ganando diez euros en cada tirada.",
+          "Aun así, la mayoría dice que no.",
+          "Perder duele más de lo que alegra ganar.",
+          "Las pérdidas se sienten casi el doble de fuertes que ganancias iguales.",
+          "Así que una buena apuesta parece mala.",
+          "La solución: piensa en ella como una de muchas tiradas.",
+          "En diez tiradas, lo esperable es ganar cien euros. Acepta buenas apuestas que te puedas permitir perder.",
+          "La aversión a la pérdida. Las pérdidas pesan más que las ganancias. Juzga una apuesta por sus probabilidades, no por lo que duele."
+        ]
       }
     },
     svg(T) {

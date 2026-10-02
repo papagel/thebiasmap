@@ -161,6 +161,36 @@
           "Ζύγισε ό,τι βρεις, και η άποψή σου θα έρθει πιο κοντά στην αλήθεια.",
           "Μας τραβάει ό,τι επιβεβαιώνει όσα ήδη πιστεύουμε. Το μυαλό σου κρατά ό,τι σου δίνει δίκιο, οπότε ψάξε επίτηδες κι ό,τι σε διαψεύδει."
         ]
+      },
+      es: {
+        name: "Confirma creencias", shareTitle: "Por qué vemos lo que ya creemos, en 30 segundos",
+        ecline: "Tu mente deja entrar lo que te da la razón, así que busca lo que no.",
+        bel: ["Lo que crees", "«Jugamos limpio»", "«Elegí bien»", "«El dinero va bien»"],
+        fits: "¿encaja?", unseen: "sin ver", fam: "en esta familia", lid: "sin mirar",
+        bias: [["Percepción selectiva"], ["Sesgo de apoyo", "a la elección"], ["Efecto avestruz"]],
+        pills: [["Falta rival", 88], ["Falta tuya", 90], ["Buenas vistas", 109], ["Mucho ruido", 92], ["Factura", 91]],
+        noteH: "antes de decidir:", note: ["¿Qué me haría", "cambiar de idea?"],
+        caps: [
+          "Todo el día te llegan datos. Unos <b>encajan</b> con lo que crees y otros <b>no</b>.",
+          "Tu cerebro deja pasar lo que encaja. Es <b>rápido</b> y mantiene tu mundo <b>estable</b>.",
+          "En un partido, ves <b>las faltas del rival</b> y no las de tu equipo.",
+          "¿El apartamento que elegiste? Recuerdas <b>las vistas</b>, no <b>el ruido</b>.",
+          "¿Una factura que temes? <b>Ni siquiera la abres</b>.",
+          "Tu idea parece <b>demostrada</b>, pero las <b>advertencias</b> nunca pasaron.",
+          "<b>La solución:</b> pregúntate qué te haría cambiar de idea y <b>ve a buscarlo</b>.",
+          "Sopesa lo que encuentres. Tu idea se acerca <b>más a la verdad</b>."
+        ],
+        say: [
+          "Todo el día te llegan datos. Unos encajan con lo que crees, y otros no.",
+          "Tu cerebro deja pasar lo que encaja. Es rápido, y mantiene tu mundo estable.",
+          "Percepción selectiva. En un partido, ves las faltas del rival, y no las de tu equipo.",
+          "Sesgo de apoyo a la elección. ¿El apartamento que elegiste? Recuerdas las vistas, no el ruido.",
+          "El efecto avestruz. ¿Una factura que temes? Ni siquiera la abres.",
+          "Tu idea parece demostrada, pero las advertencias nunca pasaron.",
+          "La solución: pregúntate qué te haría cambiar de idea, y ve a buscarlo.",
+          "Sopesa lo que encuentres, y tu idea se acercará más a la verdad.",
+          "Nos atrae lo que confirma nuestras creencias. Tu mente deja entrar lo que te da la razón, así que busca lo que no."
+        ]
       }
     },
     svg(T) {

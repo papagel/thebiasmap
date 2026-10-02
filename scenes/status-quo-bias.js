@@ -116,6 +116,37 @@
           "Αν διαλέξεις από την αρχή, η απάντηση είναι απλή: αλλάζεις.",
           "Μεροληψία του status quo. Το γνώριμο μοιάζει ασφαλές, ακόμα κι όταν σου κοστίζει. Διάλεγε σαν να ξεκινάς από το μηδέν."
         ]
+      },
+      es: {
+        name: "Sesgo del statu quo", shareTitle: "El sesgo del statu quo en 30 segundos",
+        ecline: "Seguir igual parece seguro aunque te cueste dinero. Elige como si empezaras de cero.",
+        yours: "Tu plan actual", newp: "Plan nuevo", planA: "Plan A", planB: "Plan B", titleW: 85,
+        pA: "30 €", pB: "18 €", per: "/mes", f1: "20 GB de datos", f2: "llamadas ilimitadas", same: "igual",
+        years: n => `desde hace ${n} ${n === 1 ? "año" : "años"}`, mins: "10 min", stay: "Me quedo", sw: "Cambio", safe: "parece seguro",
+        w1: "¿y si es peor?", w1W: 116, w2: "papeleo", w2W: 68,
+        tot: n => (n === 1 ? "12 € al mes" : n === 12 ? "144 € al año" : `${12 * n} €`), cost: "el costo de no elegir",
+        ask: "¿Cuál elegirías hoy?", askW: 178,
+        caps: [
+          "Llevas años con el mismo plan de teléfono. <b>30 €</b> al mes.",
+          "Un plan nuevo con lo mismo cuesta <b>18 €</b>.",
+          "Cambiarte te llevaría solo <b>diez minutos</b>.",
+          "Pero quedarte parece <b>seguro</b>, y cambiar parece <b>arriesgado</b>.",
+          "Así que te <b>quedas</b>. Otra vez. Son <b>12 € de más</b> cada mes.",
+          "En un año, son <b>144 €</b> a cambio de nada.",
+          "<b>La solución:</b> imagina que eliges desde cero, hoy.",
+          "Eligiendo de nuevo, la respuesta es fácil. <b>Cambia.</b>"
+        ],
+        say: [
+          "Llevas años con el mismo plan de teléfono. Treinta euros al mes.",
+          "Un plan nuevo con lo mismo cuesta dieciocho euros.",
+          "Cambiarte te llevaría solo diez minutos.",
+          "Pero quedarte parece seguro, y cambiar parece arriesgado.",
+          "Así que te quedas. Otra vez. Son doce euros de más, cada mes.",
+          "En un año, son ciento cuarenta y cuatro euros, a cambio de nada.",
+          "La solución: imagina que eliges desde cero, hoy.",
+          "Eligiendo de nuevo, la respuesta es fácil. Cambia.",
+          "El sesgo del statu quo. Seguir igual parece seguro, aunque te cueste dinero. Elige como si empezaras de cero."
+        ]
       }
     },
     svg(T) {

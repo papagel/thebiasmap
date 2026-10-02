@@ -146,6 +146,33 @@
           "Πάρε μια ανάσα και συνέχισε. Σχεδόν κανείς δεν το είδε.",
           "Φαινόμενο του προβολέα. Σε προσέχουν πολύ λιγότερο απ’ όσο νιώθεις. Ο καθένας έχει τον δικό του προβολέα."
         ]
+      },
+      es: {
+        name: "Efecto foco", shareTitle: "El efecto foco en 30 segundos",
+        ecline: "Te miran mucho menos de lo que sientes. Cada uno está ocupado con su propio foco.",
+        spot: "foco", think: "crees", actual: "en realidad", v8: "8 de 10", v2: "2 de 10",
+        shirt: ["camiseta vergonzosa"], guessed: "estimaron", noticed: "lo notaron", fewer: "muchos menos",
+        caps: [
+          "Se te cae café en la camisa justo antes de una reunión.",
+          "Entras y sientes que un <b>foco</b> te ilumina.",
+          "Seguro que <b>todos</b> están mirando la mancha.",
+          "En realidad, casi todos están ocupados con <b>sus propias</b> preocupaciones.",
+          "Solo <b>dos</b> se han dado cuenta.",
+          "En un estudio clásico, se fijaron <b>muchas menos</b> personas de lo que se creía.",
+          "<b>La solución:</b> recuerda que cada uno está bajo su propio foco.",
+          "Respira y sigue. <b>Casi nadie lo vio.</b>"
+        ],
+        say: [
+          "Se te cae café en la camisa justo antes de una reunión.",
+          "Entras y sientes que un foco te ilumina.",
+          "Seguro que todos están mirando la mancha.",
+          "En realidad, casi todos están ocupados con sus propias preocupaciones. Su teléfono, sus notas, incluso una mancha propia.",
+          "Solo dos se han dado cuenta.",
+          "En un estudio clásico, unos estudiantes entraron en una sala con una camiseta vergonzosa. Se fijaron en ella muchas menos personas de lo que ellos creían.",
+          "La solución: recuerda que cada uno está bajo su propio foco.",
+          "Respira y sigue. Casi nadie lo vio.",
+          "El efecto foco. Te miran mucho menos de lo que sientes. Cada uno está ocupado con su propio foco."
+        ]
       }
     },
     svg(T) {

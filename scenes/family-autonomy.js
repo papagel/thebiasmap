@@ -191,6 +191,39 @@
           "Αναρωτήσου: θα το διάλεγα αν ήταν δική μου ιδέα; Μετά διάλεξε ελεύθερα.",
           "Αυτονομία και κύρος. Να φυλάς την ελευθερία σου, αλλά να κρίνεις κάθε ιδέα από την αξία της, όχι από το ποιος σε πιέζει."
         ]
+      },
+      es: {
+        name: "Autonomía y estatus", shareTitle: "Por qué nos resistimos cuando nos presionan, incluso hacia algo bueno, en 30 segundos",
+        ecline: "Protege tu libertad, pero juzga cada idea por lo que vale, no por quién te presiona.",
+        mine: "mis decisiones", standing: "estatus", sign: "¡Firma ya!", signW: 93, safe: "te protege",
+        must: ["¡<tspan class=\"q\">Tienes que</tspan>", "leer esto!"], dont: ["¡<tspan class=\"q\">No</tspan> lo", "leas!"], bubW: 106,
+        help: "¿Me ayudas?", helpW: 99, cmp: "comparar",
+        back: "← retrocedes", want: "lo quieres →", hold: "te frenas", own: "¿idea mía?", chosen: "decido yo",
+        idea: "solo la idea", push: "quién presiona",
+        pills: [["Reactancia", 89], ["Psicología inversa", 138], ["Sesgo de comparación social", 201]],
+        lhA: "la presión", lhB: "tú", chipW: 104,
+        rows: [["«¡Debes!»", "retrocedes"], ["«¡No!»", "lo quieres"], ["te eclipsa", "te frenas"]],
+        caps: [
+          "Todos quieren influir en ti. Así que tu cerebro <b>protege tus decisiones</b>…",
+          "…y tu <b>estatus</b>. Normalmente, eso evita que otros <b>te utilicen</b>.",
+          "«¡<b>Tienes que</b> leer esto!» Es un buen libro, pero <b>retrocedes</b>.",
+          "Si oyes «¡<b>No</b> lo leas!», de repente <b>quieres leerlo</b>.",
+          "¿Ayudar a una estrella en ascenso? Podría <b>eclipsarte</b>. <b>Te frenas</b>.",
+          "Cada vez, reaccionas a la <b>presión</b>, no a la <b>idea</b>.",
+          "<b>La solución:</b> separa la idea de <b>quién te presiona</b>.",
+          "Pregúntate: «¿Lo elegiría si fuera <b>idea mía</b>?». Luego decide <b>con libertad</b>."
+        ],
+        say: [
+          "Todo el mundo quiere llevarte a su terreno. Así que tu cerebro protege tus decisiones...",
+          "...y tu estatus en el grupo. Normalmente, eso evita que otros te utilicen o te dejen fuera.",
+          "Reactancia. Alguien insiste: ¡tienes que leer esto! Es un buen libro, pero retrocedes.",
+          "Psicología inversa. Si te dicen que no lo leas, de repente quieres leerlo.",
+          "Sesgo de comparación social. ¿Deberías ayudar a una estrella en ascenso? Podría eclipsarte, así que te frenas.",
+          "Cada vez, reaccionas a la presión, no a la idea en sí.",
+          "La solución: separa la idea de quién te presiona.",
+          "Pregúntate: ¿elegiría esto si fuera idea mía? Luego decide con libertad.",
+          "Autonomía y estatus. Protege tu libertad, pero juzga cada idea por lo que vale, no por quién te presiona."
+        ]
       }
     },
     svg(T) {

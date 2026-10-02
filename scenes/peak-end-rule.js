@@ -134,6 +134,35 @@
           "Κι όταν σχεδιάζεις το επόμενο ταξίδι, φρόντισε να έχει ωραίο τέλος.",
           "Κανόνας κορύφωσης-τέλους. Η μνήμη στηρίζεται κυρίως στην κορύφωση και στο τέλος. Κρίνε από το σύνολο και φρόντιζε για ένα ωραίο τέλος."
         ]
+      },
+      es: {
+        name: "Regla del pico y el final", shareTitle: "La regla del pico y el final en 30 segundos",
+        ecline: "La memoria se apoya en el pico y el final. Juzga el conjunto y planea un buen final.",
+        day: "día", peak: "pico", end: "final", cancel: "CANCELADO",
+        ask: "¿Qué tal?", askW: 88, meh: "Regular.", mehW: 96, fine: "Genial, salvo por el vuelo.", fineW: 196,
+        avg: "promedio", barely: "7 días: apenas cuentan", tally: "7 días: 6 buenos, 1 malo",
+        next: "próximo viaje", nextW: 101, easy: "final relajado", easyW: 112,
+        caps: [
+          "Una semana junto al mar: casi todo agradable, y una excursión en barco <b>increíble</b>.",
+          "Último día: vuelo cancelado, <b>horas atrapado</b> en el aeropuerto.",
+          "Ya en casa, una amiga te pregunta: «¿Qué tal?».",
+          "Tu memoria se apoya en dos momentos: el <b>pico</b> y el <b>final</b>.",
+          "Promedia esos dos, y respondes: <b>«Regular»</b>.",
+          "Cinco días buenos <b>desaparecen</b>. Lo que duró <b>apenas cuenta</b>.",
+          "<b>La solución:</b> revisa <b>todo el registro</b>, con fotos o notas diarias.",
+          "¿Planeas el próximo viaje? Dale un <b>buen final</b>."
+        ],
+        say: [
+          "Una semana junto al mar. Casi todo agradable, y una excursión en barco increíble.",
+          "El último día, cancelan tu vuelo. Horas atrapado en el aeropuerto.",
+          "Ya en casa, una amiga te pregunta: ¿qué tal?",
+          "Tu memoria se apoya en dos momentos. El pico, y el final.",
+          "Promedia esos dos, y respondes: regular.",
+          "Los cinco días buenos desaparecen. Y lo que duró apenas cuenta.",
+          "La solución: revisa todo el registro, con fotos o notas diarias.",
+          "Y cuando planees el próximo viaje, dale un buen final.",
+          "La regla del pico y el final. La memoria se apoya en el pico y el final. Juzga el conjunto, y planea un buen final."
+        ]
       }
     },
     svg(T) {

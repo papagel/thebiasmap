@@ -126,6 +126,34 @@
           "Μετά ζύγισε τις λεπτομέρειες. Οι πωλήσεις είναι καλύτερο στοίχημα.",
           "Πλάνη του βασικού ποσοστού. Οι εντυπωσιακές λεπτομέρειες κρύβουν κάτι απλό: πόσο συχνή είναι κάθε περίπτωση. Ξεκίνα από εκεί."
         ]
+      },
+      es: {
+        name: "Falacia de la tasa base", shareTitle: "La falacia de la tasa base en 30 segundos",
+        ecline: "Los detalles llamativos esconden un dato sencillo: lo común que es cada opción. Empieza por ahí.",
+        lib: "Bibliotecario", sales: "Vendedor", quiet: "en silencio", poetry: "poesía",
+        bet: "tu apuesta", win: "mejor apuesta", readL: "1 lee poesía", readS: "4 leen poesía",
+        common: "¿cuántos hay?", details: "detalles",
+        caps: [
+          "En un tren, alguien callado está leyendo <b>poesía</b>.",
+          "¿Bibliotecario o vendedor? Apostarías por <b>bibliotecario</b>.",
+          "<b>Encaja en el perfil</b>. Los detalles te convencen.",
+          "Pero ¿<b>cuántos</b> hay de cada uno?",
+          "Por cada bibliotecario hay unos <b>20 vendedores</b>.",
+          "Pocos de ellos leen poesía, pero aun así es <b>4 a 1</b> a favor de los vendedores.",
+          "<b>La solución:</b> pregúntate primero cuántos hay de cada grupo.",
+          "Luego sopesa los detalles. <b>Vendedor es mejor apuesta.</b>"
+        ],
+        say: [
+          "En un tren, alguien callado está leyendo poesía.",
+          "¿Bibliotecario o vendedor? Apostarías por bibliotecario.",
+          "Encaja en el perfil. Los detalles te convencen.",
+          "Pero ¿cuántos hay de cada uno?",
+          "Por cada bibliotecario, hay unos veinte vendedores.",
+          "Pocos de ellos leen poesía, pero aun así son cuatro lectores contra uno. Lo más probable es que se dedique a las ventas.",
+          "La solución: pregúntate primero cuántos hay de cada grupo.",
+          "Luego sopesa los detalles. Vendedor es mejor apuesta.",
+          "Falacia de la tasa base. Los detalles llamativos esconden un dato sencillo: lo común que es cada opción. Empieza por ahí."
+        ]
       }
     },
     svg(T) {

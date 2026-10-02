@@ -166,6 +166,36 @@
           "Όταν έχει σημασία, έλεγξε τις σημειώσεις και τις πηγές. Τα βασικά στέκουν, και κάθε προσθήκη γυρίζει πίσω εκεί απ’ όπου ήρθε.",
           "Ξαναγραμμένες μνήμες. Όποτε θυμάσαι κάτι, ξαναχτίζεις την ανάμνηση, γι’ αυτό γράψε ό,τι μετράει όσο είναι ακόμα νωπό."
         ]
+      },
+      es: {
+        name: "Recuerdos editados", shareTitle: "Por qué los recuerdos cambian cada vez que los recordamos, en 30 segundos",
+        ecline: "Cada vez que recuerdas algo, lo reconstruyes, así que escribe lo que importa mientras está fresco.",
+        title: "Mi 8.º cumpleaños", ask: ["«¿El payaso", "era gracioso?»"], film: "una película", tagFilm: "película", book: "un libro viejo",
+        recalls: "veces", sure: ["certeza"],
+        date: "12 de mayo", party: "¡Mi fiesta!", items: ["pastel", "globos", "regalos"],
+        bias: "sesgo", fix: "solución", tags: ["Sugestionabilidad", "Confusión de la fuente", "Criptomnesia", "Falso recuerdo", "Toma notas", "Revisa las fuentes"],
+        tw: [151, 193, 116, 133, 120, 157],
+        caps: [
+          "Tu 8.º cumpleaños: pastel, globos, regalos. Un recuerdo, como una <b>foto</b>.",
+          "Cada vez que lo recuerdas, se <b>reconstruye</b> y se hace <b>más fuerte</b>. Suele ayudar.",
+          "«¿El <b>payaso</b> era gracioso?» No hubo payaso. Ahora <b>sí lo hay</b>.",
+          "Se cuela un perro de una <b>película</b>. Olvidas <b>dónde lo viste</b>.",
+          "La búsqueda del tesoro parece <b>idea tuya</b>. Salió de un <b>libro</b>.",
+          "Cada recuerdo te dio <b>más seguridad</b>, pero no <b>más razón</b>.",
+          "<b>La solución:</b> para lo importante, <b>escríbelo</b> poco después.",
+          "Cuando importe, <b>revisa tus notas y fuentes</b>. Lo esencial se mantiene."
+        ],
+        say: [
+          "Tu octavo cumpleaños. Pastel, globos, regalos. Lo guardas como un recuerdo, como una foto.",
+          "Cada vez que lo recuerdas, tu cerebro lo reconstruye, y el recuerdo se vuelve más fuerte y más fácil de alcanzar. Así mantienes al día lo que sabes. Normalmente, eso ayuda.",
+          "Alguien pregunta: ¿el payaso era gracioso? No hubo ningún payaso. Pero la próxima vez que recuerdas la fiesta, ahí está. Es la sugestionabilidad.",
+          "Un perro de una película se cuela en la imagen, y olvidas dónde lo viste. Es la confusión de la fuente.",
+          "La búsqueda del tesoro te parece idea tuya. En realidad, la leíste en un libro hace años. Es la criptomnesia.",
+          "Cada recuerdo te dio más seguridad, pero no más razón. Es un falso recuerdo, y puede sentirse tan vívido como uno verdadero.",
+          "La solución: para lo que importa, escríbelo poco después, mientras está fresco.",
+          "Cuando importe, revisa tus notas y fuentes. Lo esencial se mantiene, y cada añadido vuelve a su lugar de origen.",
+          "Recuerdos editados. Cada vez que recuerdas algo, lo reconstruyes, así que escribe lo que importa mientras está fresco."
+        ]
       }
     },
     svg(T) {

@@ -112,6 +112,34 @@
           "Φαντάσου στη θέση της πέντε ευρώ στο χέρι σου. Καλύτερα από την κούπα; Τότε πούλα την.",
           "Φαινόμενο κατοχής. Ό,τι σου ανήκει μοιάζει πιο πολύτιμο. Κρίνε την αξία του σαν να μην ήταν δικό σου."
         ]
+      },
+      es: {
+        name: "Efecto dotación", shareTitle: "El efecto dotación en 30 segundos",
+        ecline: "Lo que tienes parece valer más. Juzga su valor como si no fuera tuyo.",
+        eur: v => `${v} €`, sell: "¿Me la vendes?", atLeast: "Al menos 8 €.", price: "precio",
+        ask: "pedirías", pay: "pagarías", sold: "vendes", yours: "porque es tuya", loss: "parece una pérdida",
+        wouldI: "¿La compraría por 8 €?", no: "No.",
+        caps: [
+          "Te regalan una <b>taza</b>. Bonita, pero nada especial.",
+          "Minutos después, alguien te ofrece <b>comprártela</b>.",
+          "Pedirías al menos <b>8 €</b> para desprenderte de ella.",
+          "Sin embargo, solo habrías pagado <b>4 €</b> por esa misma taza.",
+          "El simple hecho de <b>tenerla</b> hace que parezca valer más.",
+          "Desprenderte de ella <b>parece una pérdida</b>, así que pides más.",
+          "<b>La solución:</b> si no fuera tuya, ¿la comprarías por 8 €?",
+          "Imagina <b>5 € en la mano</b>. ¿Mejor que la taza? <b>Véndela.</b>"
+        ],
+        say: [
+          "Te regalan una taza. Bonita, pero nada especial.",
+          "Minutos después, alguien te ofrece comprártela.",
+          "Pedirías al menos ocho euros para desprenderte de ella.",
+          "Sin embargo, solo habrías pagado cuatro euros por esa misma taza.",
+          "El simple hecho de tenerla hace que parezca valer más.",
+          "Desprenderte de ella parece una pérdida, así que pides más.",
+          "La solución: si no fuera tuya, ¿la comprarías por ocho euros?",
+          "Imagina cinco euros en la mano. ¿Mejor que la taza? Entonces, véndela.",
+          "Efecto dotación. Lo que tienes parece valer más. Juzga su valor como si no fuera tuyo."
+        ]
       }
     },
     svg(T) {

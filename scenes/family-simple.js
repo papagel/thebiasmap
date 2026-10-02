@@ -133,6 +133,39 @@
           "Μετά δώσε σε κάθε απόφαση χρόνο ανάλογο με το πόσο μετράει.",
           "Απλό και πλήρες. Η τακτοποιημένη επιλογή μοιάζει πιο σίγουρη, αλλά δώσε τον χρόνο σου σε ό,τι μετράει, όχι σε ό,τι είναι εύκολο."
         ]
+      },
+      es: {
+        name: "Simple y completo", shareTitle: "Por qué gana la opción ordenada y simple aunque sea peor, en 30 segundos",
+        ecline: "La opción ordenada parece más segura, pero dedica tu tiempo a lo que importa, no a lo que es fácil.",
+        cw: 6.1,
+        jud: ["fácil de juzgar", "difícil de juzgar"],
+        chip: ["Sesgo de ambigüedad", "Sesgo de información", "Efecto del cobertizo de bicis"],
+        odds: ["gana 1 de cada 4", "probabilidad incierta"], maybe: "¿quizá 1 de 2?",
+        more: "más datos", same: "misma elección",
+        shed: ["color del cobertizo", "central nuclear"],
+        min: n => `${n} min`,
+        ask: "¿Cambiaría esto mi elección?", askW: 196,
+        caps: [
+          "Dos cajas: una <b>ordenada y bien etiquetada</b>, otra <b>llena de interrogantes</b>.",
+          "Tu cerebro elige la clara: es <b>rápido</b>, <b>predecible</b> y casi siempre sensato.",
+          "Prefieres <b>probabilidades conocidas</b> a otras desconocidas que quizá sean <b>mejores</b>.",
+          "Ya elegiste, pero sigues <b>reuniendo datos</b> que no cambiarán nada.",
+          "Una reunión dedica <b>una hora</b> al color del cobertizo de bicis…",
+          "…y <b>cinco minutos</b> a la central nuclear, que es lo que importa.",
+          "<b>La solución:</b> pregúntate «¿Esto <b>cambiaría mi elección</b>?». Si no, para.",
+          "Luego dale a cada decisión un tiempo <b>proporcional a lo que está en juego</b>."
+        ],
+        say: [
+          "Dos cajas. Una está ordenada y bien etiquetada. La otra está llena de interrogantes.",
+          "Tu cerebro elige la clara. Es rápido y predecible, y casi siempre es lo sensato.",
+          "Sesgo de ambigüedad: prefieres probabilidades conocidas a otras desconocidas, aunque las desconocidas quizá sean mejores.",
+          "Sesgo de información: ya elegiste, pero sigues reuniendo datos que no cambiarán nada.",
+          "Efecto del cobertizo de bicis: una reunión dedica una hora al color del cobertizo de bicis...",
+          "...y cinco minutos a la central nuclear, que es lo que de verdad importa.",
+          "La solución: pregúntate, ¿esto cambiaría mi elección? Si no, para.",
+          "Luego dale a cada decisión un tiempo proporcional a lo que está en juego.",
+          "Simple y completo. La opción ordenada parece más segura, pero dedica tu tiempo a lo que importa, no a lo que es fácil."
+        ]
       }
     },
     svg(T) {

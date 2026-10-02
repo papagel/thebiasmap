@@ -120,6 +120,33 @@
           "Τα ίδια στοιχεία, και με τους δύο τρόπους. Τώρα κρίνεις τον κιμά, όχι την ετικέτα.",
           "Φαινόμενο πλαισίωσης. Το ίδιο γεγονός ακούγεται αλλιώς ανάλογα με το πώς θα το πεις. Γύρνα το ανάποδα και δες."
         ]
+      },
+      es: {
+        name: "Efecto marco", shareTitle: "El efecto marco en 30 segundos",
+        ecline: "El mismo dato suena distinto según cómo se diga. Dale la vuelta y verás.",
+        lean: "75% magra", fat: "25% grasa", flipL: "= 25% grasa", flipR: "= 75% magra", tagW: 93,
+        pl: "magra", pf: "grasa", same: ["misma", "carne"], rate: "Cuánto te convence",
+        caps: [
+          "Dos paquetes de carne picada en el estante.",
+          "Uno lleva la etiqueta «<b>75% magra</b>».",
+          "El otro lleva la etiqueta «<b>25% grasa</b>».",
+          "¿Cuál parece mejor? La mayoría <b>prefiere el que dice «magra»</b>.",
+          "Pero mira dentro: es <b>la misma carne</b>.",
+          "Cada etiqueta te hace mirar la parte <b>buena</b> o la <b>mala</b>.",
+          "<b>La solución:</b> dale la vuelta al encuadre. Dilo al revés.",
+          "Los mismos datos, de las dos formas. Ahora juzgas <b>la carne, no la etiqueta</b>."
+        ],
+        say: [
+          "Dos paquetes de carne picada en el estante.",
+          "Uno lleva la etiqueta: setenta y cinco por ciento magra.",
+          "El otro lleva la etiqueta: veinticinco por ciento grasa.",
+          "¿Cuál parece mejor? La mayoría prefiere el que dice magra.",
+          "Pero mira dentro. Es la misma carne.",
+          "Cada etiqueta te hace mirar la parte buena, o la mala.",
+          "La solución: dale la vuelta al encuadre. Dilo al revés.",
+          "Los mismos datos, de las dos formas. Ahora juzgas la carne, no la etiqueta.",
+          "El efecto marco. El mismo dato suena distinto según cómo se diga. Dale la vuelta y verás."
+        ]
       }
     },
     svg(T) {

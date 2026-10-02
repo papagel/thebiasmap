@@ -135,6 +135,34 @@
           "Πάρε ό,τι χρήσιμο λέει το ένα. Κράτα όμως και τα εννιά.",
           "Μεροληψία αρνητικότητας. Ένα άσχημο σχόλιο μπορεί να επισκιάσει εννιά καλά. Μέτρα τα πριν τα ζυγίσεις."
         ]
+      },
+      es: {
+        name: "Sesgo de negatividad", shareTitle: "El sesgo de negatividad en 30 segundos",
+        ecline: "Un comentario malo puede ahogar nueve buenos. Cuéntalos antes de sopesarlos.",
+        count: n => (n === 1 ? "1 comentario" : `${n} comentarios`),
+        quote: "«Aburrido.»", tagW: 95, danger: "¡peligro!", dW: 49, opinion: "una opinión",
+        of10: "9 de 10", liked: "les gustó", note: "¿inicio lento?", noteW: 107,
+        caps: [
+          "Das una charla. Después, llegan <b>diez comentarios</b>.",
+          "Nueve son amables. <b>Uno</b> es duro.",
+          "Esa noche, no puedes dejar de pensar en <b>ese uno</b>.",
+          "¿Los nueve buenos? <b>Ya se están borrando.</b>",
+          "Lo malo <b>pesa más</b> que algo igual de bueno.",
+          "Esa alarma protegía a nuestros antepasados. Aquí solo <b>distorsiona la imagen</b>.",
+          "<b>La solución:</b> cuéntalos. A <b>nueve de cada diez</b> les gustó.",
+          "Quédate con lo útil de ese uno. <b>Y también con los nueve.</b>"
+        ],
+        say: [
+          "Das una charla. Después, llegan diez comentarios.",
+          "Nueve son amables. Uno es duro. Solo dice: aburrido.",
+          "Esa noche, no puedes dejar de pensar en ese uno.",
+          "¿Y los nueve buenos? Ya se están borrando.",
+          "Lo malo pesa más que algo igual de bueno.",
+          "Esa alarma protegía a nuestros antepasados. Aquí solo distorsiona la imagen. Es una opinión.",
+          "La solución: cuéntalos. A nueve de cada diez les gustó.",
+          "Quédate con lo útil de ese uno. Pero quédate también con los nueve.",
+          "El sesgo de negatividad. Un comentario malo puede ahogar nueve buenos. Cuéntalos antes de sopesarlos."
+        ]
       }
     },
     svg(T) {

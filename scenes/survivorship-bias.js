@@ -118,6 +118,33 @@
           "Θωράκισε τις μηχανές. Μελέτησε και όσα χάθηκαν, όχι μόνο όσα επέζησαν.",
           "Μεροληψία επιβίωσης. Βλέπεις μόνο ό,τι επέζησε. Πριν βγάλεις συμπεράσματα, αναρωτήσου τι λείπει."
         ]
+      },
+      es: {
+        name: "Sesgo de supervivencia", shareTitle: "El sesgo de supervivencia en 30 segundos",
+        ecline: "Solo ves lo que sobrevivió. Pregúntate qué falta antes de sacar conclusiones.",
+        legend: "impactos en los que volvieron", armour: "blindaje", back: "Volvieron", lost: "No volvieron",
+        noHoles: "sin agujeros", missing: "datos que faltan", armourHere: "blindaje aquí",
+        caps: [
+          "En la Segunda Guerra Mundial, los bombarderos vuelven de sus misiones llenos de <b>agujeros de bala</b>.",
+          "Los ingenieros marcan dónde recibieron impactos <b>los aviones que vuelven</b>.",
+          "La idea obvia: blindar <b>donde están los agujeros</b>.",
+          "Pero son solo los aviones <b>que lograron volver</b>.",
+          "Los que recibían impactos en los motores <b>rara vez volvían</b> para contarlos.",
+          "Las zonas sin agujeros son donde un impacto es <b>mortal</b>.",
+          "<b>La solución:</b> pregúntate qué falta en tus datos.",
+          "Blinda los motores. Estudia los fracasos, <b>no solo a los supervivientes</b>."
+        ],
+        say: [
+          "En la Segunda Guerra Mundial, los bombarderos vuelven de sus misiones llenos de agujeros de bala.",
+          "Los ingenieros marcan dónde recibieron impactos los aviones que vuelven.",
+          "La idea obvia: blindar donde están los agujeros.",
+          "Pero son solo los aviones que lograron volver.",
+          "Los que recibían impactos en los motores rara vez volvían para que los contaran.",
+          "Las zonas sin agujeros son donde un impacto es mortal.",
+          "La solución: pregúntate qué falta en tus datos.",
+          "Blinda los motores. Estudia los fracasos, no solo a los supervivientes.",
+          "El sesgo de supervivencia. Solo ves lo que sobrevivió. Pregúntate qué falta antes de sacar conclusiones."
+        ]
       }
     },
     svg(T) {

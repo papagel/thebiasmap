@@ -132,6 +132,37 @@
           "Ο πήχης δεν κουνήθηκε. Αλλάζεις μέθοδο, αντί να περιμένεις και να ελπίζεις.",
           "Αποφάσισε τι θα σε έκανε να αλλάξεις γνώμη. Βάλε τον πήχη πριν έρθουν τα στοιχεία και μην τον μετακινήσεις όταν φτάσουν."
         ]
+      },
+      es: {
+        name: "Decide qué te haría cambiar de opinión",
+        shareTitle: "Decide qué te haría cambiar de opinión: un hábito en 30 segundos",
+        ecline: "Pon el listón antes de que lleguen las pruebas, y no lo muevas cuando lleguen.",
+        wk: "sem.", works: "¡Funciona!", more: ["Solo necesita", "más tiempo…"], sw: ["Hora de", "cambiar"],
+        moved: "el listón bajó", warn: "señal de alarma", bell: false,
+        catches: "detecta", bias: "Efecto contraproducente",
+        noteH: "antes de mirar:",
+        note: ["Si no llego al <tspan class=\"hl\">70%</tspan>", "en la <tspan class=\"hl\">semana 4</tspan>,", "cambio de método."],
+        caps: [
+          "Empiezas un nuevo método de estudio, seguro de que te llevará al <b>70%</b>.",
+          "Tus notas no suben, pero ves cada una como <b>una buena señal</b>.",
+          "Cuando no llegan, mueves el listón: «Solo necesita <b>más tiempo</b>».",
+          "<b>El hábito:</b> antes de mirar, escribe qué te haría <b>cambiar de opinión</b>.",
+          "<b>Fija ese listón</b>. Luego deja que lleguen los resultados.",
+          "No llegan. ¿Tienes ganas de mover el listón? Esa es la <b>señal de alarma</b>.",
+          "Detecta el <b>efecto contraproducente</b>: aferrarte más cuando las pruebas te contradicen.",
+          "El listón aguantó. <b>Cambias de método</b> en vez de esperar y cruzar los dedos."
+        ],
+        say: [
+          "Empiezas un nuevo método de estudio, seguro de que te llevará al setenta por ciento.",
+          "Tus notas no suben, pero ves cada una como una buena señal.",
+          "Cuando no llegan, mueves el listón. Solo necesita más tiempo.",
+          "El hábito: antes de mirar, escribe qué te haría cambiar de opinión.",
+          "Fija ese listón. Luego deja que lleguen los resultados.",
+          "No llegan. ¿Tienes ganas de mover el listón? Esa es la señal de alarma.",
+          "Detecta el efecto contraproducente: aferrarte más cuando las pruebas te contradicen.",
+          "El listón aguantó. Cambias de método, en vez de esperar y cruzar los dedos.",
+          "Decide qué te haría cambiar de opinión. Pon el listón antes de que lleguen las pruebas, y no lo muevas cuando lleguen."
+        ]
       }
     },
     svg(T) {
