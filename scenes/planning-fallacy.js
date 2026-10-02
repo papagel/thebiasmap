@@ -161,6 +161,36 @@
           "Planifica según eso y añade un margen. Terminas a tiempo.",
           "La falacia de la planificación. Tus planes imaginan el mejor caso. Planifica según lo que de verdad tardaste antes."
         ]
+      },
+      fr: {
+        name: "Erreur de planification", shareTitle: "L’erreur de planification en 30 secondes",
+        ecline: "Vos plans imaginent le meilleur cas. Planifiez d’après le temps que ça vous a vraiment pris avant.",
+        days: ["LUN", "MAR", "MER", "JEU", "VEN"], report: "Rapport", three: "3 jours",
+        plan: "Votre plan", newPlan: "Nouveau plan", dur: n => (n > 1 ? `${n} jours` : `${n} jour`), over: "+4 jours",
+        due: "échéance", dueW: 58, snags: ["réunion", "retours", "malade"], snagW: [54, 58, 56],
+        past: "Vos derniers rapports", best: "meilleur cas", bestW: 76, ign: "ignoré",
+        ov: "vision externe", ovn: "en général 7 jours", buffer: "+ marge",
+        caps: [
+          "Vous avez un rapport à écrire. Combien de temps ça va prendre ?",
+          "Vous l’imaginez sans accroc : <b>3 jours</b>.",
+          "Puis <b>la vraie vie</b> s’en mêle, un imprévu après l’autre.",
+          "Il vous faut <b>7 jours</b>, plus du double.",
+          "Vos derniers rapports ? <b>Tous</b> ont dépassé aussi.",
+          "Mais vous avez planifié sur le <b>meilleur cas</b>, pas sur cet historique.",
+          "<b>La solution :</b> demandez-vous combien de temps des tâches similaires ont vraiment pris.",
+          "Planifiez à partir de ça, puis ajoutez une marge. <b>Vous finissez à temps.</b>"
+        ],
+        say: [
+          "Vous avez un rapport à écrire. Combien de temps ça va prendre ?",
+          "Vous l’imaginez sans accroc. Trois jours.",
+          "Puis la vraie vie s’en mêle, un imprévu après l’autre.",
+          "Il vous faut sept jours. Plus du double.",
+          "Vos derniers rapports ? Tous ont dépassé aussi.",
+          "Mais vous avez planifié sur le meilleur cas, pas sur cet historique.",
+          "La solution : demandez-vous combien de temps des tâches similaires ont vraiment pris.",
+          "Planifiez à partir de ça, puis ajoutez une marge. Vous finissez à temps.",
+          "L’erreur de planification. Vos plans imaginent le meilleur cas. Planifiez d’après le temps que ça vous a vraiment pris avant."
+        ]
       }
     },
     svg(T) {

@@ -167,6 +167,33 @@
           "Luego pregúntate: ¿las grandes valen cuatro euros más para ti?",
           "Efecto señuelo. Una opción que nadie quiere puede hacer que otra parezca una ganga. Compara solo las opciones reales."
         ]
+      },
+      fr: {
+        name: "Effet de leurre", shareTitle: "L’effet de leurre en 30 secondes",
+        ecline: "Une option dont personne ne veut peut en faire passer une autre pour une affaire. Ne comparez que les vrais choix.",
+        size: { s: "petit", m: "moyen", l: "grand" }, price: { s: "3 €", m: "6,50 €", l: "7 €" },
+        diff: "+4 €", diffW: 48, more: "que 50 cts de plus !", moreW: 131, decoy: "LEURRE", decoyW: 90, real: "la vraie différence",
+        caps: [
+          "Au cinéma : petit pop-corn <b>3 €</b>, grand <b>7 €</b>.",
+          "4 € de plus pour le grand ? La plupart prennent le <b>petit</b>.",
+          "Puis le cinéma ajoute un moyen, à <b>6,50 €</b>.",
+          "À côté du moyen, le grand semble une <b>affaire</b>.",
+          "Soudain, bien plus de gens <b>passent au grand</b>.",
+          "Presque personne ne prend le moyen. C’est un <b>leurre</b>, là pour vendre le grand.",
+          "<b>La solution :</b> barrez l’option que vous ne choisiriez jamais.",
+          "Puis demandez-vous : le grand vaut-il 4 € de plus <b>pour vous</b> ?"
+        ],
+        say: [
+          "Au cinéma, le petit pop-corn coûte trois euros. Le grand, sept.",
+          "Quatre euros de plus pour le grand ? La plupart prennent le petit.",
+          "Puis le cinéma ajoute un moyen, à six euros cinquante.",
+          "À côté du moyen, le grand semble une affaire. Que cinquante centimes de plus !",
+          "Soudain, bien plus de gens passent au grand.",
+          "Presque personne ne prend le moyen. C’est un leurre, placé là pour vendre le grand.",
+          "La solution : barrez l’option que vous ne choisiriez jamais.",
+          "Puis demandez-vous : le grand vaut-il quatre euros de plus pour vous ?",
+          "L’effet de leurre. Une option dont personne ne veut peut en faire passer une autre pour une affaire. Ne comparez que les vrais choix."
+        ]
       }
     },
     svg(T) {

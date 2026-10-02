@@ -204,6 +204,34 @@
           "Planifica para tu yo futuro como alguien algo distinto. Te lo agradecerá.",
           "Proyectarnos. Tu yo pasado y tu yo futuro no son copias del de hoy, así que revisa lo que pasó y planifica pensando en ellos."
         ]
+      },
+      fr: {
+        name: "Se projeter", shareTitle: "Pourquoi on juge passé et avenir selon notre humeur du jour, en 30 secondes",
+        ecline: "Le vous d’hier et celui de demain ne sont pas des copies du vous d’aujourd’hui, alors vérifiez les faits et prévoyez pour eux.",
+        times: ["passé", "présent", "futur"], hungry: "affamé", full: "rassasié", setback: "revers", wasted: "gaspillé",
+        months: "mois", weeks: "semaines", felt: "sur le moment", recall: "en souvenir",
+        labs: ["Biais de projection", "Biais d’impact", "Rétrospection rose"], note: ["prévu", "arrivé"], thanks: "merci !",
+        caps: [
+          "Vous imaginer dans le passé ou l’avenir est difficile. Votre cerveau part d’<b>aujourd’hui</b>.",
+          "Il voit les deux à travers <b>le filtre d’aujourd’hui</b>. En général, c’est assez juste.",
+          "Faites les courses <b>le ventre vide</b>, et vous achetez pour un futur vous affamé.",
+          "Plus tard, vous n’avez plus faim, et <b>la moitié</b> finit à la poubelle.",
+          "Vous pensez qu’un revers fera mal des <b>mois</b>. Ça passe en quelques <b>semaines</b>.",
+          "Avec le recul, le voyage de l’été dernier semble <b>meilleur</b> qu’il ne l’était.",
+          "<b>La solution :</b> notez ce que vous prévoyez, puis <b>vérifiez</b> ce qui s’est passé.",
+          "Préparez votre futur vous comme <b>quelqu’un d’un peu différent</b>. Il vous remerciera."
+        ],
+        say: [
+          "Vous imaginer dans le passé ou dans l’avenir est difficile. Alors votre cerveau part d’aujourd’hui.",
+          "Il voit les deux à travers le filtre d’aujourd’hui, et suppose que les choses resteront à peu près comme maintenant. En général, c’est assez juste.",
+          "Le biais de projection. Faites les courses le ventre vide, et vous achetez pour un futur vous affamé.",
+          "Plus tard, vous n’avez plus faim, et la moitié finit à la poubelle.",
+          "Le biais d’impact. Vous pensez qu’un revers fera mal pendant des mois. Ça passe en quelques semaines.",
+          "La rétrospection rose. Avec le recul, le voyage de l’été dernier semble meilleur qu’il ne l’était sur le moment.",
+          "La solution : notez ce que vous prévoyez, puis vérifiez ce qui s’est vraiment passé.",
+          "Préparez votre futur vous comme quelqu’un d’un peu différent. Il vous remerciera.",
+          "Se projeter. Le vous d’hier et celui de demain ne sont pas des copies du vous d’aujourd’hui, alors vérifiez les faits et prévoyez pour eux."
+        ]
       }
     },
     svg(T) {

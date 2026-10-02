@@ -145,6 +145,37 @@
           "Compara la nota con tu estimación, y ajústala hacia la realidad.",
           "El efecto Dunning-Kruger. Cuanto menos sabes, más te cuesta verlo. Busca una evaluación externa."
         ]
+      },
+      fr: {
+        name: "Effet Dunning-Kruger", shareTitle: "L’effet Dunning-Kruger en 30 secondes",
+        ecline: "Moins on en sait, moins on s’en rend compte. Demandez un avis extérieur.",
+        yTitle: "Centile", avg: "moyenne", xTitle: "Groupes par note réelle",
+        groups: [["Quart", "inférieur"], ["Milieu", "bas"], ["Milieu", "haut"], ["Quart", "supérieur"]],
+        legA: "Rang réel", legG: "Leur estimation",
+        tooSure: ["bien trop", "sûrs d’eux"], modest: ["un peu", "modestes"],
+        noSee: "ne voit aucune erreur", see: "repère les erreurs",
+        fbT: "Évaluation", fbS: "test blanc corrigé", score: "6/20",
+        caps: [
+          "Des gens passent un test, puis estiment leur <b>rang</b> par rapport aux autres.",
+          "Voici le rang <b>réel</b> de chaque groupe.",
+          "Et le rang qu’ils <b>croyaient</b> avoir : tous au-dessus de la moyenne.",
+          "Les moins bons se surestiment <b>le plus</b>.",
+          "Une explication : repérer ses erreurs exige <b>la même compétence</b> que les éviter.",
+          "Les meilleurs se <b>sous-estiment</b> un peu. Ils croient que c’était facile pour tous.",
+          "<b>La solution :</b> confrontez-vous à un avis extérieur.",
+          "Comparez la note à votre estimation. Ajustez <b>vers la réalité</b>."
+        ],
+        say: [
+          "Des gens passent un test, puis estiment leur rang par rapport aux autres.",
+          "Voici le rang réel de chaque groupe.",
+          "Et voici le rang qu’ils croyaient avoir. Tous au-dessus de la moyenne.",
+          "Les moins bons sont ceux qui se surestiment le plus.",
+          "Une explication : repérer ses erreurs exige la même compétence que les éviter.",
+          "Les meilleurs se sous-estiment un peu. Ils croient que c’était facile pour tout le monde.",
+          "La solution : confrontez-vous à un avis extérieur.",
+          "Comparez la note à votre estimation, et ajustez vers la réalité.",
+          "L’effet Dunning-Kruger. Moins on en sait, moins on s’en rend compte. Demandez un avis extérieur."
+        ]
       }
     },
     svg(T) {

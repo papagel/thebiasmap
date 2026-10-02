@@ -191,6 +191,35 @@
           "Ajusta tu confianza a tu historial. Sigue bastando para actuar.",
           "Confianza para actuar. Deja que la confianza te ponga en marcha, pero ajústala a tu historial."
         ]
+      },
+      fr: {
+        name: "Confiance pour agir", shareTitle: "Pourquoi on se sent plus sûr qu’on ne devrait, en 30 secondes",
+        ecline: "Laissez la confiance vous mettre en mouvement, mais réglez-la sur vos résultats.",
+        conf: "votre confiance", rec: "vos résultats", tooSure: "trop sûr",
+        bub: ["Je peux ?", "Je peux le faire.", "Facile !", "Rentre… rentre…", "Ça vaut le coup."],
+        skill: "adresse", luck: "malchance", note: ["Certitude", "Rentrés"],
+        names: ["Effet de surconfiance", "Illusion de contrôle", "Biais d’autocomplaisance"],
+        caps: [
+          "Avant de tenter quoi que ce soit, il faut sentir que <b>vous en êtes capable</b>.",
+          "Alors votre cerveau <b>monte</b> votre confiance. Ça vous met en mouvement.",
+          "Mais souvent, il <b>va trop loin</b> : sûr à 95 % que ça rentre.",
+          "Pourtant, seuls <b>6 lancers sur 10</b> rentrent.",
+          "La boulette a quitté votre main, mais vous vous penchez pour la <b>guider</b>.",
+          "Dedans ? <b>Adresse</b>. Raté ? <b>Malchance</b>. La confiance reste haute.",
+          "<b>La solution :</b> notez votre degré de certitude, puis vérifiez <b>ce qui s’est passé</b>.",
+          "Réglez votre confiance sur <b>vos résultats</b>. Ça suffit encore pour agir."
+        ],
+        say: [
+          "Avant de tenter quoi que ce soit, il faut sentir que vous en êtes capable.",
+          "Alors votre cerveau monte votre confiance. Un petit surplus vous met en mouvement, et vous fait continuer après un échec.",
+          "Mais souvent, il va trop loin. Sûr à quatre-vingt-quinze pour cent que ça rentre.",
+          "Pourtant, seuls six lancers sur dix rentrent. C’est l’effet de surconfiance.",
+          "La boulette a quitté votre main, mais vous vous penchez pour la guider. C’est l’illusion de contrôle.",
+          "Dedans ? C’est de l’adresse. Raté ? C’est la malchance. Votre confiance reste haute. C’est le biais d’autocomplaisance.",
+          "La solution : notez votre degré de certitude, puis vérifiez ce qui s’est vraiment passé.",
+          "Réglez votre confiance sur vos résultats. Ça suffit encore pour agir.",
+          "Confiance pour agir. Laissez la confiance vous mettre en mouvement, mais réglez-la sur vos résultats."
+        ]
       }
     },
     svg(T) {

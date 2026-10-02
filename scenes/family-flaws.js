@@ -179,6 +179,38 @@
           "Luego di un punto en el que podría tener razón. Los ánimos se calman, y además aprendes algo.",
           "Defectos ajenos. Sea cual sea el sesgo que ves en los demás, búscalo también en ti."
         ]
+      },
+      fr: {
+        name: "Défauts des autres", shareTitle: "Pourquoi on voit les défauts des autres, pas les nôtres, en 30 secondes",
+        ecline: "Quel que soit le biais que vous voyez chez les autres, cherchez-le aussi chez vous.",
+        others: "les autres", you: "vous", outside: "de l’extérieur", inside: "de l’intérieur",
+        asIs: ["Je vois le monde", "tel qu’il est."], notMe: "Pas moi.", meToo: "Moi aussi ?", fair: "C’est juste.",
+        sayA: "Pas d’accord.", sayB: "Un coup de main ?",
+        tags: ["ignorant", "égoïste", "partial"], point: "a raison",
+        names: ["Réalisme naïf", "Cynisme naïf", "Angle mort des biais"],
+        w: { ignorant: 41, "égoïste": 36, partial: 32, "a raison": 39, "Je vois le monde": 87, "tel qu’il est.": 60, "Pas moi.": 45, "Moi aussi ?": 58,
+          "C’est juste.": 58, "Pas d’accord.": 71, "Un coup de main ?": 97, "Réalisme naïf": 78, "Cynisme naïf": 76, "Angle mort des biais": 119 },
+        caps: [
+          "Les autres, vous ne les voyez que <b>de l’extérieur</b>.",
+          "Vous, vous vous voyez <b>de l’intérieur</b>, ce qui vous aide à agir avec assurance.",
+          "Alors vous croyez voir le monde <b>tel qu’il est</b>…",
+          "…et quiconque n’est pas d’accord doit être <b>ignorant</b>.",
+          "Quelqu’un propose de vous aider ? Vous soupçonnez un motif <b>égoïste</b>.",
+          "Vous voyez des <b>biais</b> chez tout le monde, sauf dans le miroir.",
+          "<b>La solution :</b> un biais chez quelqu’un ? Cherchez-le <b>chez vous</b>.",
+          "Puis trouvez un point où <b>l’autre pourrait avoir raison</b>. Les esprits se calment."
+        ],
+        say: [
+          "Les autres, vous ne les voyez que de l’extérieur : ce qu’ils font, pas pourquoi.",
+          "Vous, vous vous voyez de l’intérieur : vos raisons, vos intentions, votre situation. Faire confiance à ce regard vous aide à agir avec assurance.",
+          "Alors vous croyez voir le monde tel qu’il est. C’est le réalisme naïf...",
+          "...et quiconque n’est pas d’accord avec vous doit être ignorant.",
+          "Quelqu’un propose de vous aider ? Vous soupçonnez un motif égoïste. C’est le cynisme naïf.",
+          "Vous voyez des biais chez tout le monde, sauf dans le miroir. C’est l’angle mort des biais.",
+          "La solution : quand vous repérez un biais chez quelqu’un, cherchez le même chez vous.",
+          "Puis trouvez un point où l’autre pourrait avoir raison. Les esprits se calment, et vous apprenez quelque chose.",
+          "Défauts des autres. Quel que soit le biais que vous voyez chez les autres, cherchez-le aussi chez vous."
+        ]
       }
     },
     svg(T) {

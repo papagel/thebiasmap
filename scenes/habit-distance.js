@@ -188,6 +188,38 @@
           "Ya en calma, la reescribes y envías una versión mejor.",
           "Toma distancia de la decisión. En el calor del momento, una mala decisión parece correcta. Consúltalo con la almohada, o piensa qué le dirías a un amigo."
         ]
+      },
+      fr: {
+        name: "Prenez du recul sur le choix",
+        shareTitle: "Prenez du recul sur le choix : une habitude en 30 secondes",
+        ecline: "Dans le feu de l’action, un mauvais choix semble juste : laissez passer la nuit, ou demandez-vous ce que vous diriez à un ami.",
+        time: m => { const [h, mm] = hm(m); return `${pad(h)}:${pad(mm)}`; }, from: "Léa", quote: "« Pour la troisième fois… »", repLab: "Votre réponse",
+        sharp: "« Apprenez à lire ! »", calm: "« Bien vu. La voici : »",
+        save: "Enregistrer", saved: "Enregistré", send: "Envoyer", sent: "Envoyé",
+        anger: "colère", think: "Bien fait pour lui.", thinkW: 134, dont: "Je ne l’enverrais pas.", dontW: 140, dist: "recul",
+        youAt: t => `vous à ${t}`, cant1: "n’imaginez pas le calme", cant2: "n’imaginez pas la colère",
+        catches: "déjoue", gap: "Fossé d’empathie", gapFs: 15,
+        caps: [
+          "<b>23 h.</b> Un e-mail agaçant d’un collègue arrive.",
+          "Vous bouillez. Vous tapez une réponse cinglante, le doigt sur <b>Envoyer</b>.",
+          "Dans cet état, la réponse semble <b>totalement justifiée</b>.",
+          "<b>Prenez du recul</b> sur le choix : enregistrez-la en <b>brouillon</b>.",
+          "Demandez-vous ce que vous diriez à <b>un ami</b> à votre place : « Je ne l’enverrais pas. »",
+          "Puis <b>laissez passer la nuit</b>. Au matin, la colère est retombée.",
+          "Elle déjoue le <b>fossé d’empathie</b> : en colère, vous n’imaginez pas le calme.",
+          "Une fois calme, vous la réécrivez et envoyez <b>la meilleure version</b>."
+        ],
+        say: [
+          "Il est vingt-trois heures. Un e-mail agaçant d’un collègue arrive.",
+          "Vous bouillez. Vous tapez une réponse cinglante, et votre doigt survole le bouton Envoyer.",
+          "Dans cet état, la réponse semble totalement justifiée. Bien fait pour lui.",
+          "Prenez du recul sur le choix. Enregistrez-la en brouillon, et éloignez-vous un peu.",
+          "Demandez-vous ce que vous diriez à un ami à votre place. Vous diriez : je ne l’enverrais pas.",
+          "Puis laissez passer la nuit. Au matin, la colère est retombée.",
+          "Elle déjoue le fossé d’empathie. En colère, vous n’imaginez pas le calme. Une fois calme, vous ne ressentez plus la colère.",
+          "Une fois calme, vous la réécrivez, et envoyez la meilleure version.",
+          "Prenez du recul sur le choix. Dans le feu de l’action, un mauvais choix semble juste. Laissez passer la nuit, ou demandez-vous ce que vous diriez à un ami."
+        ]
       }
     },
     svg(T) {

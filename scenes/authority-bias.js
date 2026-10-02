@@ -143,6 +143,35 @@
           "Infórmate, y decide según las pruebas, lo diga quien lo diga.",
           "Sesgo de autoridad. Confía en el conocimiento real, no en el disfraz. Pide las pruebas."
         ]
+      },
+      fr: {
+        name: "Biais d’autorité", shareTitle: "Le biais d’autorité en 30 secondes",
+        ecline: "Fiez-vous à la vraie expertise, pas au costume. Demandez les preuves.",
+        claim: "« Validé par les médecins ! »", same: "mêmes mots", you: "vous", proof: "Preuves ?",
+        coat: "blouse blanche", tee: "T-shirt", anyone: "qui que ce soit", doubt: "doute", trust: "confiance",
+        gap: "la blouse, pas les preuves", evid: "les preuves",
+        qs: ["Quelles preuves ?", "Et si un autre le disait ?", "Est-ce son domaine ?"],
+        caps: [
+          "Une pub passe pour un nouveau complément pour mieux dormir.",
+          "Quelqu’un en <b>blouse blanche</b> affirme : « Validé par les médecins ! »",
+          "Vous y croyez <b>aussitôt</b>, sans vous poser de questions.",
+          "Même pub, <b>mêmes mots</b>, mais cette fois en T-shirt.",
+          "Soudain, vous n’en êtes plus si sûr. Où sont les <b>preuves</b> ?",
+          "Même affirmation, mêmes preuves. <b>Seul le costume a changé.</b>",
+          "<b>La solution :</b> demandez les preuves, et si c’est son domaine.",
+          "Renseignez-vous, puis décidez <b>sur les preuves</b>, qui que ce soit."
+        ],
+        say: [
+          "Une pub passe pour un nouveau complément pour mieux dormir.",
+          "Quelqu’un en blouse blanche affirme : validé par les médecins !",
+          "Vous y croyez aussitôt, sans vous poser de questions.",
+          "Même pub, mêmes mots. Mais cette fois, en T-shirt.",
+          "Soudain, vous n’en êtes plus si sûr. Où sont les preuves ?",
+          "Même affirmation, mêmes preuves. Seul le costume a changé.",
+          "La solution : demandez les preuves, et si c’est bien son domaine.",
+          "Renseignez-vous, puis décidez sur les preuves, peu importe qui parle.",
+          "Le biais d’autorité. Fiez-vous à la vraie expertise, pas au costume. Demandez les preuves."
+        ]
       }
     },
     svg(T) {

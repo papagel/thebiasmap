@@ -138,6 +138,33 @@ ${P} .check path{fill:none;stroke:var(--good);stroke-width:2.4;stroke-linecap:ro
           "Decide según lo que viene. Quédate en casa, y descansa.",
           "La falacia del costo hundido. El dinero ya gastado no vuelve, hagas lo que hagas. Decide según lo que viene."
         ]
+      },
+      fr: {
+        name: "Biais des coûts irrécupérables", shareTitle: "Le biais des coûts irrécupérables en 30 secondes",
+        ecline: "L’argent déjà dépensé est perdu dans tous les cas. Décidez selon ce qui vient.",
+        concert: "CONCERT", price: "60 €", noref: "non remboursable", spent: "Dépensé", sunk: "irrécupérable", sunkW: 95, tired: "à plat",
+        go: "Y aller", stay: "Rester", music: "Musique", rest: "Repos", dry: "Au sec", minus: "−60 €",
+        caps: [
+          "Vous avez payé <b>60 €</b> une place de concert. Non remboursable.",
+          "Le soir venu, vous êtes à plat et il pleut à verse.",
+          "Y aller ou rester chez vous ? Vous pesez le pour et le contre.",
+          "Ce soir, rester chez vous vous <b>plairait davantage</b>.",
+          "Puis une pensée : « J’ai payé 60 €. Je ne peux pas les <b>gâcher</b>. »",
+          "Mais les 60 € sont perdus <b>dans tous les cas</b>.",
+          "<b>La solution :</b> retirez de la balance l’argent déjà dépensé.",
+          "Décidez selon ce qui vient. <b>Restez chez vous</b> et reposez-vous."
+        ],
+        say: [
+          "Vous avez payé soixante euros une place de concert. Non remboursable.",
+          "Le soir venu, vous êtes à plat, et il pleut à verse.",
+          "Y aller, ou rester chez vous ? Vous pesez le pour et le contre.",
+          "Ce soir, rester chez vous vous plairait davantage.",
+          "Puis une pensée : j’ai payé soixante euros. Je ne peux pas les gâcher.",
+          "Mais ces soixante euros sont perdus dans tous les cas.",
+          "La solution : retirez de la balance l’argent que vous avez déjà dépensé.",
+          "Décidez selon ce qui vient. Restez chez vous, et reposez-vous.",
+          "Le biais des coûts irrécupérables. L’argent déjà dépensé est perdu dans tous les cas. Décidez selon ce qui vient."
+        ]
       }
     },
     svg(T) {

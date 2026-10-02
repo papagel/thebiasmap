@@ -195,6 +195,35 @@
           "Las respuestas reales superan tu mejor suposición, y la gente se siente escuchada.",
           "Leer mentes. Las mentes ajenas no son copias de la tuya, así que pregunta en vez de suponer."
         ]
+      },
+      fr: {
+        name: "Lire les pensées", shareTitle: "Pourquoi on croit savoir ce que pensent les autres, en 30 secondes",
+        ecline: "L’esprit des autres n’est pas une copie du vôtre, alors demandez au lieu de supposer.",
+        you: "vous", lg: ["votre supposition", "ce qu’ils pensent vraiment"],
+        labs: ["Illusion de transparence", "Malédiction du savoir", "Illusion de connaissance asymétrique"],
+        nervous: ["Quel trac !"], calm: ["Quel calme !"], got: ["Compris !"], what: ["C’est quoi,", "le cache ?"],
+        cache: ["Videz juste", "le cache."], ask: ["Qu’en", "pensez-vous ?"],
+        caps: [
+          "Vous ne voyez pas dans la tête des autres, alors vous <b>devinez</b>.",
+          "Le raccourci du cerveau : supposer qu’ils pensent <b>comme vous</b>. Ça marche souvent.",
+          "Vous avez le trac et êtes sûr que <b>ça se voit</b>. De l’extérieur, à peine.",
+          "Vous connaissez bien le sujet, alors vous croyez qu’<b>ils ont compris</b>. Non.",
+          "Vous pensez les lire <b>mieux</b> qu’ils ne vous lisent.",
+          "Pendant ce temps, ils sont tout aussi sûrs de <b>vous</b> lire.",
+          "<b>La solution :</b> ne pensez pas à leur place. <b>Demandez</b>, et écoutez.",
+          "Une vraie réponse bat toute supposition, et les gens <b>se sentent écoutés</b>."
+        ],
+        say: [
+          "Vous ne voyez pas dans la tête des autres, alors vous devinez ce qu’ils pensent.",
+          "Le raccourci du cerveau : supposer qu’ils pensent comme vous. Nous avons beaucoup en commun, alors ça marche souvent.",
+          "L’illusion de transparence. Vous avez le trac, et vous êtes sûr que ça se voit. De l’extérieur, ça se voit à peine.",
+          "La malédiction du savoir. Vous connaissez bien le sujet, alors vous croyez qu’ils ont compris. Ce n’est pas le cas.",
+          "L’illusion de connaissance asymétrique. Vous pensez les lire mieux qu’ils ne vous lisent.",
+          "Pendant ce temps, ils sont tout aussi sûrs de vous lire.",
+          "La solution : ne remplissez pas leurs pensées à leur place. Demandez, et écoutez.",
+          "Une vraie réponse vaut mieux que votre meilleure supposition, et les gens se sentent écoutés.",
+          "Lire les pensées. L’esprit des autres n’est pas une copie du vôtre, alors demandez au lieu de supposer."
+        ]
       }
     },
     svg(T) {

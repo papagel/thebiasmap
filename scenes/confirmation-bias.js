@@ -134,6 +134,36 @@
           "Sopesa los dos montones, y tu certeza se ajusta a las pruebas.",
           "Sesgo de confirmación. Encuentras lo que buscas. Busca lo que demostraría que te equivocas."
         ]
+      },
+      fr: {
+        name: "Biais de confirmation", shareTitle: "Le biais de confirmation en 30 secondes",
+        ecline: "On trouve ce qu’on cherche. Cherchez ce qui prouverait que vous avez tort.",
+        tag: "fainéant", tag2: "fainéant ?", tagW: 91,
+        cards: [["En retard", "lundi"], ["Resté tard", "mardi"], ["Oublié de", "répondre"],
+          ["Rapport fini", "en avance"], ["Déjeuner", "prolongé"], ["A aidé", "un client"]],
+        fits: "Confirme", nofit: "Contredit", pro: "3 pour", con: "3 contre",
+        meter: ["Votre certitude"], gap: ["trop sûr"],
+        caps: [
+          "Vous avez décidé que votre nouveau collègue est <b>fainéant</b>.",
+          "Toute la semaine, des indices arrivent, <b>dans les deux sens</b>.",
+          "Vous remarquez ce qui <b>confirme</b> votre idée…",
+          "…et retenez à peine ce qui la <b>contredit</b>.",
+          "Chaque indice qui colle sonne comme une preuve. Vous êtes <b>de plus en plus sûr</b>.",
+          "Pourtant, les indices étaient partagés : <b>3 pour, 3 contre</b>.",
+          "<b>La solution :</b> cherchez ce qui prouverait que vous avez tort.",
+          "Pesez les deux piles. Votre certitude <b>reflète les indices</b>."
+        ],
+        say: [
+          "Vous avez décidé que votre nouveau collègue est fainéant.",
+          "Toute la semaine, des indices arrivent, dans les deux sens.",
+          "Vous remarquez ce qui confirme votre idée...",
+          "...et retenez à peine ce qui la contredit.",
+          "Chaque indice qui colle sonne comme une preuve. Vous êtes de plus en plus sûr.",
+          "Pourtant, les indices étaient partagés. Trois pour, trois contre.",
+          "La solution : cherchez ce qui prouverait que vous avez tort.",
+          "Pesez les deux piles, et votre certitude reflète les indices.",
+          "Le biais de confirmation. On trouve ce qu’on cherche. Cherchez ce qui prouverait que vous avez tort."
+        ]
       }
     },
     svg(T) {

@@ -157,6 +157,37 @@
           "Sigues adelante, pero con los ojos abiertos.",
           "Defiende la postura contraria. Busca primero los mejores argumentos contra tu plan y luego sigue adelante con los ojos abiertos."
         ]
+      },
+      fr: {
+        name: "Défendez l’autre camp", shareTitle: "Défendez l’autre camp : une habitude en 30 secondes",
+        ecline: "Commencez par les meilleurs arguments contre votre projet, puis lancez-vous les yeux ouverts.",
+        forH: "Pour", agH: "Contre", empty: "vide",
+        pros: ["Les cafés marchent", "Vivez votre passion", "Soyez votre patron"],
+        cons: ["Loyer élevé", "Débuts lents", "Journées de 12 h"],
+        job: "Votre emploi", cafe: "Votre café", quit: "démission", quitW: 52, notYet: "pas encore",
+        popup: "Stand", popupSub: "le week-end",
+        sure: "Sûr à 100 %", sureW: 83, bias: "Biais de confirmation", biasW: 155,
+        caps: [
+          "Vous voulez quitter votre emploi pour ouvrir un <b>café</b>. Aucun doute.",
+          "Tout ce que vous lisez semble vous <b>donner raison</b>.",
+          "Alors vous ne réunissez que des raisons <b>pour</b>. L’autre côté reste vide.",
+          "<b>L’habitude :</b> avant de vous engager, défendez l’autre camp.",
+          "Écrivez <b>les meilleurs arguments contre</b> votre propre projet.",
+          "Puis ajustez le projet : <b>testez-le</b> d’abord avec un stand le week-end.",
+          "Cette habitude déjoue le <b>biais de confirmation</b> : ne voir que ce qui vous donne raison.",
+          "Vous vous lancez quand même, mais <b>les yeux ouverts</b>."
+        ],
+        say: [
+          "Vous voulez quitter votre emploi pour ouvrir un café. Aucun doute.",
+          "Tout ce que vous lisez semble vous donner raison.",
+          "Alors vous ne réunissez que des raisons pour. L’autre côté reste vide.",
+          "L’habitude : avant de vous engager, défendez l’autre camp.",
+          "Écrivez les meilleurs arguments contre votre propre projet. Loyer élevé. Débuts lents. Journées de douze heures.",
+          "Puis ajustez le projet. Testez-le d’abord avec un stand le week-end.",
+          "Cette habitude déjoue le biais de confirmation : ne voir que ce qui vous donne raison.",
+          "Vous vous lancez quand même, mais les yeux ouverts.",
+          "Défendez l’autre camp. Commencez par les meilleurs arguments contre votre projet, puis lancez-vous les yeux ouverts."
+        ]
       }
     },
     svg(T) {

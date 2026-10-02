@@ -163,6 +163,35 @@
           "Y cuando planees el próximo viaje, dale un buen final.",
           "La regla del pico y el final. La memoria se apoya en el pico y el final. Juzga el conjunto, y planea un buen final."
         ]
+      },
+      fr: {
+        name: "Règle pic-fin", shareTitle: "La règle pic-fin en 30 secondes",
+        ecline: "La mémoire s’appuie sur le pic et la fin. Jugez l’ensemble, et prévoyez une belle fin.",
+        day: "jour", peak: "pic", end: "fin", cancel: "ANNULÉ",
+        ask: "C’était bien ?", askW: 94, meh: "Bof.", mehW: 48, fine: "Génial, à part le vol.", fineW: 196,
+        avg: "moyenne", barely: "7 jours : comptent à peine", tally: "7 jours : 6 bons, 1 mauvais",
+        next: "prochain voyage", nextW: 106, easy: "fin en douceur", easyW: 110,
+        caps: [
+          "Une semaine à la mer : surtout agréable, et une sortie en bateau <b>géniale</b>.",
+          "Dernier jour : vol annulé, <b>des heures d’attente</b> à l’aéroport.",
+          "De retour, une amie vous demande : « C’était bien ? »",
+          "Votre mémoire s’appuie sur deux moments : le <b>pic</b> et la <b>fin</b>.",
+          "Elle fait la moyenne des deux, et vous répondez : <b>« Bof. »</b>",
+          "Cinq bons jours <b>disparaissent</b>. La durée <b>compte à peine</b>.",
+          "<b>La solution :</b> regardez <b>l’ensemble</b>, avec vos photos ou des notes quotidiennes.",
+          "Vous préparez le prochain voyage ? Offrez-lui une <b>belle fin</b>."
+        ],
+        say: [
+          "Une semaine à la mer. Surtout agréable, et une sortie en bateau géniale.",
+          "Le dernier jour, votre vol est annulé. Des heures d’attente à l’aéroport.",
+          "De retour, une amie vous demande : c’était bien ?",
+          "Votre mémoire s’appuie sur deux moments. Le pic, et la fin.",
+          "Elle fait la moyenne des deux, et vous répondez : bof.",
+          "Les cinq bons jours disparaissent. Et la durée compte à peine.",
+          "La solution : regardez l’ensemble, avec vos photos ou des notes quotidiennes.",
+          "Et quand vous préparez le prochain voyage, offrez-lui une belle fin.",
+          "La règle pic-fin. La mémoire s’appuie sur le pic et la fin. Jugez l’ensemble, et prévoyez une belle fin."
+        ]
       }
     },
     svg(T) {

@@ -173,6 +173,33 @@
           "Respira y sigue. Casi nadie lo vio.",
           "El efecto foco. Te miran mucho menos de lo que sientes. Cada uno está ocupado con su propio foco."
         ]
+      },
+      fr: {
+        name: "Effet projecteur", shareTitle: "L’effet projecteur en 30 secondes",
+        ecline: "On vous remarque bien moins que vous ne le croyez. Chacun est occupé par son propre projecteur.",
+        spot: "projecteur", think: "vous pensez", actual: "en réalité", v8: "8 sur 10", v2: "2 sur 10",
+        shirt: ["T-shirt gênant"], guessed: "estimé", noticed: "remarqué", fewer: "bien moins",
+        caps: [
+          "Vous renversez du café sur votre chemise juste avant une réunion.",
+          "Vous entrez, et vous avez l’impression d’être sous un <b>projecteur</b>.",
+          "Sûrement, <b>tout le monde</b> regarde la tache.",
+          "En fait, la plupart sont pris par <b>leurs propres</b> soucis.",
+          "Seuls <b>deux</b> d’entre eux l’ont remarquée.",
+          "Dans une étude classique, <b>bien moins</b> de gens l’ont remarqué que prévu.",
+          "<b>La solution :</b> rappelez-vous que chacun est sous son propre projecteur.",
+          "Respirez et continuez. <b>Presque personne n’a rien vu.</b>"
+        ],
+        say: [
+          "Vous renversez du café sur votre chemise juste avant une réunion.",
+          "Vous entrez, et vous avez l’impression d’être sous un projecteur.",
+          "Sûrement, tout le monde regarde la tache.",
+          "En fait, la plupart sont pris par leurs propres soucis. Leur téléphone, leurs notes, et même une tache à eux.",
+          "Seuls deux d’entre eux l’ont remarquée.",
+          "Dans une étude classique, des étudiants entraient dans une salle avec un T-shirt gênant. Bien moins de gens l’ont remarqué qu’ils ne l’avaient prévu.",
+          "La solution : rappelez-vous que chacun est sous son propre projecteur.",
+          "Respirez et continuez. Presque personne n’a rien vu.",
+          "L’effet projecteur. On vous remarque bien moins que vous ne le croyez. Chacun est occupé par son propre projecteur."
+        ]
       }
     },
     svg(T) {

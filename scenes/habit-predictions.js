@@ -178,6 +178,38 @@
           "Tras unas cuantas notas, ves lo buenas que son de verdad tus predicciones.",
           "Apunta tus predicciones. Una nota con fecha recuerda lo que de verdad pensabas, aunque tu memoria lo reescriba."
         ]
+      },
+      fr: {
+        name: "Notez vos prédictions", shareTitle: "Notez vos prédictions : une habitude en 30 secondes",
+        ecline: "Une note datée se souvient de ce que vous pensiez vraiment, même quand votre mémoire le réécrit.",
+        hd0: "SAM 14 MARS · 21:00", hd1: "FIN DU MATCH", us: "Votre équipe", them: "Adversaires",
+        later: "3 semaines après", laterW: 138,
+        chance: "chances de gagner", draw: "sans doute un nul", memory: "votre mémoire", knew: "Je le savais !", knewW: 151,
+        date: "SAM 14 MARS", before: "avant le match", line: "Sans doute un nul.", win: "Gain :", result: "Gagné 2–1",
+        rowW: [112, 114, 100],
+        noteLab: "votre note", tag: "Biais rétrospectif", tagW: 126,
+        days: ["12/01", "3/02", "20/02", "1/03", "14/03"], right: "vu juste", score: "3 sur 5",
+        caps: [
+          "Grand match samedi. Vous pensez : sans doute un nul, <b>40 %</b> de chances de gagner.",
+          "Votre équipe <b>gagne 2–⁠1</b>. Les semaines passent.",
+          "Votre mémoire se réécrit en douce : « <b>Je le savais !</b> »",
+          "<b>L’habitude :</b> avant le match, notez votre pronostic, <b>avec la date</b>.",
+          "Des semaines plus tard, ouvrez la note. Elle dit <b>40 %</b>, pas « je le savais ».",
+          "Puis jugez-la. Vous aviez prédit un nul : c’est <b>raté</b>.",
+          "Une note datée prend le <b>biais rétrospectif</b> sur le fait.",
+          "Après quelques notes, vous voyez ce que valent <b>vraiment</b> vos pronostics."
+        ],
+        say: [
+          "Grand match samedi. Vous pensez : sans doute un match nul. Peut-être quarante pour cent de chances de gagner.",
+          "Votre équipe gagne, deux à un. Les semaines passent.",
+          "Votre mémoire se réécrit en douce. Je le savais !",
+          "L’habitude : avant le match, notez votre pronostic, avec la date.",
+          "Des semaines plus tard, ouvrez la note. Elle dit quarante pour cent, pas je le savais.",
+          "Puis jugez-la. Vous aviez prédit un nul, donc c’est raté.",
+          "Une note datée prend le biais rétrospectif sur le fait.",
+          "Après quelques notes, vous voyez ce que valent vraiment vos pronostics.",
+          "Notez vos prédictions. Une note datée se souvient de ce que vous pensiez vraiment, même quand votre mémoire le réécrit."
+        ]
       }
     },
     svg(T) {

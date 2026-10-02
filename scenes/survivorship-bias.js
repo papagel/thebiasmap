@@ -145,6 +145,33 @@
           "Blinda los motores. Estudia los fracasos, no solo a los supervivientes.",
           "El sesgo de supervivencia. Solo ves lo que sobrevivió. Pregúntate qué falta antes de sacar conclusiones."
         ]
+      },
+      fr: {
+        name: "Biais du survivant", shareTitle: "Le biais du survivant en 30 secondes",
+        ecline: "Vous ne voyez que ce qui a survécu. Demandez-vous ce qui manque avant de conclure.",
+        legend: "impacts sur les avions revenus", armour: "blindage", back: "Revenus", lost: "Pas revenus",
+        noHoles: "aucun trou", missing: "données manquantes", armourHere: "blinder ici",
+        caps: [
+          "Pendant la Seconde Guerre mondiale, les bombardiers rentrent criblés de <b>trous de balles</b>.",
+          "Les ingénieurs notent où les <b>avions revenus</b> ont été touchés.",
+          "L’idée évidente : blinder <b>là où sont les trous</b>.",
+          "Mais ce sont seulement les avions <b>qui sont rentrés</b>.",
+          "Ceux touchés aux moteurs <b>revenaient rarement</b> pour être comptés.",
+          "Les zones sans trous sont celles où un impact est <b>fatal</b>.",
+          "<b>La solution :</b> demandez-vous ce qui manque dans vos données.",
+          "Blindez les moteurs. Étudiez les échecs, <b>pas seulement les survivants</b>."
+        ],
+        say: [
+          "Pendant la Seconde Guerre mondiale, les bombardiers rentrent de mission criblés de trous de balles.",
+          "Les ingénieurs notent où les avions revenus ont été touchés.",
+          "L’idée évidente : blinder là où sont les trous.",
+          "Mais ce sont seulement les avions qui sont rentrés.",
+          "Ceux touchés aux moteurs revenaient rarement pour être comptés.",
+          "Les zones sans trous sont celles où un impact est fatal.",
+          "La solution : demandez-vous ce qui manque dans vos données.",
+          "Blindez les moteurs. Étudiez les échecs, pas seulement les survivants.",
+          "Le biais du survivant. Vous ne voyez que ce qui a survécu. Demandez-vous ce qui manque avant de conclure."
+        ]
       }
     },
     svg(T) {

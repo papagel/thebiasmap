@@ -175,6 +175,38 @@
           "De cerca, cada persona es más que una etiqueta.",
           "Estereotipos. Una etiqueta rellena lo que no sabes, así que averigua un dato real antes de juzgar."
         ]
+      },
+      fr: {
+        name: "Stéréotypes", shareTitle: "Pourquoi une seule étiquette suffit à imaginer toute une personne, en 30 secondes",
+        ecline: "Une étiquette comble ce que vous ignorez, alors apprenez un fait réel avant de juger.",
+        badge: "Ingénieur",
+        guess: ["discret", "adore les maths", "joue aux échecs", "planifie tout", "répare tout", "lève-tôt"],
+        real: ["très drôle", "adore les maths", "joue de la batterie", "improvise", "répare tout", "couche-tard"],
+        gaps: "6 cases vides", filled: "déduits de l’étiquette", seen: "vus : 0 sur 6", fact1: "1 fait réel", close: "de près",
+        claim: ["La vitamine X", "stoppe les rhumes."], trust: "votre confiance", evidence: "preuves fournies", none: "aucune",
+        loud: "bruyant", fact: ["Je joue de la batterie", "dans un groupe !"],
+        names: ["Stéréotypage", "Biais d’autorité", "Erreur d’attribution de groupe"],
+        caps: [
+          "Vous rencontrez quelqu’un. Tout ce que vous en savez : <b>une étiquette</b>.",
+          "Votre cerveau comble les vides avec <b>ce qu’il attend</b>. Il s’épargne un effort.",
+          "C’est le <b>stéréotypage</b> : six traits que vous <b>n’avez jamais vus</b>.",
+          "Ajoutez une <b>blouse blanche</b>, et une affirmation <b>sans preuve</b> semble juste.",
+          "Au match, un supporter <b>crie</b> sans arrêt…",
+          "…alors vous décidez que <b>tous</b> les supporters de l’équipe sont bruyants.",
+          "<b>La solution :</b> apprenez d’abord un <b>fait réel</b> sur la personne.",
+          "De près, chaque personne est <b>plus qu’une étiquette</b>."
+        ],
+        say: [
+          "Vous rencontrez quelqu’un. Tout ce que vous en savez, c’est une étiquette : ingénieur.",
+          "Votre cerveau comble les vides avec ce qu’il attend de l’étiquette. Il s’épargne beaucoup d’effort.",
+          "C’est le stéréotypage : six traits que vous n’avez jamais vus.",
+          "Ajoutez une blouse blanche, et une affirmation sans preuve semble juste. C’est le biais d’autorité.",
+          "Au match, un supporter crie sans arrêt...",
+          "...alors vous décidez que tous les supporters de l’équipe sont bruyants. C’est l’erreur d’attribution de groupe.",
+          "La solution : apprenez d’abord un fait réel sur la personne.",
+          "De près, chaque personne est plus qu’une étiquette.",
+          "Stéréotypes. Une étiquette comble ce que vous ignorez, alors apprenez un fait réel avant de juger."
+        ]
       }
     },
     svg(T) {

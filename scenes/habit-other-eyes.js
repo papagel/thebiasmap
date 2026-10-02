@@ -159,6 +159,34 @@
           "Añades el paso que faltaba. Ahora funciona también para los demás.",
           "Pide otra mirada. No ves tus propios huecos, pero unos ojos nuevos los encuentran rápido."
         ]
+      },
+      fr: {
+        name: "Demandez un autre regard", shareTitle: "Demandez un autre regard : une habitude en 30 secondes",
+        ecline: "Vous ne voyez pas vos propres lacunes, mais un œil neuf les repère vite.",
+        title: "Premiers pas", steps: ["Installer l’appli", "Se connecter", "Créer une liste", "Inviter des amis"], missing: "S’inscrire",
+        head: "dans la tête", you: "vous", fresh: "œil neuf", ask: "Où est la faille ?", gap: "étape manquante",
+        stuck: ["Connexion", "avec quoi ?"], got: "Compris !", caught: "déjoue", bias: "Malédiction du savoir", tagW: 163,
+        caps: [
+          "Vous venez d’écrire le guide de démarrage de votre nouvelle appli.",
+          "Pour vous, il est parfait. Chaque étape est <b>évidente</b>.",
+          "Votre tête comble en silence <b>une étape jamais écrite</b>.",
+          "<b>L’habitude :</b> confiez-le à quelqu’un d’un autre horizon.",
+          "Demandez-lui de <b>trouver la faille</b>, pas de dire que c’est bien.",
+          "Il bloque à l’étape 2 : « <b>Se connecter avec quoi ?</b> »",
+          "Elle déjoue la <b>malédiction du savoir</b> : impossible d’imaginer ne pas savoir.",
+          "Vous ajoutez l’étape manquante. Le guide marche <b>pour les autres aussi</b>."
+        ],
+        say: [
+          "Vous venez d’écrire le guide de démarrage de votre nouvelle appli.",
+          "Pour vous, il est parfait. Chaque étape est évidente.",
+          "Vous avez un compte depuis longtemps, alors votre tête comble en silence une étape jamais écrite : d’abord, s’inscrire.",
+          "L’habitude : confiez-le à quelqu’un d’un autre horizon.",
+          "Demandez-lui de trouver la faille, pas de vous dire que c’est bien.",
+          "Il bloque à l’étape deux. Se connecter avec quoi ?",
+          "Elle déjoue la malédiction du savoir. Quand vous savez quelque chose, impossible d’imaginer ne pas le savoir.",
+          "Vous ajoutez l’étape manquante. Désormais, le guide marche pour les autres aussi.",
+          "Demandez un autre regard. Vous ne voyez pas vos propres lacunes, mais un œil neuf les repère vite."
+        ]
       }
     },
     svg(T) {

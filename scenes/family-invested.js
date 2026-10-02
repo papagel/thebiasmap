@@ -157,6 +157,36 @@
           "Si es que sí, sigue. Si no, pon tus próximos ladrillos en un sitio mejor.",
           "Terminar lo empezado. Termina lo que aún vale la pena: decide desde hoy, no desde lo que ya has puesto."
         ]
+      },
+      fr: {
+        name: "Aller au bout", shareTitle: "Pourquoi on continue juste parce qu’on a commencé, en 30 secondes",
+        ecline: "Finissez ce qui en vaut encore la peine : décidez à partir d’aujourd’hui, pas de ce que vous avez déjà investi.",
+        goal: "l’objectif", wrong: "fausse route", put: "déjà investi", gone: "perdu de toute façon", keep: "continuer",
+        months: n => `${n} mois`, lost: n => `−${n} mois`,
+        yours: "votre plan", theirs: "leur idée", sticks: "reste", fades: "s’efface", stop: "arrêter ?", stopW: 82,
+        today: "vu d’aujourd’hui", left: "ce qui reste",
+        pills: [["Escalade d’engagement", 170], ["Effet de génération", 138], ["Aversion à la perte", 142]],
+        caps: [
+          "Vous lancez quelque chose de grand, comme une entreprise ou une carrière.",
+          "Votre cerveau dit : <b>allez jusqu’au bout</b>. En général, c’est ainsi qu’on avance.",
+          "Puis, mauvaise nouvelle : vous faites <b>fausse route</b>.",
+          "Pourtant, vous <b>redoublez d’efforts</b>, pour prouver que ce n’était pas une erreur.",
+          "Le plan que <b>vous avez conçu</b> reste en tête. Les idées des autres <b>s’effacent</b>.",
+          "Et arrêter maintenant, ce serait <b>perdre</b> tout ce que vous avez investi.",
+          "<b>La solution :</b> demandez-vous : « En partant de zéro aujourd’hui, choisirais-je ça ? »",
+          "Si oui, <b>continuez</b>. Sinon, posez vos briques <b>à un meilleur endroit</b>."
+        ],
+        say: [
+          "Vous commencez à bâtir quelque chose de grand, comme une entreprise ou une carrière.",
+          "Votre cerveau dit : allez jusqu’au bout. En général, c’est exactement comme ça qu’on fait avancer les choses.",
+          "Puis, mauvaise nouvelle. Là où vous allez, ce n’est pas le bon endroit.",
+          "L’escalade d’engagement. Au lieu d’arrêter, vous redoublez d’efforts, pour prouver que ce n’était pas une erreur.",
+          "L’effet de génération. Le plan que vous avez imaginé vous-même reste en tête, tandis que les idées des autres s’effacent.",
+          "L’aversion à la perte. Arrêter maintenant, ce serait comme perdre tout ce que vous avez investi.",
+          "La solution : demandez-vous, si je partais de zéro aujourd’hui, choisirais-je ça ?",
+          "Si oui, continuez. Sinon, posez vos prochaines briques à un meilleur endroit.",
+          "Aller au bout. Finissez ce qui en vaut encore la peine : décidez à partir d’aujourd’hui, pas de ce que vous avez déjà investi."
+        ]
       }
     },
     svg(T) {

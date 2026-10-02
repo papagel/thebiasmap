@@ -151,6 +151,35 @@
           "En diez tiradas, lo esperable es ganar cien euros. Acepta buenas apuestas que te puedas permitir perder.",
           "La aversión a la pérdida. Las pérdidas pesan más que las ganancias. Juzga una apuesta por sus probabilidades, no por lo que duele."
         ]
+      },
+      fr: {
+        name: "Aversion à la perte", shareTitle: "L’aversion à la perte en 30 secondes",
+        ecline: "Les pertes pèsent plus lourd que les gains. Jugez un pari sur ses chances, pas sur la peur de perdre.",
+        eur: v => (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v) + " €", heads: "Face", tails: "Pile", hl: "F", tl: "P",
+        evs: "moyenne par lancer", no: "Non merci", yes: "Je joue !",
+        feels: "Ce qu’on ressent", win: "gain", lose: "perte",
+        gap1: "on dirait un", gap2: "mauvais pari", after: n => `Après ${n} lancer${n > 1 ? "s" : ""}`,
+        caps: [
+          "Pile ou face : face, vous <b>gagnez 120 €</b> ; pile, vous <b>perdez 100 €</b>.",
+          "En moyenne, vous seriez <b>gagnant de 10 €</b> à chaque lancer.",
+          "Pourtant, la plupart des gens <b>refusent</b>.",
+          "Perdre <b>fait plus mal</b> que gagner ne fait plaisir.",
+          "Une perte pèse <b>environ deux fois plus</b> qu’un gain égal.",
+          "Alors un bon pari <b>semble mauvais</b>.",
+          "<b>La solution :</b> voyez-le comme un lancer parmi beaucoup d’autres.",
+          "Dix lancers : comptez sur <b>+100 €</b>. Acceptez les bons paris dont vous pouvez assumer la perte."
+        ],
+        say: [
+          "Pile ou face. Face, vous gagnez cent vingt euros. Pile, vous en perdez cent.",
+          "En moyenne, vous gagneriez dix euros à chaque lancer.",
+          "Pourtant, la plupart des gens refusent.",
+          "Perdre fait plus mal que gagner ne fait plaisir.",
+          "Une perte pèse environ deux fois plus qu’un gain égal.",
+          "Alors un bon pari semble mauvais.",
+          "La solution : voyez-le comme un lancer parmi beaucoup d’autres.",
+          "Sur dix lancers, vous pouvez espérer cent euros de plus. Acceptez les bons paris dont vous pouvez assumer la perte.",
+          "L’aversion à la perte. Les pertes pèsent plus lourd que les gains. Jugez un pari sur ses chances, pas sur la peur de perdre."
+        ]
       }
     },
     svg(T) {

@@ -153,6 +153,34 @@
           "Y toma la precaución barata. Haz una copia hoy.",
           "El sesgo de optimismo. La mala suerte no hace excepciones contigo. Planifica como si te pudiera pasar igual que a cualquiera."
         ]
+      },
+      fr: {
+        name: "Biais d’optimisme", shareTitle: "Le biais d’optimisme en 30 secondes",
+        ecline: "La malchance ne vous épargne pas. Prévoyez comme si ça pouvait vous arriver autant qu’à n’importe qui.",
+        nob: "sans sauvegarde", nobW: 112, notme: "Pas moi.", bubW: 91,
+        hits: { broken: "cassé", lost: "perdu", stolen: "volé" }, you: "vous", people: ["des gens", "comme vous"],
+        avg: "moyenne", imp: "impossible", backup: "Sauvegarde",
+        caps: [
+          "Votre ordinateur portable contient des années de photos. <b>Aucune sauvegarde.</b>",
+          "Des ordinateurs sont perdus, volés ou cassés <b>tout le temps</b>.",
+          "Mais ça arrive <b>aux autres</b>, pensez-vous.",
+          "Interrogez un groupe : <b>la plupart</b> jugent leur risque inférieur à la moyenne.",
+          "Ils ne peuvent pas <b>tous</b> être sous la moyenne.",
+          "Puis un jour, ça <b>vous</b> arrive. Les photos ont disparu.",
+          "<b>La solution :</b> supposez que ça peut vous arriver comme à n’importe qui.",
+          "Puis prenez la précaution qui coûte peu. <b>Sauvegardez dès aujourd’hui.</b>"
+        ],
+        say: [
+          "Votre ordinateur portable contient des années de photos. Aucune sauvegarde.",
+          "Des ordinateurs sont perdus, volés ou cassés tout le temps.",
+          "Mais ça arrive aux autres, pensez-vous.",
+          "Interrogez un groupe : la plupart des gens jugent leur risque inférieur à la moyenne.",
+          "Ils ne peuvent pas tous être sous la moyenne.",
+          "Puis un jour, ça vous arrive. Les photos ont disparu.",
+          "La solution : supposez que ça peut vous arriver comme à n’importe qui.",
+          "Puis prenez la précaution qui coûte peu. Sauvegardez dès aujourd’hui.",
+          "Le biais d’optimisme. La malchance ne vous épargne pas. Prévoyez comme si ça pouvait vous arriver autant qu’à n’importe qui."
+        ]
       }
     },
     svg(T) {

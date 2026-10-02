@@ -175,6 +175,36 @@
           "El lanzamiento sigue adelante, con esos riesgos bajo control.",
           "Haz un premortem. Imagina el fracaso antes de que ocurra, y arregla hoy sus causas más probables."
         ]
+      },
+      fr: {
+        name: "Faites un pré-mortem", shareTitle: "Faites un pré-mortem : une habitude en 30 secondes",
+        ecline: "Imaginez l’échec avant qu’il arrive, puis réglez dès aujourd’hui ses causes les plus probables.",
+        today: "aujourd’hui", launch: "lancement", next: "le mois prochain", later: "un an plus tard",
+        great: "Ça va marcher !", bubW: 138, ask: "qu’est-ce qui pourrait rater ?", why: "pourquoi ça a échoué",
+        reasons: ["personne ne la connaissait", "le serveur a planté le 1er jour", "inscription trop longue"], rw: [135.9, 144.2, 115.7],
+        fixes: ["plan de lancement", "test de charge", "inscription plus courte"],
+        bias: "Biais d’optimisme", tagW: 128,
+        caps: [
+          "Votre équipe lance une nouvelle appli <b>le mois prochain</b>.",
+          "Tout le monde s’attend à <b>un grand succès</b>.",
+          "Personne ne prend le temps de se demander <b>ce qui pourrait rater</b>.",
+          "<b>Pré-mortem :</b> imaginez qu’un an a passé et que le lancement a <b>échoué</b>.",
+          "Chacun note les <b>causes les plus probables</b> de l’échec.",
+          "Puis <b>réglez ce que vous pouvez</b> dès aujourd’hui, avant le lancement.",
+          "Il déjoue le <b>biais d’optimisme</b> : « ça ne nous arrivera pas ».",
+          "Le lancement a lieu, <b>avec ces risques maîtrisés</b>."
+        ],
+        say: [
+          "Votre équipe lance une nouvelle appli le mois prochain.",
+          "Tout le monde s’attend à un grand succès.",
+          "Personne ne prend le temps de se demander ce qui pourrait rater.",
+          "Faites un pré-mortem. Imaginez qu’un an a passé, et que le lancement a échoué.",
+          "Chacun note les causes les plus probables de l’échec.",
+          "Puis réglez ce que vous pouvez dès aujourd’hui, avant le lancement.",
+          "Il déjoue le biais d’optimisme : la conviction que ça ne nous arrivera pas.",
+          "Le lancement a lieu, avec ces risques maîtrisés.",
+          "Faites un pré-mortem. Imaginez l’échec avant qu’il arrive, puis réglez dès aujourd’hui ses causes les plus probables."
+        ]
       }
     },
     svg(T) {

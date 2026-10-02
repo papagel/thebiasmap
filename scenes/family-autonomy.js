@@ -224,6 +224,39 @@
           "Pregúntate: ¿elegiría esto si fuera idea mía? Luego decide con libertad.",
           "Autonomía y estatus. Protege tu libertad, pero juzga cada idea por lo que vale, no por quién te presiona."
         ]
+      },
+      fr: {
+        name: "Autonomie et statut", shareTitle: "Pourquoi on résiste quand on nous pousse, même vers une bonne idée, en 30 secondes",
+        ecline: "Protégez votre liberté, mais jugez chaque idée sur le fond, pas selon qui la défend.",
+        mine: "mes choix", standing: "statut", sign: "Signez vite !", signW: 103, safe: "vous protège",
+        must: ["<tspan class=\"q\">Il faut</tspan>", "lire ça !"], dont: ["<tspan class=\"q\">Ne</tspan> lisez", "<tspan class=\"q\">pas</tspan> ça !"], bubW: 96,
+        help: "Vous m’aidez ?", helpW: 116, cmp: "comparer",
+        back: "← vous reculez", want: "envie →", hold: "vous freinez", own: "mon idée ?", chosen: "mon choix",
+        idea: "l’idée seule", push: "qui insiste",
+        pills: [["Réactance", 80], ["Psychologie inversée", 145], ["Biais de comparaison sociale", 205]],
+        lhA: "la pression", lhB: "vous", chipW: 104,
+        rows: [["« Il faut ! »", "recul"], ["« Ne lisez pas ! »", "envie"], ["vous éclipse", "retenue"]],
+        caps: [
+          "Tout le monde veut vous orienter. Alors votre cerveau <b>protège vos choix</b>…",
+          "…et votre <b>statut</b>. D’habitude, ça empêche les autres de <b>vous manipuler</b>.",
+          "« <b>Il faut</b> lire ça ! » C’est un bon livre, mais vous <b>reculez</b>.",
+          "Entendez plutôt « <b>Ne lisez pas</b> ça ! », et soudain vous <b>en avez envie</b>.",
+          "Aider une étoile montante ? Elle pourrait vous <b>éclipser</b>. Vous <b>freinez</b>.",
+          "À chaque fois, vous réagissez à la <b>pression</b>, pas à l’<b>idée</b>.",
+          "<b>La solution :</b> séparez l’idée de <b>qui insiste</b>.",
+          "Demandez-vous : « Le choisirais-je si c’était <b>mon idée</b> ? » Puis choisissez <b>librement</b>."
+        ],
+        say: [
+          "Tout le monde veut vous mener quelque part. Alors votre cerveau protège vos choix...",
+          "...et votre statut dans le groupe. D’habitude, ça empêche les autres de vous manipuler, ou de vous mettre à l’écart.",
+          "La réactance. Quelqu’un insiste : il faut lire ça ! C’est un bon livre, mais vous reculez.",
+          "La psychologie inversée. Si on vous dit de ne pas le lire, soudain vous en avez envie.",
+          "Le biais de comparaison sociale. Faut-il aider une étoile montante ? Elle pourrait vous éclipser, alors vous freinez.",
+          "À chaque fois, vous réagissez à la pression, pas à l’idée elle-même.",
+          "La solution : séparez l’idée de qui insiste.",
+          "Demandez-vous : le choisirais-je si c’était mon idée ? Puis choisissez librement.",
+          "Autonomie et statut. Protégez votre liberté, mais jugez chaque idée sur le fond, pas selon qui la défend."
+        ]
       }
     },
     svg(T) {

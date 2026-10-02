@@ -163,6 +163,37 @@
           "El listón aguantó. Cambias de método, en vez de esperar y cruzar los dedos.",
           "Decide qué te haría cambiar de opinión. Pon el listón antes de que lleguen las pruebas, y no lo muevas cuando lleguen."
         ]
+      },
+      fr: {
+        name: "Décidez ce qui vous ferait changer d’avis",
+        shareTitle: "Décidez ce qui vous ferait changer d’avis : une habitude en 30 secondes",
+        ecline: "Placez la barre avant que les faits arrivent, et ne la bougez plus une fois qu’ils sont là.",
+        wk: "sem.", works: "Ça marche !", more: ["Il faut juste", "plus de temps…"], sw: ["Il est temps", "de changer"],
+        moved: "la barre a bougé", warn: "signal d’alarme", bell: false,
+        catches: "déjoue", bias: "Effet retour de flamme",
+        noteH: "avant de regarder :",
+        note: ["Si je ne suis pas à <tspan class=\"hl\">70 %</tspan>", "à la <tspan class=\"hl\">semaine 4</tspan>,", "je change de méthode."],
+        caps: [
+          "Vous adoptez une nouvelle méthode de révision : elle vous mènera à <b>70 %</b>, c’est sûr.",
+          "Vos notes stagnent, mais vous voyez dans chacune <b>un bon signe</b>.",
+          "Quand elles restent trop basses, vous baissez la barre : « Il faut juste <b>plus de temps</b>. »",
+          "<b>L’habitude :</b> avant de regarder, écrivez ce qui vous ferait <b>changer d’avis</b>.",
+          "<b>Verrouillez cette barre</b>. Puis laissez venir les résultats.",
+          "Notes trop basses. Envie de baisser la barre ? Voilà le <b>signal d’alarme</b>.",
+          "Elle déjoue l’<b>effet retour de flamme</b> : s’entêter quand les faits vous contredisent.",
+          "La barre a tenu. Vous <b>changez de méthode</b> au lieu d’attendre en espérant."
+        ],
+        say: [
+          "Vous adoptez une nouvelle méthode de révision. Elle vous mènera à soixante-dix pour cent, c’est sûr.",
+          "Vos notes stagnent, mais vous voyez dans chacune un bon signe.",
+          "Quand elles restent trop basses, vous baissez la barre. Il faut juste plus de temps.",
+          "L’habitude : avant de regarder, écrivez ce qui vous ferait changer d’avis.",
+          "Verrouillez cette barre. Puis laissez venir les résultats.",
+          "Notes trop basses. Envie de baisser la barre ? Voilà le signal d’alarme.",
+          "Elle déjoue l’effet retour de flamme : s’entêter quand les faits vous contredisent.",
+          "La barre a tenu. Vous changez de méthode, au lieu d’attendre en espérant.",
+          "Décidez ce qui vous ferait changer d’avis. Placez la barre avant que les faits arrivent, et ne la bougez plus une fois qu’ils sont là."
+        ]
       }
     },
     svg(T) {

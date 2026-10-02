@@ -195,6 +195,37 @@
           "Anota lo que has comprobado. Fíate de eso, no del eco.",
           "Ya visto y repetido. Familiar no es lo mismo que cierto: fíate de lo que has comprobado, no del eco."
         ]
+      },
+      fr: {
+        name: "Amorcé et répété", shareTitle: "Pourquoi ce qui se répète semble vrai, en 30 secondes",
+        ecline: "Familier ne veut pas dire vrai : fiez-vous à ce que vous avez vérifié, pas à l’écho.",
+        today: "publications aujourd’hui", ask: "Déjà vu ?", yes: "oui → on le remarque", no: "non → on fait défiler",
+        myth: ["La chauve-souris", "est aveugle."], fact: ["La chauve-souris", "y voit bien !"], word: "umami", wordW: 27,
+        feel: ["semble vrai", "vous plaît", "semble courant"],
+        names: ["Effet de vérité illusoire", "Effet de simple exposition", "Illusion de fréquence"], pw: [149, 150, 128],
+        nf0: "faits nouveaux : 0", nf1: "faits nouveaux : 1",
+        notes: "Mes notes", claim: "Chauve-souris aveugle ?", claimW: 132, ok: "Non, elle y voit.",
+        caps: [
+          "Chaque jour, <b>des centaines de publications</b> défilent. Impossible de tout vérifier.",
+          "Alors votre cerveau privilégie <b>ce qu’il a déjà vu</b>. En général, ça fait gagner du temps.",
+          "Une affirmation défile : <b>« La chauve-souris est aveugle. »</b> Vous n’êtes pas sûr.",
+          "Chaque répétition la rend <b>plus crédible</b>, sans que vous ayez rien appris.",
+          "Pareil pour une chanson : <b>plus on l’entend, plus on l’aime</b>.",
+          "Apprenez un mot nouveau, et soudain il est <b>partout</b>. Il l’a toujours été.",
+          "<b>La solution :</b> cherchez des voix que vous <b>n’entendez pas d’habitude</b>.",
+          "Notez ce que vous avez vérifié. <b>Fiez-vous à ça, pas à l’écho.</b>"
+        ],
+        say: [
+          "Chaque jour, des centaines de publications défilent. Impossible de tout vérifier.",
+          "Alors votre cerveau privilégie ce qu’il a déjà vu. En général, ça fait gagner du temps.",
+          "Une affirmation défile. La chauve-souris est aveugle. Vous n’êtes pas sûr.",
+          "Elle revient, encore et encore, et chaque fois elle semble un peu plus vraie. Pourtant, vous n’avez rien appris de nouveau. C’est l’effet de vérité illusoire.",
+          "Pareil pour une chanson. Plus on l’entend, plus on l’aime. L’effet de simple exposition.",
+          "Apprenez un mot nouveau, et soudain il est partout. Il l’a toujours été. C’est l’illusion de fréquence.",
+          "La solution : cherchez des voix que vous n’entendez pas d’habitude.",
+          "Notez ce que vous avez vérifié. Fiez-vous à ça, pas à l’écho.",
+          "Amorcé et répété. Familier ne veut pas dire vrai : fiez-vous à ce que vous avez vérifié, pas à l’écho."
+        ]
       }
     },
     svg(T) {

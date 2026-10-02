@@ -123,6 +123,33 @@
           "Juzgados rasgo a rasgo, quedan empatados.",
           "El efecto halo. Un rasgo bueno hace que los demás también parezcan buenos. Juzga cada uno por sus propias pruebas."
         ]
+      },
+      fr: {
+        name: "Effet de halo", shareTitle: "L’effet de halo en 30 secondes",
+        ecline: "Un bon trait fait paraître les autres bons aussi. Jugez chacun sur ses propres preuves.",
+        same: ["même CV"], traits: ["Compétences", "Honnêteté", "Fiabilité"],
+        evidence: ["test pratique", "références", "parcours"], halo: "halo",
+        caps: [
+          "Deux candidats avec <b>le même CV</b>.",
+          "L’un entre sûr de lui, élégant et souriant.",
+          "Cette première impression <b>rayonne</b> sur tout le reste.",
+          "Compétences ? <b>Solides.</b> Honnête ? <b>Sûrement.</b> Fiable ? <b>Bien sûr.</b>",
+          "L’autre obtient des notes moyennes <b>avec les mêmes faits</b>.",
+          "Cet écart, c’est le <b>halo</b> : un seul trait a coloré tout le tableau.",
+          "<b>La solution :</b> notez chaque qualité sur ses propres preuves.",
+          "Jugés trait par trait, ils sont <b>à égalité</b>."
+        ],
+        say: [
+          "Deux candidats avec le même CV.",
+          "L’un entre sûr de lui, élégant et souriant.",
+          "Cette première impression rayonne sur tout le reste.",
+          "Compétences ? Solides. Honnête ? Sûrement. Fiable ? Bien sûr.",
+          "L’autre obtient des notes moyennes, avec les mêmes faits.",
+          "Cet écart, c’est le halo. Un seul trait a coloré tout le tableau.",
+          "La solution : notez chaque qualité sur ses propres preuves.",
+          "Jugés trait par trait, ils sont à égalité.",
+          "L’effet de halo. Un bon trait fait paraître les autres bons aussi. Jugez chacun sur ses propres preuves."
+        ]
       }
     },
     svg(T) {

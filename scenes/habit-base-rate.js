@@ -190,6 +190,36 @@
           "Así que planea con un rango realista y guarda un colchón de seguridad.",
           "Empieza por la tasa base. Pregunta cómo suelen salir las cosas así y luego ajusta un poco por lo que este caso tiene de especial."
         ]
+      },
+      fr: {
+        name: "Partez du taux de base", shareTitle: "Partez du taux de base : une habitude en 30 secondes",
+        ecline: "Demandez-vous comment ce genre de chose tourne en général, puis ajustez un peu selon ce qui est spécial.",
+        bubble: "« La cuisine est incroyable ! »", savings: "toutes ses économies", invest: "investir", cushion: "matelas de sécurité",
+        h1: "10 nouveaux restaurants similaires", later: "3 ans plus tard", open: "4 sur 10 encore ouverts",
+        h2: "qu’a-t-il de spécial ?", chance: "chances d’être encore ouvert dans 3 ans",
+        sure: "certain", base: "taux de base", adj: "+ bonne cuisine", n: v => `${v} sur 10`,
+        gap: "Effet de surconfiance", range: "fourchette réaliste",
+        caps: [
+          "Votre ami veut ouvrir un restaurant avec <b>toutes ses économies</b>.",
+          "« La cuisine est incroyable », dit-il. « Ça <b>ne peut pas rater</b>. »",
+          "Il ne voit que <b>ce restaurant-là</b>, alors il en est <b>certain</b>.",
+          "<b>L’habitude :</b> demandez d’abord comment ce genre d’endroit s’en sort en général.",
+          "Trois ans plus tard, <b>6 sur 10</b> ont fermé. Partez de <b>4 sur 10</b>.",
+          "Puis ajustez selon ce qui est spécial. Bonne cuisine ? <b>On monte un peu</b>.",
+          "Cet écart, c’est l’<b>effet de surconfiance</b>. Cette habitude le repère.",
+          "Il prévoit une <b>fourchette réaliste</b> et garde un <b>matelas de sécurité</b>."
+        ],
+        say: [
+          "Votre ami veut ouvrir un restaurant avec toutes ses économies.",
+          "La cuisine est incroyable, dit-il. Ça ne peut pas rater.",
+          "Il ne voit que ce restaurant-là, alors il en est certain.",
+          "L’habitude : demandez d’abord comment ce genre d’endroit s’en sort en général.",
+          "Imaginez dix nouveaux restaurants du même genre. Trois ans plus tard, six ont fermé. Alors partez de quatre sur dix.",
+          "Puis ajustez selon ce qui est spécial. Bonne cuisine ? Ça fait monter un peu, pas jusqu’à la certitude.",
+          "Cet écart, c’est l’effet de surconfiance. Cette habitude le repère.",
+          "Alors il prévoit une fourchette réaliste, et garde un matelas de sécurité.",
+          "Partez du taux de base. Demandez-vous comment ce genre de chose tourne en général, puis ajustez un peu selon ce qui est spécial."
+        ]
       }
     },
     svg(T) {

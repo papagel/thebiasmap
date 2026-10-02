@@ -190,6 +190,34 @@
           "Y cuando hables, abre y cierra con tu idea clave. Se quedará.",
           "Lo esencial. La memoria guarda el inicio, el final y lo mejor, así que anota también el medio."
         ]
+      },
+      fr: {
+        name: "L’essentiel", shareTitle: "Pourquoi on retient le début, la fin et le meilleur passage, en 30 secondes",
+        ecline: "La mémoire garde le début, la fin et le meilleur passage, alors notez aussi le milieu.",
+        week: "une semaine plus tard", kl: ["début", "le meilleur", "fin"], ylab: "retenu",
+        chip: ["Effet de position sérielle", "Nivellement et accentuation", "Effet de désinformation"],
+        lvl: "nivelé", shl: "accentué", notes: "vos notes", rej: "absent de vos notes", kp: "point clé",
+        caps: [
+          "Vous écoutez un exposé en <b>dix points</b>. Impossible de tout retenir.",
+          "Alors la mémoire garde quelques <b>éléments clés</b>. Compact, et rapide à utiliser.",
+          "Le <b>premier</b> et le <b>dernier</b> point restent. Le <b>milieu</b> s’efface.",
+          "En le racontant, vous <b>gommez</b> le flou et <b>accentuez</b> le meilleur.",
+          "Plus tard, quelqu’un dit : « Super, le passage sur les prix ! » Il <b>n’y en avait pas</b>.",
+          "Pourtant, il se glisse dans votre mémoire et paraît vite <b>tout aussi réel</b>.",
+          "<b>La solution :</b> prenez des notes, <b>milieu compris</b>. Puis vérifiez vos souvenirs.",
+          "Quand vous parlez, ouvrez et fermez sur votre <b>point clé</b>. Il restera."
+        ],
+        say: [
+          "Vous écoutez un exposé en dix points. Impossible de tout retenir.",
+          "Alors la mémoire garde quelques éléments clés : le début, la fin, le meilleur passage. Compact, et rapide à utiliser.",
+          "L’effet de position sérielle : le premier et le dernier point restent. Le milieu s’efface.",
+          "Nivellement et accentuation : en le racontant, vous gommez le flou et accentuez le meilleur.",
+          "L’effet de désinformation : plus tard, quelqu’un dit, super, le passage sur les prix ! Il n’y en avait pas.",
+          "Pourtant, il se glisse dans votre mémoire, et paraît vite tout aussi réel.",
+          "La solution : prenez des notes, milieu compris. Puis vérifiez vos souvenirs.",
+          "Et quand vous parlez, ouvrez et fermez sur votre point clé. Il restera.",
+          "L’essentiel. La mémoire garde le début, la fin et le meilleur passage, alors notez aussi le milieu."
+        ]
       }
     },
     svg(T) {

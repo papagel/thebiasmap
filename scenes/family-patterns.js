@@ -186,6 +186,33 @@
           "Luego reúne más puntos. Los patrones que se mantienen merecen confianza.",
           "Historias y patrones. Tu cerebro encuentra historias hasta en puntos al azar, así que pregúntate qué dibujaría el azar antes de creerte una."
         ]
+      },
+      fr: {
+        name: "Récits et schémas", shareTitle: "Pourquoi on voit des motifs dans le bruit, en 30 secondes",
+        ecline: "Votre cerveau trouve des histoires même dans des points au hasard, alors demandez-vous ce que le hasard dessinerait avant d’y croire.",
+        note: "mieux vaut prévenir", b1: "Illusion des séries", b2: "Paréidolie", b3: "Insensibilité à la taille d’échantillon",
+        rand: "lancés au hasard", chance: "par hasard", q1: "Que dessinerait le hasard ?", q2: "Assez de points ?",
+        caps: [
+          "La vie ne vous donne que des <b>points épars</b> : quelques indices, jamais l’image entière.",
+          "Votre cerveau <b>relie les points</b> : un loup ! Ces réflexes ont sauvé nos ancêtres.",
+          "Il voit aussi des motifs dans le bruit : un amas au hasard semble <b>avoir un sens</b>.",
+          "Trois points en triangle, et soudain <b>un visage</b> vous regarde.",
+          "Quatre points à peine, et pourtant ils semblent <b>une tendance sûre</b>.",
+          "Mais les points sont tombés <b>au hasard</b>. Les histoires venaient de votre tête.",
+          "<b>La solution :</b> que dessinerait le hasard seul ? Des amas et des visages aussi.",
+          "Puis réunissez <b>plus de points</b>. Les motifs qui tiennent méritent votre confiance."
+        ],
+        say: [
+          "La vie ne vous donne que des points épars : quelques indices, jamais l’image entière.",
+          "Votre cerveau relie les points. Un loup ! Des réflexes rapides comme celui-ci ont gardé nos ancêtres en vie. Mieux vaut prévenir que guérir.",
+          "Mais il voit aussi des motifs dans le bruit. Un amas au hasard semble vouloir dire quelque chose. On appelle ça l’illusion des séries.",
+          "Trois points en triangle, et soudain un visage vous regarde. C’est la paréidolie.",
+          "Quatre points à peine, et pourtant ils semblent une tendance sûre. C’est l’insensibilité à la taille d’échantillon.",
+          "Mais les points sont tombés au hasard. Les histoires venaient de votre tête.",
+          "La solution : demandez-vous ce que le hasard seul dessinerait. Lui aussi fait des amas et des visages.",
+          "Puis réunissez plus de points. Les motifs qui tiennent méritent votre confiance.",
+          "Récits et schémas. Votre cerveau trouve des histoires même dans des points au hasard, alors demandez-vous ce que le hasard dessinerait avant d’y croire."
+        ]
       }
     },
     svg(T) {

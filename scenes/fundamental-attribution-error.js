@@ -171,6 +171,36 @@
           "Dales a los demás el mismo beneficio de la duda que te das a ti. A menudo acertarás.",
           "El error fundamental de atribución. Culpamos a los demás por su carácter y nos excusamos por la situación. Pregúntate qué le estará pasando."
         ]
+      },
+      fr: {
+        name: "Erreur fondamentale d’attribution", shareTitle: "L’erreur fondamentale d’attribution en 30 secondes",
+        ecline: "Nous accusons le caractère des autres et excusons notre propre situation. Demandez-vous ce qui a pu se passer.",
+        you: "vous", jerk: "Quel crétin !", bubAW: 104,
+        char: "caractère", char2: "caractère ?", sit: "situation",
+        careless: "chauffard", emergency: "une urgence ?", late: "en retard",
+        card: ["Il fonce", "à l’hôpital"], cardW: 132, hidden: "caché à vos yeux",
+        mine: ["En retard pour", "une réunion !"], ask: "Qu’a-t-il pu se passer ?", askW: 158,
+        caps: [
+          "Une voiture vous fait une queue de poisson.",
+          "Votre première pensée : « <b>Quel crétin !</b> »",
+          "Vous jugez <b>qui il est</b>, pas ce qui lui arrive.",
+          "Ce que vous ne voyez pas : il <b>fonce à l’hôpital</b>.",
+          "Quand <b>vous</b> faites une queue de poisson, vous savez pourquoi : vous étiez en retard.",
+          "On l’accuse pour <b>qui il est</b>. Vous, <b>votre situation</b> vous excuse.",
+          "<b>La solution :</b> demandez-vous quelle situation pourrait l’expliquer.",
+          "Accordez aux autres <b>la même indulgence</b> qu’à vous-même. Vous aurez souvent raison."
+        ],
+        say: [
+          "Une voiture vous fait une queue de poisson.",
+          "Votre première pensée : quel crétin !",
+          "Vous jugez qui il est, pas ce qui lui arrive.",
+          "Ce que vous ne voyez pas : il fonce à l’hôpital.",
+          "Mais quand c’est vous qui faites une queue de poisson, vous savez pourquoi. Vous étiez en retard.",
+          "On l’accuse pour qui il est. Vous, votre situation vous excuse.",
+          "La solution : demandez-vous quelle situation pourrait l’expliquer.",
+          "Accordez aux autres la même indulgence qu’à vous-même. Vous aurez souvent raison.",
+          "L’erreur fondamentale d’attribution. Nous accusons le caractère des autres et excusons notre propre situation. Demandez-vous ce qui a pu se passer."
+        ]
       }
     },
     svg(T) {

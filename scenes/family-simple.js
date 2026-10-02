@@ -166,6 +166,39 @@
           "Luego dale a cada decisión un tiempo proporcional a lo que está en juego.",
           "Simple y completo. La opción ordenada parece más segura, pero dedica tu tiempo a lo que importa, no a lo que es fácil."
         ]
+      },
+      fr: {
+        name: "Simple et complet", shareTitle: "Pourquoi l’option nette et simple l’emporte même quand elle est pire, en 30 secondes",
+        ecline: "L’option nette semble plus sûre, mais consacrez votre temps à ce qui compte, pas à ce qui est facile.",
+        cw: 6.1,
+        jud: ["facile à juger", "difficile à juger"],
+        chip: ["Biais d’ambiguïté", "Biais d’information", "Effet abri à vélos"],
+        odds: ["1 chance sur 4", "chances inconnues"], maybe: "peut-être 1 sur 2 ?",
+        more: "plus de faits", same: "même choix",
+        shed: ["couleur de l’abri", "centrale nucléaire"],
+        min: n => `${n} min`,
+        ask: "Cela changerait-il mon choix ?", askW: 196,
+        caps: [
+          "Deux boîtes : l’une <b>nette et bien étiquetée</b>, l’autre <b>pleine de points d’interrogation</b>.",
+          "Votre cerveau prend la plus claire : c’est <b>rapide</b>, <b>prévisible</b>, souvent judicieux.",
+          "Vous préférez des <b>chances connues</b> à des inconnues peut-être <b>meilleures</b>.",
+          "Vous avez choisi, mais continuez à <b>accumuler des faits</b> qui ne changeront rien.",
+          "Une réunion passe <b>une heure</b> sur la couleur de l’abri à vélos…",
+          "…et <b>cinq minutes</b> sur la centrale nucléaire, le sujet qui compte.",
+          "<b>La solution :</b> demandez-vous « Cela <b>changerait-il mon choix</b> ? » Sinon, arrêtez.",
+          "Puis accordez à chaque choix un temps <b>à la mesure de l’enjeu</b>."
+        ],
+        say: [
+          "Deux boîtes. L’une est nette et bien étiquetée. L’autre est pleine de points d’interrogation.",
+          "Votre cerveau prend la plus claire. C’est rapide et prévisible, et c’est souvent judicieux.",
+          "Biais d’ambiguïté : vous préférez des chances connues à des chances inconnues, même quand celles-ci pourraient être meilleures.",
+          "Biais d’information : vous avez déjà choisi, mais vous continuez à accumuler des faits qui ne changeront rien.",
+          "Effet abri à vélos : une réunion passe une heure sur la couleur de l’abri à vélos...",
+          "...et cinq minutes sur la centrale nucléaire, le sujet qui compte vraiment.",
+          "La solution : demandez-vous, cela changerait-il mon choix ? Sinon, arrêtez.",
+          "Puis accordez à chaque choix un temps à la mesure de l’enjeu.",
+          "Simple et complet. L’option nette semble plus sûre, mais consacrez votre temps à ce qui compte, pas à ce qui est facile."
+        ]
       }
     },
     svg(T) {

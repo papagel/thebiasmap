@@ -145,6 +145,35 @@
           "O decide de antemano y déjalo fijado, con ahorro automático.",
           "El descuento hiperbólico. Lo cercano pesa más. Decide desde lejos, y luego déjalo fijado."
         ]
+      },
+      fr: {
+        name: "Actualisation hyperbolique", shareTitle: "L’actualisation hyperbolique en 30 secondes",
+        ecline: "Ce qui est proche pèse lourd. Décidez de loin, puis verrouillez votre choix.",
+        eur: v => `${v} €`, today: "aujourd’hui", inWeek: "+1 semaine", inYear: "dans un an", plusWeek: "+1 semaine",
+        week: "1 semaine", ten: "+10 €", looms: "le présent pèse lourd", away: "imaginez-le dans un an",
+        now: "Tout de suite !", nowW: 109, wait: "OK, j’attends.", waitW: 110,
+        auto: "épargne auto", autoW: 74,
+        caps: [
+          "Vous préférez <b>100 € aujourd’hui</b> ou <b>110 € dans une semaine</b> ?",
+          "Vous prenez les <b>100 € tout de suite</b>. Pourquoi attendre une semaine ?",
+          "Ensuite : <b>100 € dans un an</b>, ou <b>110 € une semaine plus tard</b> ?",
+          "Cette fois, vous <b>attendez volontiers la semaine</b> de plus pour 110 €.",
+          "Même <b>semaine d’attente</b>, mêmes <b>10 € en plus</b>. Choix opposé.",
+          "De près, <b>le présent pèse lourd</b>. De loin, la semaine <b>rétrécit</b>.",
+          "<b>La solution :</b> imaginez les deux options comme si elles étaient dans un an.",
+          "Ou <b>décidez à l’avance</b> et verrouillez votre choix, avec une <b>épargne automatique</b>."
+        ],
+        say: [
+          "Vous préférez cent euros aujourd’hui, ou cent dix dans une semaine ?",
+          "Vous prenez les cent tout de suite. Pourquoi attendre une semaine entière ?",
+          "Ensuite : cent euros dans un an, ou cent dix une semaine plus tard ?",
+          "Cette fois, vous attendez volontiers la semaine de plus pour cent dix.",
+          "Même semaine d’attente. Mêmes dix euros en plus. Choix opposé.",
+          "De près, le présent pèse lourd. De loin, la même semaine rétrécit.",
+          "La solution : imaginez les deux options comme si elles étaient dans un an.",
+          "Ou décidez à l’avance et verrouillez votre choix, avec une épargne automatique.",
+          "L’actualisation hyperbolique. Ce qui est proche pèse lourd. Décidez de loin, puis verrouillez votre choix."
+        ]
       }
     },
     svg(T) {

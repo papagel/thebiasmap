@@ -171,6 +171,35 @@
           "Evaluado a ciegas, el trabajo queda igualado, y gana la mejor idea, sea de quien sea.",
           "Lo familiar es mejor. O eso parece. Familiar no significa mejor, así que juzga el trabajo, no a quien lo hizo."
         ]
+      },
+      fr: {
+        name: "Préférer le familier", shareTitle: "Pourquoi notre camp semble toujours meilleur, en 30 secondes",
+        ecline: "Familier ne veut pas dire meilleur, alors jugez le travail, pas son auteur.",
+        us: "votre équipe", them: "l’autre équipe", same: "même travail", safe: "familier = sûr",
+        traits: ["créatif", "drôle", "calme"], blur: "« tous pareils »",
+        check: "même grille", crit: ["Clair", "Exact", "Utile"], cover: ["A", "B"],
+        bias: "biais", fix: "solution", tags: ["Biais d’endogroupe", "Biais d’homogénéité de l’exogroupe", "Syndrome du « pas inventé ici »", "Évaluation à l’aveugle"], tw: [180, 242, 253, 209],
+        caps: [
+          "Deux équipes rendent <b>le même travail</b>. L’une d’elles est la vôtre.",
+          "Raccourci du cerveau : <b>le familier semble meilleur</b>. C’est souvent un pari sûr.",
+          "Même travail, et pourtant votre équipe a <b>9</b> et la leur <b>6</b>.",
+          "Vos collègues sont tous différents. Les autres ? « <b>Tous pareils.</b> »",
+          "Puis l’autre équipe propose une <b>meilleure façon</b> de faire.",
+          "Votre équipe l’écarte : <b>pas inventé ici</b>. Une bonne idée, perdue.",
+          "<b>La solution :</b> cachez les noms et jugez les deux sur <b>la même grille</b>.",
+          "À l’aveugle, c’est <b>égal</b>, et la meilleure idée gagne, <b>peu importe qui l’a eue</b>."
+        ],
+        say: [
+          "Deux équipes rendent le même travail. L’une d’elles est la vôtre.",
+          "Votre cerveau prend un raccourci : ce qui est familier semble meilleur. En général, c’est un pari sûr, et ça évite de tout juger à partir de zéro.",
+          "Pourtant, le même travail obtient un neuf quand c’est votre équipe, et un six quand c’est la leur. C’est le biais d’endogroupe.",
+          "Vos collègues sont tous différents, chacun avec ses points forts. Les autres ? Tous pareils. C’est le biais d’homogénéité de l’exogroupe.",
+          "Puis l’autre équipe propose une meilleure façon de faire.",
+          "Votre équipe l’écarte. Pas inventé ici. Une bonne idée, perdue juste à cause de sa provenance.",
+          "La solution : cachez les noms, et jugez les deux sur la même grille.",
+          "Jugé à l’aveugle, le travail est à égalité, et la meilleure idée gagne, peu importe qui l’a eue.",
+          "On préfère le familier. Pourtant, familier ne veut pas dire meilleur, alors jugez le travail, pas son auteur."
+        ]
       }
     },
     svg(T) {

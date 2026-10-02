@@ -147,6 +147,33 @@
           "Los mismos datos, de las dos formas. Ahora juzgas la carne, no la etiqueta.",
           "El efecto marco. El mismo dato suena distinto según cómo se diga. Dale la vuelta y verás."
         ]
+      },
+      fr: {
+        name: "Effet de cadrage", shareTitle: "L’effet de cadrage en 30 secondes",
+        ecline: "Un même fait sonne différemment selon la façon de le dire. Inversez-le, et voyez.",
+        lean: "75 % maigre", fat: "25 % gras", flipL: "= 25 % gras", flipR: "= 75 % maigre", tagW: 100,
+        pl: "maigre", pf: "gras", same: ["même", "bœuf"], rate: "À quel point il plaît",
+        caps: [
+          "Deux barquettes de bœuf haché en rayon.",
+          "L’une porte l’étiquette « <b>75 % maigre</b> ».",
+          "L’autre porte l’étiquette « <b>25 % gras</b> ».",
+          "Laquelle semble meilleure ? La plupart des gens <b>préfèrent la « maigre »</b>.",
+          "Mais regardez dedans : c’est <b>le même bœuf</b>.",
+          "Chaque étiquette attire votre œil vers la <b>bonne</b> ou la <b>mauvaise partie</b>.",
+          "<b>La solution :</b> inversez le cadrage. Dites-le dans l’autre sens.",
+          "Mêmes faits, dans les deux sens. Vous jugez enfin <b>le bœuf, pas l’étiquette</b>."
+        ],
+        say: [
+          "Deux barquettes de bœuf haché en rayon.",
+          "L’une porte l’étiquette : soixante-quinze pour cent maigre.",
+          "L’autre porte l’étiquette : vingt-cinq pour cent gras.",
+          "Laquelle semble meilleure ? La plupart des gens préfèrent la maigre.",
+          "Mais regardez dedans. C’est le même bœuf.",
+          "Chaque étiquette attire votre œil vers la bonne partie, ou vers la mauvaise.",
+          "La solution : inversez le cadrage. Dites-le dans l’autre sens.",
+          "Mêmes faits, dans les deux sens. Vous jugez enfin le bœuf, pas l’étiquette.",
+          "L’effet de cadrage. Un même fait sonne différemment selon la façon de le dire. Inversez-le, et voyez."
+        ]
       }
     },
     svg(T) {

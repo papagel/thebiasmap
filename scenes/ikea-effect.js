@@ -156,6 +156,33 @@
           "Misma estantería, mismo precio. Juzga el objeto, no el esfuerzo.",
           "El efecto IKEA. Lo que construyes tú mismo parece valer más. Júzgalo como si lo hubiera hecho otra persona."
         ]
+      },
+      fr: {
+        name: "Effet IKEA", shareTitle: "L’effet IKEA en 30 secondes",
+        ecline: "Ce que vous construisez vous-même semble valoir plus. Jugez-le comme si quelqu’un d’autre l’avait fait.",
+        yours: "La vôtre", yoursW: 47, shops: "Du magasin", stranger: "D’un inconnu", same: "même modèle",
+        hrs: n => (n > 1 ? `${n} heures` : `${n} heure`), eur: v => `${v} €`, plus: "+40 €", effort: "votre effort",
+        caps: [
+          "Vous montez <b>vous-même</b> une étagère en kit.",
+          "Deux heures, une clé Allen, <b>une vis en trop</b>.",
+          "Elle penche un peu. Mais vous l’<b>adorez</b>.",
+          "À côté, <b>la même étagère</b>, montée par le magasin.",
+          "À vendre ? Vous demanderiez <b>80 €</b> pour la vôtre, <b>40 €</b> pour celle du magasin.",
+          "Votre <b>effort</b> lui donne l’air de <b>valoir plus</b>.",
+          "<b>La solution :</b> imaginez qu’un inconnu l’a montée. Combien vaut-elle ?",
+          "Même étagère, même prix. <b>Jugez l’objet, pas l’effort.</b>"
+        ],
+        say: [
+          "Vous montez vous-même une étagère en kit.",
+          "Deux heures, une clé Allen, et une vis en trop.",
+          "Elle penche un peu. Mais vous l’adorez.",
+          "À côté, la même étagère, montée par le magasin.",
+          "À vendre ? Vous demanderiez quatre-vingts euros pour la vôtre, et quarante pour celle du magasin.",
+          "Votre effort lui donne l’air de valoir plus.",
+          "La solution : imaginez qu’un inconnu l’a montée. Combien vaut-elle maintenant ?",
+          "Même étagère, même prix. Jugez l’objet, pas l’effort.",
+          "L’effet IKEA. Ce que vous construisez vous-même semble valoir plus. Jugez-le comme si quelqu’un d’autre l’avait fait."
+        ]
       }
     },
     svg(T) {

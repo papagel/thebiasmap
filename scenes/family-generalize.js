@@ -240,6 +240,35 @@
           "Cinco perros amables, un mordisco. Guarda las excepciones, y el resumen será justo.",
           "Generalidades. La memoria cambia los detalles por resúmenes, así que recuerda las excepciones antes de juzgar."
         ]
+      },
+      fr: {
+        name: "Généralités", shareTitle: "Pourquoi la mémoire garde l’essentiel et jette les détails, en 30 secondes",
+        ecline: "La mémoire échange les détails contre des résumés, alors repensez aux exceptions avant de juger.",
+        memory: "mémoire", more: "+ des centaines", dropped: "sans les détails", left: "mis de côté", newDog: "nouveau chien", count: "5 gentils · 1 morsure",
+        dogs: "chiens", friendly: "gentils", scary: "méchants", mostly: "surtout gentils",
+        trip: "le voyage", perfect: "parfait", link: "lien automatique", glasses: "lunettes → génie", imp: "méchant",
+        names: ["Biais de négativité", "Biais d’estompement de l’affect", "Associations implicites"],
+        caps: [
+          "Vous avez croisé <b>des centaines de chiens</b>. La mémoire ne peut pas <b>tous</b> les garder.",
+          "Alors elle les compresse en <b>un seul résumé</b>. Le chien suivant ? Une <b>idée rapide</b>.",
+          "Puis un chien <b>mord</b>. Ce souvenir <b>pèse plus</b> que tous les autres.",
+          "Un ancien voyage : les <b>mauvais moments s’effacent plus vite</b>. Il devient <b>« parfait »</b>.",
+          "À l’écran, les <b>génies</b> portent des <b>lunettes</b>. Bientôt, le lien est <b>automatique</b>.",
+          "Le résumé reste. Un <b>nouveau chien gentil</b> ? Vous pensez encore <b>« méchant »</b>.",
+          "<b>La solution :</b> repensez à des <b>cas précis</b>, surtout ceux qui <b>ne collent pas</b>.",
+          "Cinq gentils, une morsure. Gardez les <b>exceptions</b>, et le résumé reste <b>juste</b>."
+        ],
+        say: [
+          "Vous avez croisé des centaines de chiens. La mémoire ne peut pas tous les garder.",
+          "Alors elle les compresse en un seul résumé : les chiens sont gentils. La fois suivante, vous avez une idée rapide.",
+          "Puis un chien vous mord. Ce souvenir pèse plus que tous les autres. C’est le biais de négativité.",
+          "Pensez à un ancien voyage. Les mauvais moments s’effacent plus vite que les bons, alors maintenant, il était parfait. C’est le biais d’estompement de l’affect.",
+          "À l’écran, les génies portent des lunettes. Bientôt, le lien est automatique. C’est une association implicite.",
+          "Et le résumé reste. Un nouveau chien gentil passe, et vous pensez encore : méchant.",
+          "La solution : repensez à des cas précis, surtout ceux qui ne collent pas.",
+          "Cinq chiens gentils, une morsure. Gardez les exceptions, et le résumé reste juste.",
+          "Généralités. La mémoire échange les détails contre des résumés, alors repensez aux exceptions avant de juger."
+        ]
       }
     },
     svg(T) {

@@ -163,6 +163,36 @@
           "Ahora aguantan. Apréndete de memoria lo que importa y busca el resto.",
           "La memoria guarda lo que trabajas, así que trabaja lo que quieras guardar."
         ]
+      },
+      fr: {
+        name: "Comment c’est stocké", shareTitle: "Pourquoi la façon d’apprendre décide de ce que vous retenez, en 30 secondes",
+        ecline: "La mémoire garde ce que vous travaillez, alors travaillez ce que vous voulez garder.",
+        mem: "VOTRE MÉMOIRE", week: "VOTRE MÉMOIRE · UNE SEMAINE APRÈS",
+        lgThick: "ce que vous utilisez ou creusez", lgThin: "ce que vous avez à peine remarqué",
+        words: ["survolé", "pourquoi ?", "", "quiz", "cherché"], reread: n => `relu ×${n}`, fixed: { 0: "expliqué", 2: "quiz" },
+        labels: [["Effet de niveau", "de traitement"], ["Effet de test"], ["Effet Google"]],
+        pill: "cherchez-le",
+        caps: [
+          "Votre mémoire <b>ne peut pas garder</b> tout ce que vous voyez. Elle doit choisir.",
+          "Alors elle attache des <b>fils épais</b> à ce qui vous sert. En général, c’est malin.",
+          "<b>Survolé</b> ? Un fil fin. Vous avez demandé <b>pourquoi</b> c’est vrai ? Un fil épais.",
+          "<b>Relire</b> apporte peu. <b>Vous interroger</b> noue un fil épais.",
+          "Vous savez pouvoir <b>le chercher</b> ? Vous le retenez souvent <b>moins bien</b>.",
+          "Une semaine plus tard, vous tirez les fils. <b>Les fins cassent</b>.",
+          "<b>La solution :</b> ne relisez pas, <b>interrogez-vous</b>. Expliquez-le avec vos mots.",
+          "Désormais, ils <b>tiennent</b>. Apprenez par cœur l’essentiel, cherchez le reste."
+        ],
+        say: [
+          "Votre mémoire ne peut pas garder tout ce que vous voyez. Elle doit choisir.",
+          "Alors elle attache des fils épais à ce que vous utilisez et à ce qui vous fait réfléchir, et des fils fins à ce que vous avez à peine remarqué. En général, c’est malin : votre mémoire va là où ça rapporte.",
+          "Survolé ? Un fil fin. Vous avez demandé pourquoi c’est vrai ? Un fil épais. C’est l’effet de niveau de traitement.",
+          "Relire apporte peu. Vous interroger noue un fil épais. C’est l’effet de test.",
+          "Vous savez pouvoir le chercher ? Vous le retenez souvent moins bien. C’est l’effet Google.",
+          "Une semaine plus tard, vous tirez les fils. Les fins cassent.",
+          "La solution : ne relisez pas, interrogez-vous. Expliquez-le avec vos propres mots.",
+          "Désormais, ils tiennent. Apprenez par cœur l’essentiel, et cherchez le reste.",
+          "La mémoire garde ce que vous travaillez, alors travaillez ce que vous voulez garder."
+        ]
       }
     },
     svg(T) {

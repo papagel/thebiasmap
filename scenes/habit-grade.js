@@ -179,6 +179,35 @@
           "Con lo que sabías, salir antes fue lo correcto. Lo volverías a hacer.",
           "Juzga las decisiones por lo que sabías. Juzga una decisión por lo que sabías cuando la tomaste, no por cómo salió."
         ]
+      },
+      fr: {
+        name: "Jugez d’après ce que vous saviez", shareTitle: "Jugez d’après ce que vous saviez : une habitude en 30 secondes",
+        ecline: "Jugez une décision sur ce que vous saviez au moment de la prendre, pas sur la façon dont elle a tourné.",
+        flH: "VOTRE VOL", alH: "ALERTE TRAFIC", alV: "Trafic dense", knew: "ce que vous saviez",
+        early: "partir tôt", late: "partir tard", empty: "routes vides", waitN: "2 heures", wait: "à la porte",
+        judged: "jugé sur le résultat", when: "au moment du choix", unknown: "à venir",
+        worst: "au pire", w1: "longue attente", w2: "vol manqué", made: "à temps", luck: "veine", bias: "Biais de résultat",
+        caps: [
+          "Votre vol part à 18 h. L’appli annonce un <b>trafic dense</b>.",
+          "Vous partez donc <b>deux heures plus tôt</b>. Les routes sont vides.",
+          "Vous attendez une éternité à la porte. « Quelle <b>décision stupide</b>. »",
+          "<b>L’habitude :</b> revenez au moment où vous avez décidé.",
+          "Vous saviez le trafic probable, et un <b>vol manqué</b> coûte bien plus cher.",
+          "Partir tard et attraper son vol, c’est de la <b>veine</b>, pas du jugement.",
+          "Cette habitude déjoue le <b>biais de résultat</b> : juger une décision à son issue.",
+          "Avec ce que vous saviez, partir tôt était <b>le bon choix</b>. Vous le referiez."
+        ],
+        say: [
+          "Votre vol part à dix-huit heures. L’appli annonce un trafic dense.",
+          "Vous partez donc deux heures plus tôt. Les routes sont vides.",
+          "Vous attendez une éternité à la porte. Quelle décision stupide.",
+          "L’habitude : revenez au moment où vous avez décidé.",
+          "Vous saviez le trafic probable, et un vol manqué coûte bien plus cher.",
+          "Partir tard et attraper son vol, c’est de la veine, pas du jugement.",
+          "Cette habitude déjoue le biais de résultat : juger une décision à son issue.",
+          "Avec ce que vous saviez, partir tôt était le bon choix. Vous le referiez.",
+          "Jugez d’après ce que vous saviez. Jugez une décision sur ce que vous saviez au moment de la prendre, pas sur la façon dont elle a tourné."
+        ]
       }
     },
     svg(T) {

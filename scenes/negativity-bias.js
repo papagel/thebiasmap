@@ -163,6 +163,34 @@
           "Quédate con lo útil de ese uno. Pero quédate también con los nueve.",
           "El sesgo de negatividad. Un comentario malo puede ahogar nueve buenos. Cuéntalos antes de sopesarlos."
         ]
+      },
+      fr: {
+        name: "Biais de négativité", shareTitle: "Le biais de négativité en 30 secondes",
+        ecline: "Un mauvais commentaire peut en noyer neuf bons. Comptez-les avant de les peser.",
+        count: n => (n > 1 ? `${n} commentaires` : `${n} commentaire`),
+        quote: "« Barbant. »", tagW: 103, danger: "danger !", dW: 49, opinion: "un avis",
+        of10: "9 sur 10", liked: "ont aimé", note: "début lent ?", noteW: 90,
+        caps: [
+          "Vous donnez une conférence. Ensuite, <b>dix commentaires</b> arrivent.",
+          "Neuf sont chaleureux. <b>Un</b> est cinglant.",
+          "Le soir, vous ne pensez qu’à <b>celui-là</b>.",
+          "Les neuf bons ? <b>Déjà en train de s’effacer.</b>",
+          "Le mauvais <b>pèse plus lourd</b> que le bon, à force égale.",
+          "Cette alarme protégeait nos ancêtres. Ici, elle <b>fausse le tableau</b>.",
+          "<b>La solution :</b> comptez-les. <b>Neuf sur dix</b> ont aimé.",
+          "Retenez ce qui est utile dans celui-là. <b>Gardez aussi les neuf.</b>"
+        ],
+        say: [
+          "Vous donnez une conférence. Ensuite, dix commentaires arrivent.",
+          "Neuf sont chaleureux. Un est cinglant. Il dit juste : barbant.",
+          "Le soir, vous ne pensez qu’à celui-là.",
+          "Et les neuf bons ? Déjà en train de s’effacer.",
+          "Le mauvais pèse plus lourd que le bon, à force égale.",
+          "Cette alarme protégeait nos ancêtres. Ici, elle fausse juste le tableau. Ce n’est qu’un avis.",
+          "La solution : comptez-les. Neuf sur dix ont aimé.",
+          "Retenez ce qui est utile dans celui-là. Mais gardez aussi les neuf.",
+          "Le biais de négativité. Un mauvais commentaire peut en noyer neuf bons. Comptez-les avant de les peser."
+        ]
       }
     },
     svg(T) {

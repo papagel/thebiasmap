@@ -147,6 +147,37 @@
           "Eligiendo de nuevo, la respuesta es fácil. Cambia.",
           "El sesgo del statu quo. Seguir igual parece seguro, aunque te cueste dinero. Elige como si empezaras de cero."
         ]
+      },
+      fr: {
+        name: "Biais du statu quo", shareTitle: "Le biais du statu quo en 30 secondes",
+        ecline: "Rester comme on est semble sûr, même quand ça coûte. Choisissez comme si vous partiez de zéro.",
+        yours: "Votre forfait", newp: "Nouveau forfait", planA: "Forfait A", planB: "Forfait B", titleW: 75,
+        pA: "30 €", pB: "18 €", per: "/mois", f1: "20 Go de données", f2: "appels illimités", same: "identique",
+        years: n => `depuis ${n} an${n > 1 ? "s" : ""}`, mins: "10 min", stay: "Rester", sw: "Changer", safe: "rassurant",
+        w1: "et si c’était pire ?", w1W: 116, w2: "tracas", w2W: 58,
+        tot: n => (n === 1 ? "12 € par mois" : n === 12 ? "144 € par an" : `${12 * n} €`), cost: "le coût de ne pas choisir",
+        ask: "Lequel choisiriez-vous aujourd’hui ?", askW: 216,
+        caps: [
+          "Vous avez le même forfait mobile depuis des années. <b>30 €</b> par mois.",
+          "Un nouveau forfait avec les mêmes services coûte <b>18 €</b>.",
+          "Changer ne prendrait que <b>dix minutes</b>.",
+          "Mais rester semble <b>sûr</b>, et changer semble <b>risqué</b>.",
+          "Alors vous <b>restez</b>. Encore. Soit <b>12 € de plus</b> chaque mois.",
+          "Sur un an, ça fait <b>144 €</b> pour rien.",
+          "<b>La solution :</b> imaginez que vous choisissez de zéro, aujourd’hui.",
+          "En repartant de zéro, la réponse est simple. <b>Changez.</b>"
+        ],
+        say: [
+          "Vous avez le même forfait mobile depuis des années. Trente euros par mois.",
+          "Un nouveau forfait avec les mêmes services coûte dix-huit euros.",
+          "Changer ne prendrait que dix minutes.",
+          "Mais rester semble sûr, et changer semble risqué.",
+          "Alors vous restez. Encore. Soit douze euros de plus, chaque mois.",
+          "Sur un an, ça fait cent quarante-quatre euros, pour rien.",
+          "La solution : imaginez que vous choisissez de zéro, aujourd’hui.",
+          "En repartant de zéro, la réponse est simple. Changez.",
+          "Le biais du statu quo. Rester comme on est semble sûr, même quand ça coûte. Choisissez comme si vous partiez de zéro."
+        ]
       }
     },
     svg(T) {

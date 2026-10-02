@@ -143,6 +143,34 @@
           "Mira los números reales, y luego decide cómo viajar.",
           "Heurística de disponibilidad. Fácil de recordar no significa probable. Comprueba cuántas veces pasa de verdad."
         ]
+      },
+      fr: {
+        name: "Heuristique de disponibilité", shareTitle: "L’heuristique de disponibilité en 30 secondes",
+        ecline: "Ce qui revient vite en tête n’est pas forcément probable. Vérifiez la fréquence réelle.",
+        memory: "Votre mémoire", or: "ou", head: "Crash aérien", cw: 122, note: "accident", daily: "chaque jour",
+        q1: ["Qu’est-ce qui me", "vient à l’esprit ?"], q2: ["Combien de fois", "ça arrive vraiment ?"],
+        feels: "Risque ressenti", actual: "Risque réel par km",
+        caps: [
+          "L’avion ou la voiture pour aller à la mer : lequel est le plus <b>risqué</b> ?",
+          "Cette semaine, un crash aérien <b>fait la une partout</b>.",
+          "Les accidents de voiture arrivent <b>chaque jour</b>, mais font rarement la une.",
+          "Votre esprit se demande : quels exemples <b>me viennent le plus vite</b> ?",
+          "Du coup, l’avion <b>semble</b> soudain plus dangereux.",
+          "Mais par kilomètre parcouru, <b>la voiture est bien plus risquée</b>.",
+          "<b>La solution :</b> demandez-vous si ça arrive souvent, pas si ça marque.",
+          "Regardez les <b>vrais chiffres</b>, puis choisissez comment voyager."
+        ],
+        say: [
+          "L’avion ou la voiture pour aller à la mer. Lequel est le plus risqué ?",
+          "Cette semaine, un crash aérien fait la une partout.",
+          "Les accidents de voiture arrivent chaque jour, mais ils font rarement la une.",
+          "Votre esprit se demande : quels exemples me viennent le plus vite ?",
+          "Du coup, l’avion semble soudain plus dangereux.",
+          "Mais par kilomètre parcouru, la voiture est bien plus risquée.",
+          "La solution : demandez-vous si ça arrive souvent, pas si ça marque les esprits.",
+          "Regardez les vrais chiffres, puis choisissez comment voyager.",
+          "L’heuristique de disponibilité. Ce qui revient vite en tête n’est pas forcément probable. Vérifiez la fréquence réelle."
+        ]
       }
     },
     svg(T) {

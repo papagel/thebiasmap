@@ -88,6 +88,34 @@
           "Parte de tu propio rango, y acabas cerca del valor real.",
           "Anclaje. El primer número que oyes se vuelve tu punto de partida. Ten claro el tuyo antes."
         ]
+      },
+      fr: {
+        name: "Ancrage", shareTitle: "L’ancrage en 30 secondes",
+        ecline: "Le premier chiffre entendu devient votre point de départ. Fixez d’abord le vôtre.",
+        bubble: "« J’en veux 900 000 € »", truth: "Juste prix", hidden: "vous l’ignorez", start: "point de départ",
+        adj: "ajustement", pull: "rappel", padh: "Votre estimation", padv: "550–650 k€", guess: "Votre prix",
+        withAnchor: "Avec l’ancre", withRange: "Votre fourchette", gap: v => `${v} k€ de trop`, axis: "Prix, milliers d’euros",
+        caps: [
+          "Vous voulez acheter cette maison. Combien vaut-elle ?",
+          "Son juste prix est d’environ <b>600 000 €</b>. Vous l’ignorez encore.",
+          "Le vendeur parle en premier : « J’en veux <b>900 000 €</b> ».",
+          "Votre esprit prend ces 900 000 € comme <b>point de départ</b>.",
+          "Ça vous semble trop cher, alors vous descendez…",
+          "…mais vous vous arrêtez trop tôt : <b>180 000 € de trop</b>.",
+          "<b>La solution :</b> notez d’abord votre propre estimation.",
+          "Partez de votre fourchette. Vous tombez près du <b>juste prix</b>."
+        ],
+        say: [
+          "Vous voulez acheter cette maison. Combien vaut-elle ?",
+          "Son juste prix est d’environ six cent mille euros. Mais vous ne le savez pas encore.",
+          "Le vendeur parle en premier. J’en veux neuf cent mille.",
+          "Votre esprit prend ce chiffre comme point de départ.",
+          "Ça vous semble trop cher, alors vous descendez...",
+          "...mais vous vous arrêtez trop tôt. Vous finissez cent quatre-vingt mille euros trop haut.",
+          "La solution : notez d’abord votre propre estimation.",
+          "Partez de votre propre fourchette, et vous tombez près du juste prix.",
+          "L’ancrage. Le premier chiffre entendu devient votre point de départ. Fixez d’abord le vôtre."
+        ]
       }
     },
     svg(T) {

@@ -144,6 +144,35 @@
           "Mira tu nota: cincuenta por ciento. Aprende de lo que pensabas de verdad.",
           "El sesgo retrospectivo. Cuando ya ha pasado, todo parece obvio. Apunta antes tus predicciones."
         ]
+      },
+      fr: {
+        name: "Biais rétrospectif", shareTitle: "Le biais rétrospectif en 30 secondes",
+        ecline: "Après coup, tout semble évident. Notez d’abord vos prédictions.",
+        hd0: "FINALE · 21:00", hd1: "FINALE · FIN DU MATCH", home: "Domicile", away: "Extérieur",
+        why: "pourquoi c’était évident :", reasons: ["Buteur en forme", "Meilleure défense", "Public à domicile"],
+        dial: "chances de gagner à domicile", hind: "après coup",
+        noteH: "20:45 · avant le match", noteL: "Victoire à domicile :", mark: "votre note",
+        caps: [
+          "Avant la finale, pour vous, c’est <b>à pile ou face</b>.",
+          "Vous donneriez environ <b>50 %</b> de chances à l’équipe qui reçoit.",
+          "Coup de sifflet final : l’équipe qui reçoit gagne <b>3–1</b>.",
+          "Maintenant, la victoire semble <b>évidente</b>. Vous listez les raisons.",
+          "Votre mémoire retouche votre pronostic en douce : « J’en étais <b>sûr à 80 %</b>. »",
+          "Après coup, le passé paraît <b>plus prévisible</b> qu’il ne l’était.",
+          "<b>La solution :</b> notez vos prédictions, avec votre degré de certitude.",
+          "Relisez votre note : <b>50 %</b>. Apprenez de ce que vous pensiez vraiment."
+        ],
+        say: [
+          "Avant la finale, pour vous, c’est à pile ou face.",
+          "Vous donneriez environ cinquante pour cent de chances à l’équipe qui reçoit.",
+          "Coup de sifflet final. L’équipe qui reçoit gagne, trois à un.",
+          "Maintenant, la victoire semble évidente. Vous listez les raisons.",
+          "Votre mémoire retouche votre pronostic en douce. J’en étais sûr à quatre-vingts pour cent.",
+          "Après coup, le passé paraît plus prévisible qu’il ne l’était.",
+          "La solution : notez vos prédictions, avec votre degré de certitude.",
+          "Relisez votre note : cinquante pour cent. Apprenez de ce que vous pensiez vraiment.",
+          "Le biais rétrospectif. Après coup, tout semble évident. Notez d’abord vos prédictions."
+        ]
       }
     },
     svg(T) {

@@ -186,6 +186,40 @@
           "Pon lo cercano y lo lejano uno al lado del otro, a su tamaño real, y la elección se aclara. Y si algo nuevo te parece urgente, dale un día.",
           "El aquí y ahora. Lo cercano parece más grande de lo que es, así que imagina lo lejano de cerca antes de elegir."
         ]
+      },
+      fr: {
+        name: "L’ici et maintenant", shareTitle: "Pourquoi ce qui est juste devant nous l’emporte, en 30 secondes",
+        ecline: "Ce qui est proche paraît plus grand qu’il n’est, alors imaginez le lointain de près avant de choisir.",
+        lens: "ici et maintenant", wide: "vue d’ensemble", kid: "Alex", bias: "biais", real: ["taille réelle"],
+        tags: ["Actualisation hyperbolique", "Effet de la victime identifiable", "Appel à la nouveauté"], tw: [204, 243, 169],
+        labs: [
+          [["tout près"], ["au loin"]],
+          [["une douceur", "maintenant"], ["l’épargne", "l’an prochain"]],
+          [["un enfant", "avec un nom"], ["des milliers", "sans nom"]],
+          [["le nouveau modèle", "tout juste sorti"], ["votre ancien", "marche bien"]]
+        ],
+        rows: ["maintenant ou après", "un ou des milliers", "neuf ou éprouvé"],
+        caps: [
+          "Le proche et le lointain se disputent votre <b>attention limitée</b>.",
+          "Votre cerveau zoome sur <b>l’ici et maintenant</b>. En général, c’est malin.",
+          "Une douceur <b>maintenant</b> paraît énorme. L’épargne pour <b>l’an prochain</b> ? Un point.",
+          "Un enfant <b>avec un nom</b> vous touche plus que <b>des milliers</b> dans le besoin.",
+          "Le modèle <b>neuf</b> semble meilleur, juste parce qu’il est neuf.",
+          "Pourtant, ce qui rétrécit est souvent ce qui <b>compte le plus</b>.",
+          "<b>La solution :</b> élargissez votre regard. Imaginez le lointain <b>de près</b>.",
+          "Côte à côte, en <b>taille réelle</b>, le choix devient clair."
+        ],
+        say: [
+          "Le proche et le lointain se disputent votre attention. Et votre attention est limitée.",
+          "Alors votre cerveau zoome sur l’ici et maintenant. Ce qui est proche paraît énorme, et ce qui est loin rétrécit jusqu’à n’être qu’un point. En général, c’est malin : la récompense ou la menace juste devant vous compte souvent le plus.",
+          "Une douceur maintenant paraît énorme. Votre épargne pour l’an prochain ? Juste un point. C’est l’actualisation hyperbolique.",
+          "Un enfant avec un nom et un visage vous touche plus que des milliers de personnes dans le même besoin. C’est l’effet de la victime identifiable.",
+          "Et le modèle neuf semble meilleur, juste parce qu’il est neuf, tandis que le téléphone qui marche bien s’efface. C’est l’appel à la nouveauté.",
+          "Pourtant, ce qui rétrécit est souvent ce qui compte le plus : une plus grosse récompense, plus de personnes, quelque chose d’éprouvé.",
+          "La solution : élargissez votre regard. Imaginez le lointain de près, comme vous-même dans un an.",
+          "Mettez le proche et le lointain côte à côte, à leur taille réelle, et le choix devient clair. Et si une nouveauté semble urgente, laissez passer un jour.",
+          "L’ici et maintenant. Ce qui est proche paraît plus grand qu’il n’est, alors imaginez le lointain de près avant de choisir."
+        ]
       }
     },
     svg(T) {

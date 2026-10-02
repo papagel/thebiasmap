@@ -154,6 +154,34 @@
           "Luego sopesa los detalles. Vendedor es mejor apuesta.",
           "Falacia de la tasa base. Los detalles llamativos esconden un dato sencillo: lo común que es cada opción. Empieza por ahí."
         ]
+      },
+      fr: {
+        name: "Négligence du taux de base", shareTitle: "La négligence du taux de base en 30 secondes",
+        ecline: "Les détails frappants cachent un fait simple : la fréquence de chaque option. Partez de là.",
+        lib: "Bibliothécaire", sales: "Vendeur", quiet: "calme", poetry: "poésie",
+        bet: "votre pari", win: "meilleur pari", readL: "1 lit des poèmes", readS: "4 lisent des poèmes",
+        common: "combien de chaque ?", details: "détails",
+        caps: [
+          "Dans un train, une personne calme lit de la <b>poésie</b>.",
+          "Bibliothécaire ou vendeur ? Vous pariez sur <b>bibliothécaire</b>.",
+          "Elle <b>colle au portrait</b>. Les détails semblent convaincants.",
+          "Mais <b>combien</b> y en a-t-il de chaque ?",
+          "Pour un bibliothécaire, il y a environ <b>20 vendeurs</b>.",
+          "Peu lisent de la poésie, mais c’est <b>4 contre 1</b> pour les vendeurs.",
+          "<b>La solution :</b> demandez-vous d’abord la taille de chaque groupe.",
+          "Puis pesez les détails. <b>Vendeur est le meilleur pari.</b>"
+        ],
+        say: [
+          "Dans un train, une personne calme lit de la poésie.",
+          "Bibliothécaire ou vendeur ? Vous pariez sur bibliothécaire.",
+          "Elle colle au portrait. Les détails semblent convaincants.",
+          "Mais combien y en a-t-il de chaque ?",
+          "Pour un bibliothécaire, il y a environ vingt vendeurs.",
+          "Peu d’entre eux lisent de la poésie, mais ça fait quand même quatre lecteurs contre un. Cette personne est plus probablement dans la vente.",
+          "La solution : demandez-vous d’abord la taille de chaque groupe.",
+          "Puis pesez les détails. Vendeur est le meilleur pari.",
+          "La négligence du taux de base. Les détails frappants cachent un fait simple : la fréquence de chaque option. Partez de là."
+        ]
       }
     },
     svg(T) {

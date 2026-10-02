@@ -184,6 +184,33 @@
           "Las rachas ocurren por azar. No cambian lo que viene después.",
           "La falacia del jugador. El azar no tiene memoria. Una racha no hace que ahora le toque al otro resultado."
         ]
+      },
+      fr: {
+        name: "Erreur du parieur", shareTitle: "L’erreur du parieur en 30 secondes",
+        ecline: "Le hasard n’a pas de mémoire. Une série ne rend pas l’autre résultat plus probable.",
+        last: "Derniers tours", next: "suivant", row: "5 d’affilée", red: "rouge", black: "noir",
+        due: "Le noir doit sortir !", kept: "J’ai gardé mes jetons", fresh: "chaque tour repart de zéro", same: "mêmes chances à chaque tour",
+        caps: [
+          "À la roulette, la bille tombe sur le <b>rouge</b>…",
+          "…puis encore, et encore : <b>cinq rouges d’affilée</b>.",
+          "Le noir semble <b>en retard</b>. C’est sûrement son tour.",
+          "Alors vous misez <b>gros sur le noir</b>.",
+          "Mais la roulette <b>n’a pas de mémoire</b>.",
+          "Le noir a <b>les mêmes chances</b> qu’à n’importe quel autre tour.",
+          "<b>La solution :</b> jugez chaque tour selon ses propres chances, pas selon la série.",
+          "Les séries arrivent <b>par hasard</b>. Elles ne changent rien à la suite."
+        ],
+        say: [
+          "À la roulette, la bille tombe sur le rouge...",
+          "...puis encore, et encore. Cinq rouges d’affilée.",
+          "Le noir semble en retard. C’est sûrement son tour.",
+          "Alors vous misez gros sur le noir.",
+          "Mais la roulette n’a pas de mémoire.",
+          "Le noir a les mêmes chances qu’à n’importe quel autre tour.",
+          "La solution : jugez chaque tour selon ses propres chances, pas selon la série.",
+          "Les séries arrivent par hasard. Elles ne changent rien à la suite.",
+          "L’erreur du parieur. Le hasard n’a pas de mémoire. Une série ne rend pas l’autre résultat plus probable."
+        ]
       }
     },
     svg(T) {

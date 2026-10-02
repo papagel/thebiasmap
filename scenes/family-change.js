@@ -183,6 +183,38 @@
           "Luego calcula el costo por uso. Sesenta euros entre trescientos usos son veinte céntimos cada vez. Ahora ves su tamaño real.",
           "Notamos el cambio. Juzgamos comparando, así que el punto de partida decide cómo vemos las cosas."
         ]
+      },
+      fr: {
+        name: "Ce qui change", shareTitle: "Pourquoi on juge l’écart plutôt que la chose, en 30 secondes",
+        ecline: "On juge en comparant, alors le point de départ décide de notre regard.",
+        price: "60 €", old: "70 €", was: "150 €", seen: "15 €", off: "10 € de moins !", fee: "+10 € de frais",
+        lOld: "l’ancien casque", lWas: "avant", lSeen: "vu à l’instant", lWord: "la formulation",
+        start: "point de départ", starts: "points de départ", pm: "±10 €", diffL: "différence", money: v => `${v < 0 ? "−" : "+"}${Math.abs(v)} €`,
+        cheap: "pas cher", pricey: "cher", feels: "perception des 60 €", same: "mêmes 60 €",
+        verdict: ["?", "bon prix", "une affaire !", "trop cher !", "un gain", "une perte"],
+        pills: [["Ancrage", 84], ["Effet de contraste", 140], ["Effet de cadrage", 126]],
+        morning: "le lendemain", cpu: "coût par utilisation", sum: "60 € ÷ 300 utilisations", res: "= 0,20 € l’utilisation",
+        caps: [
+          "Un casque à <b>60 €</b>. Bon marché ou cher ? Le prix seul ne dit pas grand-chose.",
+          "Alors votre cerveau <b>compare</b>. C’est rapide, et en général suffisant.",
+          "L’étiquette indique « avant <b>150 €</b> ». Du coup, 60 € semble <b>une affaire</b>.",
+          "Vous venez d’en voir un à <b>15 €</b> ? Du coup, 60 € semble <b>trop cher</b>.",
+          "« <b>10 € de moins</b> » sonne comme un gain. « <b>10 € de frais</b> », comme une perte.",
+          "Même casque, mêmes 60 €. Seul le <b>point de départ</b> a changé.",
+          "<b>La solution :</b> laissez passer une nuit, et jugez le prix <b>sans comparer</b>.",
+          "Puis calculez le <b>coût par utilisation</b>, pour voir son <b>vrai poids</b>."
+        ],
+        say: [
+          "Un casque à soixante euros. Bon marché ou cher ? Le prix seul ne vous dit pas grand-chose.",
+          "Alors votre cerveau compare, avec un point de départ, comme votre ancien casque à soixante-dix. C’est rapide, et en général suffisant.",
+          "L’ancrage. L’étiquette dit qu’il valait cent cinquante. Du coup, soixante semble une affaire.",
+          "L’effet de contraste. Vous venez d’en voir un à quinze. Du coup, soixante semble trop cher.",
+          "L’effet de cadrage. Dix euros de moins sonne comme un gain. Dix euros de frais sonnent comme une perte.",
+          "Même casque, mêmes soixante euros. Seul le point de départ a changé.",
+          "La solution : laissez passer une nuit, et jugez le prix sans comparer.",
+          "Puis calculez le coût par utilisation. Soixante euros pour trois cents utilisations, ça fait vingt centimes à chaque fois. Vous voyez alors son vrai poids.",
+          "On remarque le changement. On juge en comparant, alors le point de départ décide de notre regard."
+        ]
       }
     },
     svg(T) {

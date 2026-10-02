@@ -196,6 +196,36 @@
           "Cuando importe, revisa tus notas y fuentes. Lo esencial se mantiene, y cada añadido vuelve a su lugar de origen.",
           "Recuerdos editados. Cada vez que recuerdas algo, lo reconstruyes, así que escribe lo que importa mientras está fresco."
         ]
+      },
+      fr: {
+        name: "Souvenirs retouchés", shareTitle: "Pourquoi nos souvenirs changent chaque fois qu’on se les rappelle, en 30 secondes",
+        ecline: "Chaque rappel reconstruit un souvenir, alors notez ce qui compte tant que c’est frais.",
+        title: "Mes 8 ans", ask: ["« Le clown", "était drôle ? »"], film: "un film", tagFilm: "film", book: "un vieux livre",
+        recalls: "rappels", sure: ["certitude"],
+        date: "12 mai", party: "Ma fête !", items: ["gâteau", "ballons", "cadeaux"],
+        bias: "biais", fix: "solution", tags: ["Suggestibilité", "Confusion de source", "Cryptomnésie", "Faux souvenir", "Gardez une trace", "Vérifiez les sources"],
+        tw: [124, 164, 116, 114, 147, 156],
+        caps: [
+          "Vos 8 ans : gâteau, ballons, cadeaux. Un souvenir, comme une <b>photo</b>.",
+          "Chaque rappel le <b>reconstruit</b> et le rend <b>plus solide</b>. En général, ça aide.",
+          "« Le <b>clown</b> était drôle ? » Il n’y avait pas de clown. Maintenant, <b>il y en a un</b>.",
+          "Un chien sorti d’un <b>film</b> se glisse dedans. Vous oubliez <b>où vous l’avez vu</b>.",
+          "La chasse au trésor semble être <b>votre idée</b>. Elle venait d’un <b>livre</b>.",
+          "Chaque rappel vous a rendu <b>plus sûr</b>, mais pas <b>plus juste</b>.",
+          "<b>La solution :</b> pour ce qui compte, <b>notez-le</b> peu après.",
+          "Quand c’est important, <b>vérifiez vos notes et vos sources</b>. L’essentiel tient."
+        ],
+        say: [
+          "Vos huit ans. Gâteau, ballons, cadeaux. Vous le gardez en souvenir, comme une photo.",
+          "Chaque fois que vous vous en souvenez, votre cerveau le reconstruit, et le souvenir devient plus solide et plus facile à retrouver. C’est ainsi que vous tenez à jour ce que vous savez. En général, ça aide.",
+          "Quelqu’un demande : le clown était drôle ? Il n’y avait pas de clown. Mais la fois suivante où vous repensez à la fête, il y en a un. C’est la suggestibilité.",
+          "Un chien sorti d’un film se glisse dans l’image, et vous oubliez où vous l’avez vu. C’est la confusion de source.",
+          "La chasse au trésor vous semble être votre propre idée. En fait, vous l’avez lue dans un livre il y a des années. C’est la cryptomnésie.",
+          "Chaque rappel vous a rendu plus sûr, mais pas plus juste. C’est un faux souvenir, et il peut sembler aussi vivant qu’un vrai.",
+          "La solution : pour ce qui compte, notez-le peu après, tant que c’est frais.",
+          "Quand c’est important, vérifiez vos notes et vos sources. L’essentiel tient, et chaque ajout retourne d’où il vient.",
+          "Souvenirs retouchés. Chaque rappel reconstruit un souvenir, alors notez ce qui compte tant que c’est frais."
+        ]
       }
     },
     svg(T) {

@@ -140,6 +140,34 @@
           "Imagina cinco euros en la mano. ¿Mejor que la taza? Entonces, véndela.",
           "Efecto dotación. Lo que tienes parece valer más. Juzga su valor como si no fuera tuyo."
         ]
+      },
+      fr: {
+        name: "Effet de dotation", shareTitle: "L’effet de dotation en 30 secondes",
+        ecline: "Ce qu’on possède semble valoir plus. Jugez-en la valeur comme si ce n’était pas à vous.",
+        eur: v => `${v} €`, sell: "Vous le vendez ?", atLeast: "Au moins 8 €.", price: "prix",
+        ask: "vente", pay: "achat", sold: "vendu", yours: "parce qu’il est à vous", loss: "comme une perte",
+        wouldI: "Je l’achèterais 8 € ?", no: "Non.",
+        caps: [
+          "On vous offre un <b>mug</b>. Joli, mais rien de spécial.",
+          "Quelques minutes plus tard, quelqu’un propose de vous l’<b>acheter</b>.",
+          "Vous en voudriez au moins <b>8 €</b> pour vous en séparer.",
+          "Pourtant, vous n’auriez payé que <b>4 €</b> pour ce même mug.",
+          "Le simple fait de <b>le posséder</b> lui donne plus de valeur.",
+          "S’en séparer <b>ressemble à une perte</b>, alors vous demandez plus.",
+          "<b>La solution :</b> s’il n’était pas à vous, l’achèteriez-vous 8 € ?",
+          "Imaginez plutôt <b>5 € en main</b>. Mieux que le mug ? <b>Vendez.</b>"
+        ],
+        say: [
+          "On vous offre un mug. Joli, mais rien de spécial.",
+          "Quelques minutes plus tard, quelqu’un propose de vous l’acheter.",
+          "Vous en voudriez au moins huit euros pour vous en séparer.",
+          "Pourtant, vous n’auriez payé que quatre euros pour ce même mug.",
+          "Le simple fait de le posséder lui donne plus de valeur.",
+          "S’en séparer ressemble à une perte, alors vous demandez plus.",
+          "La solution : s’il n’était pas à vous, l’achèteriez-vous huit euros ?",
+          "Imaginez plutôt cinq euros en main. Mieux que le mug ? Alors vendez.",
+          "L’effet de dotation. Ce qu’on possède semble valoir plus. Jugez-en la valeur comme si ce n’était pas à vous."
+        ]
       }
     },
     svg(T) {

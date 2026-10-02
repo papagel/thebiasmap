@@ -175,6 +175,37 @@
           "Lo aproximado vale para lo pequeño. Para las decisiones grandes, abre la caja.",
           "Números más simples. Las cajas simples sirven para lo pequeño, pero las decisiones grandes merecen los números reales."
         ]
+      },
+      fr: {
+        name: "Chiffres simplifiés", shareTitle: "Pourquoi on range risques et argent dans des boîtes simples, en 30 secondes",
+        ecline: "Les boîtes simples suffisent pour les petites choses, mais les grands choix méritent les vrais chiffres.",
+        tok: ["3,7%", "1 sur 250", "0,4%", "68%", "92%", "7/12"],
+        box: [["n’arrivera pas", "arrivera"], ["argent de poche", "factures"], ["petite monnaie", "à ne pas casser"]],
+        chip: ["Comptabilité mentale", "Effet de dénomination", "Biais de normalité"],
+        n50: "50 €", n10: "10 €", coin: "2", gift: "cadeau", salary: "salaire", coins: "cinq pièces de 2 €", note: "un billet de 10 €", spent: "dépensé",
+        flood: "inondation", rate: "3 % par an", bubble: "« Ce n’est jamais arrivé ici. »",
+        cnt: ["3 ans", "sur 100"], legend: "1 case = 1 an",
+        caps: [
+          "Probabilités, pourcentages, fractions : votre cerveau les trouve <b>difficiles</b>.",
+          "Alors il les range dans des <b>boîtes simples</b>. C’est rapide, et souvent suffisant.",
+          "50 € offerts, c’est de l’<b>argent de poche</b>. 50 € de salaire vont aux factures.",
+          "Les pièces, c’est de la <b>petite monnaie</b>. Elles partent plus vite qu’un billet de 10 €.",
+          "Il n’y a jamais eu d’inondation ici, alors le risque va dans <b>n’arrivera pas</b>.",
+          "Mais rare ne veut pas dire jamais. L’étiquette <b>cachait le vrai risque</b>.",
+          "<b>La solution :</b> traduisez les probabilités en nombres, comme <b>3 ans sur 100</b>.",
+          "L’à-peu-près suffit pour les petites choses. Pour les grands choix, <b>ouvrez la boîte</b>."
+        ],
+        say: [
+          "Probabilités, pourcentages, fractions. Votre cerveau les trouve difficiles.",
+          "Alors il les range dans des boîtes simples. C’est rapide, et en général suffisant.",
+          "La comptabilité mentale : cinquante euros offerts, c’est de l’argent de poche. Cinquante euros de salaire vont aux factures.",
+          "L’effet de dénomination : les pièces, c’est de la petite monnaie, alors elles partent plus vite qu’un billet de dix euros.",
+          "Le biais de normalité : il n’y a jamais eu d’inondation ici, alors le risque va dans la boîte n’arrivera pas.",
+          "Mais rare ne veut pas dire jamais. L’étiquette cachait le vrai risque.",
+          "La solution : traduisez les probabilités en nombres. Trois pour cent par an, c’est trois années sur cent.",
+          "L’à-peu-près suffit pour les petites choses. Pour les grands choix, ouvrez la boîte.",
+          "Chiffres simplifiés. Les boîtes simples suffisent pour les petites choses, mais les grands choix méritent les vrais chiffres."
+        ]
       }
     },
     svg(T) {

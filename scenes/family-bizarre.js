@@ -142,6 +142,34 @@
           "¿Lo vas a compartir con otros? Haz que lo clave destaque, para que se quede.",
           "Lo que destaca se queda, importe o no. Anota primero lo que importa."
         ]
+      },
+      fr: {
+        name: "Ce qui ressort", shareTitle: "Pourquoi on retient ce qui sort de l’ordinaire, en 30 secondes",
+        ecline: "Ce qui ressort reste, que ce soit important ou non. Notez d’abord ce qui compte.",
+        meeting: "La réunion", recall: "Ce que vous retenez", useful: "utile",
+        vr: "Effet Von Restorff", hu: "Effet d’humour", ps: "Effet de supériorité des images",
+        due: "Échéance : vendredi", noteH: "D’abord l’essentiel", stick: "ça reste",
+        caps: [
+          "Une longue réunion : huit points, <b>tous pareils</b>. Impossible de tout retenir.",
+          "Votre cerveau garde ce qui <b>ressort</b>. L’inhabituel compte souvent.",
+          "Un point en <b>couleur vive</b> ? Celui-là aussi reste.",
+          "Tout comme une <b>blague</b>, même hors sujet.",
+          "Et une <b>image</b> marque plus que des mots.",
+          "Le lendemain, l’<b>échéance</b>, banale mais importante, vous est sortie de la tête.",
+          "<b>La solution :</b> juste après, notez d’abord <b>l’essentiel</b>.",
+          "Vous le partagez ? Faites <b>ressortir</b> le point clé, pour qu’il reste."
+        ],
+        say: [
+          "Une longue réunion. Huit points, tous pareils. Impossible de tout retenir.",
+          "Alors votre cerveau garde ce qui ressort. C’est en général malin : ce qui sort de l’ordinaire compte souvent.",
+          "Un point en couleur vive ? Celui-là aussi reste. C’est l’effet Von Restorff.",
+          "Tout comme une blague, même hors sujet. L’effet d’humour.",
+          "Et une image marque plus que des mots. L’effet de supériorité des images.",
+          "Le lendemain, l’échéance, banale mais importante, vous est sortie de la tête.",
+          "La solution : juste après la réunion, notez d’abord l’essentiel.",
+          "Vous le partagez avec d’autres ? Faites ressortir le point clé, pour qu’il reste.",
+          "Ce qui ressort reste, que ce soit important ou non. Notez d’abord ce qui compte."
+        ]
       }
     },
     svg(T) {

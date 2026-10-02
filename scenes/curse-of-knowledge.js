@@ -172,6 +172,34 @@
           "La próxima vez, tarareas las primeras notas. La adivina al instante.",
           "Maldición del conocimiento. Cuando sabes algo, cuesta imaginar no saberlo. Prueba a explicárselo a un principiante."
         ]
+      },
+      fr: {
+        name: "Malédiction du savoir", shareTitle: "La malédiction du savoir en 30 secondes",
+        ecline: "Quand on sait quelque chose, on a du mal à imaginer ne pas le savoir. Essayez de l’expliquer à un débutant.",
+        head: "dans votre tête", assume: "ce que vous croyez", hear: "ce qu’il entend", stuck: "impossible à oublier",
+        song: "Joyeux anniversaire", toks: "toc… toc-toc… toc… toc… toc", miss: "la mélodie absente",
+        guess: "Vive le vent ?", right: "Joyeux anniv’ !",
+        caps: [
+          "Vous tapez une chanson célèbre sur la table. <b>Laquelle est-ce ?</b>",
+          "Dans votre tête, <b>Joyeux anniversaire</b> résonne fort et clair.",
+          "Ça paraît évident. Vous supposez que votre ami <b>l’entend aussi</b>.",
+          "Mais lui n’entend que des coups : <b>toc… toc-toc… toc</b>.",
+          "Il propose : « Vive le vent ? » <b>Comment a-t-il pu la rater ?</b>",
+          "Quand on connaît l’air, on ne peut plus imaginer <b>ne pas le connaître</b>.",
+          "<b>La solution :</b> imaginez un vrai débutant, et ajoutez les étapes que vous sautez.",
+          "La fois suivante, vous fredonnez les premières notes. <b>Il trouve tout de suite.</b>"
+        ],
+        say: [
+          "Vous tapez le rythme d’une chanson célèbre sur la table, et demandez à un ami de la deviner.",
+          "Dans votre tête, Joyeux anniversaire résonne fort et clair.",
+          "Ça paraît évident. Vous supposez que votre ami l’entend aussi.",
+          "Mais lui n’entend que des coups. Toc... toc-toc... toc.",
+          "Il propose : Vive le vent ? Comment a-t-il pu la rater ?",
+          "Quand on connaît l’air, on ne peut plus imaginer ne pas le connaître.",
+          "La solution : avant d’expliquer, imaginez un vrai débutant, ou testez sur l’un d’eux. Puis ajoutez les étapes que vous sautez.",
+          "La fois suivante, vous fredonnez les premières notes. Il trouve tout de suite.",
+          "La malédiction du savoir. Quand on sait quelque chose, on a du mal à imaginer ne pas le savoir. Essayez de l’expliquer à un débutant."
+        ]
       }
     },
     svg(T) {

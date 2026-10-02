@@ -189,6 +189,33 @@
           "Elige por tus propias razones, no porque haya cola.",
           "Efecto de arrastre. Una multitud es una señal, no una prueba. Compruébalo por tu cuenta."
         ]
+      },
+      fr: {
+        name: "Effet d’entraînement", shareTitle: "L’effet d’entraînement en 30 secondes",
+        ecline: "Une foule est un signal, pas une preuve. Vérifiez par vous-même.",
+        a: "A", b: "B", bubble: "Ça doit être bon !", follow: "on suit la foule", empty: "vide", you: "vous",
+        menu: "MENU", rA: "3,6", rB: "4,7",
+        caps: [
+          "Deux nouveaux restaurants ouvrent côte à côte.",
+          "Le premier couple en choisit un <b>au hasard</b>.",
+          "Les suivants voient des clients dans le A, et <b>les suivent</b>.",
+          "Une file se forme. Ça <b>doit être bon</b>… non ?",
+          "Chacun <b>copie les autres</b>, sans avoir goûté la cuisine.",
+          "Le B reste vide, alors qu’il est peut-être <b>meilleur</b>.",
+          "<b>La solution :</b> jugez par vous-même. La carte, les avis, un avant-goût.",
+          "Choisissez pour vos propres raisons, <b>pas pour la file</b>."
+        ],
+        say: [
+          "Deux nouveaux restaurants ouvrent, côte à côte.",
+          "Le premier couple en choisit un au hasard.",
+          "Les suivants voient des clients dans le restaurant A, et les suivent.",
+          "Une file se forme. Ça doit être bon... non ?",
+          "Chacun copie les autres. Personne dans la file n’a goûté la cuisine.",
+          "Le restaurant B reste vide, alors qu’il est peut-être meilleur.",
+          "La solution : jugez par vous-même. La carte, les avis, un avant-goût.",
+          "Choisissez pour vos propres raisons, pas à cause de la file.",
+          "L’effet d’entraînement. Une foule est un signal, pas une preuve. Vérifiez par vous-même."
+        ]
       }
     },
     svg(T) {

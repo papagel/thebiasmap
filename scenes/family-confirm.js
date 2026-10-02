@@ -191,6 +191,36 @@
           "Sopesa lo que encuentres, y tu idea se acercará más a la verdad.",
           "Nos atrae lo que confirma nuestras creencias. Tu mente deja entrar lo que te da la razón, así que busca lo que no."
         ]
+      },
+      fr: {
+        name: "Confirme nos idées", shareTitle: "Pourquoi on voit ce qu’on croit déjà, en 30 secondes",
+        ecline: "Votre esprit laisse entrer ce qui vous donne raison, alors cherchez ce qui vous contredit.",
+        bel: ["Ce que vous croyez", "« On joue fair-play »", "« J’ai bien choisi »", "« Côté argent, ça va »"],
+        fits: "ça colle ?", unseen: "jamais vu", fam: "dans cette famille", lid: "on ne regarde pas",
+        bias: [["Perception sélective"], ["Biais de soutien au choix"], ["Effet autruche"]],
+        pills: [["Faute adverse", 106], ["Notre faute", 92], ["Belle vue", 84], ["Bruit de rue", 92], ["Facture", 78]],
+        noteH: "avant de décider :", note: ["Qu’est-ce qui me", "ferait changer d’avis ?"],
+        caps: [
+          "Toute la journée, des faits arrivent. Certains <b>collent</b> à vos idées, d’autres <b>non</b>.",
+          "Votre cerveau laisse passer ce qui colle. C’est <b>rapide</b> et ça garde votre monde <b>stable</b>.",
+          "Pendant un match, vous voyez <b>leurs fautes</b> et ratez celles de votre équipe.",
+          "L’appartement que vous avez choisi ? Vous retenez <b>la vue</b>, pas <b>le bruit</b>.",
+          "Une facture qui vous inquiète ? Vous <b>ne l’ouvrez même pas</b>.",
+          "Votre idée semble <b>prouvée</b>, mais les <b>alertes</b> ne sont jamais passées.",
+          "<b>La solution :</b> demandez-vous ce qui vous ferait changer d’avis, puis <b>allez le chercher</b>.",
+          "Pesez ce que vous trouvez. Votre idée <b>se rapproche du vrai</b>."
+        ],
+        say: [
+          "Toute la journée, des faits arrivent. Certains collent à vos idées, d’autres non.",
+          "Votre cerveau laisse passer ce qui colle. C’est rapide, et ça garde votre monde stable.",
+          "La perception sélective. Pendant un match, vous voyez leurs fautes, et ratez celles de votre équipe.",
+          "Le biais de soutien au choix. L’appartement que vous avez choisi ? Vous retenez la vue, pas le bruit.",
+          "L’effet autruche. Une facture qui vous inquiète ? Vous ne l’ouvrez même pas.",
+          "Votre idée semble prouvée, mais les alertes ne sont jamais passées.",
+          "La solution : demandez-vous ce qui vous ferait changer d’avis, puis allez le chercher.",
+          "Pesez ce que vous trouvez, et votre idée se rapproche de la vérité.",
+          "Ce qui confirme nos idées nous attire. Votre esprit laisse entrer ce qui vous donne raison, alors cherchez ce qui vous contredit."
+        ]
       }
     },
     svg(T) {
