@@ -226,6 +226,37 @@
           "Notez ce que vous avez vérifié. Fiez-vous à ça, pas à l’écho.",
           "Amorcé et répété. Familier ne veut pas dire vrai : fiez-vous à ce que vous avez vérifié, pas à l’écho."
         ]
+      },
+      de: {
+        name: "Priming und Wiederholung", shareTitle: "Warum sich Wiederholtes wahr anfühlt, in 30 Sekunden",
+        ecline: "Vertraut heißt nicht wahr: Vertrau dem, was du geprüft hast, nicht dem Echo.",
+        today: "Posts heute", ask: "Schon mal gesehen?", yes: "ja → bemerken", no: "nein → weiterscrollen",
+        myth: ["Fledermäuse", "sind blind."], fact: ["Fledermäuse", "können sehen!"], word: "Umami", wordW: 27,
+        feel: ["wirkt wahr", "gefällt dir", "wirkt häufig"],
+        names: ["Wahrheitseffekt", "Mere-Exposure-Effekt", "Frequenzillusion"], pw: [128, 128, 112],
+        nf0: "neue Fakten: 0", nf1: "neue Fakten: 1",
+        notes: "Meine Notizen", claim: "Fledermäuse blind?", claimW: 109, ok: "Nein, sie sehen.",
+        caps: [
+          "Jeden Tag rauschen <b>Hunderte Posts</b> vorbei. Du kannst nicht alle prüfen.",
+          "Also bevorzugt dein Gehirn, <b>was es schon kennt</b>. Meist spart das Zeit.",
+          "Eine Behauptung scrollt vorbei: <b>„Fledermäuse sind blind.“</b> Du bist unsicher.",
+          "Jede Wiederholung lässt sie <b>wahrer wirken</b>, dabei hast du nichts Neues gelernt.",
+          "Bei einem Lied ist es genauso: <b>Je öfter du es hörst, desto mehr magst du es</b>.",
+          "Lern ein neues Wort, und plötzlich ist es <b>überall</b>. Das war es schon immer.",
+          "<b>Die Lösung:</b> Such nach Stimmen, die du <b>sonst nicht hörst</b>.",
+          "Schreib auf, was du geprüft hast. <b>Vertrau dem, nicht dem Echo.</b>"
+        ],
+        say: [
+          "Jeden Tag rauschen Hunderte Posts vorbei. Du kannst nicht alle prüfen.",
+          "Also bevorzugt dein Gehirn, was es schon einmal gesehen hat. Meist spart das Zeit.",
+          "Eine Behauptung scrollt vorbei. Fledermäuse sind blind. Du bist unsicher.",
+          "Sie kommt wieder, immer und immer wieder, und jedes Mal wirkt sie ein bisschen wahrer. Dabei hast du nichts Neues gelernt. Das ist der Wahrheitseffekt.",
+          "Bei einem Lied ist es genauso. Je öfter du es hörst, desto mehr magst du es. Der Mere-Exposure-Effekt.",
+          "Lern ein neues Wort, und plötzlich ist es überall. Das war es schon immer. Das ist die Frequenzillusion.",
+          "Die Lösung: Such nach Stimmen, die du sonst nicht hörst.",
+          "Schreib auf, was du geprüft hast. Vertrau dem, nicht dem Echo.",
+          "Priming und Wiederholung. Vertraut heißt nicht wahr: Vertrau dem, was du geprüft hast, nicht dem Echo."
+        ]
       }
     },
     svg(T) {

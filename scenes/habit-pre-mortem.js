@@ -205,6 +205,36 @@
           "Le lancement a lieu, avec ces risques maîtrisés.",
           "Faites un pré-mortem. Imaginez l’échec avant qu’il arrive, puis réglez dès aujourd’hui ses causes les plus probables."
         ]
+      },
+      de: {
+        name: "Mach ein Pre-Mortem", shareTitle: "Mach ein Pre-Mortem: eine Gewohnheit in 30 Sekunden",
+        ecline: "Stell dir das Scheitern vor, bevor es passiert, und behebe seine wahrscheinlichsten Ursachen schon heute.",
+        today: "heute", launch: "Start", next: "nächsten Monat", later: "ein Jahr später",
+        great: "Wird ein Hit!", bubW: 108, ask: "was könnte schiefgehen?", why: "warum es scheiterte",
+        reasons: ["niemand hat davon gehört", "Server am 1. Tag abgestürzt", "Registrierung zu lang"], rw: [133.9, 138.8, 107.5],
+        fixes: ["Startplan", "Lasttest", "kürzere Registrierung"],
+        bias: "Optimismus-Verzerrung", tagW: 170,
+        caps: [
+          "Dein Team bringt <b>nächsten Monat</b> eine neue App heraus.",
+          "Alle erwarten <b>einen Hit</b>.",
+          "Niemand hält inne und fragt, <b>was schiefgehen könnte</b>.",
+          "<b>Pre-Mortem:</b> Stell dir vor, ein Jahr ist vergangen und der Start ist <b>gescheitert</b>.",
+          "Alle schreiben die <b>wahrscheinlichsten Gründe</b> für das Scheitern auf.",
+          "Dann <b>behebe, was geht</b>, noch heute, vor dem Start.",
+          "Das fängt die <b>Optimismus-Verzerrung</b> ab: „Uns passiert das nicht.“",
+          "Der Start findet statt, <b>mit diesen Risiken im Griff</b>."
+        ],
+        say: [
+          "Dein Team bringt nächsten Monat eine neue App heraus.",
+          "Alle erwarten einen Hit.",
+          "Niemand hält inne und fragt, was schiefgehen könnte.",
+          "Mach ein Pre-Mortem. Stell dir vor, ein Jahr ist vergangen, und der Start ist gescheitert.",
+          "Alle schreiben die wahrscheinlichsten Gründe für das Scheitern auf.",
+          "Dann behebe, was geht, noch heute, vor dem Start.",
+          "Das fängt die Optimismus-Verzerrung ab: den Glauben, dass uns das nicht passiert.",
+          "Der Start findet statt, mit diesen Risiken im Griff.",
+          "Mach ein Pre-Mortem. Stell dir das Scheitern vor, bevor es passiert, und behebe seine wahrscheinlichsten Ursachen schon heute."
+        ]
       }
     },
     svg(T) {

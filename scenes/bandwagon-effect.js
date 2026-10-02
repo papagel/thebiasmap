@@ -216,6 +216,33 @@
           "Choisissez pour vos propres raisons, pas à cause de la file.",
           "L’effet d’entraînement. Une foule est un signal, pas une preuve. Vérifiez par vous-même."
         ]
+      },
+      de: {
+        name: "Mitläufereffekt", shareTitle: "Der Mitläufereffekt in 30 Sekunden",
+        ecline: "Eine Menschenmenge ist ein Signal, kein Beweis. Prüf selbst nach.",
+        a: "A", b: "B", bubble: "Muss gut sein!", follow: "der Masse folgen", empty: "leer", you: "du",
+        menu: "KARTE", rA: "3,6", rB: "4,7",
+        caps: [
+          "Zwei neue Restaurants eröffnen direkt nebeneinander.",
+          "Das erste Paar wählt eins <b>per Zufall</b>.",
+          "Die Nächsten sehen Gäste in A und <b>folgen</b>.",
+          "Eine Schlange bildet sich. Das <b>muss gut sein</b>… oder?",
+          "Alle <b>machen es den anderen nach</b>, ohne das Essen zu kennen.",
+          "B bleibt leer, obwohl es vielleicht <b>besser</b> ist.",
+          "<b>Die Lösung:</b> Urteile nach eigenen Belegen. Karte, Bewertungen, eine Kostprobe.",
+          "Wähle aus eigenen Gründen, <b>nicht wegen der Schlange</b>."
+        ],
+        say: [
+          "Zwei neue Restaurants eröffnen, direkt nebeneinander.",
+          "Das erste Paar wählt eins per Zufall.",
+          "Die Nächsten sehen Gäste in Restaurant A und gehen hinterher.",
+          "Eine Schlange bildet sich. Das muss gut sein... oder?",
+          "Alle machen es den anderen nach. Niemand in der Schlange hat das Essen probiert.",
+          "Restaurant B bleibt leer, obwohl es vielleicht besser ist.",
+          "Die Lösung: Urteile nach eigenen Belegen. Die Karte, die Bewertungen, eine Kostprobe.",
+          "Wähle aus eigenen Gründen, nicht wegen der Schlange.",
+          "Der Mitläufereffekt. Eine Menschenmenge ist ein Signal, kein Beweis. Prüf selbst nach."
+        ]
       }
     },
     svg(T) {

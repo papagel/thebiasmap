@@ -211,6 +211,33 @@
           "Les séries arrivent par hasard. Elles ne changent rien à la suite.",
           "L’erreur du parieur. Le hasard n’a pas de mémoire. Une série ne rend pas l’autre résultat plus probable."
         ]
+      },
+      de: {
+        name: "Spielerfehlschluss", shareTitle: "Der Spielerfehlschluss in 30 Sekunden",
+        ecline: "Der Zufall hat kein Gedächtnis. Nach einer Serie ist das andere Ergebnis nicht überfällig.",
+        last: "Letzte Runden", next: "nächste", row: "5-mal in Folge", red: "Rot", black: "Schwarz",
+        due: "Schwarz ist dran!", kept: "Ich behalte meine Jetons", fresh: "jede Runde fängt neu an", same: "jede Runde gleiche Chancen",
+        caps: [
+          "Beim Roulette landet die Kugel auf <b>Rot</b>…",
+          "…dann wieder und wieder: <b>fünfmal Rot in Folge</b>.",
+          "Schwarz scheint <b>überfällig</b>. Jetzt muss es doch drankommen.",
+          "Also setzt du <b>viel auf Schwarz</b>.",
+          "Aber das Rad <b>hat kein Gedächtnis</b>.",
+          "Die Chancen für Schwarz sind <b>dieselben</b> wie bei jeder anderen Runde.",
+          "<b>Die Lösung:</b> Beurteile jede Runde nach ihren eigenen Chancen, nicht nach der Serie.",
+          "Serien entstehen <b>durch Zufall</b>. Sie ändern nichts an dem, was als Nächstes kommt."
+        ],
+        say: [
+          "Beim Roulette landet die Kugel auf Rot...",
+          "...dann wieder und wieder. Fünfmal Rot in Folge.",
+          "Schwarz scheint überfällig. Jetzt muss es doch drankommen.",
+          "Also setzt du viel auf Schwarz.",
+          "Aber das Rad hat kein Gedächtnis.",
+          "Die Chancen für Schwarz sind dieselben wie bei jeder anderen Runde.",
+          "Die Lösung: Beurteile jede Runde nach ihren eigenen Chancen, nicht nach der Serie.",
+          "Serien entstehen durch Zufall. Sie ändern nichts an dem, was als Nächstes kommt.",
+          "Der Spielerfehlschluss. Der Zufall hat kein Gedächtnis. Nach einer Serie ist das andere Ergebnis nicht überfällig."
+        ]
       }
     },
     svg(T) {

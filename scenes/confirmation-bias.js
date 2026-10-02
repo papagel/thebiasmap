@@ -164,6 +164,36 @@
           "Pesez les deux piles, et votre certitude reflète les indices.",
           "Le biais de confirmation. On trouve ce qu’on cherche. Cherchez ce qui prouverait que vous avez tort."
         ]
+      },
+      de: {
+        name: "Bestätigungsfehler", shareTitle: "Der Bestätigungsfehler in 30 Sekunden",
+        ecline: "Du findest, wonach du suchst. Such nach dem, was dich widerlegen würde.",
+        tag: "faul", tag2: "faul?", tagW: 58,
+        cards: [["Kam zu spät", "am Montag"], ["Blieb länger", "am Dienstag"], ["Antwort", "vergessen"],
+          ["Bericht früh", "fertig"], ["Langes", "Mittagessen"], ["Half einem", "Kunden"]],
+        fits: "Passt", nofit: "Passt nicht", pro: "3 dafür", con: "3 dagegen",
+        meter: ["Wie sicher du bist"], gap: ["zu sicher"],
+        caps: [
+          "Du hast beschlossen: Dein neuer Kollege ist <b>faul</b>.",
+          "Die ganze Woche kommen Hinweise, <b>in beide Richtungen</b>.",
+          "Du bemerkst, was zu deinem Bild <b>passt</b>…",
+          "…und nimmst kaum wahr, was <b>nicht passt</b>.",
+          "Jeder Treffer fühlt sich wie ein Beweis an. Du wirst <b>immer sicherer</b>.",
+          "Dabei standen die Hinweise unentschieden: <b>3 dafür, 3 dagegen</b>.",
+          "<b>Die Lösung:</b> Such nach dem, was dich widerlegen würde.",
+          "Wäge beide Stapel ab. Deine Sicherheit <b>passt zu den Hinweisen</b>."
+        ],
+        say: [
+          "Du hast beschlossen: Dein neuer Kollege ist faul.",
+          "Die ganze Woche kommen Hinweise, in beide Richtungen.",
+          "Du bemerkst, was zu deinem Bild passt...",
+          "...und nimmst kaum wahr, was nicht passt.",
+          "Jeder Treffer fühlt sich wie ein Beweis an. Du wirst immer sicherer.",
+          "Dabei standen die Hinweise unentschieden. Drei dafür, drei dagegen.",
+          "Die Lösung: Such nach dem, was dich widerlegen würde.",
+          "Wäge beide Stapel ab, und deine Sicherheit passt zu den Hinweisen.",
+          "Der Bestätigungsfehler. Du findest, wonach du suchst. Such nach dem, was dich widerlegen würde."
+        ]
       }
     },
     svg(T) {

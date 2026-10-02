@@ -221,6 +221,36 @@
           "Pesez ce que vous trouvez, et votre idée se rapproche de la vérité.",
           "Ce qui confirme nos idées nous attire. Votre esprit laisse entrer ce qui vous donne raison, alors cherchez ce qui vous contredit."
         ]
+      },
+      de: {
+        name: "Was uns bestätigt", shareTitle: "Warum wir sehen, was wir schon glauben, in 30 Sekunden",
+        ecline: "Dein Kopf lässt herein, was dir recht gibt, also such nach dem, was dir widerspricht.",
+        bel: ["Was du glaubst", "„Wir spielen fair“", "„Gut gewählt“", "„Finanziell alles gut“"],
+        fits: "passt?", unseen: "ungesehen", fam: "in dieser Familie", lid: "nicht hinsehen",
+        bias: [["Selektive Wahrnehmung"], ["Wahlbestätigende", "Verzerrung"], ["Vogel-Strauß-Effekt"]],
+        pills: [["Ihr Foul", 80], ["Unser Foul", 86], ["Tolle Aussicht", 101], ["Straßenlärm", 95], ["Rechnung", 88]],
+        noteH: "bevor ich entscheide:", note: ["Was würde mich", "umstimmen?"],
+        caps: [
+          "Den ganzen Tag strömen Fakten herein. Manche <b>passen</b> zu dem, was du glaubst, manche <b>nicht</b>.",
+          "Dein Gehirn lässt durch, was passt. Das geht <b>schnell</b> und hält deine Welt <b>stabil</b>.",
+          "Beim Spiel siehst du <b>ihre Fouls</b> und übersiehst die deines Teams.",
+          "Die Wohnung, die du gewählt hast? Du erinnerst dich an <b>die Aussicht</b>, nicht an <b>den Lärm</b>.",
+          "Eine Rechnung, vor der dir graut? Du <b>öffnest sie gar nicht erst</b>.",
+          "Deine Sicht wirkt <b>bewiesen</b>, aber die <b>Warnungen</b> kamen nie durch.",
+          "<b>Die Lösung:</b> Frag dich, was dich umstimmen würde, und <b>such gezielt danach</b>.",
+          "Wäge ab, was du findest. Deine Sicht kommt <b>der Wahrheit näher</b>."
+        ],
+        say: [
+          "Den ganzen Tag strömen Fakten herein. Manche passen zu dem, was du glaubst, manche nicht.",
+          "Dein Gehirn lässt durch, was passt. Das geht schnell, und es hält deine Welt stabil.",
+          "Selektive Wahrnehmung. Beim Spiel siehst du ihre Fouls, und übersiehst die deines Teams.",
+          "Wahlbestätigende Verzerrung. Die Wohnung, die du gewählt hast? Du erinnerst dich an die Aussicht, nicht an den Lärm.",
+          "Der Vogel-Strauß-Effekt. Eine Rechnung, vor der dir graut? Du öffnest sie gar nicht erst.",
+          "Deine Sicht wirkt bewiesen, aber die Warnungen kamen nie durch.",
+          "Die Lösung: Frag dich, was dich umstimmen würde, und such gezielt danach.",
+          "Wäge ab, was du findest, und deine Sicht kommt der Wahrheit näher.",
+          "Uns zieht an, was unsere Überzeugungen bestätigt. Dein Kopf lässt herein, was dir recht gibt, also such nach dem, was dir widerspricht."
+        ]
       }
     },
     svg(T) {

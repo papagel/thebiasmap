@@ -174,6 +174,35 @@
           "Ou décidez à l’avance et verrouillez votre choix, avec une épargne automatique.",
           "L’actualisation hyperbolique. Ce qui est proche pèse lourd. Décidez de loin, puis verrouillez votre choix."
         ]
+      },
+      de: {
+        name: "Hyperbolische Diskontierung", shareTitle: "Die hyperbolische Diskontierung in 30 Sekunden",
+        ecline: "Was nah ist, wirkt riesig. Entscheide aus der Distanz und leg dich dann fest.",
+        eur: v => `${v} €`, today: "heute", inWeek: "+1 Woche", inYear: "in einem Jahr", plusWeek: "+1 Woche",
+        week: "1 Woche", ten: "+10 €", looms: "Jetzt wirkt riesig", away: "als wäre es in einem Jahr",
+        now: "Ich will’s jetzt!", nowW: 109, wait: "Klar, ich warte.", waitW: 126,
+        auto: "Sparplan", autoW: 56,
+        caps: [
+          "Hättest du lieber <b>100 € heute</b> oder <b>110 € in einer Woche</b>?",
+          "Du schnappst dir die <b>100 € sofort</b>. Wozu eine ganze Woche warten?",
+          "Als Nächstes: <b>100 € in einem Jahr</b> oder <b>110 € eine Woche später</b>?",
+          "Diesmal <b>wartest du gern die Woche länger</b> auf 110 €.",
+          "Dieselbe <b>Woche Warten</b>, dieselben <b>10 € extra</b>. Die umgekehrte Wahl.",
+          "Aus der Nähe <b>wirkt das Jetzt riesig</b>. Aus der Ferne <b>schrumpft</b> die Woche.",
+          "<b>Die Lösung:</b> Stell dir beide Optionen vor, als lägen sie ein Jahr entfernt.",
+          "Oder <b>entscheide im Voraus</b> und leg dich fest, mit <b>automatischem Sparen</b>."
+        ],
+        say: [
+          "Hättest du lieber hundert Euro heute oder hundertzehn in einer Woche?",
+          "Du schnappst dir die hundert sofort. Wozu eine ganze Woche warten?",
+          "Als Nächstes: hundert Euro in einem Jahr oder hundertzehn eine Woche später?",
+          "Diesmal wartest du gern die Woche länger auf hundertzehn.",
+          "Dieselbe Woche Warten. Dieselben zehn Euro extra. Die umgekehrte Wahl.",
+          "Aus der Nähe wirkt das Jetzt riesig. Aus der Ferne schrumpft dieselbe Woche.",
+          "Die Lösung: Stell dir beide Optionen vor, als lägen sie ein Jahr entfernt.",
+          "Oder entscheide im Voraus und leg dich fest, mit automatischem Sparen.",
+          "Die hyperbolische Diskontierung. Was nah ist, wirkt riesig. Entscheide aus der Distanz und leg dich dann fest."
+        ]
       }
     },
     svg(T) {

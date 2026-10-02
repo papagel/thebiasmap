@@ -168,6 +168,34 @@
           "Imaginez plutôt cinq euros en main. Mieux que le mug ? Alors vendez.",
           "L’effet de dotation. Ce qu’on possède semble valoir plus. Jugez-en la valeur comme si ce n’était pas à vous."
         ]
+      },
+      de: {
+        name: "Besitztumseffekt", shareTitle: "Der Besitztumseffekt in 30 Sekunden",
+        ecline: "Was dir gehört, wirkt wertvoller. Schätz seinen Wert so, als wäre es nicht deins.",
+        eur: v => `${v} €`, sell: "Verkaufst du sie?", atLeast: "Mindestens 8 €.", price: "Preis",
+        ask: "du willst", pay: "du zahlst", sold: "verkauft", yours: "weil sie dir gehört", loss: "wie ein Verlust",
+        wouldI: "Würde ich 8 € zahlen?", no: "Nein.",
+        caps: [
+          "Jemand schenkt dir eine <b>Tasse</b>. Nett, aber nichts Besonderes.",
+          "Minuten später will dir jemand die Tasse <b>abkaufen</b>.",
+          "Du willst mindestens <b>8 €</b>, um sie herzugeben.",
+          "Dabei hättest du für genau diese Tasse nur <b>4 €</b> bezahlt.",
+          "Allein, dass sie <b>dir gehört</b>, lässt sie wertvoller wirken.",
+          "Sie herzugeben <b>fühlt sich wie ein Verlust an</b>, also verlangst du mehr.",
+          "<b>Die Lösung:</b> Wenn sie nicht dir gehörte, würdest du sie für 8 € kaufen?",
+          "Stell dir stattdessen <b>5 € in deiner Hand</b> vor. Besser als die Tasse? <b>Dann verkauf.</b>"
+        ],
+        say: [
+          "Jemand schenkt dir eine Tasse. Nett, aber nichts Besonderes.",
+          "Minuten später will dir jemand die Tasse abkaufen.",
+          "Du willst mindestens acht Euro, um sie herzugeben.",
+          "Dabei hättest du für genau diese Tasse nur vier Euro bezahlt.",
+          "Allein, dass sie dir gehört, lässt sie wertvoller wirken.",
+          "Sie herzugeben fühlt sich wie ein Verlust an, also verlangst du mehr.",
+          "Die Lösung: Wenn sie nicht dir gehörte, würdest du sie für acht Euro kaufen?",
+          "Stell dir stattdessen fünf Euro in deiner Hand vor. Besser als die Tasse? Dann verkauf.",
+          "Der Besitztumseffekt. Was dir gehört, wirkt wertvoller. Schätz seinen Wert so, als wäre es nicht deins."
+        ]
       }
     },
     svg(T) {

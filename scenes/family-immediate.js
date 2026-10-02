@@ -220,6 +220,40 @@
           "Mettez le proche et le lointain côte à côte, à leur taille réelle, et le choix devient clair. Et si une nouveauté semble urgente, laissez passer un jour.",
           "L’ici et maintenant. Ce qui est proche paraît plus grand qu’il n’est, alors imaginez le lointain de près avant de choisir."
         ]
+      },
+      de: {
+        name: "Das Hier und Jetzt", shareTitle: "Warum gewinnt, was direkt vor uns liegt, in 30 Sekunden",
+        ecline: "Was nah ist, wirkt größer, als es ist, also hol das Ferne nah heran, bevor du wählst.",
+        lens: "Hier und Jetzt", wide: "das ganze Bild", kid: "Lena", bias: "Verzerrung", real: ["echte Größe"],
+        tags: ["Hyperbolische Diskontierung", "Identifizierbares-Opfer-Effekt", "Appell an die Neuheit"], tw: [220, 242, 172],
+        labs: [
+          [["direkt hier"], ["weit weg"]],
+          [["etwas Süßes", "jetzt"], ["Ersparnisse", "nächstes Jahr"]],
+          [["ein Kind", "mit Namen"], ["Tausende", "ohne Namen"]],
+          [["das neue Modell", "gerade erschienen"], ["dein altes", "läuft gut"]]
+        ],
+        rows: ["jetzt oder später", "einer oder Tausende", "neu oder bewährt"],
+        caps: [
+          "Nahes und Fernes konkurrieren um deine <b>begrenzte Aufmerksamkeit</b>.",
+          "Dein Gehirn zoomt auf <b>das Hier und Jetzt</b>. Meist ist das klug.",
+          "Etwas Süßes <b>jetzt</b> wirkt riesig. Ersparnisse fürs <b>nächste Jahr</b>? Ein Punkt.",
+          "Ein Kind <b>mit Namen</b> bewegt dich mehr als <b>Tausende</b> in Not.",
+          "Das <b>neue</b> Modell wirkt besser, nur weil es neu ist.",
+          "Dabei ist das, was schrumpft, oft <b>wichtiger</b>.",
+          "<b>Die Lösung:</b> Weite deinen Blick. Stell dir das Ferne <b>aus der Nähe</b> vor.",
+          "Nebeneinander, in <b>echter Größe</b>, wird die Wahl klar."
+        ],
+        say: [
+          "Nahes und Fernes konkurrieren um deine Aufmerksamkeit. Und deine Aufmerksamkeit ist begrenzt.",
+          "Also zoomt dein Gehirn auf das Hier und Jetzt. Was nah ist, wirkt riesig, und was fern ist, schrumpft zu einem Punkt. Meist ist das klug: Die Belohnung oder die Gefahr direkt vor dir zählt oft am meisten.",
+          "Etwas Süßes jetzt wirkt riesig. Deine Ersparnisse fürs nächste Jahr? Nur ein Punkt. Das ist hyperbolische Diskontierung.",
+          "Ein Kind mit Namen und Gesicht bewegt dich mehr als Tausende Menschen in derselben Not. Das ist der Identifizierbares-Opfer-Effekt.",
+          "Und das neue Modell wirkt besser, nur weil es neu ist, während das Handy, das gut läuft, verblasst. Das ist der Appell an die Neuheit.",
+          "Dabei ist das, was schrumpft, oft wichtiger: eine größere Belohnung, mehr Menschen, etwas Bewährtes.",
+          "Die Lösung: Weite deinen Blick. Stell dir das Ferne aus der Nähe vor, etwa dich selbst in einem Jahr.",
+          "Stell Nahes und Fernes nebeneinander, in echter Größe, und die Wahl wird klar. Und wenn sich etwas Neues dringend anfühlt, gib ihm einen Tag.",
+          "Das Hier und Jetzt. Was nah ist, wirkt größer, als es ist, also hol das Ferne nah heran, bevor du wählst."
+        ]
       }
     },
     svg(T) {

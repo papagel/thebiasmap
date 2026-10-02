@@ -207,6 +207,38 @@
           "De près, chaque personne est plus qu’une étiquette.",
           "Stéréotypes. Une étiquette comble ce que vous ignorez, alors apprenez un fait réel avant de juger."
         ]
+      },
+      de: {
+        name: "Stereotype", shareTitle: "Warum dein Kopf aus einem Etikett einen ganzen Menschen macht, in 30 Sekunden",
+        ecline: "Ein Etikett ergänzt, was du nicht weißt, also finde eine echte Tatsache heraus, bevor du urteilst.",
+        badge: "Ingenieur",
+        guess: ["still", "liebt Mathe", "spielt Schach", "plant alles", "repariert alles", "Frühaufsteher"],
+        real: ["sehr witzig", "liebt Mathe", "spielt Schlagzeug", "improvisiert", "repariert alles", "Nachteule"],
+        gaps: "6 Lücken", filled: "vom Etikett ergänzt", seen: "gesehen: 0 von 6", fact1: "1 echte Tatsache", close: "aus der Nähe",
+        claim: ["Vitamin X", "stoppt Erkältungen."], trust: "dein Vertrauen", evidence: "vorgelegte Belege", none: "keine",
+        loud: "laut", fact: ["Ich spiele Schlagzeug", "in einer Band!"],
+        names: ["Stereotypisierung", "Autoritätsglaube", "Gruppen-Attributionsfehler"],
+        caps: [
+          "Du lernst jemanden kennen. Du weißt nur eins: <b>ein Etikett</b>.",
+          "Dein Gehirn füllt die Lücken mit dem, <b>was es erwartet</b>. Das spart Mühe.",
+          "Das ist <b>Stereotypisierung</b>: sechs Eigenschaften, die du <b>nie gesehen hast</b>.",
+          "Mit einem <b>weißen Kittel</b> klingt eine Behauptung <b>ohne Belege</b> richtig.",
+          "Im Stadion <b>brüllt</b> ein Fan ununterbrochen…",
+          "…also hältst du <b>alle</b> Fans des Teams für laut.",
+          "<b>Die Lösung:</b> Finde zuerst <b>eine echte Tatsache</b> über die Person heraus.",
+          "Aus der Nähe ist jeder Mensch <b>mehr als ein Etikett</b>."
+        ],
+        say: [
+          "Du lernst jemanden kennen. Du weißt nur eins, ein Etikett: Ingenieur.",
+          "Dein Gehirn füllt die Lücken mit dem, was es von dem Etikett erwartet. Das spart eine Menge Mühe.",
+          "Das ist Stereotypisierung: sechs Eigenschaften, die du nie gesehen hast.",
+          "Mit einem weißen Kittel klingt eine Behauptung ohne Belege richtig. Das ist Autoritätsglaube.",
+          "Im Stadion brüllt ein Fan ununterbrochen...",
+          "...also hältst du alle Fans des Teams für laut. Das ist der Gruppen-Attributionsfehler.",
+          "Die Lösung: Finde zuerst eine echte Tatsache über die Person heraus.",
+          "Aus der Nähe ist jeder Mensch mehr als ein Etikett.",
+          "Stereotype. Ein Etikett ergänzt, was du nicht weißt, also finde eine echte Tatsache heraus, bevor du urteilst."
+        ]
       }
     },
     svg(T) {

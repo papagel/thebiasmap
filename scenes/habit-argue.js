@@ -188,6 +188,37 @@
           "Vous vous lancez quand même, mais les yeux ouverts.",
           "Défendez l’autre camp. Commencez par les meilleurs arguments contre votre projet, puis lancez-vous les yeux ouverts."
         ]
+      },
+      de: {
+        name: "Vertritt die Gegenseite", shareTitle: "Vertritt die Gegenseite: eine Gewohnheit in 30 Sekunden",
+        ecline: "Sammle zuerst die stärksten Argumente gegen deinen Plan, dann zieh ihn mit offenen Augen durch.",
+        forH: "Dafür", agH: "Dagegen", empty: "leer",
+        pros: ["Cafés boomen", "Mach, was du liebst", "Eigener Chef sein"],
+        cons: ["Hohe Miete", "Zähe erste Monate", "12-Stunden-Tage"],
+        job: "Dein Job", cafe: "Dein Café", quit: "kündigen", quitW: 46, notYet: "noch nicht",
+        popup: "Pop-up", popupSub: "am Wochenende",
+        sure: "100 % sicher", sureW: 90, bias: "Bestätigungsfehler", biasW: 139,
+        caps: [
+          "Du willst deinen Job kündigen und ein <b>Café</b> eröffnen. Du bist dir sicher.",
+          "Alles, was du liest, scheint dir <b>recht zu geben</b>.",
+          "Also sammelst du nur Gründe <b>dafür</b>. Die andere Seite bleibt leer.",
+          "<b>Die Gewohnheit:</b> Bevor du dich festlegst, vertritt die Gegenseite.",
+          "Schreib die <b>stärksten Argumente gegen</b> deinen eigenen Plan auf.",
+          "Dann pass den Plan an: <b>Teste ihn</b> erst mit Pop-ups am Wochenende.",
+          "Diese Gewohnheit fängt den <b>Bestätigungsfehler</b> ab: nur zu sehen, was dir recht gibt.",
+          "Du ziehst es trotzdem durch, aber <b>mit offenen Augen</b>."
+        ],
+        say: [
+          "Du willst deinen Job kündigen und ein Café eröffnen. Du bist dir sicher.",
+          "Alles, was du liest, scheint dir recht zu geben.",
+          "Also sammelst du nur Gründe dafür. Die andere Seite bleibt leer.",
+          "Die Gewohnheit: Bevor du dich festlegst, vertritt die Gegenseite.",
+          "Schreib die stärksten Argumente gegen deinen eigenen Plan auf. Hohe Miete. Zähe erste Monate. Zwölf-Stunden-Tage.",
+          "Dann pass den Plan an. Teste ihn erst mit Pop-ups am Wochenende.",
+          "Diese Gewohnheit fängt den Bestätigungsfehler ab: nur zu sehen, was dir recht gibt.",
+          "Du ziehst es trotzdem durch, aber mit offenen Augen.",
+          "Vertritt die Gegenseite. Sammle zuerst die stärksten Argumente gegen deinen Plan, dann zieh ihn mit offenen Augen durch."
+        ]
       }
     },
     svg(T) {

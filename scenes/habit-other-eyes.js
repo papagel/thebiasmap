@@ -187,6 +187,34 @@
           "Vous ajoutez l’étape manquante. Désormais, le guide marche pour les autres aussi.",
           "Demandez un autre regard. Vous ne voyez pas vos propres lacunes, mais un œil neuf les repère vite."
         ]
+      },
+      de: {
+        name: "Hol dir einen fremden Blick", shareTitle: "Hol dir einen fremden Blick: eine Gewohnheit in 30 Sekunden",
+        ecline: "Deine eigenen Lücken siehst du nicht, aber ein frischer Blick findet sie schnell.",
+        title: "Erste Schritte", steps: ["App laden", "Einloggen", "Liste anlegen", "Freunde einladen"], missing: "Konto",
+        head: "im Kopf", you: "du", fresh: "fremder Blick", ask: "Finde die Lücke!", gap: "fehlender Schritt",
+        stuck: ["Einloggen,", "aber womit?"], got: "Alles klar!", caught: "erwischt", bias: "Fluch des Wissens", tagW: 150,
+        caps: [
+          "Du hast gerade die Anleitung für deine neue App geschrieben.",
+          "Für dich sieht sie perfekt aus. Jeder Schritt ist <b>selbstverständlich</b>.",
+          "Dein Kopf ergänzt still <b>einen Schritt, den du nie aufgeschrieben hast</b>.",
+          "<b>Die Gewohnheit:</b> Gib sie jemandem mit einem anderen Hintergrund.",
+          "Bitte die Person, <b>die Lücke zu finden</b>, statt nur „passt“ zu sagen.",
+          "Sie bleibt bei Schritt 2 hängen: „<b>Einloggen, aber womit?</b>“",
+          "Diese Gewohnheit fängt den <b>Fluch des Wissens</b> ab: Du kannst dir Nichtwissen nicht vorstellen.",
+          "Du ergänzt den fehlenden Schritt. Jetzt funktioniert es <b>auch für andere</b>."
+        ],
+        say: [
+          "Du hast gerade die Anleitung für deine neue App geschrieben.",
+          "Für dich sieht sie perfekt aus. Jeder Schritt ist selbstverständlich.",
+          "Du hast seit Ewigkeiten ein Konto, also ergänzt dein Kopf still einen Schritt, den du nie aufgeschrieben hast: zuerst ein Konto anlegen.",
+          "Die Gewohnheit: Gib sie jemandem mit einem anderen Hintergrund.",
+          "Bitte die Person, die Lücke zu finden, statt dir zu sagen, dass alles passt.",
+          "Sie bleibt bei Schritt zwei hängen. Einloggen, aber womit?",
+          "Diese Gewohnheit fängt den Fluch des Wissens ab. Sobald du etwas weißt, kannst du dir nicht mehr vorstellen, es nicht zu wissen.",
+          "Du ergänzt den fehlenden Schritt. Jetzt funktioniert es auch für andere.",
+          "Hol dir einen fremden Blick. Deine eigenen Lücken siehst du nicht, aber ein frischer Blick findet sie schnell."
+        ]
       }
     },
     svg(T) {

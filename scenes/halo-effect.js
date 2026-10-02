@@ -150,6 +150,33 @@
           "Jugés trait par trait, ils sont à égalité.",
           "L’effet de halo. Un bon trait fait paraître les autres bons aussi. Jugez chacun sur ses propres preuves."
         ]
+      },
+      de: {
+        name: "Halo-Effekt", shareTitle: "Der Halo-Effekt in 30 Sekunden",
+        ecline: "Eine gute Eigenschaft lässt auch die anderen gut aussehen. Beurteile jede nach ihren eigenen Belegen.",
+        same: ["gleicher", "Lebenslauf"], traits: ["Können", "Ehrlichkeit", "Zuverlässigkeit"],
+        evidence: ["Arbeitsprobe", "Referenzen", "Werdegang"], halo: "Halo",
+        caps: [
+          "Zwei Menschen bewerben sich mit <b>demselben Lebenslauf</b>.",
+          "Die eine Person tritt selbstbewusst, gepflegt und lächelnd auf.",
+          "Dieser erste Eindruck <b>strahlt</b> auf alles andere ab.",
+          "Können? <b>Stark.</b> Ehrlich? <b>Sicher.</b> Zuverlässig? <b>Natürlich.</b>",
+          "Die andere Person bekommt mittlere Noten, <b>bei denselben Fakten</b>.",
+          "Diese Lücke ist der <b>Halo</b>: Eine Eigenschaft färbt das ganze Bild.",
+          "<b>Die Lösung:</b> Bewerte jede Eigenschaft nach ihren eigenen Belegen.",
+          "Eigenschaft für Eigenschaft bewertet, liegen beide <b>gleichauf</b>."
+        ],
+        say: [
+          "Zwei Menschen bewerben sich mit demselben Lebenslauf.",
+          "Die eine Person tritt selbstbewusst, gepflegt und lächelnd auf.",
+          "Dieser erste Eindruck strahlt auf alles andere ab.",
+          "Können? Stark. Ehrlich? Sicher. Zuverlässig? Natürlich.",
+          "Die andere Person bekommt mittlere Noten, bei denselben Fakten.",
+          "Diese Lücke ist der Halo. Eine Eigenschaft färbt das ganze Bild.",
+          "Die Lösung: Bewerte jede Eigenschaft nach ihren eigenen Belegen.",
+          "Eigenschaft für Eigenschaft bewertet, liegen beide gleichauf.",
+          "Der Halo-Effekt. Eine gute Eigenschaft lässt auch die anderen gut aussehen. Beurteile jede nach ihren eigenen Belegen."
+        ]
       }
     },
     svg(T) {

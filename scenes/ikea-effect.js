@@ -183,6 +183,33 @@
           "Même étagère, même prix. Jugez l’objet, pas l’effort.",
           "L’effet IKEA. Ce que vous construisez vous-même semble valoir plus. Jugez-le comme si quelqu’un d’autre l’avait fait."
         ]
+      },
+      de: {
+        name: "IKEA-Effekt", shareTitle: "Der IKEA-Effekt in 30 Sekunden",
+        ecline: "Was du selbst baust, wirkt wertvoller. Bewerte es so, als hätte es jemand anderes gemacht.",
+        yours: "Deins", yoursW: 34, shops: "Vom Laden", stranger: "Von Fremden", same: "gleiches Modell",
+        hrs: n => (n === 1 ? "1 Stunde" : `${n} Stunden`), eur: v => `${v} €`, plus: "+40 €", effort: "dein Aufwand",
+        caps: [
+          "Du baust ein Regal aus dem Flachpaket <b>selbst</b> zusammen.",
+          "Zwei Stunden, ein Inbusschlüssel, <b>eine Schraube übrig</b>.",
+          "Es steht etwas schief. Aber du <b>liebst</b> es.",
+          "Daneben <b>dasselbe Regal</b>, vom Laden aufgebaut.",
+          "Verkaufen? Für deins willst du <b>80 €</b>, für das vom Laden <b>40 €</b>.",
+          "Dein <b>Aufwand</b> lässt es <b>wertvoller</b> wirken.",
+          "<b>Die Lösung:</b> Stell dir vor, jemand Fremdes hat es gebaut. Was ist es jetzt wert?",
+          "Gleiches Regal, gleicher Preis. <b>Bewerte die Sache, nicht die Mühe.</b>"
+        ],
+        say: [
+          "Du baust ein Regal aus dem Flachpaket selbst zusammen.",
+          "Zwei Stunden, ein Inbusschlüssel, und eine Schraube bleibt übrig.",
+          "Es steht etwas schief. Aber du liebst es.",
+          "Daneben dasselbe Regal, vom Laden aufgebaut.",
+          "Verkaufen? Für deins willst du achtzig Euro, für das vom Laden vierzig.",
+          "Dein Aufwand lässt es wertvoller wirken.",
+          "Die Lösung: Stell dir vor, jemand Fremdes hat es gebaut. Was ist es jetzt wert?",
+          "Gleiches Regal, gleicher Preis. Bewerte die Sache, nicht die Mühe.",
+          "Der IKEA-Effekt. Was du selbst baust, wirkt wertvoller. Bewerte es so, als hätte es jemand anderes gemacht."
+        ]
       }
     },
     svg(T) {

@@ -269,6 +269,35 @@
           "Cinq chiens gentils, une morsure. Gardez les exceptions, et le résumé reste juste.",
           "Généralités. La mémoire échange les détails contre des résumés, alors repensez aux exceptions avant de juger."
         ]
+      },
+      de: {
+        name: "Verallgemeinern", shareTitle: "Warum das Gedächtnis das Wesentliche behält und Details verwirft, in 30 Sekunden",
+        ecline: "Das Gedächtnis tauscht Details gegen Zusammenfassungen, also denk an die Ausnahmen, bevor du urteilst.",
+        memory: "Gedächtnis", more: "+ Hunderte mehr", dropped: "ohne Details", left: "aussortiert", newDog: "neuer Hund", count: "5 freundlich · 1 Biss",
+        dogs: "Hunde", friendly: "freundlich", scary: "gefährlich", mostly: "meist freundlich",
+        trip: "die Reise", perfect: "perfekt", link: "Automatismus", glasses: "Brille → Genie", imp: "gefährlich",
+        names: ["Negativitätseffekt", "Verblassender Affekt", "Implizite Assoziationen"],
+        caps: [
+          "Du hast <b>Hunderte Hunde</b> getroffen. Dein Gedächtnis kann nicht <b>jeden</b> behalten.",
+          "Also presst es sie zu <b>einer Zusammenfassung</b>. Nächster Hund? Eine <b>schnelle Einschätzung</b>.",
+          "Dann <b>beißt</b> ein Hund. Diese Erinnerung <b>wiegt schwerer</b> als alle anderen.",
+          "Eine frühere Reise: Das <b>Schlechte verblasst schneller</b>. Jetzt war sie <b>„perfekt“</b>.",
+          "Im Film tragen <b>Genies</b> eine <b>Brille</b>. Bald ist die Verknüpfung <b>automatisch</b>.",
+          "Die Zusammenfassung bleibt. Ein <b>freundlicher neuer Hund</b>? Du denkst trotzdem <b>„gefährlich“</b>.",
+          "<b>Die Lösung:</b> Ruf dir <b>konkrete Fälle</b> in Erinnerung, vor allem die, die <b>nicht passen</b>.",
+          "Fünf freundliche, ein Biss. Behalte die <b>Ausnahmen</b>, und die Zusammenfassung bleibt <b>fair</b>."
+        ],
+        say: [
+          "Du hast Hunderte Hunde getroffen. Dein Gedächtnis kann nicht jeden behalten.",
+          "Also presst es sie zu einer Zusammenfassung: Hunde sind freundlich. Beim nächsten Mal hast du eine schnelle Einschätzung.",
+          "Dann beißt dich ein Hund. Diese Erinnerung wiegt schwerer als alle anderen. Das ist der Negativitätseffekt.",
+          "Denk an eine frühere Reise. Das Schlechte verblasst schneller als das Gute, also war sie jetzt perfekt. Das ist der verblassende Affekt.",
+          "Im Film tragen Genies eine Brille. Bald ist die Verknüpfung automatisch. Das ist eine implizite Assoziation.",
+          "Und die Zusammenfassung bleibt. Ein freundlicher neuer Hund kommt vorbei, und du denkst trotzdem: gefährlich.",
+          "Die Lösung: Ruf dir konkrete Fälle in Erinnerung, vor allem die, die nicht passen.",
+          "Fünf freundliche Hunde, ein Biss. Behalte die Ausnahmen, und die Zusammenfassung bleibt fair.",
+          "Verallgemeinern. Das Gedächtnis tauscht Details gegen Zusammenfassungen, also denk an die Ausnahmen, bevor du urteilst."
+        ]
       }
     },
     svg(T) {

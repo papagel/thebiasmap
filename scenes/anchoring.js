@@ -116,6 +116,34 @@
           "Partez de votre propre fourchette, et vous tombez près du juste prix.",
           "L’ancrage. Le premier chiffre entendu devient votre point de départ. Fixez d’abord le vôtre."
         ]
+      },
+      de: {
+        name: "Ankereffekt", shareTitle: "Der Ankereffekt in 30 Sekunden",
+        ecline: "Die erste Zahl, die du hörst, wird dein Startpunkt. Leg deine eigene vorher fest.",
+        bubble: "„Ich will 900.000 €“", truth: "Fairer Wert", hidden: "kennst du nicht", start: "Startpunkt",
+        adj: "Anpassung", pull: "Zug", padh: "Deine Schätzung", padv: "550–650 Tsd.", guess: "Dein Tipp",
+        withAnchor: "Mit dem Anker", withRange: "Erst deine Spanne", gap: v => `${v}.000 € zu hoch`, axis: "Preis in Tausend €",
+        caps: [
+          "Du willst dieses Haus kaufen. Was ist es wert?",
+          "Sein fairer Wert liegt bei etwa <b>600.000 €</b>. Das weißt du noch nicht.",
+          "Der Verkäufer spricht zuerst: „Ich will <b>900.000 €</b>.“",
+          "Dein Kopf nimmt die 900.000 € als <b>Startpunkt</b>.",
+          "Das wirkt zu hoch, also gehst du runter…",
+          "…aber du hörst zu früh auf, <b>180.000 € zu hoch</b>.",
+          "<b>Die Lösung:</b> Schreib zuerst deine eigene Schätzung auf.",
+          "Starte bei deiner eigenen Spanne. Du landest nahe am <b>fairen Wert</b>."
+        ],
+        say: [
+          "Du willst dieses Haus kaufen. Was ist es wert?",
+          "Sein fairer Wert liegt bei etwa sechshunderttausend Euro. Aber das weißt du noch nicht.",
+          "Der Verkäufer spricht zuerst. Ich will neunhunderttausend.",
+          "Dein Kopf nimmt diese Zahl als Startpunkt.",
+          "Das wirkt zu hoch, also gehst du runter...",
+          "...aber du hörst zu früh auf. Am Ende liegst du hundertachtzigtausend Euro zu hoch.",
+          "Die Lösung: Schreib zuerst deine eigene Schätzung auf.",
+          "Starte bei deiner eigenen Spanne, und du landest nahe am fairen Wert.",
+          "Der Ankereffekt. Die erste Zahl, die du hörst, wird dein Startpunkt. Leg deine eigene vorher fest."
+        ]
       }
     },
     svg(T) {

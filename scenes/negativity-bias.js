@@ -191,6 +191,34 @@
           "Retenez ce qui est utile dans celui-là. Mais gardez aussi les neuf.",
           "Le biais de négativité. Un mauvais commentaire peut en noyer neuf bons. Comptez-les avant de les peser."
         ]
+      },
+      de: {
+        name: "Negativitätseffekt", shareTitle: "Der Negativitätseffekt in 30 Sekunden",
+        ecline: "Ein schlechter Kommentar kann neun gute übertönen. Zähl sie, bevor du sie gewichtest.",
+        count: n => (n === 1 ? "1 Kommentar" : `${n} Kommentare`),
+        quote: "„Öde.“", tagW: 78, danger: "Gefahr!", dW: 46, opinion: "eine Meinung",
+        of10: "9 von 10", liked: "fanden es gut", note: "zäher Start?", noteW: 93,
+        caps: [
+          "Du hältst einen Vortrag. Danach kommen <b>zehn Kommentare</b>.",
+          "Neun sind herzlich. <b>Einer</b> ist bissig.",
+          "Abends geht dir <b>dieser eine</b> nicht aus dem Kopf.",
+          "Die neun guten? <b>Verblassen schon.</b>",
+          "Schlechtes <b>wiegt schwerer</b> als gleich starkes Gutes.",
+          "Dieser Alarm schützte unsere Vorfahren. Hier <b>verzerrt er nur das Bild</b>.",
+          "<b>Die Lösung:</b> Zähl nach. <b>Neun von zehn</b> fanden es gut.",
+          "Nimm aus dem einen das Nützliche mit. <b>Behalte auch die neun.</b>"
+        ],
+        say: [
+          "Du hältst einen Vortrag. Danach kommen zehn Kommentare.",
+          "Neun sind herzlich. Einer ist bissig. Da steht nur: öde.",
+          "Abends geht dir dieser eine nicht aus dem Kopf.",
+          "Und die neun guten? Verblassen schon.",
+          "Schlechtes wiegt schwerer als gleich starkes Gutes.",
+          "Dieser Alarm schützte unsere Vorfahren. Hier verzerrt er nur das Bild. Es ist eine einzige Meinung.",
+          "Die Lösung: Zähl nach. Neun von zehn fanden es gut.",
+          "Nimm aus dem einen das Nützliche mit. Aber behalte auch die neun.",
+          "Der Negativitätseffekt. Ein schlechter Kommentar kann neun gute übertönen. Zähl sie, bevor du sie gewichtest."
+        ]
       }
     },
     svg(T) {

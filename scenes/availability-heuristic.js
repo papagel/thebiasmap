@@ -171,6 +171,34 @@
           "Regardez les vrais chiffres, puis choisissez comment voyager.",
           "L’heuristique de disponibilité. Ce qui revient vite en tête n’est pas forcément probable. Vérifiez la fréquence réelle."
         ]
+      },
+      de: {
+        name: "Verfügbarkeits-Heuristik", shareTitle: "Die Verfügbarkeits-Heuristik in 30 Sekunden",
+        ecline: "Was dir leicht einfällt, ist nicht unbedingt wahrscheinlich. Prüf, wie oft es wirklich passiert.",
+        memory: "Dein Gedächtnis", or: "oder", head: "Flugzeugabsturz", cw: 140, note: "Unfall", daily: "jeden Tag",
+        q1: ["Was fällt mir ein?"], q2: ["Wie oft passiert", "das wirklich?"],
+        feels: "Gefühltes Risiko", actual: "Echtes Risiko pro km",
+        caps: [
+          "Mit dem Flugzeug oder mit dem Auto ans Meer: Was ist <b>riskanter</b>?",
+          "Diese Woche ist ein Flugzeugabsturz <b>in allen Nachrichten</b>.",
+          "Autounfälle passieren <b>jeden Tag</b>, kommen aber selten in die Schlagzeilen.",
+          "Dein Kopf fragt: Welche Beispiele <b>fallen mir am schnellsten ein</b>?",
+          "Also <b>fühlt</b> sich Fliegen plötzlich gefährlicher an.",
+          "Doch pro Kilometer ist <b>das Auto viel riskanter</b>.",
+          "<b>Die Lösung:</b> Frag, wie oft es passiert, nicht wie sehr es hängen bleibt.",
+          "Schau dir die <b>echten Zahlen</b> an und entscheide dann, wie du reist."
+        ],
+        say: [
+          "Mit dem Flugzeug oder mit dem Auto ans Meer. Was ist riskanter?",
+          "Diese Woche ist ein Flugzeugabsturz in allen Nachrichten.",
+          "Autounfälle passieren jeden Tag, aber sie kommen selten in die Schlagzeilen.",
+          "Dein Kopf fragt: Welche Beispiele fallen mir am schnellsten ein?",
+          "Also fühlt sich Fliegen plötzlich gefährlicher an.",
+          "Doch pro Kilometer ist das Auto viel riskanter.",
+          "Die Lösung: Frag, wie oft es passiert, nicht wie sehr es hängen bleibt.",
+          "Schau dir die echten Zahlen an, und entscheide dann, wie du reist.",
+          "Die Verfügbarkeits-Heuristik. Was dir leicht einfällt, ist nicht unbedingt wahrscheinlich. Prüf, wie oft es wirklich passiert."
+        ]
       }
     },
     svg(T) {

@@ -172,6 +172,33 @@
           "Blindez les moteurs. Étudiez les échecs, pas seulement les survivants.",
           "Le biais du survivant. Vous ne voyez que ce qui a survécu. Demandez-vous ce qui manque avant de conclure."
         ]
+      },
+      de: {
+        name: "Survivorship Bias", shareTitle: "Der Survivorship Bias in 30 Sekunden",
+        ecline: "Du siehst nur, was überlebt hat. Frag dich, was fehlt, bevor du Schlüsse ziehst.",
+        legend: "Treffer an Rückkehrern", armour: "Panzerung", back: "Zurückgekehrt", lost: "Nicht zurückgekehrt",
+        noHoles: "keine Löcher", missing: "fehlende Daten", armourHere: "hier panzern",
+        caps: [
+          "Im Zweiten Weltkrieg kehren Bomber von Einsätzen zurück, durchsiebt von <b>Einschusslöchern</b>.",
+          "Fachleute kartieren, wo die <b>zurückgekehrten Flugzeuge</b> getroffen wurden.",
+          "Die naheliegende Idee: Panzerung dort, <b>wo die Löcher sind</b>.",
+          "Aber das sind nur die Flugzeuge, <b>die es zurückgeschafft haben</b>.",
+          "Flugzeuge mit Treffern in den Triebwerken <b>kamen selten zurück</b>, um gezählt zu werden.",
+          "Wo keine Löcher sind, ist ein Treffer <b>tödlich</b>.",
+          "<b>Die Lösung:</b> Frag dich, was in deinen Daten fehlt.",
+          "Panzere die Triebwerke. Untersuche die Ausfälle, <b>nicht nur die Überlebenden</b>."
+        ],
+        say: [
+          "Im Zweiten Weltkrieg kehren Bomber von ihren Einsätzen zurück, durchsiebt von Einschusslöchern.",
+          "Fachleute kartieren, wo die zurückgekehrten Flugzeuge getroffen wurden.",
+          "Die naheliegende Idee: Panzerung dort, wo die Löcher sind.",
+          "Aber das sind nur die Flugzeuge, die es zurückgeschafft haben.",
+          "Flugzeuge mit Treffern in den Triebwerken kamen selten zurück, um gezählt zu werden.",
+          "Wo keine Löcher sind, ist ein Treffer tödlich.",
+          "Die Lösung: Frag dich, was in deinen Daten fehlt.",
+          "Panzere die Triebwerke. Untersuche die Ausfälle, nicht nur die Überlebenden.",
+          "Der Survivorship Bias. Du siehst nur, was überlebt hat. Frag dich, was fehlt, bevor du Schlüsse ziehst."
+        ]
       }
     },
     svg(T) {

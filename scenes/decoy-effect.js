@@ -194,6 +194,33 @@
           "Puis demandez-vous : le grand vaut-il quatre euros de plus pour vous ?",
           "L’effet de leurre. Une option dont personne ne veut peut en faire passer une autre pour une affaire. Ne comparez que les vrais choix."
         ]
+      },
+      de: {
+        name: "Köder-Effekt", shareTitle: "Der Köder-Effekt in 30 Sekunden",
+        ecline: "Eine Option, die niemand will, lässt eine andere wie ein Schnäppchen aussehen. Vergleiche nur die echten Optionen.",
+        size: { s: "klein", m: "mittel", l: "groß" }, price: { s: "3 €", m: "6,50 €", l: "7 €" },
+        diff: "+4 €", diffW: 48, more: "nur 50 Cent mehr!", moreW: 124, decoy: "KÖDER", decoyW: 79, real: "der echte Unterschied",
+        caps: [
+          "Im Kino: kleines Popcorn <b>3 €</b>, großes <b>7 €</b>.",
+          "4 € mehr für das große? Die meisten nehmen das <b>kleine</b>.",
+          "Dann bietet das Kino ein mittleres an, für <b>6,50 €</b>.",
+          "Neben dem mittleren wirkt das große wie ein <b>Schnäppchen</b>.",
+          "Plötzlich nehmen viel mehr Leute <b>das große</b>.",
+          "Fast niemand kauft das mittlere. Es ist ein <b>Köder</b>, der das große verkaufen soll.",
+          "<b>Die Lösung:</b> Streich die Option, die du nie wählen würdest.",
+          "Dann frag dich: Ist <b>dir</b> das große 4 € mehr wert?"
+        ],
+        say: [
+          "Im Kino kostet kleines Popcorn drei Euro. Großes kostet sieben.",
+          "Vier Euro mehr für das große? Die meisten nehmen das kleine.",
+          "Dann bietet das Kino ein mittleres an, für sechs Euro fünfzig.",
+          "Neben dem mittleren wirkt das große wie ein Schnäppchen. Nur fünfzig Cent mehr!",
+          "Plötzlich nehmen viel mehr Leute das große.",
+          "Fast niemand kauft das mittlere. Es ist ein Köder, der das große verkaufen soll.",
+          "Die Lösung: Streich die Option, die du nie wählen würdest.",
+          "Dann frag dich: Ist dir das große vier Euro mehr wert?",
+          "Der Köder-Effekt. Eine Option, die niemand will, lässt eine andere wie ein Schnäppchen aussehen. Vergleiche nur die echten Optionen."
+        ]
       }
     },
     svg(T) {

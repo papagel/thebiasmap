@@ -170,6 +170,34 @@
           "Vous le partagez avec d’autres ? Faites ressortir le point clé, pour qu’il reste.",
           "Ce qui ressort reste, que ce soit important ou non. Notez d’abord ce qui compte."
         ]
+      },
+      de: {
+        name: "Was heraussticht", shareTitle: "Warum wir uns das Ungewöhnliche merken, in 30 Sekunden",
+        ecline: "Was heraussticht, bleibt hängen, ob es wichtig ist oder nicht. Notier zuerst, was zählt.",
+        meeting: "Die Besprechung", recall: "Was du noch weißt", useful: "nützlich",
+        vr: "Von-Restorff-Effekt", hu: "Humoreffekt", ps: "Effekt der Bildüberlegenheit",
+        due: "Frist: Freitag", noteH: "Erst das Wichtigste", stick: "bleibt hängen",
+        caps: [
+          "Eine lange Besprechung: acht Punkte, <b>alle gleich</b>. Du kannst dir nicht alle merken.",
+          "Dein Gehirn behält, was <b>heraussticht</b>. Das Ungewöhnliche ist oft wichtig.",
+          "Ein Punkt in <b>knalliger Farbe</b>? Der bleibt auch hängen.",
+          "Genau wie ein <b>Witz</b>, selbst wenn er nicht zum Thema gehört.",
+          "Und ein <b>Bild</b> bleibt besser hängen als Worte.",
+          "Am nächsten Tag ist dir die <b>Frist</b> entfallen: unscheinbar, aber wichtig.",
+          "<b>Die Lösung:</b> Schreib direkt danach zuerst das <b>Wichtigste</b> auf.",
+          "Gibst du es weiter? Lass das Wichtigste <b>herausstechen</b>, damit es hängen bleibt."
+        ],
+        say: [
+          "Eine lange Besprechung. Acht Punkte, alle gleich. Du kannst dir nicht alle merken.",
+          "Also behält dein Gehirn, was heraussticht. Das ist meist klug: Das Ungewöhnliche ist oft wichtig.",
+          "Ein Punkt in knalliger Farbe? Der bleibt auch hängen. Das ist der Von-Restorff-Effekt.",
+          "Genau wie ein Witz, selbst wenn er nicht zum Thema gehört. Der Humoreffekt.",
+          "Und ein Bild bleibt besser hängen als Worte. Der Effekt der Bildüberlegenheit.",
+          "Am nächsten Tag ist dir die Frist entfallen, unscheinbar, aber wichtig.",
+          "Die Lösung: Schreib direkt nach der Besprechung zuerst das Wichtigste auf.",
+          "Gibst du es an andere weiter? Lass das Wichtigste herausstechen, damit es hängen bleibt.",
+          "Was heraussticht, bleibt hängen, ob es wichtig ist oder nicht. Notier zuerst, was zählt."
+        ]
       }
     },
     svg(T) {

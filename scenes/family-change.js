@@ -215,6 +215,38 @@
           "Puis calculez le coût par utilisation. Soixante euros pour trois cents utilisations, ça fait vingt centimes à chaque fois. Vous voyez alors son vrai poids.",
           "On remarque le changement. On juge en comparant, alors le point de départ décide de notre regard."
         ]
+      },
+      de: {
+        name: "Was sich ändert", shareTitle: "Warum wir nach dem Unterschied urteilen, nicht nach der Sache, in 30 Sekunden",
+        ecline: "Wir urteilen im Vergleich, also bestimmt der Ausgangspunkt, wie die Dinge wirken.",
+        price: "60 €", old: "70 €", was: "150 €", seen: "15 €", off: "10 € Rabatt!", fee: "+10 € Gebühr",
+        lOld: "dein altes Paar", lWas: "vorher", lSeen: "gerade gesehen", lWord: "die Wortwahl",
+        start: "Ausgangspunkt", starts: "Ausgangspunkte", pm: "±10 €", diffL: "Unterschied", money: v => `${v < 0 ? "−" : "+"}${Math.abs(v)} €`,
+        cheap: "günstig", pricey: "teuer", feels: "wie sich 60 € anfühlen", same: "gleiche 60 €",
+        verdict: ["?", "guter Preis", "Schnäppchen!", "zu teuer!", "ein Gewinn", "ein Verlust"],
+        pills: [["Ankereffekt", 97], ["Kontrasteffekt", 118], ["Framing-Effekt", 115]],
+        morning: "am nächsten Morgen", cpu: "Kosten pro Nutzung", sum: "60 € ÷ 300 Nutzungen", res: "= 20 Cent pro Mal",
+        caps: [
+          "Kopfhörer für <b>60 €</b>. Günstig oder teuer? Der Preis allein sagt wenig.",
+          "Also <b>vergleicht</b> dein Gehirn. Das geht schnell und reicht meistens.",
+          "Auf dem Schild steht „vorher <b>150 €</b>“. Jetzt wirken 60 € wie <b>ein Schnäppchen</b>.",
+          "Gerade welche für <b>15 €</b> gesehen? Jetzt wirken 60 € <b>zu teuer</b>.",
+          "„<b>10 € Rabatt</b>“ klingt nach Gewinn. „<b>10 € Gebühr</b>“ nach Verlust.",
+          "Gleiche Kopfhörer, gleiche 60 €. Nur der <b>Ausgangspunkt</b> ist anders.",
+          "<b>Die Lösung:</b> Schlaf eine Nacht darüber und beurteile den Preis <b>ohne Vergleiche</b>.",
+          "Dann rechne die <b>Kosten pro Nutzung</b> aus. So siehst du die <b>wahre Größe</b>."
+        ],
+        say: [
+          "Kopfhörer für sechzig Euro. Günstig oder teuer? Der Preis allein sagt dir nicht viel.",
+          "Also vergleicht dein Gehirn, mit einem Ausgangspunkt, etwa deinen alten Kopfhörern für siebzig. Das geht schnell und reicht meistens.",
+          "Der Ankereffekt. Auf dem Schild steht, vorher hundertfünfzig. Jetzt wirken sechzig wie ein Schnäppchen.",
+          "Der Kontrasteffekt. Du hast gerade welche für fünfzehn gesehen. Jetzt wirken sechzig zu teuer.",
+          "Der Framing-Effekt. Zehn Euro Rabatt klingt nach Gewinn. Zehn Euro Gebühr klingt nach Verlust.",
+          "Gleiche Kopfhörer, gleiche sechzig Euro. Nur der Ausgangspunkt ist anders.",
+          "Die Lösung: Schlaf eine Nacht darüber, und beurteile den Preis ohne Vergleiche.",
+          "Dann rechne die Kosten pro Nutzung aus. Sechzig Euro für dreihundert Nutzungen sind zwanzig Cent pro Mal. Jetzt siehst du die wahre Größe.",
+          "Wir bemerken Veränderung. Wir urteilen im Vergleich, also bestimmt der Ausgangspunkt, wie die Dinge wirken."
+        ]
       }
     },
     svg(T) {

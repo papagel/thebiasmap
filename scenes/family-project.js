@@ -232,6 +232,34 @@
           "Préparez votre futur vous comme quelqu’un d’un peu différent. Il vous remerciera.",
           "Se projeter. Le vous d’hier et celui de demain ne sont pas des copies du vous d’aujourd’hui, alors vérifiez les faits et prévoyez pour eux."
         ]
+      },
+      de: {
+        name: "Von sich ausgehen", shareTitle: "Warum wir Vergangenheit und Zukunft nach dem Gefühl von heute beurteilen, in 30 Sekunden",
+        ecline: "Dein früheres und dein späteres Ich sind keine Kopien von heute, also prüf die Fakten und plane für sie.",
+        times: ["damals", "jetzt", "später"], hungry: "hungrig", full: "satt", setback: "Rückschlag", wasted: "verschwendet",
+        months: "Monate", weeks: "Wochen", felt: "wie es war", recall: "in der Erinnerung",
+        labs: ["Projektionsfehler", "Gefühlsüberschätzung", "Rosarote Rückschau"], note: ["erwartet", "passiert"], thanks: "danke!",
+        caps: [
+          "Dich in Vergangenheit oder Zukunft vorzustellen ist schwer. Dein Gehirn geht von <b>heute</b> aus.",
+          "Es sieht beides durch <b>die Brille von heute</b>. Meist passt das ungefähr.",
+          "Gehst du <b>hungrig</b> einkaufen, kaufst du für ein hungriges späteres Ich.",
+          "Später bist du satt, und <b>die Hälfte</b> landet im Müll.",
+          "Du erwartest, dass ein Rückschlag <b>monatelang</b> wehtut. Nach <b>Wochen</b> ist es vorbei.",
+          "Im Rückblick wirkt die Reise im letzten Sommer <b>schöner</b>, als sie sich anfühlte.",
+          "<b>Die Lösung:</b> Schreib auf, was du erwartest, und <b>prüf</b> dann, was passiert ist.",
+          "Plane für dein späteres Ich als <b>einen etwas anderen Menschen</b>. Es wird es dir danken."
+        ],
+        say: [
+          "Dich in der Vergangenheit oder Zukunft vorzustellen ist schwer. Also geht dein Gehirn von heute aus.",
+          "Es sieht beides durch die Brille von heute, und nimmt an, dass alles ungefähr so bleibt wie jetzt. Meist passt das ungefähr.",
+          "Projektionsfehler. Gehst du hungrig einkaufen, kaufst du für ein hungriges späteres Ich.",
+          "Später bist du satt, und die Hälfte landet im Müll.",
+          "Gefühlsüberschätzung. Du erwartest, dass ein Rückschlag monatelang wehtut. Nach ein paar Wochen ist es vorbei.",
+          "Rosarote Rückschau. Im Rückblick wirkt die Reise im letzten Sommer schöner, als sie sich damals anfühlte.",
+          "Die Lösung: Schreib auf, was du erwartest, und prüf dann, was wirklich passiert ist.",
+          "Plane für dein späteres Ich als einen etwas anderen Menschen. Es wird es dir danken.",
+          "Von sich ausgehen. Dein früheres und dein späteres Ich sind keine Kopien von heute, also prüf die Fakten und plane für sie."
+        ]
       }
     },
     svg(T) {

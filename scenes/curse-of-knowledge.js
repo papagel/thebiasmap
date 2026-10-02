@@ -200,6 +200,34 @@
           "La fois suivante, vous fredonnez les premières notes. Il trouve tout de suite.",
           "La malédiction du savoir. Quand on sait quelque chose, on a du mal à imaginer ne pas le savoir. Essayez de l’expliquer à un débutant."
         ]
+      },
+      de: {
+        name: "Fluch des Wissens", shareTitle: "Der Fluch des Wissens in 30 Sekunden",
+        ecline: "Wenn du etwas weißt, kannst du dir kaum vorstellen, es nicht zu wissen. Versuch, es einem Anfänger zu erklären.",
+        head: "in deinem Kopf", assume: "was du annimmst", hear: "was ankommt", stuck: "bleibt im Ohr",
+        song: "Happy Birthday", toks: "tok… tok-tok… tok… tok… tok", miss: "die fehlende Melodie",
+        guess: "Jingle Bells?", right: "Happy Birthday!",
+        caps: [
+          "Du klopfst ein bekanntes Lied auf den Tisch. <b>Welches ist es?</b>",
+          "In deinem Kopf läuft <b>Happy Birthday</b>, laut und deutlich.",
+          "Es wirkt offensichtlich. Du nimmst an, dein Gegenüber <b>hört es auch</b>.",
+          "Doch dein Gegenüber hört nur Klopfen: <b>tok… tok-tok… tok</b>.",
+          "Der Tipp: „Jingle Bells?“ <b>Wie kann man das nicht erkennen?</b>",
+          "Wer die Melodie kennt, kann sich kaum vorstellen, <b>sie nicht zu kennen</b>.",
+          "<b>Die Lösung:</b> Stell dir einen echten Anfänger vor und ergänze die Schritte, die du überspringst.",
+          "Beim nächsten Mal summst du die ersten Töne. <b>Dein Gegenüber errät es sofort.</b>"
+        ],
+        say: [
+          "Du klopfst den Rhythmus eines bekannten Lieds auf den Tisch und lässt dein Gegenüber raten.",
+          "In deinem Kopf läuft Happy Birthday, laut und deutlich.",
+          "Es wirkt offensichtlich. Du nimmst an, dein Gegenüber hört es auch.",
+          "Doch dein Gegenüber hört nur Klopfen. Tok... tok-tok... tok.",
+          "Der Tipp: Jingle Bells? Wie kann man das nicht erkennen?",
+          "Wer die Melodie kennt, kann sich kaum vorstellen, sie nicht zu kennen.",
+          "Die Lösung: Bevor du etwas erklärst, stell dir einen echten Anfänger vor, oder teste es an einem. Dann ergänze die Schritte, die du überspringst.",
+          "Beim nächsten Mal summst du die ersten paar Töne. Dein Gegenüber errät es sofort.",
+          "Der Fluch des Wissens. Wenn du etwas weißt, kannst du dir kaum vorstellen, es nicht zu wissen. Versuch, es einem Anfänger zu erklären."
+        ]
       }
     },
     svg(T) {

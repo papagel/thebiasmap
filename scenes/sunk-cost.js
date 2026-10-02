@@ -165,6 +165,33 @@ ${P} .check path{fill:none;stroke:var(--good);stroke-width:2.4;stroke-linecap:ro
           "Décidez selon ce qui vient. Restez chez vous, et reposez-vous.",
           "Le biais des coûts irrécupérables. L’argent déjà dépensé est perdu dans tous les cas. Décidez selon ce qui vient."
         ]
+      },
+      de: {
+        name: "Versunkene-Kosten-Falle", shareTitle: "Die Versunkene-Kosten-Falle in 30 Sekunden",
+        ecline: "Bereits ausgegebenes Geld ist so oder so weg. Entscheide nach dem, was vor dir liegt.",
+        concert: "KONZERT", price: "60 €", noref: "keine Erstattung", spent: "Bezahlt", sunk: "versunken", sunkW: 66, tired: "erschöpft",
+        go: "Hingehen", stay: "Zu Hause bleiben", music: "Musik", rest: "Ruhe", dry: "Trocken", minus: "−60 €",
+        caps: [
+          "Du hast <b>60 €</b> für ein Konzertticket bezahlt. Keine Erstattung.",
+          "Am Abend bist du erschöpft, und es schüttet.",
+          "Hingehen oder zu Hause bleiben? Du wägst ab.",
+          "Heute Abend hättest du <b>mehr davon</b>, zu Hause zu bleiben.",
+          "Dann der Gedanke: „Ich habe 60 € bezahlt. Das darf ich nicht <b>verschwenden</b>.“",
+          "Aber die 60 € sind <b>so oder so</b> weg.",
+          "<b>Die Lösung:</b> Nimm ausgegebenes Geld von der Waage.",
+          "Entscheide nach dem, was vor dir liegt. <b>Bleib zu Hause</b> und ruh dich aus."
+        ],
+        say: [
+          "Du hast sechzig Euro für ein Konzertticket bezahlt. Keine Erstattung.",
+          "Am Abend bist du erschöpft, und es schüttet.",
+          "Hingehen oder zu Hause bleiben? Du wägst ab.",
+          "Heute Abend hättest du mehr davon, zu Hause zu bleiben.",
+          "Dann der Gedanke: Ich habe sechzig Euro bezahlt. Das darf ich nicht verschwenden.",
+          "Aber die sechzig Euro sind so oder so weg.",
+          "Die Lösung: Nimm Geld, das du schon ausgegeben hast, von der Waage.",
+          "Entscheide nach dem, was vor dir liegt. Bleib zu Hause und ruh dich aus.",
+          "Die Versunkene-Kosten-Falle. Bereits ausgegebenes Geld ist so oder so weg. Entscheide nach dem, was vor dir liegt."
+        ]
       }
     },
     svg(T) {

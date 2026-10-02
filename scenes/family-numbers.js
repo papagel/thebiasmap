@@ -206,6 +206,37 @@
           "L’à-peu-près suffit pour les petites choses. Pour les grands choix, ouvrez la boîte.",
           "Chiffres simplifiés. Les boîtes simples suffisent pour les petites choses, mais les grands choix méritent les vrais chiffres."
         ]
+      },
+      de: {
+        name: "Einfachere Zahlen", shareTitle: "Warum wir Risiken und Geld in einfache Schubladen stecken, in 30 Sekunden",
+        ecline: "Einfache Schubladen reichen für kleine Dinge, aber große Entscheidungen verdienen die echten Zahlen.",
+        tok: ["3,7%", "1 von 250", "0,4%", "68%", "92%", "7/12"],
+        box: [["passiert nicht", "passiert"], ["Taschengeld", "Rechnungen"], ["Kleingeld", "nicht anbrechen"]],
+        chip: ["Mentale Buchführung", "Stückelungseffekt", "Normalitäts-Verzerrung"],
+        n50: "50 €", n10: "10 €", coin: "2", gift: "Geschenk", salary: "Gehalt", coins: "fünf 2-€-Münzen", note: "ein 10-€-Schein", spent: "Ausgaben",
+        flood: "Hochwasser", rate: "3 % pro Jahr", bubble: "„Das gab’s hier noch nie.“",
+        cnt: ["3 Jahre", "von 100"], legend: "1 Kästchen = 1 Jahr",
+        caps: [
+          "Wahrscheinlichkeiten, Prozente, Brüche: Dein Gehirn findet sie <b>schwierig</b>.",
+          "Also sortiert es sie in <b>einfache Schubladen</b>. Schnell und meist gut genug.",
+          "50 € als Geschenk fühlen sich an wie <b>Taschengeld</b>. 50 € Gehalt gehen in Rechnungen.",
+          "Münzen wirken wie <b>Kleingeld</b>. Sie sind schneller weg als ein 10-€-Schein.",
+          "Hier gab es noch nie Hochwasser, also landet das Risiko bei <b>passiert nicht</b>.",
+          "Aber selten heißt nicht nie. Das Etikett <b>verbarg das echte Risiko</b>.",
+          "<b>Die Lösung:</b> Mach aus Wahrscheinlichkeiten Häufigkeiten, etwa <b>3 Jahre von 100</b>.",
+          "Grob reicht für Kleinigkeiten. Bei großen Entscheidungen <b>öffne die Schublade</b>."
+        ],
+        say: [
+          "Wahrscheinlichkeiten, Prozente, Brüche. Dein Gehirn findet sie schwierig.",
+          "Also sortiert es sie in einfache Schubladen. Das geht schnell und ist meist gut genug.",
+          "Mentale Buchführung: Fünfzig Euro als Geschenk fühlen sich an wie Taschengeld. Fünfzig Euro Gehalt gehen in Rechnungen.",
+          "Der Stückelungseffekt: Münzen wirken wie Kleingeld, also sind sie schneller weg als ein Zehn-Euro-Schein.",
+          "Die Normalitäts-Verzerrung: Hier gab es noch nie Hochwasser, also landet das Risiko bei passiert nicht.",
+          "Aber selten heißt nicht nie. Das Etikett verbarg das echte Risiko.",
+          "Die Lösung: Mach aus Wahrscheinlichkeiten Häufigkeiten. Drei Prozent pro Jahr sind drei Jahre von hundert.",
+          "Grob reicht für Kleinigkeiten. Bei großen Entscheidungen öffne die Schublade.",
+          "Einfachere Zahlen. Einfache Schubladen reichen für kleine Dinge, aber große Entscheidungen verdienen die echten Zahlen."
+        ]
       }
     },
     svg(T) {

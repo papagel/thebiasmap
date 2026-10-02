@@ -218,6 +218,34 @@
           "Et quand vous parlez, ouvrez et fermez sur votre point clé. Il restera.",
           "L’essentiel. La mémoire garde le début, la fin et le meilleur passage, alors notez aussi le milieu."
         ]
+      },
+      de: {
+        name: "Das Wesentliche", shareTitle: "Warum wir uns Anfang, Ende und das Beste merken, in 30 Sekunden",
+        ecline: "Das Gedächtnis behält den Anfang, das Ende und das Beste, also schreib auch die Mitte auf.",
+        week: "eine Woche später", kl: ["Anfang", "das Beste", "Ende"], ylab: "erinnert",
+        chip: ["Serieller Positionseffekt", "Nivellieren und Zuspitzen", "Fehlinformations-Effekt"],
+        lvl: "nivelliert", shl: "zugespitzt", notes: "deine Notizen", rej: "nicht in deinen Notizen", kp: "Kernpunkt",
+        caps: [
+          "Du hörst einen Vortrag mit <b>zehn Punkten</b>. Du kannst nicht alle behalten.",
+          "Also behält das Gedächtnis ein paar <b>Kernelemente</b>. Kompakt und schnell abrufbar.",
+          "Der <b>erste</b> und der <b>letzte</b> Punkt bleiben. Die <b>Mitte</b> verblasst.",
+          "Beim Weitererzählen <b>fällt</b> das Blasse weg, und das Beste wird <b>zugespitzt</b>.",
+          "Später sagt jemand: „Toll, der Teil über die Preise!“ Den <b>gab es nicht</b>.",
+          "Trotzdem rutscht er in deine Erinnerung und wirkt bald <b>genauso echt</b>.",
+          "<b>Die Lösung:</b> Mach Notizen, <b>die Mitte inklusive</b>. Dann prüf, woran du dich erinnerst.",
+          "Wenn du sprichst, fang mit deinem <b>Kernpunkt</b> an und hör damit auf. Er bleibt hängen."
+        ],
+        say: [
+          "Du hörst einen Vortrag mit zehn Punkten. Du kannst nicht alle behalten.",
+          "Also behält das Gedächtnis ein paar Kernelemente: den Anfang, das Ende, das Beste. Kompakt und schnell abrufbar.",
+          "Der serielle Positionseffekt: Der erste und der letzte Punkt bleiben. Die Mitte verblasst.",
+          "Nivellieren und Zuspitzen: Beim Weitererzählen fällt das Blasse weg, und das Beste wird zugespitzt.",
+          "Der Fehlinformations-Effekt: Später sagt jemand, toll, der Teil über die Preise! Den gab es nicht.",
+          "Trotzdem rutscht er in deine Erinnerung, und bald wirkt er genauso echt.",
+          "Die Lösung: Mach Notizen, die Mitte inklusive. Dann prüf, woran du dich erinnerst.",
+          "Und wenn du sprichst, fang mit deinem Kernpunkt an und hör damit auf. Er bleibt hängen.",
+          "Das Wesentliche. Das Gedächtnis behält den Anfang, das Ende und das Beste, also schreib auch die Mitte auf."
+        ]
       }
     },
     svg(T) {

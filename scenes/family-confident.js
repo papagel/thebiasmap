@@ -220,6 +220,35 @@
           "Réglez votre confiance sur vos résultats. Ça suffit encore pour agir.",
           "Confiance pour agir. Laissez la confiance vous mettre en mouvement, mais réglez-la sur vos résultats."
         ]
+      },
+      de: {
+        name: "Mut zum Handeln", shareTitle: "Warum wir uns sicherer fühlen, als wir sollten, in 30 Sekunden",
+        ecline: "Lass dich von Zuversicht antreiben, aber richte sie nach deiner Bilanz.",
+        conf: "deine Zuversicht", rec: "Trefferquote", tooSure: "zu sicher",
+        bub: ["Kann ich das?", "Ich schaff das.", "Leicht!", "Rein… rein…", "Ich versuch’s."],
+        skill: "Können", luck: "Pech", note: ["Sicher", "Getroffen"],
+        names: ["Selbstüberschätzung", "Kontrollillusion", "Selbstwertdienliche Verzerrung"],
+        caps: [
+          "Bevor du etwas versuchst, musst du glauben, <b>dass du es kannst</b>.",
+          "Also dreht dein Gehirn deine Zuversicht <b>hoch</b>. Das bringt dich in Bewegung.",
+          "Aber oft <b>übertreibt</b> es: 95 % sicher, dass er reingeht.",
+          "Dabei gehen nur <b>6 von 10</b> deiner Würfe rein.",
+          "Der Ball hat deine Hand verlassen, doch du lehnst dich, um ihn zu <b>lenken</b>.",
+          "Drin? <b>Können</b>. Daneben? <b>Pech</b>. Die Zuversicht bleibt hoch.",
+          "<b>Die Lösung:</b> Notier, wie sicher du bist, und prüf dann, <b>was passiert ist</b>.",
+          "Richte deine Zuversicht nach deiner <b>Trefferquote</b>. Sie reicht immer noch zum Handeln."
+        ],
+        say: [
+          "Bevor du irgendetwas versuchst, musst du glauben, dass du es kannst.",
+          "Also dreht dein Gehirn deine Zuversicht hoch. Ein bisschen mehr bringt dich in Bewegung, und lässt dich nach einem Fehlwurf weitermachen.",
+          "Aber oft übertreibt es. Fünfundneunzig Prozent sicher, dass er reingeht.",
+          "Dabei gehen nur sechs von zehn deiner Würfe rein. Das ist die Selbstüberschätzung.",
+          "Der Ball hat deine Hand verlassen, doch du lehnst dich, um ihn zu lenken. Das ist die Kontrollillusion.",
+          "Drin? Das ist Können. Daneben? Pech. Deine Zuversicht bleibt hoch. Das ist die selbstwertdienliche Verzerrung.",
+          "Die Lösung: Notier, wie sicher du bist, und prüf dann, was wirklich passiert ist.",
+          "Richte deine Zuversicht nach deiner Trefferquote. Sie reicht immer noch zum Handeln.",
+          "Mut zum Handeln. Lass dich von Zuversicht antreiben, aber richte sie nach deiner Bilanz."
+        ]
       }
     },
     svg(T) {

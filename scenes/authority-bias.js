@@ -172,6 +172,35 @@
           "Renseignez-vous, puis décidez sur les preuves, peu importe qui parle.",
           "Le biais d’autorité. Fiez-vous à la vraie expertise, pas au costume. Demandez les preuves."
         ]
+      },
+      de: {
+        name: "Autoritätsglaube", shareTitle: "Der Autoritätsglaube in 30 Sekunden",
+        ecline: "Vertrau echtem Fachwissen, nicht dem Kostüm. Frag nach Belegen.",
+        claim: "„Ärzte empfehlen es!“", same: "gleiche Worte", you: "du", proof: "Beweise?",
+        coat: "weißer Kittel", tee: "T-Shirt", anyone: "egal, wer’s sagt", doubt: "Zweifel", trust: "Vertrauen",
+        gap: "der Kittel, nicht die Belege", evid: "die Belege",
+        qs: ["Welche Belege gibt es?", "Wenn’s ein anderer sagt?", "Ist die Person vom Fach?"],
+        caps: [
+          "Im Fernsehen läuft Werbung für ein neues Mittel zum Einschlafen.",
+          "Jemand im <b>weißen Kittel</b> sagt: „Ärzte empfehlen es!“",
+          "Du glaubst es <b>sofort</b>. Ohne jede Frage.",
+          "Gleiche Werbung, <b>gleiche Worte</b>, aber diesmal im T-Shirt.",
+          "Plötzlich bist du nicht mehr so sicher. Wo sind die <b>Beweise</b>?",
+          "Gleiche Aussage, gleiche Belege. <b>Nur das Kostüm ist anders.</b>",
+          "<b>Die Lösung:</b> Frag nach Belegen und ob die Person vom Fach ist.",
+          "Schau nach und entscheide <b>nach den Belegen</b>, egal wer es sagt."
+        ],
+        say: [
+          "Im Fernsehen läuft Werbung für ein neues Mittel zum Einschlafen.",
+          "Jemand im weißen Kittel sagt: Ärzte empfehlen es!",
+          "Du glaubst es sofort. Ohne jede Frage.",
+          "Gleiche Werbung, gleiche Worte. Aber diesmal im T-Shirt.",
+          "Plötzlich bist du nicht mehr so sicher. Wo sind die Beweise?",
+          "Gleiche Aussage, gleiche Belege. Nur das Kostüm ist anders.",
+          "Die Lösung: Frag nach Belegen, und ob die Person vom Fach ist.",
+          "Schau nach, und entscheide dann nach den Belegen, egal wer es sagt.",
+          "Der Autoritätsglaube. Vertrau echtem Fachwissen, nicht dem Kostüm. Frag nach Belegen."
+        ]
       }
     },
     svg(T) {

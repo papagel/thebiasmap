@@ -226,6 +226,36 @@
           "Quand c’est important, vérifiez vos notes et vos sources. L’essentiel tient, et chaque ajout retourne d’où il vient.",
           "Souvenirs retouchés. Chaque rappel reconstruit un souvenir, alors notez ce qui compte tant que c’est frais."
         ]
+      },
+      de: {
+        name: "Bearbeitete Erinnerungen", shareTitle: "Warum sich Erinnerungen bei jedem Abrufen ändern, in 30 Sekunden",
+        ecline: "Jedes Erinnern baut eine Erinnerung neu auf, also schreib Wichtiges auf, solange es frisch ist.",
+        title: "Mein 8. Geburtstag", ask: ["„War der", "Clown lustig?“"], film: "ein Film", tagFilm: "Film", book: "ein altes Buch",
+        recalls: "Abrufe", sure: ["wie sicher", "du bist"],
+        date: "12. Mai", party: "Meine Party!", items: ["Kuchen", "Ballons", "Geschenke"],
+        bias: "Verzerrung", fix: "die Lösung", tags: ["Suggestibilität", "Quellenverwechslung", "Kryptomnesie", "Falsche Erinnerung", "Halte es fest", "Prüf die Quellen"],
+        tw: [131, 172, 116, 155, 120, 148],
+        caps: [
+          "Dein 8. Geburtstag: Kuchen, Luftballons, Geschenke. Eine Erinnerung, wie ein <b>Foto</b>.",
+          "Jedes Abrufen <b>baut sie neu auf</b> und macht sie <b>stärker</b>. Meist hilft das.",
+          "„War der <b>Clown</b> lustig?“ Da war kein Clown. Jetzt <b>ist einer da</b>.",
+          "Ein Hund aus einem <b>Film</b> schleicht sich ein. Du vergisst, <b>wo du ihn gesehen hast</b>.",
+          "Die Schatzsuche fühlt sich an wie <b>deine Idee</b>. Sie stammt aus einem <b>Buch</b>.",
+          "Jedes Abrufen machte dich <b>sicherer</b>, aber nicht <b>genauer</b>.",
+          "<b>Die Lösung:</b> Was wichtig ist, <b>schreib bald danach auf</b>.",
+          "Wenn es darauf ankommt, <b>prüf Notizen und Quellen</b>. Der Kern hält stand."
+        ],
+        say: [
+          "Dein achter Geburtstag. Kuchen, Luftballons, Geschenke. Du behältst ihn als Erinnerung, wie ein Foto.",
+          "Jedes Mal, wenn du dich erinnerst, baut dein Gehirn die Erinnerung neu auf, und sie wird stärker und leichter abrufbar. So hältst du dein Wissen auf dem neuesten Stand. Meist hilft das.",
+          "Jemand fragt: War der Clown lustig? Da war kein Clown. Doch wenn du dich das nächste Mal an die Party erinnerst, ist einer da. Das ist Suggestibilität.",
+          "Ein Hund aus einem Film schleicht sich ins Bild, und du vergisst, wo du ihn gesehen hast. Das ist Quellenverwechslung.",
+          "Die Schatzsuche fühlt sich an wie deine eigene Idee. Dabei hast du sie vor Jahren in einem Buch gelesen. Das ist Kryptomnesie.",
+          "Jedes Abrufen machte dich sicherer, aber nicht genauer. Das ist eine falsche Erinnerung, und sie kann sich genauso lebendig anfühlen wie eine echte.",
+          "Die Lösung: Schreib wichtige Dinge bald danach auf, solange sie frisch sind.",
+          "Wenn es darauf ankommt, prüf deine Notizen und Quellen. Der Kern hält stand, und jede Zutat geht dorthin zurück, woher sie kam.",
+          "Bearbeitete Erinnerungen. Jedes Erinnern baut eine Erinnerung neu auf, also schreib Wichtiges auf, solange es frisch ist."
+        ]
       }
     },
     svg(T) {

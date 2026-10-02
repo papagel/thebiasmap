@@ -191,6 +191,36 @@
           "Planifiez à partir de ça, puis ajoutez une marge. Vous finissez à temps.",
           "L’erreur de planification. Vos plans imaginent le meilleur cas. Planifiez d’après le temps que ça vous a vraiment pris avant."
         ]
+      },
+      de: {
+        name: "Planungsfehlschluss", shareTitle: "Der Planungsfehlschluss in 30 Sekunden",
+        ecline: "Deine Pläne malen den Idealfall aus. Plane damit, wie lange es früher wirklich gedauert hat.",
+        days: ["MO", "DI", "MI", "DO", "FR"], report: "Bericht", three: "3 Tage",
+        plan: "Dein Plan", newPlan: "Neuer Plan", dur: n => (n === 1 ? "1 Tag" : `${n} Tage`), over: "+4 Tage",
+        due: "Frist", dueW: 58, snags: ["Meeting", "Feedback", "krank"], snagW: [54, 61, 56],
+        past: "Deine letzten Berichte", best: "Idealfall", bestW: 60, ign: "ignoriert",
+        ov: "Außensicht", ovn: "meist 7 Tage", buffer: "+ Puffer",
+        caps: [
+          "Du musst einen Bericht schreiben. Wie lange wird das dauern?",
+          "Du stellst dir vor, dass alles glattläuft: <b>3 Tage</b>.",
+          "Dann kommt <b>das echte Leben</b> dazwischen, ein Hindernis nach dem anderen.",
+          "Es dauert <b>7 Tage</b>, mehr als doppelt so lang.",
+          "Deine letzten Berichte? <b>Jeder einzelne</b> hat auch länger gedauert.",
+          "Aber du hast mit dem <b>Idealfall</b> geplant, nicht mit dieser Erfahrung.",
+          "<b>Die Lösung:</b> Frag dich, wie lange ähnliche Aufgaben wirklich gedauert haben.",
+          "Plane damit und rechne einen Puffer ein. <b>Du wirst rechtzeitig fertig.</b>"
+        ],
+        say: [
+          "Du musst einen Bericht schreiben. Wie lange wird das dauern?",
+          "Du stellst dir vor, dass alles glattläuft. Drei Tage.",
+          "Dann kommt das echte Leben dazwischen, ein Hindernis nach dem anderen.",
+          "Es dauert sieben Tage. Mehr als doppelt so lang.",
+          "Deine letzten Berichte? Jeder einzelne hat auch länger gedauert.",
+          "Aber du hast mit dem Idealfall geplant, nicht mit dieser Erfahrung.",
+          "Die Lösung: Frag dich, wie lange ähnliche Aufgaben wirklich gedauert haben.",
+          "Plane damit und rechne einen Puffer ein. Du wirst rechtzeitig fertig.",
+          "Der Planungsfehlschluss. Deine Pläne malen den Idealfall aus. Plane damit, wie lange es früher wirklich gedauert hat."
+        ]
       }
     },
     svg(T) {

@@ -200,6 +200,33 @@
           "Respirez et continuez. Presque personne n’a rien vu.",
           "L’effet projecteur. On vous remarque bien moins que vous ne le croyez. Chacun est occupé par son propre projecteur."
         ]
+      },
+      de: {
+        name: "Spotlight-Effekt", shareTitle: "Der Spotlight-Effekt in 30 Sekunden",
+        ecline: "Du fällst viel weniger auf, als du denkst. Alle sind mit ihrem eigenen Scheinwerfer beschäftigt.",
+        spot: "Scheinwerfer", think: "du denkst", actual: "tatsächlich", v8: "8 von 10", v2: "2 von 10",
+        shirt: ["peinliches T-Shirt"], guessed: "geschätzt", noticed: "bemerkt", fewer: "viel weniger",
+        caps: [
+          "Du kippst dir kurz vor einem Meeting Kaffee aufs Hemd.",
+          "Du gehst hinein, und es fühlt sich an, als wäre ein <b>Scheinwerfer</b> auf dich gerichtet.",
+          "Bestimmt starren <b>alle</b> auf den Fleck.",
+          "Dabei sind die meisten mit <b>ihren eigenen</b> Sorgen beschäftigt.",
+          "Nur <b>zwei</b> haben ihn überhaupt bemerkt.",
+          "In einer klassischen Studie bemerkten es <b>viel weniger</b> Leute als geschätzt.",
+          "<b>Die Lösung:</b> Denk daran, dass alle anderen in ihrem eigenen Scheinwerferlicht stehen.",
+          "Atme durch und mach weiter. <b>Kaum jemand hat’s gesehen.</b>"
+        ],
+        say: [
+          "Du kippst dir kurz vor einem Meeting Kaffee aufs Hemd.",
+          "Du gehst hinein, und es fühlt sich an, als wäre ein Scheinwerfer auf dich gerichtet.",
+          "Bestimmt starren alle auf den Fleck.",
+          "Dabei sind die meisten mit ihren eigenen Sorgen beschäftigt. Ihrem Handy, ihren Notizen, sogar einem eigenen Fleck.",
+          "Nur zwei haben ihn überhaupt bemerkt.",
+          "In einer klassischen Studie betraten Studierende einen Raum in einem peinlichen T-Shirt. Viel weniger Leute bemerkten es, als sie geschätzt hatten.",
+          "Die Lösung: Denk daran, dass alle anderen in ihrem eigenen Scheinwerferlicht stehen.",
+          "Atme durch und mach weiter. Kaum jemand hat’s gesehen.",
+          "Der Spotlight-Effekt. Du fällst viel weniger auf, als du denkst. Alle sind mit ihrem eigenen Scheinwerfer beschäftigt."
+        ]
       }
     },
     svg(T) {

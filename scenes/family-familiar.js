@@ -200,6 +200,35 @@
           "Jugé à l’aveugle, le travail est à égalité, et la meilleure idée gagne, peu importe qui l’a eue.",
           "On préfère le familier. Pourtant, familier ne veut pas dire meilleur, alors jugez le travail, pas son auteur."
         ]
+      },
+      de: {
+        name: "Vertrautes ist besser", shareTitle: "Warum unsere Seite immer besser aussieht, in 30 Sekunden",
+        ecline: "Vertraut heißt nicht besser, also beurteile die Arbeit, nicht wer sie gemacht hat.",
+        us: "dein Team", them: "anderes Team", same: "gleiche Arbeit", safe: "vertraut = sicher",
+        traits: ["kreativ", "lustig", "ruhig"], blur: "„alle gleich“",
+        check: "gleiche Checkliste", crit: ["Klar", "Korrekt", "Nützlich"], cover: ["A", "B"],
+        bias: "Verzerrung", fix: "die Lösung", tags: ["Eigengruppen-Verzerrung", "Fremdgruppen-Homogenitätseffekt", "Not-invented-here-Syndrom", "Blinde Bewertung"], tw: [244, 245, 230, 173],
+        caps: [
+          "Zwei Teams geben <b>die gleiche Arbeit</b> ab. Eins davon ist deins.",
+          "Dein Gehirn nimmt eine Abkürzung: <b>Vertrautes wirkt besser</b>. Meist ist das eine sichere Wette.",
+          "Gleiche Arbeit, doch dein Team bekommt eine <b>9</b> und ihres eine <b>6</b>.",
+          "Deine Leute sind alle verschieden. Die anderen? „<b>Alle gleich.</b>“",
+          "Dann schlägt das andere Team einen <b>besseren Weg</b> vor.",
+          "Dein Team winkt ab: <b>nicht bei uns erfunden</b>. Eine gute Idee, verloren.",
+          "<b>Die Lösung:</b> Verdeck die Namen und bewerte beide mit <b>derselben Checkliste</b>.",
+          "Blind bewertet steht es <b>gleich</b>, und die beste Idee gewinnt, <b>egal von wem</b>."
+        ],
+        say: [
+          "Zwei Teams geben die gleiche Arbeit ab. Eins davon ist deins.",
+          "Dein Gehirn nimmt eine Abkürzung: Was vertraut ist, wirkt besser. Meist ist das eine sichere Wette, und es erspart dir, alles von Grund auf zu beurteilen.",
+          "Doch die gleiche Arbeit bekommt eine Neun, wenn sie von deinem Team ist, und eine Sechs, wenn sie von ihrem ist. Das ist die Eigengruppen-Verzerrung.",
+          "Deine Leute sind alle verschieden, jeder mit eigenen Stärken. Die anderen? Alle gleich. Das ist der Fremdgruppen-Homogenitätseffekt.",
+          "Dann schlägt das andere Team einen besseren Weg vor.",
+          "Dein Team winkt ab. Das Not-invented-here-Syndrom: nicht bei uns erfunden. Eine gute Idee, verloren, nur weil sie von woanders kam.",
+          "Die Lösung: Verdeck die Namen, und bewerte beide mit derselben Checkliste.",
+          "Blind bewertet steht die Arbeit gleich, und die beste Idee gewinnt, egal von wem sie kam.",
+          "Vertrautes ist besser. So fühlt es sich jedenfalls an. Vertraut heißt nicht besser, also beurteile die Arbeit, nicht wer sie gemacht hat."
+        ]
       }
     },
     svg(T) {

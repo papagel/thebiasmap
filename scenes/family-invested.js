@@ -187,6 +187,36 @@
           "Si oui, continuez. Sinon, posez vos prochaines briques à un meilleur endroit.",
           "Aller au bout. Finissez ce qui en vaut encore la peine : décidez à partir d’aujourd’hui, pas de ce que vous avez déjà investi."
         ]
+      },
+      de: {
+        name: "Begonnenes beenden", shareTitle: "Warum wir weitermachen, nur weil wir angefangen haben, in 30 Sekunden",
+        ecline: "Bring zu Ende, was sich noch lohnt: Entscheide ab heute, nicht nach dem, was du schon investiert hast.",
+        goal: "das Ziel", wrong: "falscher Ort", put: "schon investiert", gone: "so oder so weg", keep: "weitermachen",
+        months: n => (n === 1 ? "1 Monat" : `${n} Monate`), lost: n => `−${n} ${n === 1 ? "Monat" : "Monate"}`,
+        yours: "dein Plan", theirs: "fremde Idee", sticks: "bleibt", fades: "verblasst", stop: "Aufhören?", stopW: 100,
+        today: "ab heute", left: "was dir bleibt",
+        pills: [["Eskalierendes Commitment", 179], ["Generierungseffekt", 140], ["Verlustaversion", 120]],
+        caps: [
+          "Du baust etwas Großes auf, etwa ein Unternehmen oder eine Karriere.",
+          "Dein Gehirn sagt: <b>Bring zu Ende, was du angefangen hast</b>. Meist bringt dich das voran.",
+          "Dann die schlechte Nachricht: Dein Ziel ist <b>der falsche Ort</b>.",
+          "Trotzdem <b>legst du nach</b>, um zu beweisen, dass es kein Fehler war.",
+          "Der Plan, den du <b>selbst gemacht</b> hast, bleibt hängen. Die Ideen anderer <b>verblassen</b>.",
+          "Und jetzt aufzuhören fühlt sich an, als würdest du alles <b>verlieren</b>.",
+          "<b>Die Lösung:</b> Frag dich: „Würde ich das heute noch einmal neu wählen?“",
+          "Wenn ja, <b>mach weiter</b>. Wenn nicht, setz deine Steine <b>woanders besser ein</b>."
+        ],
+        say: [
+          "Du baust etwas Großes auf, etwa ein Unternehmen oder eine Karriere.",
+          "Dein Gehirn sagt: Bring zu Ende, was du angefangen hast. Meist ist genau das der Weg, wie Dinge fertig werden.",
+          "Dann die schlechte Nachricht. Dein Ziel stellt sich als der falsche Ort heraus.",
+          "Eskalierendes Commitment. Statt aufzuhören, legst du nach, um zu beweisen, dass es kein Fehler war.",
+          "Der Generierungseffekt. Der Plan, den du dir selbst ausgedacht hast, bleibt dir im Kopf, während die Ideen anderer verblassen.",
+          "Verlustaversion. Jetzt aufzuhören fühlt sich an, als würdest du alles verlieren, was du investiert hast.",
+          "Die Lösung: Frag dich, wenn ich heute neu anfangen würde, würde ich das wählen?",
+          "Wenn ja, mach weiter. Wenn nicht, setz deine nächsten Steine woanders besser ein.",
+          "Begonnenes beenden. Bring zu Ende, was sich noch lohnt: Entscheide ab heute, nicht nach dem, was du schon investiert hast."
+        ]
       }
     },
     svg(T) {

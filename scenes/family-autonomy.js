@@ -257,6 +257,39 @@
           "Demandez-vous : le choisirais-je si c’était mon idée ? Puis choisissez librement.",
           "Autonomie et statut. Protégez votre liberté, mais jugez chaque idée sur le fond, pas selon qui la défend."
         ]
+      },
+      de: {
+        name: "Autonomie und Status", shareTitle: "Warum wir uns gegen Druck wehren, selbst bei guten Ideen, in 30 Sekunden",
+        ecline: "Schütze deine Freiheit, aber beurteile jede Idee nach ihrem Wert, nicht danach, wer drängt.",
+        mine: "meine Wahl", standing: "Ansehen", sign: "Greif zu!", signW: 84, safe: "schützt dich",
+        must: ["Du <tspan class=\"q\">musst</tspan>", "das lesen!"], dont: ["Lies das", "<tspan class=\"q\">bloß nicht</tspan>!"], bubW: 96,
+        help: "Hilfst du mir?", helpW: 105, cmp: "vergleichen",
+        back: "← zurückweichen", want: "haben wollen →", hold: "zurückhalten", own: "meine Idee?", chosen: "meine Wahl",
+        idea: "nur die Idee", push: "wer drängt",
+        pills: [["Reaktanz", 80], ["Umgekehrte Psychologie", 171], ["Sozialer Vergleichsfehler", 177]],
+        lhA: "der Druck", lhB: "du", chipW: 104,
+        rows: [["„Du musst!“", "Rückzug"], ["„Bloß nicht!“", "Verlangen"], ["übertrifft dich", "Zögern"]],
+        caps: [
+          "Alle wollen dich lenken. Also wacht dein Gehirn <b>über deine Entscheidungen</b>…",
+          "…und über <b>dein Ansehen</b>. Meist schützt dich das davor, <b>benutzt zu werden</b>.",
+          "„Du <b>musst</b> das lesen!“ Ein gutes Buch, aber du <b>weichst zurück</b>.",
+          "Hörst du stattdessen „Lies das <b>bloß nicht</b>!“, <b>willst</b> du es plötzlich.",
+          "Einem aufstrebenden Talent helfen? Es könnte dich <b>übertreffen</b>. Du <b>hältst dich zurück</b>.",
+          "Jedes Mal reagierst du auf den <b>Druck</b>, nicht auf die <b>Idee</b>.",
+          "<b>Die Lösung:</b> Trenn die Idee von der Person, <b>die drängt</b>.",
+          "Frag dich: „Würde ich das wählen, wenn es <b>meine eigene Idee</b> wäre?“ Dann entscheide <b>frei</b>."
+        ],
+        say: [
+          "Alle wollen dich irgendwohin lenken. Also wacht dein Gehirn über deine Entscheidungen...",
+          "...und über dein Ansehen in der Gruppe. Meist schützt dich das davor, benutzt oder ausgegrenzt zu werden.",
+          "Reaktanz. Jemand besteht darauf: Du musst das lesen! Es ist ein gutes Buch, aber du weichst zurück.",
+          "Umgekehrte Psychologie. Sagt man dir, lies das bloß nicht, willst du es plötzlich.",
+          "Sozialer Vergleichsfehler. Solltest du einem aufstrebenden Talent helfen? Es könnte dich übertreffen, also hältst du dich zurück.",
+          "Jedes Mal reagierst du auf den Druck, nicht auf die Idee selbst.",
+          "Die Lösung: Trenn die Idee von der Person, die drängt.",
+          "Frag dich: Würde ich das wählen, wenn es meine eigene Idee wäre? Dann entscheide frei.",
+          "Autonomie und Status. Schütze deine Freiheit, aber beurteile jede Idee nach ihrem Wert, nicht danach, wer drängt."
+        ]
       }
     },
     svg(T) {

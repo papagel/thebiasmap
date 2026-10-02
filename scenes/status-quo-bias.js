@@ -178,6 +178,37 @@
           "En repartant de zéro, la réponse est simple. Changez.",
           "Le biais du statu quo. Rester comme on est semble sûr, même quand ça coûte. Choisissez comme si vous partiez de zéro."
         ]
+      },
+      de: {
+        name: "Status-quo-Verzerrung", shareTitle: "Die Status-quo-Verzerrung in 30 Sekunden",
+        ecline: "Beim Alten zu bleiben fühlt sich sicher an, auch wenn es dich etwas kostet. Entscheide, als würdest du ganz neu wählen.",
+        yours: "Dein Tarif", newp: "Neuer Tarif", planA: "Tarif A", planB: "Tarif B", titleW: 58,
+        pA: "30 €", pB: "18 €", per: "/Monat", f1: "20 GB Daten", f2: "unbegrenzt telefonieren", same: "gleich",
+        years: n => `seit ${n} ${n === 1 ? "Jahr" : "Jahren"}`, mins: "10 Min.", stay: "Bleiben", sw: "Wechseln", safe: "wirkt sicher",
+        w1: "Wenn’s schlechter ist?", w1W: 140, w2: "Aufwand", w2W: 72,
+        tot: n => (n === 1 ? "12 € im Monat" : n === 12 ? "144 € im Jahr" : `${12 * n} €`), cost: "Preis fürs Nichtstun",
+        ask: "Welchen nimmst du heute?", askW: 178,
+        caps: [
+          "Du hast seit Jahren denselben Handytarif. <b>30 €</b> im Monat.",
+          "Ein neuer Tarif mit denselben Leistungen kostet <b>18 €</b>.",
+          "Der Wechsel würde nur <b>zehn Minuten</b> dauern.",
+          "Aber Bleiben fühlt sich <b>sicher</b> an, Wechseln <b>riskant</b>.",
+          "Also <b>bleibst</b> du. Wieder. Das sind <b>12 € mehr</b>, jeden Monat.",
+          "Aufs Jahr gerechnet sind das <b>144 €</b> für nichts.",
+          "<b>Die Lösung:</b> Stell dir vor, du wählst heute ganz neu.",
+          "Wählst du neu, ist die Antwort leicht. <b>Wechsle.</b>"
+        ],
+        say: [
+          "Du hast seit Jahren denselben Handytarif. Dreißig Euro im Monat.",
+          "Ein neuer Tarif mit denselben Leistungen kostet achtzehn Euro.",
+          "Der Wechsel würde nur zehn Minuten dauern.",
+          "Aber Bleiben fühlt sich sicher an, Wechseln riskant.",
+          "Also bleibst du. Wieder. Das sind zwölf Euro mehr, jeden Monat.",
+          "Aufs Jahr gerechnet sind das hundertvierundvierzig Euro, für nichts.",
+          "Die Lösung: Stell dir vor, du wählst heute ganz neu.",
+          "Wählst du neu, ist die Antwort leicht. Wechsle.",
+          "Die Status-quo-Verzerrung. Beim Alten zu bleiben fühlt sich sicher an, auch wenn es dich etwas kostet. Entscheide, als würdest du ganz neu wählen."
+        ]
       }
     },
     svg(T) {

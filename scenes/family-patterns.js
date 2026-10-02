@@ -213,6 +213,33 @@
           "Puis réunissez plus de points. Les motifs qui tiennent méritent votre confiance.",
           "Récits et schémas. Votre cerveau trouve des histoires même dans des points au hasard, alors demandez-vous ce que le hasard dessinerait avant d’y croire."
         ]
+      },
+      de: {
+        name: "Geschichten und Muster", shareTitle: "Warum wir Muster im Rauschen sehen, in 30 Sekunden",
+        ecline: "Dein Gehirn findet Geschichten selbst in zufälligen Punkten, also frag, was der Zufall zeichnen würde, bevor du einer glaubst.",
+        note: "sicher ist sicher", b1: "Häufungsillusion", b2: "Pareidolie", b3: "Ignorieren der Stichprobengröße",
+        rand: "zufällig geworfen", chance: "durch Zufall", q1: "Was zeichnet der Zufall?", q2: "Genug Punkte?",
+        caps: [
+          "Das Leben gibt dir nur <b>verstreute Punkte</b>: ein paar Hinweise, nie das ganze Bild.",
+          "Dein Gehirn <b>verbindet die Punkte</b>: ein Wolf! Schnelle Instinkte hielten unsere Vorfahren am Leben.",
+          "Es sieht auch Muster im Rauschen: Ein zufälliger Haufen scheint <b>etwas zu bedeuten</b>.",
+          "Drei Punkte im Dreieck, und plötzlich schaut dich <b>ein Gesicht</b> an.",
+          "Nur vier Punkte, und doch wirken sie wie <b>ein sicherer Trend</b>.",
+          "Doch die Punkte fielen <b>zufällig</b>. Die Geschichten kamen aus deinem Kopf.",
+          "<b>Die Lösung:</b> Frag, was der Zufall allein zeichnen würde. Auch Haufen und Gesichter.",
+          "Dann sammle <b>mehr Punkte</b>. Muster, die standhalten, verdienen Vertrauen."
+        ],
+        say: [
+          "Das Leben gibt dir nur verstreute Punkte: ein paar Hinweise, nie das ganze Bild.",
+          "Dein Gehirn verbindet die Punkte. Ein Wolf! Schnelle Instinkte wie dieser hielten unsere Vorfahren am Leben. Sicher ist sicher.",
+          "Aber es sieht auch Muster im Rauschen. Ein zufälliger Haufen scheint etwas zu bedeuten. Das nennt man Häufungsillusion.",
+          "Drei Punkte im Dreieck, und plötzlich schaut dich ein Gesicht an. Das ist Pareidolie.",
+          "Nur vier Punkte, und doch wirken sie wie ein sicherer Trend. Das ist das Ignorieren der Stichprobengröße.",
+          "Doch die Punkte fielen zufällig. Die Geschichten kamen aus deinem Kopf.",
+          "Die Lösung: Frag, was der Zufall allein zeichnen würde. Auch er macht Haufen und Gesichter.",
+          "Dann sammle mehr Punkte. Muster, die standhalten, verdienen Vertrauen.",
+          "Geschichten und Muster. Dein Gehirn findet Geschichten selbst in zufälligen Punkten, also frag, was der Zufall zeichnen würde, bevor du einer glaubst."
+        ]
       }
     },
     svg(T) {

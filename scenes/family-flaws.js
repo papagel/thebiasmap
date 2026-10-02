@@ -211,6 +211,38 @@
           "Puis trouvez un point où l’autre pourrait avoir raison. Les esprits se calment, et vous apprenez quelque chose.",
           "Défauts des autres. Quel que soit le biais que vous voyez chez les autres, cherchez-le aussi chez vous."
         ]
+      },
+      de: {
+        name: "Fehler der anderen", shareTitle: "Warum wir Fehler bei anderen sehen, nicht bei uns, in 30 Sekunden",
+        ecline: "Welche Verzerrung du auch bei anderen siehst, such sie auch bei dir selbst.",
+        others: "die anderen", you: "du", outside: "von außen", inside: "von innen",
+        asIs: ["Ich sehe alles,", "wie es ist."], notMe: "Ich nicht.", meToo: "Ich auch?", fair: "Da ist was dran.",
+        sayA: "Sehe ich anders.", sayB: "Brauchst du Hilfe?",
+        tags: ["ignorant", "egoistisch", "parteiisch"], point: "hat recht",
+        names: ["Naiver Realismus", "Naiver Zynismus", "Blinder Fleck für Verzerrungen"],
+        w: { ignorant: 42, egoistisch: 50, parteiisch: 49, "hat recht": 44, "Ich sehe alles,": 74, "wie es ist.": 52, "Ich nicht.": 49, "Ich auch?": 50,
+          "Da ist was dran.": 84, "Sehe ich anders.": 88, "Brauchst du Hilfe?": 97, "Naiver Realismus": 101, "Naiver Zynismus": 98, "Blinder Fleck für Verzerrungen": 178 },
+        caps: [
+          "Andere Menschen siehst du nur <b>von außen</b>.",
+          "Dich selbst siehst du <b>von innen</b>, das hilft dir, selbstsicher zu handeln.",
+          "Also glaubst du, die Welt zu sehen, <b>wie sie ist</b>…",
+          "…und wer anderer Meinung ist, muss <b>ignorant</b> sein.",
+          "Jemand bietet Hilfe an? Du vermutest ein <b>egoistisches</b> Motiv.",
+          "Du findest alle <b>parteiisch</b>, nur nicht das Gesicht im Spiegel.",
+          "<b>Die Lösung:</b> Du siehst bei jemandem eine Verzerrung? Such sie <b>bei dir selbst</b>.",
+          "Dann nenn einen Punkt, in dem <b>die andere Seite recht haben könnte</b>. Die Gemüter kühlen ab."
+        ],
+        say: [
+          "Andere Menschen siehst du nur von außen: was sie tun, nicht warum.",
+          "Dich selbst siehst du von innen: deine Gründe, deine Absichten, deine Lage. Dieser Sicht zu vertrauen hilft dir, selbstsicher zu handeln.",
+          "Also glaubst du, die Welt zu sehen, wie sie ist. Das ist naiver Realismus...",
+          "...und wer anderer Meinung ist als du, muss ignorant sein.",
+          "Jemand bietet Hilfe an? Du vermutest ein egoistisches Motiv. Das ist naiver Zynismus.",
+          "Du findest alle parteiisch, nur nicht das Gesicht im Spiegel. Das ist der blinde Fleck für Verzerrungen.",
+          "Die Lösung: Wenn du bei jemand anderem eine Verzerrung bemerkst, such dieselbe bei dir selbst.",
+          "Dann nenn einen Punkt, in dem die andere Seite recht haben könnte. Die Gemüter kühlen ab, und du lernst auch etwas dazu.",
+          "Fehler der anderen. Welche Verzerrung du auch bei anderen siehst, such sie auch bei dir selbst."
+        ]
       }
     },
     svg(T) {

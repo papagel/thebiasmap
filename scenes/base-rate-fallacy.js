@@ -182,6 +182,34 @@
           "Puis pesez les détails. Vendeur est le meilleur pari.",
           "La négligence du taux de base. Les détails frappants cachent un fait simple : la fréquence de chaque option. Partez de là."
         ]
+      },
+      de: {
+        name: "Basisratenfehler", shareTitle: "Der Basisratenfehler in 30 Sekunden",
+        ecline: "Lebhafte Details verdecken eine schlichte Tatsache: wie häufig jede Möglichkeit ist. Fang dort an.",
+        lib: "Bibliothekar", sales: "Verkäufer", quiet: "still", poetry: "Gedichte",
+        bet: "dein Tipp", win: "besserer Tipp", readL: "1 liest Gedichte", readS: "4 lesen Gedichte",
+        common: "wie häufig?", details: "Details",
+        caps: [
+          "Im Zug sitzt jemand ganz still und liest <b>Gedichte</b>.",
+          "Bibliothekar oder Verkäufer? Du tippst auf <b>Bibliothekar</b>.",
+          "Das <b>passt ins Bild</b>. Die Details wirken überzeugend.",
+          "Aber <b>wie viele</b> gibt es jeweils?",
+          "Auf jeden Bibliothekar kommen etwa <b>20 Verkäufer</b>.",
+          "Nur wenige lesen Gedichte, und doch steht es <b>4 zu 1</b> für den Verkauf.",
+          "<b>Die Lösung:</b> Frag zuerst, wie häufig jede Gruppe ist.",
+          "Dann gewichte die Details. <b>Verkäufer ist der bessere Tipp.</b>"
+        ],
+        say: [
+          "Im Zug sitzt jemand ganz still und liest Gedichte.",
+          "Bibliothekar oder Verkäufer? Du tippst auf Bibliothekar.",
+          "Das passt ins Bild. Die Details wirken überzeugend.",
+          "Aber wie viele gibt es jeweils?",
+          "Auf jeden Bibliothekar kommen etwa zwanzig Verkäufer.",
+          "Nur wenige von ihnen lesen Gedichte, und doch sind das vier Leser zu einem. Die Person arbeitet eher im Verkauf.",
+          "Die Lösung: Frag zuerst, wie häufig jede Gruppe ist.",
+          "Dann gewichte die Details. Verkäufer ist der bessere Tipp.",
+          "Der Basisratenfehler. Lebhafte Details verdecken eine schlichte Tatsache: wie häufig jede Möglichkeit ist. Fang dort an."
+        ]
       }
     },
     svg(T) {

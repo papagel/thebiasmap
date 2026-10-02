@@ -201,6 +201,36 @@
           "Accordez aux autres la même indulgence qu’à vous-même. Vous aurez souvent raison.",
           "L’erreur fondamentale d’attribution. Nous accusons le caractère des autres et excusons notre propre situation. Demandez-vous ce qui a pu se passer."
         ]
+      },
+      de: {
+        name: "Fundamentaler Attributionsfehler", shareTitle: "Der fundamentale Attributionsfehler in 30 Sekunden",
+        ecline: "Bei anderen geben wir dem Charakter die Schuld, bei uns der Situation. Frag dich, was da los sein könnte.",
+        you: "du", jerk: "So ein Idiot!", bubAW: 104,
+        char: "Charakter", char2: "Charakter?", sit: "Situation",
+        careless: "rücksichtslos", emergency: "vielleicht ein Notfall", late: "spät dran",
+        card: ["Eilt ins", "Krankenhaus"], cardW: 132, hidden: "für dich unsichtbar",
+        mine: ["Bin zu spät", "zum Meeting!"], ask: "Was ist da wohl los?", askW: 158,
+        caps: [
+          "Ein Auto schert knapp vor dir ein.",
+          "Dein erster Gedanke: „<b>So ein Idiot!</b>“",
+          "Du urteilst über <b>den Menschen</b>, nicht über das, was ihm gerade passiert.",
+          "Was du nicht siehst: Da <b>eilt jemand ins Krankenhaus</b>.",
+          "Wenn <b>du</b> knapp vor jemandem einscherst, kennst du den Grund: Du warst spät dran.",
+          "Bei anderen liegt es an <b>ihrem Charakter</b>. Bei dir an <b>deiner Situation</b>.",
+          "<b>Die Lösung:</b> Frag dich, welche Situation es erklären könnte.",
+          "Gib anderen <b>dasselbe Wohlwollen</b> wie dir selbst. Oft liegst du damit richtig."
+        ],
+        say: [
+          "Ein Auto schert knapp vor dir ein.",
+          "Dein erster Gedanke: So ein Idiot!",
+          "Du urteilst über den Menschen, nicht über das, was ihm gerade passiert.",
+          "Was du nicht siehst: Da eilt jemand ins Krankenhaus.",
+          "Aber wenn du knapp vor jemandem einscherst, kennst du den Grund. Du warst spät dran.",
+          "Bei anderen liegt es an ihrem Charakter. Bei dir an deiner Situation.",
+          "Die Lösung: Frag dich, welche Situation es erklären könnte.",
+          "Gib anderen dasselbe Wohlwollen wie dir selbst. Oft liegst du damit richtig.",
+          "Der fundamentale Attributionsfehler. Bei anderen geben wir dem Charakter die Schuld, bei uns der Situation. Frag dich, was da los sein könnte."
+        ]
       }
     },
     svg(T) {

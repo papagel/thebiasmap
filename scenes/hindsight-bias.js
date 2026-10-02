@@ -173,6 +173,35 @@
           "Relisez votre note : cinquante pour cent. Apprenez de ce que vous pensiez vraiment.",
           "Le biais rétrospectif. Après coup, tout semble évident. Notez d’abord vos prédictions."
         ]
+      },
+      de: {
+        name: "Rückschaufehler", shareTitle: "Der Rückschaufehler in 30 Sekunden",
+        ecline: "Im Nachhinein wirkt alles offensichtlich. Schreib deine Prognosen vorher auf.",
+        hd0: "FINALE · 21:00", hd1: "FINALE · ENDSTAND", home: "Heim", away: "Gast",
+        why: "warum es klar war:", reasons: ["Stürmer in Form", "Bessere Abwehr", "Heimpublikum"],
+        dial: "Chance auf Heimsieg", hind: "im Nachhinein",
+        noteH: "20:45 · vor dem Anpfiff", noteL: "Heimsieg:", mark: "Notiz",
+        caps: [
+          "Vor dem Finale hältst du das Spiel für <b>völlig offen</b>.",
+          "Du gibst der Heimmannschaft etwa <b>50 %</b>.",
+          "Abpfiff: Die Heimmannschaft gewinnt <b>3:1</b>.",
+          "Jetzt wirkt der Sieg <b>offensichtlich</b>. Du zählst die Gründe auf.",
+          "Dein Gedächtnis ändert still deinen Tipp: „Ich war mir <b>zu 80 % sicher</b>.“",
+          "Im Nachhinein wirkt die Vergangenheit <b>vorhersehbarer</b>, als sie war.",
+          "<b>Die Lösung:</b> Schreib Prognosen auf und notiere, wie sicher du bist.",
+          "Schau auf deine Notiz: <b>50 %</b>. Lerne aus dem, was du wirklich gedacht hast."
+        ],
+        say: [
+          "Vor dem Finale hältst du das Spiel für völlig offen.",
+          "Du gibst der Heimmannschaft etwa fünfzig Prozent.",
+          "Abpfiff. Die Heimmannschaft gewinnt, drei zu eins.",
+          "Jetzt wirkt der Sieg offensichtlich. Du zählst die Gründe auf.",
+          "Dein Gedächtnis ändert still deinen Tipp. Ich war mir zu achtzig Prozent sicher.",
+          "Im Nachhinein wirkt die Vergangenheit vorhersehbarer, als sie war.",
+          "Die Lösung: Schreib Prognosen auf und notiere, wie sicher du bist.",
+          "Schau auf deine Notiz: fünfzig Prozent. Lerne aus dem, was du wirklich gedacht hast.",
+          "Der Rückschaufehler. Im Nachhinein wirkt alles offensichtlich. Schreib deine Prognosen vorher auf."
+        ]
       }
     },
     svg(T) {

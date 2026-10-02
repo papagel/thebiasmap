@@ -210,6 +210,38 @@
           "Après quelques notes, vous voyez ce que valent vraiment vos pronostics.",
           "Notez vos prédictions. Une note datée se souvient de ce que vous pensiez vraiment, même quand votre mémoire le réécrit."
         ]
+      },
+      de: {
+        name: "Schreib Prognosen auf", shareTitle: "Schreib Prognosen auf: eine Gewohnheit in 30 Sekunden",
+        ecline: "Eine datierte Notiz weiß noch, was du wirklich gedacht hast, auch wenn dein Gedächtnis es umschreibt.",
+        hd0: "SA 14. MÄRZ · 21:00", hd1: "ENDSTAND", us: "Dein Team", them: "Gegner",
+        later: "3 Wochen später", laterW: 130,
+        chance: "Chance auf Sieg", draw: "wohl unentschieden", memory: "deine Erinnerung", knew: "Wusste ich’s!", knewW: 165,
+        date: "SA 14. MÄRZ", before: "vor dem Anpfiff", line: "Wohl unentschieden.", win: "Sieg:", result: "2:1 gewonnen",
+        rowW: [112, 130, 100],
+        noteLab: "deine Notiz", tag: "Rückschaufehler", tagW: 124,
+        days: ["12.1.", "3.2.", "20.2.", "1.3.", "14.3."], right: "Treffer", score: "3 von 5",
+        caps: [
+          "Großes Spiel am Samstag. Du denkst: wohl unentschieden, <b>40 %</b>, dass wir gewinnen.",
+          "Dein Team <b>gewinnt 2:1</b>. Wochen vergehen.",
+          "Deine Erinnerung schreibt sich still um: „<b>Wusste ich’s!</b>“",
+          "<b>Die Gewohnheit:</b> Schreib vor dem Spiel deinen Tipp auf, <b>mit Datum</b>.",
+          "Wochen später schlägst du die Notiz auf. Da steht <b>40 %</b>, nicht „wusste ich’s“.",
+          "Dann bewerte sie. Du hattest auf Unentschieden getippt, also ein <b>Fehltipp</b>.",
+          "Eine datierte Notiz ertappt den <b>Rückschaufehler</b> auf frischer Tat.",
+          "Nach ein paar Notizen siehst du, wie gut deine Tipps <b>wirklich</b> sind."
+        ],
+        say: [
+          "Großes Spiel am Samstag. Du denkst: wohl unentschieden. Vielleicht vierzig Prozent, dass wir gewinnen.",
+          "Dein Team gewinnt, zwei zu eins. Wochen vergehen.",
+          "Deine Erinnerung schreibt sich still um. Wusste ich’s!",
+          "Die Gewohnheit: Schreib vor dem Spiel deinen Tipp auf, mit Datum.",
+          "Wochen später schlägst du die Notiz auf. Da steht vierzig Prozent, nicht wusste ich’s.",
+          "Dann bewerte sie. Du hattest auf Unentschieden getippt, also ist es ein Fehltipp.",
+          "Eine datierte Notiz ertappt den Rückschaufehler auf frischer Tat.",
+          "Nach ein paar Notizen siehst du, wie gut deine Tipps wirklich sind.",
+          "Schreib Prognosen auf. Eine datierte Notiz weiß noch, was du wirklich gedacht hast, auch wenn dein Gedächtnis es umschreibt."
+        ]
       }
     },
     svg(T) {

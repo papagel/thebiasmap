@@ -220,6 +220,36 @@
           "Alors il prévoit une fourchette réaliste, et garde un matelas de sécurité.",
           "Partez du taux de base. Demandez-vous comment ce genre de chose tourne en général, puis ajustez un peu selon ce qui est spécial."
         ]
+      },
+      de: {
+        name: "Starte bei der Basisrate", shareTitle: "Starte bei der Basisrate: eine Gewohnheit in 30 Sekunden",
+        ecline: "Frag dich, wie so etwas meistens ausgeht. Dann pass die Schätzung ein wenig an das Besondere an.",
+        bubble: "„Das Essen ist fantastisch!“", savings: "alle Ersparnisse", invest: "investieren", cushion: "Sicherheitspolster",
+        h1: "10 ähnliche neue Restaurants", later: "3 Jahre später", open: "4 von 10 noch offen",
+        h2: "was ist hier besonders?", chance: "Chance, in 3 Jahren noch offen zu sein",
+        sure: "sicher", base: "Basisrate", adj: "+ tolles Essen", n: v => `${v} von 10`,
+        gap: "Selbstüberschätzung", range: "realistische Spanne",
+        caps: [
+          "Dein Freund will mit <b>all seinen Ersparnissen</b> ein Restaurant eröffnen.",
+          "„Das Essen ist fantastisch“, sagt er. „Das <b>kann nicht schiefgehen</b>.“",
+          "Er sieht nur <b>dieses eine Lokal</b>, also fühlt er sich <b>sicher</b>.",
+          "<b>Die Gewohnheit:</b> Frag erst, wie es solchen Lokalen meistens ergeht.",
+          "Drei Jahre später haben <b>6 von 10</b> geschlossen. Starte bei <b>4 von 10</b>.",
+          "Dann berücksichtige, was besonders ist. Tolles Essen? <b>Ein kleines Stück nach oben</b>.",
+          "Diese Lücke ist die <b>Selbstüberschätzung</b>. Diese Gewohnheit fängt sie ab.",
+          "Er plant mit einer <b>realistischen Spanne</b> und behält ein <b>Sicherheitspolster</b>."
+        ],
+        say: [
+          "Dein Freund will mit all seinen Ersparnissen ein Restaurant eröffnen.",
+          "Das Essen ist fantastisch, sagt er. Das kann nicht schiefgehen.",
+          "Er sieht nur dieses eine Lokal, also fühlt er sich sicher.",
+          "Die Gewohnheit: Frag erst, wie es solchen Lokalen meistens ergeht.",
+          "Stell dir zehn ähnliche neue Restaurants vor. Drei Jahre später haben sechs geschlossen. Also starte bei vier von zehn.",
+          "Dann berücksichtige, was besonders ist. Tolles Essen? Das bringt ein kleines Stück nach oben, keinen Sprung zur Gewissheit.",
+          "Diese Lücke ist die Selbstüberschätzung. Diese Gewohnheit fängt sie ab.",
+          "Also plant er mit einer realistischen Spanne und behält ein Sicherheitspolster.",
+          "Starte bei der Basisrate. Frag dich, wie so etwas meistens ausgeht. Dann pass die Schätzung ein wenig an das Besondere an."
+        ]
       }
     },
     svg(T) {

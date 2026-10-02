@@ -220,6 +220,38 @@
           "Une fois calme, vous la réécrivez, et envoyez la meilleure version.",
           "Prenez du recul sur le choix. Dans le feu de l’action, un mauvais choix semble juste. Laissez passer la nuit, ou demandez-vous ce que vous diriez à un ami."
         ]
+      },
+      de: {
+        name: "Geh auf Abstand zur Entscheidung",
+        shareTitle: "Geh auf Abstand zur Entscheidung: eine Gewohnheit in 30 Sekunden",
+        ecline: "Im Eifer des Gefechts fühlt sich eine schlechte Entscheidung richtig an: Schlaf eine Nacht darüber, oder frag dich, was du einem Freund sagen würdest.",
+        time: m => { const [h, mm] = hm(m); return `${pad(h)}:${pad(mm)}`; }, from: "Jonas", quote: "„Zum dritten Mal…“", repLab: "Deine Antwort",
+        sharp: "„Lern lesen!“", calm: "„Stimmt. Hier ist sie:“",
+        save: "Entwurf sichern", saved: "Gesichert", send: "Senden", sent: "Gesendet",
+        anger: "Wut", think: "Geschieht ihm recht.", thinkW: 151, dont: "Schick das nicht.", dontW: 135, dist: "Abstand",
+        youAt: t => `du um ${t}`, cant1: "Ruhe? Unvorstellbar.", cant2: "Wut? Unvorstellbar.",
+        catches: "hilft gegen", gap: "Empathielücke", gapFs: 15,
+        caps: [
+          "<b>23 Uhr.</b> Eine nervige E-Mail von einem Kollegen kommt an.",
+          "Du kochst vor Wut. Du tippst eine scharfe Antwort, den Finger über <b>Senden</b>.",
+          "In diesem Zustand wirkt die Antwort <b>völlig berechtigt</b>.",
+          "<b>Geh auf Abstand</b> zur Entscheidung: Speichere sie als <b>Entwurf</b>.",
+          "Frag dich, was du <b>einem Freund</b> an deiner Stelle sagen würdest: „Schick das nicht.“",
+          "Dann <b>schlaf eine Nacht darüber</b>. Am Morgen ist die Wut verraucht.",
+          "Diese Gewohnheit fängt die <b>Empathielücke</b> ab: Wütend kannst du dir Ruhe nicht vorstellen.",
+          "Wieder ruhig, schreibst du sie neu und schickst <b>die bessere Version</b>."
+        ],
+        say: [
+          "Es ist elf Uhr abends. Eine nervige E-Mail von einem Kollegen kommt an.",
+          "Du kochst vor Wut. Du tippst eine scharfe Antwort, und dein Finger schwebt über Senden.",
+          "In diesem Zustand wirkt die Antwort völlig berechtigt. Geschieht ihm recht.",
+          "Geh auf Abstand zur Entscheidung. Speichere sie als Entwurf und tritt einen Schritt zurück.",
+          "Frag dich, was du einem Freund an deiner Stelle sagen würdest. Du würdest sagen: Schick das nicht.",
+          "Dann schlaf eine Nacht darüber. Am Morgen ist die Wut verraucht.",
+          "Diese Gewohnheit fängt die Empathielücke ab. Solange du wütend bist, kannst du dir Ruhe nicht vorstellen. Sobald du ruhig bist, spürst du die Wut nicht mehr.",
+          "Wieder ruhig, schreibst du sie neu und schickst die bessere Version.",
+          "Geh auf Abstand zur Entscheidung. Im Eifer des Gefechts fühlt sich eine schlechte Entscheidung richtig an. Schlaf eine Nacht darüber, oder frag dich, was du einem Freund sagen würdest."
+        ]
       }
     },
     svg(T) {

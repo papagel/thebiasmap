@@ -181,6 +181,34 @@
           "Puis prenez la précaution qui coûte peu. Sauvegardez dès aujourd’hui.",
           "Le biais d’optimisme. La malchance ne vous épargne pas. Prévoyez comme si ça pouvait vous arriver autant qu’à n’importe qui."
         ]
+      },
+      de: {
+        name: "Optimismus-Verzerrung", shareTitle: "Die Optimismus-Verzerrung in 30 Sekunden",
+        ecline: "Pech macht um dich keinen Bogen. Plane so, als könnte es dich genauso treffen wie jeden anderen.",
+        nob: "kein Backup", nobW: 88, notme: "Mir doch nicht.", bubW: 130,
+        hits: { broken: "kaputt", lost: "verloren", stolen: "gestohlen" }, you: "du", people: ["Leute", "wie du"],
+        avg: "Schnitt", imp: "unmöglich", backup: "Backup",
+        caps: [
+          "Auf deinem Laptop sind Fotos aus vielen Jahren. <b>Kein Backup.</b>",
+          "Laptops gehen <b>ständig</b> verloren, werden gestohlen oder gehen kaputt.",
+          "Aber das passiert <b>anderen</b>, denkst du.",
+          "Frag eine Gruppe: <b>Die meisten</b> sehen ihr eigenes Risiko unter dem Durchschnitt.",
+          "Es <b>können nicht alle</b> unter dem Durchschnitt liegen.",
+          "Dann trifft es eines Tages <b>dich</b>. Die Fotos sind weg.",
+          "<b>Die Lösung:</b> Geh davon aus, dass es dich genauso treffen kann wie jeden anderen.",
+          "Dann sorg günstig vor. <b>Mach noch heute ein Backup.</b>"
+        ],
+        say: [
+          "Auf deinem Laptop sind Fotos aus vielen Jahren. Kein Backup.",
+          "Laptops gehen ständig verloren, werden gestohlen oder gehen kaputt.",
+          "Aber das passiert anderen, denkst du.",
+          "Frag eine Gruppe, und die meisten sehen ihr eigenes Risiko unter dem Durchschnitt.",
+          "Es können nicht alle unter dem Durchschnitt liegen.",
+          "Dann trifft es eines Tages dich. Die Fotos sind weg.",
+          "Die Lösung: Geh davon aus, dass es dich genauso treffen kann wie jeden anderen.",
+          "Dann sorg günstig vor. Mach noch heute ein Backup.",
+          "Die Optimismus-Verzerrung. Pech macht um dich keinen Bogen. Plane so, als könnte es dich genauso treffen wie jeden anderen."
+        ]
       }
     },
     svg(T) {

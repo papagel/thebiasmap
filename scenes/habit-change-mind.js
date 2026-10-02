@@ -194,6 +194,37 @@
           "La barre a tenu. Vous changez de méthode, au lieu d’attendre en espérant.",
           "Décidez ce qui vous ferait changer d’avis. Placez la barre avant que les faits arrivent, et ne la bougez plus une fois qu’ils sont là."
         ]
+      },
+      de: {
+        name: "Leg fest, was dich umstimmen würde",
+        shareTitle: "Leg fest, was dich umstimmen würde: eine Gewohnheit in 30 Sekunden",
+        ecline: "Leg die Latte auf, bevor die Ergebnisse kommen, und rühr sie danach nicht mehr an.",
+        wk: "Wo.", works: "Es klappt!", more: ["Es braucht nur", "mehr Zeit…"], sw: ["Zeit zu", "wechseln"],
+        moved: "Latte verschoben", warn: "Warnsignal", bell: false,
+        catches: "hilft gegen", bias: "Bumerangeffekt",
+        noteH: "bevor ich nachsehe:",
+        note: ["Wenn ich bis <tspan class=\"hl\">Woche 4</tspan>", "nicht bei <tspan class=\"hl\">70 %</tspan> bin,", "wechsle ich die Methode."],
+        caps: [
+          "Du startest eine neue Lernmethode, sicher, dass sie dich auf <b>70 %</b> bringt.",
+          "Deine Ergebnisse treten auf der Stelle, doch du deutest jedes als <b>gutes Zeichen</b>.",
+          "Reichen sie nicht, verschiebst du die Latte: „Es braucht nur <b>mehr Zeit</b>.“",
+          "<b>Die Gewohnheit:</b> Bevor du nachsiehst, schreib auf, was <b>dich umstimmen würde</b>.",
+          "<b>Fixiere diese Latte</b>. Dann lass die Ergebnisse kommen.",
+          "Sie reichen nicht. Lust, die Latte zu verschieben? Das ist das <b>Warnsignal</b>.",
+          "Diese Gewohnheit fängt den <b>Bumerangeffekt</b> ab: sich einzugraben, wenn die Belege gegen dich sprechen.",
+          "Die Latte hält. Du <b>wechselst die Methode</b>, statt zu warten und zu hoffen."
+        ],
+        say: [
+          "Du startest eine neue Lernmethode, sicher, dass sie dich auf siebzig Prozent bringt.",
+          "Deine Ergebnisse treten auf der Stelle, doch du deutest jedes als gutes Zeichen.",
+          "Reichen sie nicht, verschiebst du die Latte. Es braucht nur mehr Zeit.",
+          "Die Gewohnheit: Bevor du nachsiehst, schreib auf, was dich umstimmen würde.",
+          "Fixiere diese Latte. Dann lass die Ergebnisse kommen.",
+          "Sie reichen nicht. Lust, die Latte zu verschieben? Das ist das Warnsignal.",
+          "Diese Gewohnheit fängt den Bumerangeffekt ab: sich einzugraben, wenn die Belege gegen dich sprechen.",
+          "Die Latte hält. Du wechselst die Methode, statt zu warten und zu hoffen.",
+          "Leg fest, was dich umstimmen würde. Leg die Latte auf, bevor die Ergebnisse kommen, und rühr sie danach nicht mehr an."
+        ]
       }
     },
     svg(T) {

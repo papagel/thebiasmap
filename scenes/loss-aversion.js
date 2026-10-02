@@ -180,6 +180,35 @@
           "Sur dix lancers, vous pouvez espérer cent euros de plus. Acceptez les bons paris dont vous pouvez assumer la perte.",
           "L’aversion à la perte. Les pertes pèsent plus lourd que les gains. Jugez un pari sur ses chances, pas sur la peur de perdre."
         ]
+      },
+      de: {
+        name: "Verlustaversion", shareTitle: "Die Verlustaversion in 30 Sekunden",
+        ecline: "Verluste wiegen schwerer als Gewinne. Beurteile eine Wette nach ihren Chancen, nicht nach dem Schmerz.",
+        eur: v => (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v) + " €", heads: "Kopf", tails: "Zahl", hl: "K", tl: "Z",
+        evs: "Durchschnitt pro Wurf", no: "Nein danke", yes: "Ich bin dabei!",
+        feels: "Wie es sich anfühlt", win: "Gewinn", lose: "Verlust",
+        gap1: "wirkt wie eine", gap2: "schlechte Wette", after: n => `Nach ${n} ${n === 1 ? "Wurf" : "Würfen"}`,
+        caps: [
+          "Ein Münzwurf: Bei Kopf <b>gewinnst du 120 €</b>, bei Zahl <b>verlierst du 100 €</b>.",
+          "Im Schnitt lägst du pro Wurf <b>10 € im Plus</b>.",
+          "Trotzdem sagen die meisten Menschen <b>Nein</b>.",
+          "Verlieren <b>tut mehr weh</b>, als Gewinnen Freude macht.",
+          "Verluste wiegen <b>etwa doppelt so schwer</b> wie gleich große Gewinne.",
+          "So wirkt eine gute Wette <b>wie eine schlechte</b>.",
+          "<b>Die Lösung:</b> Sieh jeden Wurf als einen von vielen.",
+          "Zehn Würfe: Rechne mit <b>+100 €</b>. Nimm gute Wetten an, deren Verlust du verkraften kannst."
+        ],
+        say: [
+          "Ein Münzwurf. Bei Kopf gewinnst du hundertzwanzig Euro. Bei Zahl verlierst du hundert.",
+          "Im Schnitt lägst du bei jedem Wurf zehn Euro im Plus.",
+          "Trotzdem sagen die meisten Menschen Nein.",
+          "Verlieren tut mehr weh, als Gewinnen Freude macht.",
+          "Verluste wiegen etwa doppelt so schwer wie gleich große Gewinne.",
+          "So wirkt eine gute Wette wie eine schlechte.",
+          "Die Lösung: Sieh jeden Wurf als einen von vielen.",
+          "Über zehn Würfe kannst du mit hundert Euro Plus rechnen. Nimm gute Wetten an, deren Verlust du verkraften kannst.",
+          "Die Verlustaversion. Verluste wiegen schwerer als Gewinne. Beurteile eine Wette nach ihren Chancen, nicht nach dem Schmerz."
+        ]
       }
     },
     svg(T) {

@@ -199,6 +199,39 @@
           "Puis accordez à chaque choix un temps à la mesure de l’enjeu.",
           "Simple et complet. L’option nette semble plus sûre, mais consacrez votre temps à ce qui compte, pas à ce qui est facile."
         ]
+      },
+      de: {
+        name: "Einfach und vollständig", shareTitle: "Warum die ordentliche, einfache Option gewinnt, selbst wenn sie schlechter ist, in 30 Sekunden",
+        ecline: "Die ordentliche Option fühlt sich sicherer an, aber gib deine Zeit dem, was zählt, nicht dem, was leicht ist.",
+        cw: 6.1,
+        jud: ["leicht zu beurteilen", "schwer zu beurteilen"],
+        chip: ["Ambiguitätsaversion", "Informations-Verzerrung", "Fahrradschuppen-Effekt"],
+        odds: ["1 von 4 gewinnt", "Chancen unbekannt"], maybe: "vielleicht 1 von 2?",
+        more: "mehr Fakten", same: "gleiche Wahl",
+        shed: ["Farbe des Schuppens", "Atomkraftwerk"],
+        min: n => `${n} Min.`,
+        ask: "Ändert das meine Wahl?", askW: 196,
+        caps: [
+          "Zwei Kisten: eine <b>ordentlich und voll beschriftet</b>, eine <b>voller Fragezeichen</b>.",
+          "Dein Gehirn nimmt die eindeutige: <b>schnell</b>, <b>berechenbar</b>, meist ein kluger Zug.",
+          "Du wählst <b>bekannte Chancen</b> statt unbekannter, die vielleicht <b>besser</b> wären.",
+          "Du hast schon gewählt und <b>sammelst weiter Fakten</b>, die nichts ändern.",
+          "Ein Meeting verbringt <b>eine Stunde</b> mit der Farbe des Fahrradschuppens…",
+          "…und <b>fünf Minuten</b> mit dem Atomkraftwerk, um das es eigentlich geht.",
+          "<b>Die Lösung:</b> Frag dich: „Ändert das <b>meine Wahl</b>?“ Wenn nicht, hör auf.",
+          "Gib dann jeder Entscheidung Zeit, <b>je nachdem, was auf dem Spiel steht</b>."
+        ],
+        say: [
+          "Zwei Kisten. Eine ist ordentlich und voll beschriftet. Die andere ist voller Fragezeichen.",
+          "Dein Gehirn nimmt die eindeutige. Das geht schnell, ist berechenbar und meistens ein kluger Zug.",
+          "Ambiguitätsaversion: Du wählst bekannte Chancen statt unbekannter, selbst wenn die unbekannten besser sein könnten.",
+          "Informations-Verzerrung: Du hast schon gewählt, sammelst aber weiter Fakten, die nichts mehr ändern.",
+          "Der Fahrradschuppen-Effekt: Ein Meeting verbringt eine Stunde mit der Farbe des Fahrradschuppens...",
+          "...und fünf Minuten mit dem Atomkraftwerk, um das es wirklich geht.",
+          "Die Lösung: Frag dich, ändert das meine Wahl? Wenn nicht, hör auf.",
+          "Gib dann jeder Entscheidung Zeit, je nachdem, was auf dem Spiel steht.",
+          "Einfach und vollständig. Die ordentliche Option fühlt sich sicherer an, aber gib deine Zeit dem, was zählt, nicht dem, was leicht ist."
+        ]
       }
     },
     svg(T) {

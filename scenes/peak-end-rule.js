@@ -192,6 +192,35 @@
           "Et quand vous préparez le prochain voyage, offrez-lui une belle fin.",
           "La règle pic-fin. La mémoire s’appuie sur le pic et la fin. Jugez l’ensemble, et prévoyez une belle fin."
         ]
+      },
+      de: {
+        name: "Peak-End-Regel", shareTitle: "Die Peak-End-Regel in 30 Sekunden",
+        ecline: "Das Gedächtnis stützt sich auf den Höhepunkt und das Ende. Beurteile das Ganze und plane ein gutes Ende.",
+        day: "Tag", peak: "Höhepunkt", end: "Ende", cancel: "FÄLLT AUS",
+        ask: "Wie war’s?", askW: 88, meh: "Na ja.", mehW: 54, fine: "Schön, bis auf den Flug.", fineW: 196,
+        avg: "Durchschnitt", barely: "7 Tage: zählen kaum", tally: "7 Tage: 6 gut, 1 schlecht",
+        next: "nächste Reise", nextW: 94, easy: "ruhiges Ende", easyW: 104,
+        caps: [
+          "Eine Woche am Meer: meist angenehm, dazu eine <b>traumhafte</b> Bootstour.",
+          "Letzter Tag: Der Flug fällt aus, <b>stundenlang Warten</b> am Flughafen.",
+          "Zu Hause fragt eine Freundin: „Wie war’s?“",
+          "Dein Gedächtnis stützt sich auf zwei Momente: den <b>Höhepunkt</b> und das <b>Ende</b>.",
+          "Es bildet den Mittelwert aus beiden, und du sagst: <b>„Na ja.“</b>",
+          "Fünf gute Tage <b>verschwinden</b>. Wie lange es dauerte, <b>zählt kaum</b>.",
+          "<b>Die Lösung:</b> Schau dir <b>den ganzen Verlauf</b> an, mit Fotos oder täglichen Notizen.",
+          "Du planst die nächste Reise? Gönn ihr <b>ein gutes Ende</b>."
+        ],
+        say: [
+          "Eine Woche am Meer. Meist angenehm, dazu eine traumhafte Bootstour.",
+          "Am letzten Tag fällt dein Flug aus. Stundenlang sitzt du am Flughafen fest.",
+          "Zu Hause fragt eine Freundin: Wie war’s?",
+          "Dein Gedächtnis stützt sich auf zwei Momente. Den Höhepunkt und das Ende.",
+          "Es bildet den Mittelwert aus beiden, und du sagst: na ja.",
+          "Die fünf guten Tage verschwinden. Und wie lange es dauerte, zählt kaum.",
+          "Die Lösung: Schau dir den ganzen Verlauf an, mit Fotos oder täglichen Notizen.",
+          "Und wenn du die nächste Reise planst, gönn ihr ein gutes Ende.",
+          "Die Peak-End-Regel. Das Gedächtnis stützt sich auf den Höhepunkt und das Ende. Beurteile das Ganze und plane ein gutes Ende."
+        ]
       }
     },
     svg(T) {

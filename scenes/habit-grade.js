@@ -208,6 +208,35 @@
           "Avec ce que vous saviez, partir tôt était le bon choix. Vous le referiez.",
           "Jugez d’après ce que vous saviez. Jugez une décision sur ce que vous saviez au moment de la prendre, pas sur la façon dont elle a tourné."
         ]
+      },
+      de: {
+        name: "Urteile nach dem, was du wusstest", shareTitle: "Urteile nach dem, was du wusstest: eine Gewohnheit in 30 Sekunden",
+        ecline: "Beurteile eine Entscheidung nach dem, was du wusstest, als du sie getroffen hast, nicht danach, wie sie ausging.",
+        flH: "DEIN FLUG", alH: "STAUWARNUNG", alV: "Viel Verkehr", knew: "was du wusstest",
+        early: "früh losfahren", late: "spät losfahren", empty: "freie Straßen", waitN: "2 Stunden", wait: "am Gate",
+        judged: "am Ergebnis gemessen", when: "beim Entscheiden", unknown: "noch unbekannt",
+        worst: "Risiko", w1: "langes Warten", w2: "Flug verpasst", made: "geschafft", luck: "Glück", bias: "Ergebnisverzerrung",
+        caps: [
+          "Dein Flug geht um 18 Uhr. Die App warnt vor <b>viel Verkehr</b>.",
+          "Also fährst du <b>zwei Stunden früher</b> los. Die Straßen sind dann leer.",
+          "Du wartest ewig am Gate. „Was für eine <b>dumme Entscheidung</b>.“",
+          "<b>Die Gewohnheit:</b> Spul zurück zu dem Moment, in dem du entschieden hast.",
+          "Du wusstest, dass Stau wahrscheinlich war, und ein <b>verpasster Flug</b> kostet viel mehr.",
+          "Wer spät losfuhr und es schaffte, hatte <b>Glück</b>, kein gutes Urteilsvermögen.",
+          "Das fängt die <b>Ergebnisverzerrung</b> ab: eine Entscheidung nach ihrem Ausgang zu beurteilen.",
+          "Nach allem, was du wusstest, war früh loszufahren <b>richtig</b>. Du würdest es wieder tun."
+        ],
+        say: [
+          "Dein Flug geht um achtzehn Uhr. Die App warnt vor viel Verkehr.",
+          "Also fährst du zwei Stunden früher los. Die Straßen sind dann leer.",
+          "Du wartest ewig am Gate. Was für eine dumme Entscheidung.",
+          "Die Gewohnheit: Spul zurück zu dem Moment, in dem du entschieden hast.",
+          "Du wusstest, dass Stau wahrscheinlich war, und ein verpasster Flug kostet viel mehr.",
+          "Wer spät losfuhr und es schaffte, hatte Glück, kein gutes Urteilsvermögen.",
+          "Das fängt die Ergebnisverzerrung ab: eine Entscheidung nach ihrem Ausgang zu beurteilen.",
+          "Nach allem, was du wusstest, war früh loszufahren richtig. Du würdest es wieder tun.",
+          "Urteile nach dem, was du wusstest. Beurteile eine Entscheidung nach dem, was du wusstest, als du sie getroffen hast, nicht danach, wie sie ausging."
+        ]
       }
     },
     svg(T) {

@@ -174,6 +174,33 @@
           "Mêmes faits, dans les deux sens. Vous jugez enfin le bœuf, pas l’étiquette.",
           "L’effet de cadrage. Un même fait sonne différemment selon la façon de le dire. Inversez-le, et voyez."
         ]
+      },
+      de: {
+        name: "Framing-Effekt", shareTitle: "Der Framing-Effekt in 30 Sekunden",
+        ecline: "Dieselbe Tatsache klingt anders, je nachdem, wie man sie formuliert. Dreh sie um und sieh selbst.",
+        lean: "75 % mager", fat: "25 % Fett", flipL: "= 25 % Fett", flipR: "= 75 % mager", tagW: 100,
+        pl: "mager", pf: "Fett", same: ["selbes", "Hack"], rate: "Wie gut es wirkt",
+        caps: [
+          "Zwei Packungen Rinderhack im Regal.",
+          "Auf der einen steht „<b>75 % mager</b>“.",
+          "Auf der anderen steht „<b>25 % Fett</b>“.",
+          "Welche wirkt besser? Die meisten Menschen <b>bevorzugen die „magere“</b>.",
+          "Aber schau hinein: Es ist <b>dasselbe Fleisch</b>.",
+          "Jedes Etikett lenkt deinen Blick auf den <b>guten</b> oder den <b>schlechten Teil</b>.",
+          "<b>Die Lösung:</b> Dreh den Rahmen um. Sag es andersherum.",
+          "Gleiche Fakten, in beide Richtungen. Jetzt beurteilst du <b>das Fleisch, nicht das Etikett</b>."
+        ],
+        say: [
+          "Zwei Packungen Rinderhack im Regal.",
+          "Auf der einen steht: fünfundsiebzig Prozent mager.",
+          "Auf der anderen steht: fünfundzwanzig Prozent Fett.",
+          "Welche wirkt besser? Die meisten Menschen bevorzugen die magere.",
+          "Aber schau hinein. Es ist dasselbe Fleisch.",
+          "Jedes Etikett lenkt deinen Blick auf den guten Teil oder auf den schlechten.",
+          "Die Lösung: Dreh den Rahmen um. Sag es andersherum.",
+          "Gleiche Fakten, in beide Richtungen. Jetzt beurteilst du das Fleisch, nicht das Etikett.",
+          "Der Framing-Effekt. Dieselbe Tatsache klingt anders, je nachdem, wie man sie formuliert. Dreh sie um und sieh selbst."
+        ]
       }
     },
     svg(T) {

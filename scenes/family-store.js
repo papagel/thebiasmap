@@ -193,6 +193,36 @@
           "Désormais, ils tiennent. Apprenez par cœur l’essentiel, et cherchez le reste.",
           "La mémoire garde ce que vous travaillez, alors travaillez ce que vous voulez garder."
         ]
+      },
+      de: {
+        name: "Wie es gespeichert wurde", shareTitle: "Warum die Art, wie du lernst, entscheidet, was du behältst, in 30 Sekunden",
+        ecline: "Das Gedächtnis behält, womit du arbeitest, also arbeite mit dem, was du behalten willst.",
+        mem: "DEIN GEDÄCHTNIS", week: "DEIN GEDÄCHTNIS · EINE WOCHE SPÄTER",
+        lgThick: "was du nutzt oder durchdenkst", lgThin: "was du kaum bemerkt hast",
+        words: ["flüchtig", "warum?", "", "Quiz", "gegoogelt"], reread: n => `Lesen ×${n}`, fixed: { 0: "erklärt", 2: "Quiz" },
+        labels: [["Effekt der", "Verarbeitungsebenen"], ["Testeffekt"], ["Google-Effekt"]],
+        pill: "googeln",
+        caps: [
+          "Dein Gedächtnis <b>kann nicht alles behalten</b>, was du siehst. Es muss auswählen.",
+          "Also knüpft es <b>dicke Fäden</b> an das, was du nutzt. Meistens ist das klug.",
+          "Nur <b>flüchtig</b> gelesen? Ein dünner Faden. Gefragt, <b>warum</b> es stimmt? Ein dicker.",
+          "<b>Erneutes Lesen</b> bringt wenig. <b>Dich selbst abzufragen</b> knüpft einen dicken Faden.",
+          "Du weißt, du kannst es <b>nachschlagen</b>? Dann merkst du es dir oft <b>schlechter</b>.",
+          "Eine Woche später ziehst du an den Fäden. Die <b>dünnen reißen</b>.",
+          "<b>Die Lösung:</b> Lies nicht noch mal, <b>frag dich selbst ab</b>. Erklär es in eigenen Worten.",
+          "Jetzt <b>halten</b> sie. Kenn das Wichtige auswendig, schlag den Rest nach."
+        ],
+        say: [
+          "Dein Gedächtnis kann nicht alles behalten, was du siehst. Es muss auswählen.",
+          "Also knüpft es dicke Fäden an das, was du nutzt und durchdenkst, und dünne an das, was du kaum bemerkt hast. Meistens ist das klug: Dein Gedächtnis geht dorthin, wo es sich lohnt.",
+          "Nur flüchtig gelesen? Ein dünner Faden. Gefragt, warum es stimmt? Ein dicker. Das ist der Effekt der Verarbeitungsebenen.",
+          "Erneutes Lesen bringt wenig. Dich selbst abzufragen knüpft einen dicken Faden. Der Testeffekt.",
+          "Du weißt, du kannst es nachschlagen? Dann merkst du es dir oft schlechter. Der Google-Effekt.",
+          "Eine Woche später ziehst du an den Fäden. Die dünnen reißen.",
+          "Die Lösung: Lies nicht noch mal, frag dich selbst ab. Erklär es in deinen eigenen Worten.",
+          "Jetzt halten sie. Kenn das Wichtige auswendig, und schlag den Rest nach.",
+          "Das Gedächtnis behält, womit du arbeitest, also arbeite mit dem, was du behalten willst."
+        ]
       }
     },
     svg(T) {

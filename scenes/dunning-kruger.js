@@ -176,6 +176,37 @@
           "Comparez la note à votre estimation, et ajustez vers la réalité.",
           "L’effet Dunning-Kruger. Moins on en sait, moins on s’en rend compte. Demandez un avis extérieur."
         ]
+      },
+      de: {
+        name: "Dunning-Kruger-Effekt", shareTitle: "Der Dunning-Kruger-Effekt in 30 Sekunden",
+        ecline: "Je weniger du weißt, desto schwerer merkst du es. Hol dir Feedback von außen.",
+        yTitle: "Perzentil", avg: "Schnitt", xTitle: "Gruppen nach echtem Testergebnis",
+        groups: [["Unterste", "25 %"], ["Untere", "Mitte"], ["Obere", "Mitte"], ["Oberste", "25 %"]],
+        legA: "Echter Rang", legG: "Geschätzter Rang",
+        tooSure: ["viel zu sicher"], modest: ["etwas zu", "bescheiden"],
+        noSee: "sieht keine Fehler", see: "findet Fehler",
+        fbT: "Feedback", fbS: "bewerteter Probetest", score: "6/20",
+        caps: [
+          "Menschen machen einen Test und schätzen dann ihren <b>Rang</b> im Vergleich zu den anderen.",
+          "Hier siehst du, wo jede Gruppe <b>tatsächlich</b> lag.",
+          "Und wo sie sich <b>gesehen haben</b>: alle über dem Durchschnitt.",
+          "Die Schwächsten überschätzen sich <b>am meisten</b>.",
+          "Eine Erklärung: Fehler zu erkennen braucht <b>dieselbe Fähigkeit</b> wie sie zu vermeiden.",
+          "Die Besten <b>unterschätzen</b> sich etwas. Sie glauben, es war für alle einfach.",
+          "<b>Die Lösung:</b> Prüf dich an Feedback von außen.",
+          "Vergleiche das Ergebnis mit deiner Schätzung. Korrigiere <b>Richtung Realität</b>."
+        ],
+        say: [
+          "Menschen machen einen Test und schätzen dann ihren Rang im Vergleich zu den anderen.",
+          "Hier siehst du, wo jede Gruppe tatsächlich lag.",
+          "Und hier, wo sie sich gesehen haben. Alle über dem Durchschnitt.",
+          "Die Schwächsten überschätzen sich am meisten.",
+          "Eine Erklärung: Fehler zu erkennen braucht dieselbe Fähigkeit wie sie zu vermeiden.",
+          "Die Besten unterschätzen sich etwas. Sie glauben, es war für alle einfach.",
+          "Die Lösung: Prüf dich an Feedback von außen.",
+          "Vergleiche das Ergebnis mit deiner Schätzung, und korrigiere Richtung Realität.",
+          "Der Dunning-Kruger-Effekt. Je weniger du weißt, desto schwerer merkst du es. Hol dir Feedback von außen."
+        ]
       }
     },
     svg(T) {

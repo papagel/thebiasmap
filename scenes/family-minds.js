@@ -224,6 +224,35 @@
           "Une vraie réponse vaut mieux que votre meilleure supposition, et les gens se sentent écoutés.",
           "Lire les pensées. L’esprit des autres n’est pas une copie du vôtre, alors demandez au lieu de supposer."
         ]
+      },
+      de: {
+        name: "Gedankenlesen", shareTitle: "Warum wir glauben zu wissen, was andere denken, in 30 Sekunden",
+        ecline: "Andere Köpfe sind keine Kopien deines eigenen, also frag, statt zu vermuten.",
+        you: "du", lg: ["deine Vermutung", "was sie wirklich denken"],
+        labs: ["Transparenzillusion", "Fluch des Wissens", "Illusion asymmetrischer Einsicht"],
+        nervous: ["So nervös!"], calm: ["So ruhig!"], got: ["Kapiert!"], what: ["Was ist ein", "Cache?"],
+        cache: ["Lösch einfach", "den Cache."], ask: ["Was meinst", "du dazu?"],
+        caps: [
+          "Du kannst nicht in andere Köpfe schauen, also <b>rätst</b> du.",
+          "Die Abkürzung des Gehirns: Andere denken <b>wie du</b>. Oft klappt das.",
+          "Du bist nervös und sicher, <b>man sieht es dir an</b>. Von außen sieht man kaum etwas.",
+          "Du kennst dich aus, also nimmst du an, <b>es ist angekommen</b>. Ist es nicht.",
+          "Du glaubst, du durchschaust andere <b>besser</b> als sie dich.",
+          "Dabei sind sie genauso sicher, dass sie <b>dich</b> durchschauen.",
+          "<b>Die Lösung:</b> Denk nicht für andere mit. <b>Frag</b> und hör zu.",
+          "Echte Antworten schlagen jede Vermutung, und andere <b>fühlen sich gehört</b>."
+        ],
+        say: [
+          "Du kannst nicht in andere Köpfe schauen, also rätst du, was sie denken.",
+          "Die Abkürzung des Gehirns: Andere denken wie du. Menschen haben viel gemeinsam, also klappt das oft.",
+          "Die Transparenzillusion. Du bist nervös, und sicher, dass man es dir ansieht. Von außen sieht man kaum etwas.",
+          "Der Fluch des Wissens. Du kennst dich gut aus, also nimmst du an, dass es angekommen ist. Ist es nicht.",
+          "Die Illusion asymmetrischer Einsicht. Du glaubst, du durchschaust andere besser als sie dich.",
+          "Dabei sind sie genauso sicher, dass sie dich durchschauen.",
+          "Die Lösung: Denk nicht für andere mit. Frag, und hör zu.",
+          "Echte Antworten schlagen deine beste Vermutung, und andere fühlen sich gehört.",
+          "Gedankenlesen. Andere Köpfe sind keine Kopien deines eigenen, also frag, statt zu vermuten."
+        ]
       }
     },
     svg(T) {
