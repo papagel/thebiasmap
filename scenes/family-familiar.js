@@ -229,6 +229,35 @@
           "Blind bewertet steht die Arbeit gleich, und die beste Idee gewinnt, egal von wem sie kam.",
           "Vertrautes ist besser. So fühlt es sich jedenfalls an. Vertraut heißt nicht besser, also beurteile die Arbeit, nicht wer sie gemacht hat."
         ]
+      },
+      it: {
+        name: "Meglio il familiare", shareTitle: "Perché la nostra parte sembra sempre migliore, in 30 secondi",
+        ecline: "Familiare non vuol dire migliore, quindi giudica il lavoro, non chi l’ha fatto.",
+        us: "la tua squadra", them: "l’altra squadra", same: "stesso lavoro", safe: "familiare = sicuro",
+        traits: ["fantasia", "spirito", "calma"], blur: "«tutti uguali»",
+        check: "stessa lista", crit: ["Chiaro", "Preciso", "Utile"], cover: ["A", "B"],
+        bias: "bias", fix: "soluzione", tags: ["Bias dell’ingroup", "Omogeneità dell’outgroup", "Sindrome del «non inventato qui»", "Valutazione alla cieca"], tw: [155, 196, 270, 209],
+        caps: [
+          "Due squadre consegnano <b>lo stesso lavoro</b>. Una delle due è la tua.",
+          "Il cervello prende una scorciatoia: <b>il familiare sembra migliore</b>. Di solito funziona.",
+          "Stesso lavoro, eppure la tua squadra prende <b>9</b> e la loro <b>6</b>.",
+          "I tuoi sono tutti diversi. Gli altri? «<b>Tutti uguali.</b>»",
+          "Poi l’altra squadra propone un <b>modo migliore</b> di farlo.",
+          "La tua squadra lo scarta: <b>non inventato qui</b>. Una buona idea, persa.",
+          "<b>La soluzione:</b> nascondi i nomi e giudica entrambi con <b>la stessa lista</b>.",
+          "Alla cieca, finisce <b>pari</b>, e vince l’idea migliore, <b>di chiunque sia</b>."
+        ],
+        say: [
+          "Due squadre consegnano lo stesso lavoro. Una delle due è la tua.",
+          "Il cervello prende una scorciatoia: ciò che è familiare sembra migliore. Di solito è una scommessa sicura, e ti risparmia di giudicare tutto da zero.",
+          "Eppure lo stesso lavoro prende nove quando è della tua squadra, e sei quando è della loro. È il bias dell’ingroup.",
+          "I tuoi sono tutti diversi, ognuno con i suoi punti di forza. Gli altri? Tutti uguali. È l’omogeneità dell’outgroup.",
+          "Poi l’altra squadra propone un modo migliore di farlo.",
+          "La tua squadra lo scarta. Non inventato qui. Una buona idea, persa solo per la sua provenienza.",
+          "La soluzione: nascondi i nomi, e giudica entrambi con la stessa lista.",
+          "Alla cieca, il lavoro finisce pari, e vince l’idea migliore, di chiunque sia.",
+          "Meglio il familiare. O così sembra. Familiare non vuol dire migliore, quindi giudica il lavoro, non chi l’ha fatto."
+        ]
       }
     },
     svg(T) {

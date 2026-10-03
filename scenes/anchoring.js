@@ -144,6 +144,34 @@
           "Starte bei deiner eigenen Spanne, und du landest nahe am fairen Wert.",
           "Der Ankereffekt. Die erste Zahl, die du hörst, wird dein Startpunkt. Leg deine eigene vorher fest."
         ]
+      },
+      it: {
+        name: "Ancoraggio", shareTitle: "L’ancoraggio in 30 secondi",
+        ecline: "Il primo numero che senti diventa il tuo punto di partenza. Fissa prima il tuo.",
+        bubble: "«Chiedo 900.000 €»", truth: "Valore reale", hidden: "non lo sai", start: "punto di partenza",
+        adj: "correzione", pull: "tira", padh: "La tua stima", padv: "550–650 mila", guess: "Il tuo prezzo",
+        withAnchor: "Con l’àncora", withRange: "Dalla tua forbice", gap: v => `${v}.000 € in più`, axis: "Prezzo, migliaia di €",
+        caps: [
+          "Vuoi comprare questa casa. Quanto vale?",
+          "Il suo valore reale è di circa <b>600.000 €</b>. Tu ancora non lo sai.",
+          "Il venditore parla per primo: «Chiedo <b>900.000 €</b>».",
+          "La tua mente prende quei 900.000 € come <b>punto di partenza</b>.",
+          "Ti sembra troppo, quindi scendi…",
+          "…ma ti fermi troppo presto: <b>180.000 € in più</b>.",
+          "<b>La soluzione:</b> scrivi prima la tua stima.",
+          "Parti dalla tua forbice. Arrivi vicino al <b>valore reale</b>."
+        ],
+        say: [
+          "Vuoi comprare questa casa. Quanto vale?",
+          "Il suo valore reale è di circa seicentomila euro. Ma tu ancora non lo sai.",
+          "Il venditore parla per primo. Chiedo novecentomila.",
+          "La tua mente prende quel numero come punto di partenza.",
+          "Ti sembra troppo, quindi scendi...",
+          "...ma ti fermi troppo presto. Finisci centottantamila euro sopra.",
+          "La soluzione: scrivi prima la tua stima.",
+          "Parti dalla tua forbice, e arrivi vicino al valore reale.",
+          "Ancoraggio. Il primo numero che senti diventa il tuo punto di partenza. Fissa prima il tuo."
+        ]
       }
     },
     svg(T) {

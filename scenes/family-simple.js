@@ -232,6 +232,39 @@
           "Gib dann jeder Entscheidung Zeit, je nachdem, was auf dem Spiel steht.",
           "Einfach und vollständig. Die ordentliche Option fühlt sich sicherer an, aber gib deine Zeit dem, was zählt, nicht dem, was leicht ist."
         ]
+      },
+      it: {
+        name: "Semplice e completo", shareTitle: "Perché l’opzione ordinata e semplice vince anche quando è peggiore, in 30 secondi",
+        ecline: "L’opzione ordinata sembra più sicura, ma dedica il tuo tempo a ciò che conta, non a ciò che è facile.",
+        cw: 6.1,
+        jud: ["facile da giudicare", "difficile da giudicare"],
+        chip: ["Avversione all’ambiguità", "Bias dell’informazione", "Effetto tettoia per bici"],
+        odds: ["vince 1 su 4", "probabilità ignote"], maybe: "forse 1 su 2?",
+        more: "più dati", same: "stessa scelta",
+        shed: ["colore della tettoia", "centrale nucleare"],
+        min: n => `${n} min`,
+        ask: "Cambierebbe la mia scelta?", askW: 196,
+        caps: [
+          "Due scatole: una <b>ordinata e ben etichettata</b>, l’altra <b>piena di punti interrogativi</b>.",
+          "Il tuo cervello sceglie quella chiara: è <b>rapido</b>, <b>prevedibile</b> e di solito sensato.",
+          "Preferisci <b>probabilità note</b> a probabilità ignote che forse sono <b>migliori</b>.",
+          "Hai già scelto, eppure continui a <b>raccogliere dati</b> che non cambieranno nulla.",
+          "Una riunione passa <b>un’ora</b> sul colore della tettoia per bici…",
+          "…e <b>cinque minuti</b> sulla centrale nucleare, la parte che conta.",
+          "<b>La soluzione:</b> chiediti «Questo <b>cambierebbe la mia scelta</b>?». Se no, fermati.",
+          "Poi dai a ogni scelta un tempo <b>proporzionato alla posta in gioco</b>."
+        ],
+        say: [
+          "Due scatole. Una è ordinata e ben etichettata. L’altra è piena di punti interrogativi.",
+          "Il tuo cervello sceglie quella chiara. È rapido e prevedibile, e di solito è una mossa sensata.",
+          "Avversione all’ambiguità: preferisci probabilità note a probabilità ignote, anche quando quelle ignote potrebbero essere migliori.",
+          "Bias dell’informazione: hai già scelto, eppure continui a raccogliere dati che non cambieranno nulla.",
+          "Effetto tettoia per bici: una riunione passa un’ora sul colore della tettoia per bici...",
+          "...e cinque minuti sulla centrale nucleare, la parte che conta davvero.",
+          "La soluzione: chiediti, questo cambierebbe la mia scelta? Se no, fermati.",
+          "Poi dai a ogni scelta un tempo proporzionato alla posta in gioco.",
+          "Semplice e completo. L’opzione ordinata sembra più sicura, ma dedica il tuo tempo a ciò che conta, non a ciò che è facile."
+        ]
       }
     },
     svg(T) {

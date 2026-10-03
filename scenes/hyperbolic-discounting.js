@@ -203,6 +203,35 @@
           "Oder entscheide im Voraus und leg dich fest, mit automatischem Sparen.",
           "Die hyperbolische Diskontierung. Was nah ist, wirkt riesig. Entscheide aus der Distanz und leg dich dann fest."
         ]
+      },
+      it: {
+        name: "Sconto iperbolico", shareTitle: "Lo sconto iperbolico in 30 secondi",
+        ecline: "Ciò che è vicino sembra enorme. Decidi da lontano, poi blocca la scelta.",
+        eur: v => `${v} €`, today: "oggi", inWeek: "+1 settimana", inYear: "tra un anno", plusWeek: "+1 settimana",
+        week: "1 settimana", ten: "+10 €", looms: "l’adesso incombe", away: "immaginalo tra un anno",
+        now: "Lo voglio ora!", nowW: 104, wait: "Certo, aspetto.", waitW: 124,
+        auto: "automatico", autoW: 62,
+        caps: [
+          "Preferisci <b>100 € oggi</b> o <b>110 € tra una settimana</b>?",
+          "Prendi subito i <b>100 €</b>. Perché aspettare un’intera settimana?",
+          "Ora: <b>100 € tra un anno</b>, o <b>110 € una settimana dopo</b>?",
+          "Stavolta <b>aspetti volentieri la settimana in più</b> per 110 €.",
+          "Stessa <b>attesa di una settimana</b>, stessi <b>10 € in più</b>. Scelta opposta.",
+          "Da vicino, <b>l’adesso incombe</b>. Da lontano, la settimana <b>si rimpicciolisce</b>.",
+          "<b>La soluzione:</b> immagina entrambe le opzioni come se fossero tra un anno.",
+          "Oppure <b>decidi in anticipo</b> e blocca la scelta, con il <b>risparmio automatico</b>."
+        ],
+        say: [
+          "Preferisci cento euro oggi, o centodieci tra una settimana?",
+          "Prendi subito i cento euro. Perché aspettare un’intera settimana?",
+          "Ora: cento euro tra un anno, o centodieci una settimana dopo?",
+          "Stavolta aspetti volentieri la settimana in più per centodieci euro.",
+          "Stessa attesa di una settimana. Stessi dieci euro in più. Scelta opposta.",
+          "Da vicino, l’adesso incombe. Da lontano, la stessa settimana si rimpicciolisce.",
+          "La soluzione: immagina entrambe le opzioni come se fossero tra un anno.",
+          "Oppure decidi in anticipo e blocca la scelta, con il risparmio automatico.",
+          "Lo sconto iperbolico. Ciò che è vicino sembra enorme. Decidi da lontano, poi blocca la scelta."
+        ]
       }
     },
     svg(T) {

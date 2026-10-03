@@ -246,6 +246,34 @@
           "Und wenn du sprichst, fang mit deinem Kernpunkt an und hör damit auf. Er bleibt hängen.",
           "Das Wesentliche. Das Gedächtnis behält den Anfang, das Ende und das Beste, also schreib auch die Mitte auf."
         ]
+      },
+      it: {
+        name: "L’essenziale", shareTitle: "Perché ricordiamo l’inizio, la fine e il pezzo migliore, in 30 secondi",
+        ecline: "La memoria tiene l’inizio, la fine e il pezzo migliore, quindi annota anche la parte centrale.",
+        week: "una settimana dopo", kl: ["inizio", "il meglio", "fine"], ylab: "ricordato",
+        chip: ["Effetto posizione seriale", "Livellamento e accentuazione", "Effetto disinformazione"],
+        lvl: "livellato", shl: "accentuato", notes: "i tuoi appunti", rej: "non è nei tuoi appunti", kp: "punto chiave",
+        caps: [
+          "Ascolti una presentazione con <b>dieci punti</b>. Non riesci a tenerli tutti.",
+          "Così la memoria tiene pochi <b>elementi chiave</b>. Compatti, e rapidi da usare.",
+          "Il <b>primo</b> e l’<b>ultimo</b> punto restano. La <b>parte centrale</b> svanisce.",
+          "Quando lo racconti, <b>togli</b> le parti sbiadite e <b>accentui</b> la migliore.",
+          "Poi qualcuno dice: «Bellissima la parte sui prezzi!» <b>Non c’era</b>.",
+          "Eppure si infila nel tuo ricordo e presto sembra <b>altrettanto vera</b>.",
+          "<b>La soluzione:</b> prendi appunti, <b>parte centrale compresa</b>. Poi verifica ciò che ricordi.",
+          "Quando parli, apri e chiudi con il tuo <b>punto chiave</b>. Resterà."
+        ],
+        say: [
+          "Ascolti una presentazione con dieci punti. Non riesci a tenerli tutti.",
+          "Così la memoria tiene pochi elementi chiave: l’inizio, la fine, il pezzo migliore. Compatti, e rapidi da usare.",
+          "L’effetto posizione seriale: il primo e l’ultimo punto restano. La parte centrale svanisce.",
+          "Livellamento e accentuazione: quando lo racconti, togli le parti sbiadite e accentui la migliore.",
+          "L’effetto disinformazione: poi qualcuno dice, bellissima la parte sui prezzi! Non c’era.",
+          "Eppure si infila nel tuo ricordo, e presto sembra altrettanto vera.",
+          "La soluzione: prendi appunti, parte centrale compresa. Poi verifica ciò che ricordi.",
+          "E quando parli, apri e chiudi con il tuo punto chiave. Resterà.",
+          "L’essenziale. La memoria tiene l’inizio, la fine e il pezzo migliore, quindi annota anche la parte centrale."
+        ]
       }
     },
     svg(T) {

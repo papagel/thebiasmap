@@ -237,6 +237,35 @@
           "Nach allem, was du wusstest, war früh loszufahren richtig. Du würdest es wieder tun.",
           "Urteile nach dem, was du wusstest. Beurteile eine Entscheidung nach dem, was du wusstest, als du sie getroffen hast, nicht danach, wie sie ausging."
         ]
+      },
+      it: {
+        name: "Giudica in base a ciò che sapevi", shareTitle: "Giudica in base a ciò che sapevi: un’abitudine in 30 secondi",
+        ecline: "Valuta una decisione da ciò che sapevi quando l’hai presa, non da come è andata a finire.",
+        flH: "IL TUO VOLO", alH: "INFO TRAFFICO", alV: "Molto traffico", knew: "ciò che sapevi",
+        early: "partire presto", late: "partire tardi", empty: "strade libere", waitN: "2 ore", wait: "al gate",
+        judged: "giudicata dall’esito", when: "quando hai deciso", unknown: "ancora ignoto",
+        worst: "caso peggiore", w1: "lunga attesa", w2: "volo perso", made: "in tempo", luck: "sorte", bias: "Bias dell’esito",
+        caps: [
+          "Il tuo volo parte alle 18:00. L’app avvisa: <b>molto traffico</b>.",
+          "Così parti <b>due ore prima</b>. Le strade si rivelano libere.",
+          "Aspetti al gate per un’eternità. «Che <b>decisione stupida</b>»",
+          "<b>L’abitudine:</b> torna al momento in cui hai deciso.",
+          "Sapevi che il traffico era probabile, e un <b>volo perso</b> costa molto di più.",
+          "Chi è partito tardi e ce l’ha fatta ha avuto <b>fortuna</b>, non buon giudizio.",
+          "Questa abitudine smaschera il <b>bias dell’esito</b>: giudicare una decisione da come è finita.",
+          "Con ciò che sapevi, partire presto era <b>giusto</b>. Lo rifaresti."
+        ],
+        say: [
+          "Il tuo volo parte alle sei di sera. L’app avvisa: molto traffico.",
+          "Così parti due ore prima. Le strade si rivelano libere.",
+          "Aspetti al gate per un’eternità. Che decisione stupida.",
+          "L’abitudine: torna al momento in cui hai deciso.",
+          "Sapevi che il traffico era probabile, e un volo perso costa molto di più.",
+          "Chi è partito tardi e ce l’ha fatta ha avuto fortuna, non buon giudizio.",
+          "Questa abitudine smaschera il bias dell’esito: giudicare una decisione da come è finita.",
+          "Con ciò che sapevi, partire presto era giusto. Lo rifaresti.",
+          "Giudica in base a ciò che sapevi. Valuta una decisione da ciò che sapevi quando l’hai presa, non da come è andata a finire."
+        ]
       }
     },
     svg(T) {

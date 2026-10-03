@@ -177,6 +177,33 @@
           "Eigenschaft für Eigenschaft bewertet, liegen beide gleichauf.",
           "Der Halo-Effekt. Eine gute Eigenschaft lässt auch die anderen gut aussehen. Beurteile jede nach ihren eigenen Belegen."
         ]
+      },
+      it: {
+        name: "Effetto alone", shareTitle: "L’effetto alone in 30 secondi",
+        ecline: "Un tratto positivo fa sembrare positivi anche gli altri. Giudica ognuno in base alle sue prove.",
+        same: ["stesso CV"], traits: ["Competenze", "Onestà", "Affidabilità"],
+        evidence: ["prova pratica", "referenze", "percorso"], halo: "alone",
+        caps: [
+          "Due candidati con <b>lo stesso CV</b>.",
+          "Uno entra sicuro di sé, brillante e sorridente.",
+          "Quella prima impressione <b>illumina</b> tutto il resto.",
+          "Competenze? <b>Ottime.</b> Onesto? <b>Di sicuro.</b> Affidabile? <b>Certo.</b>",
+          "L’altro riceve punteggi nella media <b>con gli stessi fatti</b>.",
+          "Quel divario è <b>l’alone</b>: un tratto ha colorato tutto il quadro.",
+          "<b>La soluzione:</b> valuta ogni qualità in base alle sue prove.",
+          "Giudicati tratto per tratto, risultano <b>alla pari</b>."
+        ],
+        say: [
+          "Due candidati con lo stesso CV.",
+          "Uno entra sicuro di sé, brillante e sorridente.",
+          "Quella prima impressione illumina tutto il resto.",
+          "Competenze? Ottime. Onesto? Di sicuro. Affidabile? Certo.",
+          "L’altro riceve punteggi nella media, con gli stessi fatti.",
+          "Quel divario è l’alone. Un tratto ha colorato tutto il quadro.",
+          "La soluzione: valuta ogni qualità in base alle sue prove.",
+          "Giudicati tratto per tratto, risultano alla pari.",
+          "L’effetto alone. Un tratto positivo fa sembrare positivi anche gli altri. Giudica ognuno in base alle sue prove."
+        ]
       }
     },
     svg(T) {

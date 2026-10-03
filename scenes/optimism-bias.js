@@ -209,6 +209,34 @@
           "Dann sorg günstig vor. Mach noch heute ein Backup.",
           "Die Optimismus-Verzerrung. Pech macht um dich keinen Bogen. Plane so, als könnte es dich genauso treffen wie jeden anderen."
         ]
+      },
+      it: {
+        name: "Bias di ottimismo", shareTitle: "Il bias di ottimismo in 30 secondi",
+        ecline: "La sfortuna non fa eccezioni per te. Pianifica come se potesse capitare a te come a chiunque.",
+        nob: "senza backup", nobW: 103, notme: "A me no.", bubW: 93,
+        hits: { broken: "rotto", lost: "perso", stolen: "rubato" }, you: "tu", people: ["persone", "come te"],
+        avg: "media", imp: "impossibile", backup: "Backup",
+        caps: [
+          "Il tuo portatile custodisce anni di foto. <b>Nessun backup.</b>",
+          "I portatili si perdono, vengono rubati o si rompono <b>di continuo</b>.",
+          "Ma succede <b>agli altri</b>, pensi.",
+          "Chiedi a un gruppo: <b>quasi tutti</b> stimano il proprio rischio sotto la media.",
+          "<b>Non possono essere tutti</b> sotto la media.",
+          "Poi un giorno succede <b>a te</b>. Le foto sono perse.",
+          "<b>La soluzione:</b> dai per scontato che possa capitare a te come a chiunque.",
+          "Poi prendi la precauzione che costa poco. <b>Fai il backup oggi.</b>"
+        ],
+        say: [
+          "Il tuo portatile custodisce anni di foto. Nessun backup.",
+          "I portatili si perdono, vengono rubati o si rompono di continuo.",
+          "Ma succede agli altri, pensi.",
+          "Chiedi a un gruppo, e quasi tutti stimano il proprio rischio sotto la media.",
+          "Non possono essere tutti sotto la media.",
+          "Poi un giorno succede a te. Le foto sono perse.",
+          "La soluzione: dai per scontato che possa capitare a te come a chiunque.",
+          "Poi prendi la precauzione che costa poco. Fai il backup oggi.",
+          "Il bias di ottimismo. La sfortuna non fa eccezioni per te. Pianifica come se potesse capitare a te come a chiunque."
+        ]
       }
     },
     svg(T) {

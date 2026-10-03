@@ -210,6 +210,34 @@
           "Dann gewichte die Details. Verkäufer ist der bessere Tipp.",
           "Der Basisratenfehler. Lebhafte Details verdecken eine schlichte Tatsache: wie häufig jede Möglichkeit ist. Fang dort an."
         ]
+      },
+      it: {
+        name: "Fallacia del tasso di base", shareTitle: "La fallacia del tasso di base in 30 secondi",
+        ecline: "I dettagli vividi nascondono un fatto semplice: quanto è comune ogni opzione. Parti da lì.",
+        lib: "Bibliotecario", sales: "Venditore", quiet: "in silenzio", poetry: "poesia",
+        bet: "la tua scommessa", win: "scommessa migliore", readL: "1 legge poesie", readS: "4 leggono poesie",
+        common: "quanti ce ne sono?", details: "dettagli",
+        caps: [
+          "In treno, una persona silenziosa sta leggendo <b>poesie</b>.",
+          "Bibliotecario o venditore? Scommetteresti sul <b>bibliotecario</b>.",
+          "Il profilo <b>calza a pennello</b>. I dettagli sembrano convincenti.",
+          "Ma <b>quanti</b> ce ne sono di ciascuno?",
+          "Per ogni bibliotecario ci sono circa <b>20 venditori</b>.",
+          "Pochi leggono poesie, eppure è <b>4 a 1</b> per i venditori.",
+          "<b>La soluzione:</b> prima chiediti quanto è comune ogni gruppo.",
+          "Poi valuta i dettagli. <b>Conviene puntare sul venditore.</b>"
+        ],
+        say: [
+          "In treno, una persona silenziosa sta leggendo poesie.",
+          "Bibliotecario o venditore? Scommetteresti sul bibliotecario.",
+          "Il profilo calza a pennello. I dettagli sembrano convincenti.",
+          "Ma quanti ce ne sono di ciascuno?",
+          "Per ogni bibliotecario ci sono circa venti venditori.",
+          "Pochi di loro leggono poesie, eppure sono quattro lettori contro uno. È più probabile che quella persona lavori nelle vendite.",
+          "La soluzione: prima chiediti quanto è comune ogni gruppo.",
+          "Poi valuta i dettagli. Conviene puntare sul venditore.",
+          "Fallacia del tasso di base. I dettagli vividi nascondono un fatto semplice: quanto è comune ogni opzione. Parti da lì."
+        ]
       }
     },
     svg(T) {

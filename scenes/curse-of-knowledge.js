@@ -228,6 +228,34 @@
           "Beim nächsten Mal summst du die ersten paar Töne. Dein Gegenüber errät es sofort.",
           "Der Fluch des Wissens. Wenn du etwas weißt, kannst du dir kaum vorstellen, es nicht zu wissen. Versuch, es einem Anfänger zu erklären."
         ]
+      },
+      it: {
+        name: "Maledizione della conoscenza", shareTitle: "La maledizione della conoscenza in 30 secondi",
+        ecline: "Quando sai una cosa, è difficile immaginare di non saperla. Prova a spiegarla a un principiante.",
+        head: "nella tua testa", assume: "ciò che credi", hear: "ciò che sente", stuck: "non la scordi più",
+        song: "Tanti auguri a te", toks: "toc… toc-toc… toc… toc… toc", miss: "la melodia mancante",
+        guess: "Jingle Bells?", right: "Tanti auguri!",
+        caps: [
+          "Batti sul tavolo una canzone famosa. <b>Qual è?</b>",
+          "Nella tua testa, <b>Tanti auguri a te</b> suona forte e chiara.",
+          "Ti sembra ovvio. Dai per scontato che <b>la senta anche il tuo amico</b>.",
+          "Ma lui sente solo dei colpi: <b>toc… toc-toc… toc</b>.",
+          "La sua risposta: «Jingle Bells?» <b>Come fa a non capirla?</b>",
+          "Quando conosci la melodia, non riesci a immaginare <b>di non conoscerla</b>.",
+          "<b>La soluzione:</b> immagina un vero principiante, e aggiungi i passaggi che salti.",
+          "La volta dopo canticchi le prime note. <b>La indovina subito.</b>"
+        ],
+        say: [
+          "Batti sul tavolo il ritmo di una canzone famosa, e chiedi a un amico di indovinarla.",
+          "Nella tua testa, Tanti auguri a te suona forte e chiara.",
+          "Ti sembra ovvio. Dai per scontato che la senta anche lui.",
+          "Ma lui sente solo dei colpi. Toc... toc-toc... toc.",
+          "La sua risposta: Jingle Bells? Come fa a non capirla?",
+          "Quando conosci la melodia, non riesci a immaginare di non conoscerla.",
+          "La soluzione: prima di spiegare, immagina un vero principiante, o prova con uno. Poi aggiungi i passaggi che salti.",
+          "La volta dopo canticchi le prime note. La indovina subito.",
+          "La maledizione della conoscenza. Quando sai una cosa, è difficile immaginare di non saperla. Prova a spiegarla a un principiante."
+        ]
       }
     },
     svg(T) {

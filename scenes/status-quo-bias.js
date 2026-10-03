@@ -209,6 +209,37 @@
           "Wählst du neu, ist die Antwort leicht. Wechsle.",
           "Die Status-quo-Verzerrung. Beim Alten zu bleiben fühlt sich sicher an, auch wenn es dich etwas kostet. Entscheide, als würdest du ganz neu wählen."
         ]
+      },
+      it: {
+        name: "Bias dello status quo", shareTitle: "Il bias dello status quo in 30 secondi",
+        ecline: "Restare fermi sembra sicuro, anche quando ti costa. Scegli come se partissi da zero.",
+        yours: "La tua tariffa", newp: "Nuova tariffa", planA: "Tariffa A", planB: "Tariffa B", titleW: 79,
+        pA: "30 €", pB: "18 €", per: "/mese", f1: "20 GB di dati", f2: "chiamate illimitate", same: "uguali",
+        years: n => `da ${n} ${n === 1 ? "anno" : "anni"}`, mins: "10 min", stay: "Restare", sw: "Cambiare", safe: "sembra sicuro",
+        w1: "e se fosse peggio?", w1W: 119, w2: "seccature", w2W: 89,
+        tot: n => (n === 1 ? "12 € al mese" : n === 12 ? "144 € all’anno" : `${12 * n} €`), cost: "costo del non scegliere",
+        ask: "Quale sceglieresti oggi?", askW: 178,
+        caps: [
+          "Hai la stessa tariffa telefonica da anni. <b>30 €</b> al mese.",
+          "Una nuova tariffa con gli stessi servizi costa <b>18 €</b>.",
+          "Per cambiare basterebbero <b>dieci minuti</b>.",
+          "Ma restare sembra <b>sicuro</b>, e cambiare sembra <b>rischioso</b>.",
+          "Così <b>resti</b>. Di nuovo. Sono <b>12 € in più</b> ogni mese.",
+          "In un anno fanno <b>144 €</b> buttati.",
+          "<b>La soluzione:</b> immagina di scegliere da zero, oggi.",
+          "Scegliendo da capo, la risposta è facile. <b>Cambia.</b>"
+        ],
+        say: [
+          "Hai la stessa tariffa telefonica da anni. Trenta euro al mese.",
+          "Una nuova tariffa con gli stessi servizi costa diciotto euro.",
+          "Per cambiare basterebbero dieci minuti.",
+          "Ma restare sembra sicuro, e cambiare sembra rischioso.",
+          "Così resti. Di nuovo. Sono dodici euro in più, ogni mese.",
+          "In un anno fanno centoquarantaquattro euro, buttati.",
+          "La soluzione: immagina di scegliere da zero, oggi.",
+          "Scegliendo da capo, la risposta è facile. Cambia.",
+          "Il bias dello status quo. Restare fermi sembra sicuro, anche quando ti costa. Scegli come se partissi da zero."
+        ]
       }
     },
     svg(T) {

@@ -223,6 +223,36 @@
           "Jetzt halten sie. Kenn das Wichtige auswendig, und schlag den Rest nach.",
           "Das Gedächtnis behält, womit du arbeitest, also arbeite mit dem, was du behalten willst."
         ]
+      },
+      it: {
+        name: "Come lo memorizziamo", shareTitle: "Perché il modo in cui impari qualcosa decide cosa ricordi, in 30 secondi",
+        ecline: "La memoria tiene ciò su cui lavori, quindi lavora su ciò che vuoi tenere.",
+        mem: "LA TUA MEMORIA", week: "LA TUA MEMORIA · UNA SETTIMANA DOPO",
+        lgThick: "ciò che usi o su cui rifletti", lgThin: "ciò che hai appena notato",
+        words: ["sfogliato", "perché?", "", "quiz", "cercato"], reread: n => `riletto ×${n}`, fixed: { 0: "spiegato", 2: "quiz" },
+        labels: [["Effetto livelli", "di elaborazione"], ["Effetto test"], ["Effetto Google"]],
+        pill: "cercalo",
+        caps: [
+          "La tua memoria <b>non può tenere</b> tutto ciò che vedi. Deve scegliere.",
+          "Così lega <b>fili spessi</b> a ciò che usi. Di solito è sensato.",
+          "Lo <b>sfogli</b>? Un filo sottile. Ti chiedi <b>perché</b> è vero? Uno spesso.",
+          "<b>Rileggere</b> serve a poco. <b>Interrogarti da solo</b> lega un filo spesso.",
+          "Sai che puoi <b>cercarlo</b>? Tendi a ricordarlo <b>meno bene</b>.",
+          "Una settimana dopo, tiri i fili. Quelli <b>sottili si spezzano</b>.",
+          "<b>La soluzione:</b> non rileggere, <b>interrogati</b>. Spiegalo con parole tue.",
+          "Ora <b>reggono</b>. Impara a memoria ciò che conta, e cerca il resto."
+        ],
+        say: [
+          "La tua memoria non può tenere tutto ciò che vedi. Deve scegliere.",
+          "Così lega fili spessi a ciò che usi e su cui rifletti, e fili sottili a ciò che hai appena notato. Di solito è sensato: la memoria va dove rende.",
+          "Lo sfogli? Un filo sottile. Ti chiedi perché è vero? Uno spesso. È l’effetto livelli di elaborazione.",
+          "Rileggere serve a poco. Interrogarti da solo lega un filo spesso. L’effetto test.",
+          "Sai che puoi cercarlo? Tendi a ricordarlo meno bene. L’effetto Google.",
+          "Una settimana dopo, tiri i fili. Quelli sottili si spezzano.",
+          "La soluzione: non rileggere, interrogati. Spiegalo con parole tue.",
+          "Ora reggono. Impara a memoria ciò che conta, e cerca il resto.",
+          "La memoria tiene ciò su cui lavori, quindi lavora su ciò che vuoi tenere."
+        ]
       }
     },
     svg(T) {

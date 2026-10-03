@@ -194,6 +194,36 @@
           "Wäge beide Stapel ab, und deine Sicherheit passt zu den Hinweisen.",
           "Der Bestätigungsfehler. Du findest, wonach du suchst. Such nach dem, was dich widerlegen würde."
         ]
+      },
+      it: {
+        name: "Bias di conferma", shareTitle: "Il bias di conferma in 30 secondi",
+        ecline: "Trovi ciò che cerchi. Cerca ciò che dimostrerebbe che hai torto.",
+        tag: "pigro", tag2: "pigro?", tagW: 66,
+        cards: [["In ritardo", "lunedì"], ["Rimasto tardi", "martedì"], ["Non ha", "risposto"],
+          ["Report finito", "in anticipo"], ["Pranzo", "lungo"], ["Ha aiutato", "un cliente"]],
+        fits: "Conferma", nofit: "Smentisce", pro: "3 a favore", con: "3 contro",
+        meter: ["La tua certezza"], gap: ["troppa", "certezza"],
+        caps: [
+          "Hai deciso che il tuo nuovo collega è <b>pigro</b>.",
+          "Per tutta la settimana arrivano prove, <b>a favore e contro</b>.",
+          "Noti gli elementi che <b>confermano</b> la tua idea…",
+          "…e quasi non registri quelli che <b>la smentiscono</b>.",
+          "Ogni conferma sembra una prova. La tua certezza <b>cresce sempre di più</b>.",
+          "Ma le prove erano divise: <b>3 a favore, 3 contro</b>.",
+          "<b>La soluzione:</b> cerca ciò che dimostrerebbe che hai torto.",
+          "Considera entrambe le pile. La tua certezza <b>rispecchia le prove</b>."
+        ],
+        say: [
+          "Hai deciso che il tuo nuovo collega è pigro.",
+          "Per tutta la settimana arrivano prove, a favore e contro.",
+          "Noti gli elementi che confermano la tua idea...",
+          "...e quasi non registri quelli che la smentiscono.",
+          "Ogni conferma sembra una prova. La tua certezza cresce sempre di più.",
+          "Ma le prove erano divise. Tre a favore, tre contro.",
+          "La soluzione: cerca ciò che dimostrerebbe che hai torto.",
+          "Considera entrambe le pile, e la tua certezza rispecchia le prove.",
+          "Bias di conferma. Trovi ciò che cerchi. Cerca ciò che dimostrerebbe che hai torto."
+        ]
       }
     },
     svg(T) {

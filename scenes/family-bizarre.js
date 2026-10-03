@@ -198,6 +198,34 @@
           "Gibst du es an andere weiter? Lass das Wichtigste herausstechen, damit es hängen bleibt.",
           "Was heraussticht, bleibt hängen, ob es wichtig ist oder nicht. Notier zuerst, was zählt."
         ]
+      },
+      it: {
+        name: "Ciò che spicca", shareTitle: "Perché ricordiamo proprio ciò che è insolito, in 30 secondi",
+        ecline: "Ciò che spicca resta, che conti o no. Annota prima ciò che conta.",
+        meeting: "La riunione", recall: "Cosa ricordi", useful: "utile",
+        vr: "Effetto Von Restorff", hu: "Effetto umorismo", ps: "Superiorità delle immagini",
+        due: "Scadenza: venerdì", noteH: "Prima i punti chiave", stick: "resta",
+        caps: [
+          "Una riunione lunga: otto punti, <b>tutti uguali</b>. Non riesci a tenerli tutti.",
+          "Il cervello tiene ciò che <b>spicca</b>. L’insolito spesso conta.",
+          "Un punto in un <b>colore acceso</b>? Resta anche quello.",
+          "Lo stesso vale per una <b>battuta</b>, anche fuori tema.",
+          "E un’<b>immagine</b> resta più delle parole.",
+          "Il giorno dopo, la <b>scadenza</b>, banale ma importante, ti è sfuggita di mente.",
+          "<b>La soluzione:</b> subito dopo, annota prima i <b>punti chiave</b>.",
+          "Devi condividerlo? Fai <b>spiccare</b> il punto chiave, così resta."
+        ],
+        say: [
+          "Una riunione lunga. Otto punti, tutti uguali. Non riesci a tenerli tutti.",
+          "Così il cervello tiene ciò che spicca. Di solito è una buona idea: l’insolito spesso conta.",
+          "Un punto in un colore acceso? Resta anche quello. È l’effetto Von Restorff.",
+          "Lo stesso vale per una battuta, anche fuori tema. L’effetto umorismo.",
+          "E un’immagine resta più delle parole. La superiorità delle immagini.",
+          "Il giorno dopo, la scadenza, banale ma importante, ti è sfuggita di mente.",
+          "La soluzione: subito dopo la riunione, annota prima i punti chiave.",
+          "Devi condividerlo con altri? Fai spiccare il punto chiave, così resta.",
+          "Ciò che spicca resta, che conti o no. Annota prima ciò che conta."
+        ]
       }
     },
     svg(T) {

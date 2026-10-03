@@ -251,6 +251,36 @@
           "Wäge ab, was du findest, und deine Sicht kommt der Wahrheit näher.",
           "Uns zieht an, was unsere Überzeugungen bestätigt. Dein Kopf lässt herein, was dir recht gibt, also such nach dem, was dir widerspricht."
         ]
+      },
+      it: {
+        name: "Conferma le idee", shareTitle: "Perché vediamo ciò in cui crediamo già, in 30 secondi",
+        ecline: "La mente fa entrare ciò che ti dà ragione, quindi cerca ciò che ti smentisce.",
+        bel: ["Ciò in cui credi", "«Giochiamo pulito»", "«Ho scelto bene»", "«I conti vanno bene»"],
+        fits: "combacia?", unseen: "mai visti", fam: "in questa famiglia", lid: "non guardo",
+        bias: [["Percezione selettiva"], ["Bias a favore della scelta"], ["Effetto struzzo"]],
+        pills: [["Fallo loro", 80], ["Fallo nostro", 92], ["Bella vista", 84], ["Rumore", 92], ["Bolletta", 76]],
+        noteH: "prima di decidere:", note: ["Cosa mi farebbe", "cambiare idea?"],
+        caps: [
+          "Tutto il giorno arrivano fatti. Alcuni <b>combaciano</b> con ciò che credi, altri <b>no</b>.",
+          "Il cervello lascia passare ciò che combacia. È <b>veloce</b> e tiene il tuo mondo <b>stabile</b>.",
+          "A una partita, noti <b>i loro falli</b> e non quelli della tua squadra.",
+          "La casa che hai scelto? Ricordi <b>la vista</b>, non <b>il rumore</b>.",
+          "Una bolletta che temi? <b>Non la apri nemmeno</b>.",
+          "La tua idea sembra <b>dimostrata</b>, ma gli <b>avvertimenti</b> non sono mai passati.",
+          "<b>La soluzione:</b> chiediti cosa ti farebbe cambiare idea, poi <b>vai a cercarlo</b>.",
+          "Valuta ciò che trovi. La tua idea si fa <b>più vicina al vero</b>."
+        ],
+        say: [
+          "Tutto il giorno arrivano fatti. Alcuni combaciano con ciò che credi, altri no.",
+          "Il cervello lascia passare ciò che combacia. È veloce, e tiene il tuo mondo stabile.",
+          "Percezione selettiva. A una partita, noti i loro falli, e non quelli della tua squadra.",
+          "Bias a favore della scelta. La casa che hai scelto? Ricordi la vista, non il rumore.",
+          "L’effetto struzzo. Una bolletta che temi? Non la apri nemmeno.",
+          "La tua idea sembra dimostrata, ma gli avvertimenti non sono mai passati.",
+          "La soluzione: chiediti cosa ti farebbe cambiare idea, poi vai a cercarlo.",
+          "Valuta ciò che trovi, e la tua idea si avvicina al vero.",
+          "Ci attira ciò che conferma le nostre idee. La mente fa entrare ciò che ti dà ragione, quindi cerca ciò che ti smentisce."
+        ]
       }
     },
     svg(T) {

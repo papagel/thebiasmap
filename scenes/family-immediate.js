@@ -254,6 +254,40 @@
           "Stell Nahes und Fernes nebeneinander, in echter Größe, und die Wahl wird klar. Und wenn sich etwas Neues dringend anfühlt, gib ihm einen Tag.",
           "Das Hier und Jetzt. Was nah ist, wirkt größer, als es ist, also hol das Ferne nah heran, bevor du wählst."
         ]
+      },
+      it: {
+        name: "Il qui e ora", shareTitle: "Perché vince ciò che abbiamo davanti, in 30 secondi",
+        ecline: "Ciò che è vicino sembra più grande di quanto sia, quindi immagina da vicino ciò che è lontano prima di scegliere.",
+        lens: "qui e ora", wide: "il quadro completo", kid: "Luca", bias: "bias", real: ["dimensione reale"],
+        tags: ["Sconto iperbolico", "Effetto vittima identificabile", "Appello alla novità"], tw: [176, 229, 149],
+        labs: [
+          [["qui vicino"], ["lontano"]],
+          [["un dolcetto", "ora"], ["risparmi", "l’anno prossimo"]],
+          [["un bambino", "con un nome"], ["migliaia", "senza nome"]],
+          [["il nuovo modello", "appena uscito"], ["il tuo vecchio", "funziona bene"]]
+        ],
+        rows: ["ora o dopo", "uno o migliaia", "nuovo o collaudato"],
+        caps: [
+          "Cose vicine e lontane si contendono la tua <b>attenzione limitata</b>.",
+          "Il cervello fa zoom sul <b>qui e ora</b>. Di solito, è saggio.",
+          "Un dolcetto <b>ora</b> sembra enorme. I risparmi per <b>l’anno prossimo</b>? Un puntino.",
+          "Un bambino <b>con un nome</b> ti commuove più di <b>migliaia</b> di persone nel bisogno.",
+          "Il modello <b>nuovo</b> sembra migliore, solo perché è nuovo.",
+          "Eppure ciò che si rimpicciolisce spesso è ciò che <b>conta di più</b>.",
+          "<b>La soluzione:</b> allarga lo sguardo. Immagina ciò che è lontano <b>da vicino</b>.",
+          "Fianco a fianco, alla <b>dimensione reale</b>, la scelta diventa chiara."
+        ],
+        say: [
+          "Cose vicine e lontane si contendono la tua attenzione. E la tua attenzione è limitata.",
+          "Così il cervello fa zoom sul qui e ora. Ciò che è vicino sembra enorme, e ciò che è lontano si riduce a un puntino. Di solito, è saggio: la ricompensa o la minaccia che hai davanti tende a contare di più.",
+          "Un dolcetto ora sembra enorme. I tuoi risparmi per l’anno prossimo? Solo un puntino. È lo sconto iperbolico.",
+          "Un bambino con un nome e un volto ti commuove più di migliaia di persone nello stesso bisogno. È l’effetto vittima identificabile.",
+          "E il modello nuovo sembra migliore, solo perché è nuovo, mentre il telefono che funziona bene sparisce. È l’appello alla novità.",
+          "Eppure ciò che si rimpicciolisce spesso è ciò che conta di più: una ricompensa maggiore, più persone, qualcosa di collaudato.",
+          "La soluzione: allarga lo sguardo. Immagina ciò che è lontano da vicino, per esempio te stesso fra un anno.",
+          "Metti vicino e lontano fianco a fianco, alla loro dimensione reale, e la scelta diventa chiara. E se qualcosa di nuovo sembra urgente, aspetta un giorno.",
+          "Il qui e ora. Ciò che è vicino sembra più grande di quanto sia, quindi immagina da vicino ciò che è lontano prima di scegliere."
+        ]
       }
     },
     svg(T) {

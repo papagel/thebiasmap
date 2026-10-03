@@ -221,6 +221,35 @@
           "Und wenn du die nächste Reise planst, gönn ihr ein gutes Ende.",
           "Die Peak-End-Regel. Das Gedächtnis stützt sich auf den Höhepunkt und das Ende. Beurteile das Ganze und plane ein gutes Ende."
         ]
+      },
+      it: {
+        name: "Regola del picco e della fine", shareTitle: "La regola del picco e della fine in 30 secondi",
+        ecline: "La memoria si appoggia sul picco e sulla fine. Giudica l’insieme, e pianifica un bel finale.",
+        day: "giorno", peak: "picco", end: "fine", cancel: "ANNULLATO",
+        ask: "Com’è andata?", askW: 107, meh: "Mah.", mehW: 48, fine: "Bellissimo, a parte il volo.", fineW: 196,
+        avg: "media", barely: "7 giorni: contano appena", tally: "7 giorni: 6 bene, 1 male",
+        next: "nuovo viaggio", nextW: 94, easy: "finale sereno", easyW: 104,
+        caps: [
+          "Una settimana al mare: quasi tutta piacevole, e una gita in barca <b>fantastica</b>.",
+          "Ultimo giorno: volo annullato, <b>ore di attesa</b> in aeroporto.",
+          "A casa, un amico ti chiede: «Com’è andata?»",
+          "La memoria si appoggia su due momenti: il <b>picco</b> e la <b>fine</b>.",
+          "Fa la media dei due, e rispondi: <b>«Mah»</b>.",
+          "Cinque giorni belli <b>spariscono</b>. Quanto è durata <b>conta appena</b>.",
+          "<b>La soluzione:</b> guarda il <b>quadro completo</b>, da foto o appunti quotidiani.",
+          "Pianifichi il prossimo viaggio? Dagli un <b>bel finale</b>."
+        ],
+        say: [
+          "Una settimana al mare. Quasi tutta piacevole, e una gita in barca fantastica.",
+          "L’ultimo giorno, il volo viene annullato. Ore di attesa in aeroporto.",
+          "A casa, un amico ti chiede: com’è andata?",
+          "La memoria si appoggia su due momenti. Il picco, e la fine.",
+          "Fa la media dei due, e rispondi: mah.",
+          "I cinque giorni belli spariscono. E quanto è durata conta appena.",
+          "La soluzione: guarda il quadro completo, da foto o appunti quotidiani.",
+          "E quando pianifichi il prossimo viaggio, dagli un bel finale.",
+          "La regola del picco e della fine. La memoria si appoggia sul picco e sulla fine. Giudica l’insieme, e pianifica un bel finale."
+        ]
       }
     },
     svg(T) {

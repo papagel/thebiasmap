@@ -201,6 +201,35 @@
           "Schau nach, und entscheide dann nach den Belegen, egal wer es sagt.",
           "Der Autoritätsglaube. Vertrau echtem Fachwissen, nicht dem Kostüm. Frag nach Belegen."
         ]
+      },
+      it: {
+        name: "Bias di autorità", shareTitle: "Il bias di autorità in 30 secondi",
+        ecline: "Fidati della vera competenza, non dell’abito. Chiedi le prove.",
+        claim: "«Lo consigliano i medici!»", same: "stesse parole", you: "tu", proof: "E le prove?",
+        coat: "camice bianco", tee: "maglietta", anyone: "chiunque lo dica", doubt: "dubbio", trust: "fiducia",
+        gap: "il camice, non le prove", evid: "le prove",
+        qs: ["Quali prove ci sono?", "E se lo dicesse un altro?", "È il suo campo?"],
+        caps: [
+          "Parte la pubblicità di un nuovo integratore per dormire.",
+          "Qualcuno in <b>camice bianco</b> dice: «Lo consigliano i medici!»",
+          "Ci credi <b>all’istante</b>. Senza farti domande.",
+          "Stessa pubblicità, <b>stesse parole</b>, ma stavolta in maglietta.",
+          "D’un tratto hai qualche dubbio. Dove sono le <b>prove</b>?",
+          "Stessa affermazione, stesse prove. <b>È cambiato solo l’abito.</b>",
+          "<b>La soluzione:</b> chiedi le prove, e se è il suo campo.",
+          "Verifica, poi decidi <b>in base alle prove</b>, chiunque lo dica."
+        ],
+        say: [
+          "Parte la pubblicità di un nuovo integratore per dormire.",
+          "Qualcuno in camice bianco dice: lo consigliano i medici!",
+          "Ci credi all’istante. Senza farti domande.",
+          "Stessa pubblicità, stesse parole. Ma stavolta, in maglietta.",
+          "D’un tratto hai qualche dubbio. Dove sono le prove?",
+          "Stessa affermazione, stesse prove. È cambiato solo l’abito.",
+          "La soluzione: chiedi le prove, e se quello è davvero il suo campo.",
+          "Verifica, poi decidi in base alle prove, chiunque lo dica.",
+          "Bias di autorità. Fidati della vera competenza, non dell’abito. Chiedi le prove."
+        ]
       }
     },
     svg(T) {

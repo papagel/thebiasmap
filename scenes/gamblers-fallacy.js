@@ -238,6 +238,33 @@
           "Serien entstehen durch Zufall. Sie ändern nichts an dem, was als Nächstes kommt.",
           "Der Spielerfehlschluss. Der Zufall hat kein Gedächtnis. Nach einer Serie ist das andere Ergebnis nicht überfällig."
         ]
+      },
+      it: {
+        name: "Fallacia del giocatore", shareTitle: "La fallacia del giocatore in 30 secondi",
+        ecline: "Il caso non ha memoria. Una serie non fa sì che ora tocchi all’altro risultato.",
+        last: "Ultimi giri", next: "prossimo", row: "5 di fila", red: "rosso", black: "nero",
+        due: "Tocca al nero!", kept: "Ho tenuto le fiches", fresh: "ogni giro riparte da zero", same: "stesse probabilità sempre",
+        caps: [
+          "Alla roulette, la pallina finisce sul <b>rosso</b>…",
+          "…e poi ancora, e ancora: <b>cinque rossi di fila</b>.",
+          "Il nero sembra <b>in ritardo</b>. Ormai deve toccare a lui.",
+          "Così punti <b>forte sul nero</b>.",
+          "Ma la ruota <b>non ha memoria</b>.",
+          "Le probabilità del nero sono <b>le stesse</b> di ogni altro giro.",
+          "<b>La soluzione:</b> valuta ogni giro per le sue probabilità, non per la serie.",
+          "Le serie capitano <b>per caso</b>. Non cambiano ciò che viene dopo."
+        ],
+        say: [
+          "Alla roulette, la pallina finisce sul rosso...",
+          "...e poi ancora, e ancora. Cinque rossi di fila.",
+          "Il nero sembra in ritardo. Ormai deve toccare a lui.",
+          "Così punti forte sul nero.",
+          "Ma la ruota non ha memoria.",
+          "Le probabilità del nero sono le stesse di ogni altro giro.",
+          "La soluzione: valuta ogni giro per le sue probabilità, non per la serie.",
+          "Le serie capitano per caso. Non cambiano ciò che viene dopo.",
+          "La fallacia del giocatore. Il caso non ha memoria. Una serie non fa sì che ora tocchi all’altro risultato."
+        ]
       }
     },
     svg(T) {

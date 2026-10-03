@@ -231,6 +231,36 @@
           "Gib anderen dasselbe Wohlwollen wie dir selbst. Oft liegst du damit richtig.",
           "Der fundamentale Attributionsfehler. Bei anderen geben wir dem Charakter die Schuld, bei uns der Situation. Frag dich, was da los sein könnte."
         ]
+      },
+      it: {
+        name: "Errore fondamentale di attribuzione", shareTitle: "L’errore fondamentale di attribuzione in 30 secondi",
+        ecline: "Agli altri diamo la colpa del carattere, a noi la scusa della situazione. Chiediti cosa starà succedendo.",
+        you: "tu", jerk: "Che idiota!", bubAW: 104,
+        char: "carattere", char2: "carattere?", sit: "situazione",
+        careless: "persona imprudente", emergency: "forse un’emergenza", late: "in ritardo",
+        card: ["Di corsa", "in ospedale"], cardW: 132, hidden: "non lo vedi",
+        mine: ["Faccio tardi", "alla riunione!"], ask: "Cosa starà succedendo?", askW: 158,
+        caps: [
+          "Un’auto ti taglia la strada.",
+          "Il tuo primo pensiero: «<b>Che idiota!</b>»",
+          "Giudichi <b>chi è</b>, non la situazione in cui si trova.",
+          "Quello che non vedi: sta <b>correndo in ospedale</b>.",
+          "Quando <b>tu</b> tagli la strada a qualcuno, sai perché: eri in ritardo.",
+          "Gli altri li incolpi per <b>chi sono</b>. Per te la scusa è <b>la tua situazione</b>.",
+          "<b>La soluzione:</b> chiediti quale situazione potrebbe spiegarlo.",
+          "Concedi agli altri <b>lo stesso beneficio del dubbio</b> che dai a te. Spesso avrai ragione."
+        ],
+        say: [
+          "Un’auto ti taglia la strada.",
+          "Il tuo primo pensiero: che idiota!",
+          "Giudichi chi è, non la situazione in cui si trova.",
+          "Quello che non vedi: sta correndo in ospedale.",
+          "Ma quando tu tagli la strada a qualcuno, sai perché. Eri in ritardo.",
+          "Gli altri li incolpi per chi sono. Per te la scusa è la tua situazione.",
+          "La soluzione: chiediti quale situazione potrebbe spiegarlo.",
+          "Concedi agli altri lo stesso beneficio del dubbio che dai a te. Spesso avrai ragione.",
+          "L’errore fondamentale di attribuzione. Agli altri diamo la colpa del carattere, a noi la scusa della situazione. Chiediti cosa starà succedendo."
+        ]
       }
     },
     svg(T) {

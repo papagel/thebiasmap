@@ -290,6 +290,39 @@
           "Frag dich: Würde ich das wählen, wenn es meine eigene Idee wäre? Dann entscheide frei.",
           "Autonomie und Status. Schütze deine Freiheit, aber beurteile jede Idee nach ihrem Wert, nicht danach, wer drängt."
         ]
+      },
+      it: {
+        name: "Autonomia e status", shareTitle: "Perché resistiamo alle pressioni, anche verso buone idee, in 30 secondi",
+        ecline: "Difendi la tua libertà, ma giudica ogni idea per quello che vale, non per chi insiste.",
+        mine: "le mie scelte", standing: "status", sign: "Firma ora!", signW: 87, safe: "ti protegge",
+        must: ["<tspan class=\"q\">Devi</tspan>", "leggerlo!"], dont: ["<tspan class=\"q\">Non</tspan>", "leggerlo!"], bubW: 96,
+        help: "Mi aiuti?", helpW: 72, cmp: "confronto",
+        back: "← ti ritrai", want: "lo vuoi →", hold: "ti trattieni", own: "un’idea mia?", chosen: "scelta mia",
+        idea: "solo l’idea", push: "chi insiste",
+        pills: [["Reattanza", 80], ["Psicologia inversa", 138], ["Bias del confronto sociale", 183]],
+        lhA: "la pressione", lhB: "tu", chipW: 104,
+        rows: [["«Devi!»", "ti ritrai"], ["«Non farlo!»", "lo vuoi"], ["ti oscura", "ti trattieni"]],
+        caps: [
+          "Tutti vogliono indirizzarti. Così il cervello <b>difende le tue scelte</b>…",
+          "…e il tuo <b>status</b>. Di solito, così gli altri non possono <b>usarti</b>.",
+          "«<b>Devi</b> leggerlo!» È un buon libro, ma tu <b>ti ritrai</b>.",
+          "Se invece senti «<b>Non</b> leggerlo!», d’un tratto <b>lo vuoi</b>.",
+          "Aiutare una stella nascente? Potrebbe <b>oscurarti</b>. <b>Ti trattieni</b>.",
+          "Ogni volta reagisci alla <b>pressione</b>, non all’<b>idea</b>.",
+          "<b>La soluzione:</b> separa l’idea da <b>chi insiste</b>.",
+          "Chiediti: «La sceglierei se fosse <b>un’idea mia</b>?» Poi scegli <b>liberamente</b>."
+        ],
+        say: [
+          "Tutti vogliono portarti da qualche parte. Così il cervello difende le tue scelte...",
+          "...e il tuo status nel gruppo. Di solito, così gli altri non possono usarti, o metterti da parte.",
+          "Reattanza. Qualcuno insiste: devi leggerlo! È un buon libro, ma tu ti ritrai.",
+          "Psicologia inversa. Se ti dicono di non leggerlo, d’un tratto lo vuoi.",
+          "Bias del confronto sociale. Aiutare una stella nascente? Potrebbe oscurarti, così ti trattieni.",
+          "Ogni volta reagisci alla pressione, non all’idea in sé.",
+          "La soluzione: separa l’idea da chi insiste.",
+          "Chiediti: la sceglierei se fosse un’idea mia? Poi scegli liberamente.",
+          "Autonomia e status. Difendi la tua libertà, ma giudica ogni idea per quello che vale, non per chi insiste."
+        ]
       }
     },
     svg(T) {

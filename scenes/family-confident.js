@@ -249,6 +249,35 @@
           "Richte deine Zuversicht nach deiner Trefferquote. Sie reicht immer noch zum Handeln.",
           "Mut zum Handeln. Lass dich von Zuversicht antreiben, aber richte sie nach deiner Bilanz."
         ]
+      },
+      it: {
+        name: "Fiducia per agire", shareTitle: "Perché ci sentiamo più sicuri del dovuto, in 30 secondi",
+        ecline: "Lascia che la fiducia ti metta in moto, ma regolala sui tuoi risultati.",
+        conf: "la tua fiducia", rec: "i tuoi risultati", tooSure: "troppo alta",
+        bub: ["Ci riesco?", "Ce la faccio.", "Facile!", "Entra… entra…", "Vale la pena."],
+        skill: "abilità", luck: "sfortuna", note: ["Certezza", "Canestri"],
+        names: ["Eccesso di fiducia", "Illusione di controllo", "Bias di autoindulgenza"],
+        caps: [
+          "Prima di provare qualcosa, devi sentire <b>che ce la puoi fare</b>.",
+          "Così il cervello <b>alza</b> la tua fiducia. Questo ti mette in moto.",
+          "Ma spesso <b>esagera</b>: 95% di certezza che entri.",
+          "Eppure entrano solo <b>6 tiri su 10</b>.",
+          "La pallina ha lasciato la mano, eppure ti sporgi per <b>guidarla</b>.",
+          "Dentro? <b>Abilità</b>. Fuori? <b>Sfortuna</b>. La fiducia resta alta.",
+          "<b>La soluzione:</b> annota la tua certezza, poi verifica <b>com’è andata</b>.",
+          "Regola la fiducia sui tuoi <b>risultati</b>. Basta comunque per agire."
+        ],
+        say: [
+          "Prima di provare qualcosa, devi sentire che ce la puoi fare.",
+          "Così il cervello alza la tua fiducia. Un po’ in più ti mette in moto, e ti fa andare avanti dopo un errore.",
+          "Ma spesso esagera. Novantacinque per cento di certezza che entri.",
+          "Eppure entrano solo sei tiri su dieci. È l’eccesso di fiducia.",
+          "La pallina ha lasciato la mano, eppure ti sporgi per guidarla. È l’illusione di controllo.",
+          "Dentro? Abilità. Fuori? Sfortuna. La tua fiducia resta alta. È il bias di autoindulgenza.",
+          "La soluzione: annota la tua certezza, poi verifica com’è andata davvero.",
+          "Regola la fiducia sui tuoi risultati. Basta comunque per agire.",
+          "Fiducia per agire. Lascia che la fiducia ti metta in moto, ma regolala sui tuoi risultati."
+        ]
       }
     },
     svg(T) {

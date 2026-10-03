@@ -210,6 +210,33 @@
           "Gleiches Regal, gleicher Preis. Bewerte die Sache, nicht die Mühe.",
           "Der IKEA-Effekt. Was du selbst baust, wirkt wertvoller. Bewerte es so, als hätte es jemand anderes gemacht."
         ]
+      },
+      it: {
+        name: "Effetto IKEA", shareTitle: "L’effetto IKEA in 30 secondi",
+        ecline: "Ciò che costruisci da te sembra valere di più. Giudicalo come se l’avesse fatto qualcun altro.",
+        yours: "La tua", yoursW: 36, shops: "Del negozio", stranger: "Di un estraneo", same: "stesso modello",
+        hrs: n => (n === 1 ? "1 ora" : `${n} ore`), eur: v => `${v} €`, plus: "+40 €", effort: "lo sforzo",
+        caps: [
+          "Monti <b>con le tue mani</b> una libreria in kit.",
+          "Due ore, una chiave a brugola, <b>una vite avanzata</b>.",
+          "È un po’ storta. Ma la <b>adori</b>.",
+          "Accanto, <b>la stessa libreria</b>, montata dal negozio.",
+          "Se la vendessi? Chiederesti <b>80 €</b> per la tua, <b>40 €</b> per quella del negozio.",
+          "Il tuo <b>sforzo</b> la fa sembrare <b>più preziosa</b>.",
+          "<b>La soluzione:</b> immagina che l’abbia montata un estraneo. Quanto vale ora?",
+          "Stessa libreria, stesso prezzo. <b>Giudica l’oggetto, non lo sforzo.</b>"
+        ],
+        say: [
+          "Monti con le tue mani una libreria in kit.",
+          "Due ore, una chiave a brugola, e una vite avanzata.",
+          "È un po’ storta. Ma la adori.",
+          "Accanto, la stessa libreria, montata dal negozio.",
+          "Se la vendessi? Chiederesti ottanta euro per la tua, e quaranta per quella del negozio.",
+          "Il tuo sforzo la fa sembrare più preziosa.",
+          "La soluzione: immagina che l’abbia montata un estraneo. Quanto vale ora?",
+          "Stessa libreria, stesso prezzo. Giudica l’oggetto, non lo sforzo.",
+          "L’effetto IKEA. Ciò che costruisci da te sembra valere di più. Giudicalo come se l’avesse fatto qualcun altro."
+        ]
       }
     },
     svg(T) {

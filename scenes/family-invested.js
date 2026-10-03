@@ -217,6 +217,36 @@
           "Wenn ja, mach weiter. Wenn nicht, setz deine nächsten Steine woanders besser ein.",
           "Begonnenes beenden. Bring zu Ende, was sich noch lohnt: Entscheide ab heute, nicht nach dem, was du schon investiert hast."
         ]
+      },
+      it: {
+        name: "Portare a termine", shareTitle: "Perché andiamo avanti solo perché abbiamo iniziato, in 30 secondi",
+        ecline: "Porta a termine ciò che vale ancora la pena: decidi partendo da oggi, non da ciò che hai già investito.",
+        goal: "l’obiettivo", wrong: "meta errata", put: "già investito", gone: "perso comunque", keep: "vai avanti",
+        months: n => (n === 1 ? "1 mese" : `${n} mesi`), lost: n => `−${n} ${n === 1 ? "mese" : "mesi"}`,
+        yours: "il tuo piano", theirs: "l’idea altrui", sticks: "resta", fades: "svanisce", stop: "Mi fermo?", stopW: 80,
+        today: "da oggi", left: "ciò che resta",
+        pills: [["Escalation dell’impegno", 170], ["Effetto generazione", 142], ["Avversione alla perdita", 174]],
+        caps: [
+          "Inizi a costruire qualcosa di grande, come un’attività o una carriera.",
+          "Il cervello dice: <b>finisci ciò che hai iniziato</b>. Di solito, così le cose si fanno.",
+          "Poi una brutta notizia: la tua meta è <b>il posto sbagliato</b>.",
+          "Eppure <b>rilanci</b>, per dimostrare che non era un errore.",
+          "Il piano <b>ideato da te</b> resta impresso. Le idee degli altri <b>svaniscono</b>.",
+          "E fermarti ora sembrerebbe <b>perdere</b> tutto ciò che hai investito.",
+          "<b>La soluzione:</b> chiediti: «Se iniziassi oggi da zero, sceglierei questo?»",
+          "Se sì, <b>vai avanti</b>. Se no, metti i tuoi mattoni <b>in qualcosa di meglio</b>."
+        ],
+        say: [
+          "Inizi a costruire qualcosa di grande, come un’attività o una carriera.",
+          "Il cervello dice: finisci ciò che hai iniziato. Di solito, è proprio così che le cose si fanno.",
+          "Poi una brutta notizia. La direzione che hai preso si rivela il posto sbagliato.",
+          "L’escalation dell’impegno. Invece di fermarti, rilanci, per dimostrare che non era un errore.",
+          "L’effetto generazione. Il piano che hai ideato tu ti resta in mente, mentre le idee degli altri svaniscono.",
+          "L’avversione alla perdita. Fermarti ora sembrerebbe perdere tutto ciò che hai investito.",
+          "La soluzione: chiediti, se iniziassi oggi da zero, sceglierei questo?",
+          "Se sì, vai avanti. Se no, metti i prossimi mattoni in qualcosa di meglio.",
+          "Portare a termine. Porta a termine ciò che vale ancora la pena: decidi partendo da oggi, non da ciò che hai già investito."
+        ]
       }
     },
     svg(T) {

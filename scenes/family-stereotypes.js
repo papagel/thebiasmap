@@ -239,6 +239,38 @@
           "Aus der Nähe ist jeder Mensch mehr als ein Etikett.",
           "Stereotype. Ein Etikett ergänzt, was du nicht weißt, also finde eine echte Tatsache heraus, bevor du urteilst."
         ]
+      },
+      it: {
+        name: "Stereotipi", shareTitle: "Perché un’etichetta basta a immaginare un’intera persona, in 30 secondi",
+        ecline: "Un’etichetta riempie ciò che non sai, quindi scopri un fatto reale prima di giudicare.",
+        badge: "Ingegnere",
+        guess: ["riservato", "ama la matematica", "gioca a scacchi", "pianifica tutto", "aggiusta tutto", "mattiniero"],
+        real: ["molto spiritoso", "ama la matematica", "suona la batteria", "improvvisa", "aggiusta tutto", "nottambulo"],
+        gaps: "6 vuoti", filled: "riempiti dall’etichetta", seen: "visti: 0 su 6", fact1: "1 fatto reale", close: "da vicino",
+        claim: ["La vitamina X", "ferma i raffreddori."], trust: "la tua fiducia", evidence: "prove mostrate", none: "nessuna",
+        loud: "rumoroso", fact: ["Suono la batteria", "in una band!"],
+        names: ["Stereotipizzazione", "Bias di autorità", "Errore di attribuzione di gruppo"],
+        caps: [
+          "Incontri una persona nuova. Di lei sai solo <b>un’etichetta</b>.",
+          "Il tuo cervello riempie i vuoti con <b>ciò che si aspetta</b>. Risparmia fatica.",
+          "Questa è la <b>stereotipizzazione</b>: sei tratti che <b>non hai mai visto</b> davvero.",
+          "Aggiungi un <b>camice bianco</b> e un’affermazione <b>senza prove</b> sembra giusta.",
+          "Allo stadio, un tifoso <b>urla</b> senza sosta…",
+          "…così decidi che <b>tutti</b> i tifosi della squadra sono rumorosi.",
+          "<b>La soluzione:</b> scopri prima un <b>fatto reale</b> su quella persona.",
+          "Da vicino, ogni persona è <b>più di un’etichetta</b>."
+        ],
+        say: [
+          "Incontri una persona nuova. Di lei sai solo un’etichetta: ingegnere.",
+          "Il tuo cervello riempie i vuoti con ciò che si aspetta da quell’etichetta. Risparmia molta fatica.",
+          "Questa è la stereotipizzazione: sei tratti che non hai mai visto davvero.",
+          "Aggiungi un camice bianco e un’affermazione senza prove sembra giusta. È il bias di autorità.",
+          "Allo stadio, un tifoso urla senza sosta...",
+          "...così decidi che tutti i tifosi della squadra sono rumorosi. È l’errore di attribuzione di gruppo.",
+          "La soluzione: scopri prima un fatto reale su quella persona.",
+          "Da vicino, ogni persona è più di un’etichetta.",
+          "Stereotipi. Un’etichetta riempie ciò che non sai, quindi scopri un fatto reale prima di giudicare."
+        ]
       }
     },
     svg(T) {

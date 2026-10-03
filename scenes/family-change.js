@@ -247,6 +247,38 @@
           "Dann rechne die Kosten pro Nutzung aus. Sechzig Euro für dreihundert Nutzungen sind zwanzig Cent pro Mal. Jetzt siehst du die wahre Größe.",
           "Wir bemerken Veränderung. Wir urteilen im Vergleich, also bestimmt der Ausgangspunkt, wie die Dinge wirken."
         ]
+      },
+      it: {
+        name: "Ciò che cambia", shareTitle: "Perché giudichiamo la differenza e non la cosa, in 30 secondi",
+        ecline: "Giudichiamo per confronto, così il punto di partenza decide come vediamo le cose.",
+        price: "60 €", old: "70 €", was: "150 €", seen: "15 €", off: "10 € di sconto!", fee: "+10 € di spese",
+        lOld: "le tue vecchie", lWas: "prima", lSeen: "appena viste", lWord: "le parole",
+        start: "punto di partenza", starts: "punti di partenza", pm: "±10 €", diffL: "differenza", money: v => `${v < 0 ? "−" : "+"}${Math.abs(v)} €`,
+        cheap: "poco", pricey: "tanto", feels: "come ti sembrano i 60 €", same: "stessi 60 €",
+        verdict: ["?", "buon prezzo", "un affare!", "troppo!", "un guadagno", "una perdita"],
+        pills: [["Ancoraggio", 93], ["Effetto contrasto", 134], ["Effetto framing", 117]],
+        morning: "il mattino dopo", cpu: "costo per uso", sum: "60 € ÷ 300 usi", res: "= 0,20 € a uso",
+        caps: [
+          "Cuffie a <b>60 €</b>. Economiche o care? Il prezzo da solo dice poco.",
+          "Così il cervello <b>confronta</b>. È veloce, e di solito basta.",
+          "Il cartellino dice «prima <b>150 €</b>». Ora 60 € sembrano <b>un affare</b>.",
+          "Hai appena visto delle cuffie a <b>15 €</b>? Ora 60 € sembrano <b>troppi</b>.",
+          "«<b>10 € di sconto</b>» suona come un guadagno. «<b>10 € di spese</b>», come una perdita.",
+          "Stesse cuffie, stessi 60 €. È cambiato solo il <b>punto di partenza</b>.",
+          "<b>La soluzione:</b> dormici su, e giudica il prezzo <b>senza confronti</b>.",
+          "Poi calcola il <b>costo per uso</b>, e scopri <b>quanto pesa davvero</b>."
+        ],
+        say: [
+          "Cuffie a sessanta euro. Economiche o care? Il prezzo da solo non ti dice molto.",
+          "Così il cervello confronta, con un punto di partenza, come le tue vecchie cuffie da settanta. È veloce, e di solito basta.",
+          "L’ancoraggio. Il cartellino dice che prima costavano centocinquanta. Ora sessanta sembrano un affare.",
+          "L’effetto contrasto. Hai appena visto delle cuffie a quindici. Ora sessanta sembrano troppi.",
+          "L’effetto framing. Dieci euro di sconto suonano come un guadagno. Dieci euro di spese, come una perdita.",
+          "Stesse cuffie, stessi sessanta euro. È cambiato solo il punto di partenza.",
+          "La soluzione: dormici su, e giudica il prezzo senza confronti.",
+          "Poi calcola il costo per uso. Sessanta euro diviso trecento usi fa venti centesimi a volta. Ora vedi quanto pesa davvero.",
+          "Notiamo il cambiamento. Giudichiamo per confronto, così il punto di partenza decide come vediamo le cose."
+        ]
       }
     },
     svg(T) {

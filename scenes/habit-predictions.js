@@ -242,6 +242,38 @@
           "Nach ein paar Notizen siehst du, wie gut deine Tipps wirklich sind.",
           "Schreib Prognosen auf. Eine datierte Notiz weiß noch, was du wirklich gedacht hast, auch wenn dein Gedächtnis es umschreibt."
         ]
+      },
+      it: {
+        name: "Scrivi le tue previsioni", shareTitle: "Scrivi le tue previsioni: un’abitudine in 30 secondi",
+        ecline: "Una nota datata ricorda cosa pensavi davvero, anche quando la tua memoria lo riscrive.",
+        hd0: "SAB 14 MAR · 21:00", hd1: "FINALE", us: "La tua squadra", them: "Avversari",
+        later: "3 settimane dopo", laterW: 138,
+        chance: "probabilità di vincere", draw: "probabile pareggio", memory: "la tua memoria", knew: "Lo sapevo!", knewW: 132,
+        date: "SAB 14 MAR", before: "prima della gara", line: "Probabile pareggio.", win: "Vince:", result: "Vittoria 2–1",
+        rowW: [118, 120, 100],
+        noteLab: "la tua nota", tag: "Bias del senno di poi", tagW: 149,
+        days: ["12 GEN", "3 FEB", "20 FEB", "1 MAR", "14 MAR"], right: "hai indovinato", score: "3 su 5",
+        caps: [
+          "Sabato c’è una partita importante. Pensi: probabile pareggio, <b>40%</b> che vinciamo.",
+          "La tua squadra <b>vince 2–⁠1</b>. Passano le settimane.",
+          "La tua memoria si riscrive in silenzio: «<b>Lo sapevo!</b>»",
+          "<b>L’abitudine:</b> prima della partita, annota la previsione <b>con la data</b>.",
+          "Settimane dopo, apri la nota. Dice <b>40%</b>, non «lo sapevo».",
+          "Poi segna il risultato. Avevi detto pareggio, quindi è un <b>errore</b>.",
+          "Una nota datata coglie in flagrante il <b>bias del senno di poi</b>.",
+          "Dopo qualche nota, vedi quanto sono <b>davvero</b> buone le tue previsioni."
+        ],
+        say: [
+          "Sabato c’è una partita importante. Pensi: probabile pareggio. Forse quaranta per cento che vinciamo.",
+          "La tua squadra vince, due a uno. Passano le settimane.",
+          "La tua memoria si riscrive in silenzio. Lo sapevo!",
+          "L’abitudine: prima della partita, annota la previsione con la data.",
+          "Settimane dopo, apri la nota. Dice quaranta per cento, non lo sapevo.",
+          "Poi segna il risultato. Avevi detto pareggio, quindi è un errore.",
+          "Una nota datata coglie in flagrante il bias del senno di poi.",
+          "Dopo qualche nota, vedi quanto sono davvero buone le tue previsioni.",
+          "Scrivi le tue previsioni. Una nota datata ricorda cosa pensavi davvero, anche quando la tua memoria lo riscrive."
+        ]
       }
     },
     svg(T) {

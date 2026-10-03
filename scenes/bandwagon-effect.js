@@ -243,6 +243,33 @@
           "Wähle aus eigenen Gründen, nicht wegen der Schlange.",
           "Der Mitläufereffekt. Eine Menschenmenge ist ein Signal, kein Beweis. Prüf selbst nach."
         ]
+      },
+      it: {
+        name: "Effetto carrozzone", shareTitle: "L’effetto carrozzone in 30 secondi",
+        ecline: "Una folla è un segnale, non una prova. Verifica di persona.",
+        a: "A", b: "B", bubble: "Sarà buono!", follow: "seguendo la folla", empty: "vuoto", you: "tu",
+        menu: "MENU", rA: "3,6", rB: "4,7",
+        caps: [
+          "Due nuovi ristoranti aprono uno accanto all’altro.",
+          "La prima coppia ne sceglie uno <b>a caso</b>.",
+          "Chi arriva dopo vede clienti in A, e <b>li segue</b>.",
+          "Si forma una coda. <b>Sarà buono</b>… no?",
+          "Ognuno <b>copia gli altri</b>, senza aver assaggiato niente.",
+          "B resta vuoto, anche se potrebbe essere <b>migliore</b>.",
+          "<b>La soluzione:</b> giudica con le tue prove: menu, recensioni, un assaggio.",
+          "Scegli per le tue ragioni, <b>non per la coda</b>."
+        ],
+        say: [
+          "Due nuovi ristoranti aprono, uno accanto all’altro.",
+          "La prima coppia ne sceglie uno a caso.",
+          "Chi arriva dopo vede clienti nel ristorante A, e li segue dentro.",
+          "Si forma una coda. Sarà buono... no?",
+          "Ognuno copia gli altri. Nessuno in coda ha assaggiato il cibo.",
+          "Il ristorante B resta vuoto, anche se potrebbe essere migliore.",
+          "La soluzione: giudica con le tue prove. Il menu, le recensioni, un assaggio.",
+          "Scegli per le tue ragioni, non perché c’è la coda.",
+          "L’effetto carrozzone. Una folla è un segnale, non una prova. Verifica di persona."
+        ]
       }
     },
     svg(T) {

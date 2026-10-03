@@ -225,6 +225,37 @@
           "Die Latte hält. Du wechselst die Methode, statt zu warten und zu hoffen.",
           "Leg fest, was dich umstimmen würde. Leg die Latte auf, bevor die Ergebnisse kommen, und rühr sie danach nicht mehr an."
         ]
+      },
+      it: {
+        name: "Decidi cosa ti farebbe cambiare idea",
+        shareTitle: "Decidi cosa ti farebbe cambiare idea: un’abitudine in 30 secondi",
+        ecline: "Fissa l’asticella prima che arrivino i fatti, e non spostarla quando arrivano.",
+        wk: "sett.", works: "Funziona!", more: ["Serve solo", "più tempo…"], sw: ["È ora di", "cambiare"],
+        moved: "l’asticella è scesa", warn: "campanello", bell: true,
+        catches: "smaschera", bias: "Effetto boomerang",
+        noteH: "prima di guardare:",
+        note: ["Se non arrivo al <tspan class=\"hl\">70%</tspan>", "entro la <tspan class=\"hl\">settimana 4</tspan>,", "cambio metodo."],
+        caps: [
+          "Inizi un nuovo metodo di studio, sicuro di arrivare al <b>70%</b>.",
+          "I tuoi punteggi non salgono, ma in ognuno vedi <b>un buon segno</b>.",
+          "Quando restano sotto, sposti l’asticella: «Serve solo <b>più tempo</b>».",
+          "<b>L’abitudine:</b> prima di guardare, scrivi cosa ti <b>farebbe cambiare idea</b>.",
+          "<b>Blocca l’asticella</b> lì. Poi lascia arrivare i risultati.",
+          "Restano sotto. Hai voglia di spostare l’asticella? È il <b>campanello d’allarme</b>.",
+          "Smaschera <b>l’effetto boomerang</b>: ostinarti quando i fatti ti danno torto.",
+          "L’asticella ha tenuto. <b>Cambi metodo</b> invece di aspettare e sperare."
+        ],
+        say: [
+          "Inizi un nuovo metodo di studio, sicuro di arrivare al settanta per cento.",
+          "I tuoi punteggi non salgono, ma in ognuno vedi un buon segno.",
+          "Quando restano sotto, sposti l’asticella. Serve solo più tempo.",
+          "L’abitudine: prima di guardare, scrivi cosa ti farebbe cambiare idea.",
+          "Blocca l’asticella lì. Poi lascia arrivare i risultati.",
+          "Restano sotto. Hai voglia di spostare l’asticella? È il campanello d’allarme.",
+          "Smaschera l’effetto boomerang: ostinarti quando i fatti ti danno torto.",
+          "L’asticella ha tenuto. Cambi metodo, invece di aspettare e sperare.",
+          "Decidi cosa ti farebbe cambiare idea. Fissa l’asticella prima che arrivino i fatti, e non spostarla quando arrivano."
+        ]
       }
     },
     svg(T) {

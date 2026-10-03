@@ -221,6 +221,33 @@
           "Dann frag dich: Ist dir das große vier Euro mehr wert?",
           "Der Köder-Effekt. Eine Option, die niemand will, lässt eine andere wie ein Schnäppchen aussehen. Vergleiche nur die echten Optionen."
         ]
+      },
+      it: {
+        name: "Effetto esca", shareTitle: "L’effetto esca in 30 secondi",
+        ecline: "Un’opzione che nessuno vuole può far sembrare un’altra un affare. Confronta solo le scelte reali.",
+        size: { s: "piccolo", m: "medio", l: "grande" }, price: { s: "3 €", m: "6,50 €", l: "7 €" },
+        diff: "+4 €", diffW: 48, more: "solo 50 cent in più!", moreW: 128, decoy: "ESCA", decoyW: 78, real: "la vera differenza",
+        caps: [
+          "Al cinema: popcorn piccolo <b>3 €</b>, grande <b>7 €</b>.",
+          "4 € in più per il grande? I più scelgono il <b>piccolo</b>.",
+          "Poi il cinema aggiunge un medio, a <b>6,50 €</b>.",
+          "Accanto al medio, il grande sembra un <b>affare</b>.",
+          "All’improvviso, molte più persone <b>passano al grande</b>.",
+          "Il medio non lo compra quasi nessuno. È un’<b>esca</b>, serve a vendere il grande.",
+          "<b>La soluzione:</b> cancella l’opzione che non sceglieresti mai.",
+          "Poi chiediti: il grande vale 4 € in più <b>per te</b>?"
+        ],
+        say: [
+          "Al cinema, il popcorn piccolo costa tre euro. Il grande costa sette.",
+          "Quattro euro in più per il grande? I più scelgono il piccolo.",
+          "Poi il cinema aggiunge un medio, a sei euro e cinquanta.",
+          "Accanto al medio, il grande sembra un affare. Solo cinquanta centesimi in più!",
+          "All’improvviso, molte più persone passano al grande.",
+          "Il medio non lo compra quasi nessuno. È un’esca, serve a vendere il grande.",
+          "La soluzione: cancella l’opzione che non sceglieresti mai.",
+          "Poi chiediti: il grande vale quattro euro in più per te?",
+          "L’effetto esca. Un’opzione che nessuno vuole può far sembrare un’altra un affare. Confronta solo le scelte reali."
+        ]
       }
     },
     svg(T) {

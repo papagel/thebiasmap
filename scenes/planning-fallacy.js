@@ -221,6 +221,36 @@
           "Plane damit und rechne einen Puffer ein. Du wirst rechtzeitig fertig.",
           "Der Planungsfehlschluss. Deine Pläne malen den Idealfall aus. Plane damit, wie lange es früher wirklich gedauert hat."
         ]
+      },
+      it: {
+        name: "Fallacia della pianificazione", shareTitle: "La fallacia della pianificazione in 30 secondi",
+        ecline: "I tuoi piani immaginano il caso migliore. Pianifica in base a quanto ci è voluto davvero in passato.",
+        days: ["LUN", "MAR", "MER", "GIO", "VEN"], report: "Report", three: "3 giorni",
+        plan: "Il tuo piano", newPlan: "Nuovo piano", dur: n => (n === 1 ? "1 giorno" : `${n} giorni`), over: "+4 giorni",
+        due: "scadenza", dueW: 58, snags: ["riunione", "feedback", "malattia"], snagW: [55, 58, 56],
+        past: "I tuoi ultimi report", best: "caso migliore", bestW: 84, ign: "ignorato",
+        ov: "visione esterna", ovn: "di solito 7 giorni", buffer: "+ margine",
+        caps: [
+          "Devi scrivere un report. Quanto ci vorrà?",
+          "Te lo immagini filare liscio: <b>3 giorni</b>.",
+          "Poi arriva <b>la vita vera</b>, un intoppo alla volta.",
+          "Ci vogliono <b>7 giorni</b>, più del doppio.",
+          "I tuoi ultimi report? <b>Tutti</b> hanno sforato.",
+          "Ma hai pianificato sul <b>caso migliore</b>, non su quello storico.",
+          "<b>La soluzione:</b> chiediti quanto hanno richiesto davvero compiti simili.",
+          "Pianifica su quello, poi aggiungi un margine. <b>Finisci in tempo.</b>"
+        ],
+        say: [
+          "Devi scrivere un report. Quanto ci vorrà?",
+          "Te lo immagini filare liscio. Tre giorni.",
+          "Poi arriva la vita vera, un intoppo alla volta.",
+          "Ci vogliono sette giorni. Più del doppio.",
+          "I tuoi ultimi report? Hanno sforato tutti.",
+          "Ma hai pianificato sul caso migliore, non su quello storico.",
+          "La soluzione: chiediti quanto hanno richiesto davvero compiti simili.",
+          "Pianifica su quello, poi aggiungi un margine. Finisci in tempo.",
+          "La fallacia della pianificazione. I tuoi piani immaginano il caso migliore. Pianifica in base a quanto ci è voluto davvero in passato."
+        ]
       }
     },
     svg(T) {

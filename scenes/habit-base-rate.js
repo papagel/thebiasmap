@@ -250,6 +250,36 @@
           "Also plant er mit einer realistischen Spanne und behält ein Sicherheitspolster.",
           "Starte bei der Basisrate. Frag dich, wie so etwas meistens ausgeht. Dann pass die Schätzung ein wenig an das Besondere an."
         ]
+      },
+      it: {
+        name: "Parti dal tasso di base", shareTitle: "Parti dal tasso di base: un’abitudine in 30 secondi",
+        ecline: "Chiediti come vanno di solito cose come questa, poi correggi un po’ per ciò che è speciale.",
+        bubble: "«Si mangia benissimo!»", savings: "tutti i suoi risparmi", invest: "investire", cushion: "cuscinetto",
+        h1: "10 ristoranti nuovi simili", later: "3 anni dopo", open: "4 su 10 ancora aperti",
+        h2: "cosa ha di speciale?", chance: "probabilità che sia aperto tra 3 anni",
+        sure: "certo", base: "tasso di base", adj: "+ ottimo cibo", n: v => `${v} su 10`,
+        gap: "Eccesso di fiducia", range: "forbice realistica",
+        caps: [
+          "Un tuo amico vuole aprire un ristorante con <b>tutti i suoi risparmi</b>.",
+          "«Si mangia benissimo», dice. «<b>Non può fallire</b>».",
+          "Vede solo <b>questo locale</b>, quindi si sente <b>sicuro</b>.",
+          "<b>L’abitudine:</b> prima chiediti come va di solito a locali come questo.",
+          "Dopo tre anni, <b>6 su 10</b> hanno chiuso. Parti da <b>4 su 10</b>.",
+          "Poi correggi per ciò che è speciale. Ottimo cibo? Una <b>piccola spinta in su</b>.",
+          "Quel divario è <b>l’eccesso di fiducia</b>. Questa abitudine lo smaschera.",
+          "Così pianifica su una <b>forbice realistica</b> e tiene da parte un <b>cuscinetto</b>."
+        ],
+        say: [
+          "Un tuo amico vuole aprire un ristorante con tutti i suoi risparmi.",
+          "Si mangia benissimo, dice. Non può fallire.",
+          "Vede solo questo locale, quindi si sente sicuro.",
+          "L’abitudine: prima chiediti come va di solito a locali come questo.",
+          "Immagina dieci ristoranti nuovi simili. Dopo tre anni, sei hanno chiuso. Quindi parti da quattro su dieci.",
+          "Poi correggi per ciò che è speciale. Ottimo cibo? È una piccola spinta in su, non un salto alla certezza.",
+          "Quel divario è l’eccesso di fiducia. Questa abitudine lo smaschera.",
+          "Così pianifica su una forbice realistica, e tiene da parte un cuscinetto.",
+          "Parti dal tasso di base. Chiediti come vanno di solito cose come questa, poi correggi un po’ per ciò che è speciale."
+        ]
       }
     },
     svg(T) {

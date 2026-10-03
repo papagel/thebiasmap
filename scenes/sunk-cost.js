@@ -192,6 +192,33 @@ ${P} .check path{fill:none;stroke:var(--good);stroke-width:2.4;stroke-linecap:ro
           "Entscheide nach dem, was vor dir liegt. Bleib zu Hause und ruh dich aus.",
           "Die Versunkene-Kosten-Falle. Bereits ausgegebenes Geld ist so oder so weg. Entscheide nach dem, was vor dir liegt."
         ]
+      },
+      it: {
+        name: "Fallacia dei costi irrecuperabili", shareTitle: "La fallacia dei costi irrecuperabili in 30 secondi",
+        ecline: "I soldi già spesi sono persi comunque. Decidi in base a ciò che ti aspetta.",
+        concert: "CONCERTO", price: "60 €", noref: "non rimborsabile", spent: "Speso", sunk: "irrecuperabile", sunkW: 103, tired: "a pezzi",
+        go: "Vado", stay: "Resto a casa", music: "Musica", rest: "Riposo", dry: "All’asciutto", minus: "−60 €",
+        caps: [
+          "Hai pagato <b>60 €</b> un biglietto per un concerto. Non rimborsabile.",
+          "La sera stessa sei a pezzi, e piove a dirotto.",
+          "Andare o restare a casa? Ci rifletti.",
+          "Stasera, restare a casa è ciò che ti <b>godresti di più</b>.",
+          "Poi un pensiero: «Ho pagato 60 €. Non posso <b>sprecarli</b>».",
+          "Ma i 60 € sono andati <b>comunque</b>.",
+          "<b>La soluzione:</b> togli dalla bilancia i soldi già spesi.",
+          "Decidi in base a ciò che ti aspetta. <b>Resta a casa</b> e riposati."
+        ],
+        say: [
+          "Hai pagato sessanta euro un biglietto per un concerto. Non rimborsabile.",
+          "La sera stessa sei a pezzi, e piove a dirotto.",
+          "Andare, o restare a casa? Ci rifletti.",
+          "Stasera, restare a casa è ciò che ti godresti di più.",
+          "Poi un pensiero: ho pagato sessanta euro. Non posso sprecarli.",
+          "Ma quei sessanta euro sono andati comunque.",
+          "La soluzione: togli dalla bilancia i soldi che hai già speso.",
+          "Decidi in base a ciò che ti aspetta. Resta a casa, e riposati.",
+          "La fallacia dei costi irrecuperabili. I soldi già spesi sono persi comunque. Decidi in base a ciò che ti aspetta."
+        ]
       }
     },
     svg(T) {

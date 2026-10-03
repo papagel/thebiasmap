@@ -243,6 +243,38 @@
           "Dann nenn einen Punkt, in dem die andere Seite recht haben könnte. Die Gemüter kühlen ab, und du lernst auch etwas dazu.",
           "Fehler der anderen. Welche Verzerrung du auch bei anderen siehst, such sie auch bei dir selbst."
         ]
+      },
+      it: {
+        name: "Difetti altrui", shareTitle: "Perché vediamo i difetti degli altri e non i nostri, in 30 secondi",
+        ecline: "Qualunque bias noti negli altri, cercalo anche in te.",
+        others: "gli altri", you: "tu", outside: "da fuori", inside: "da dentro",
+        asIs: ["Vedo le cose", "come sono."], notMe: "Io no.", meToo: "Anch’io?", fair: "Hai ragione.",
+        sayA: "Non sono d’accordo.", sayB: "Ti do una mano?",
+        tags: ["ignorante", "egoista", "di parte"], point: "ha ragione",
+        names: ["Realismo ingenuo", "Cinismo ingenuo", "Punto cieco dei bias"],
+        w: { ignorante: 47, egoista: 36, "di parte": 38, "ha ragione": 52, "Vedo le cose": 67, "come sono.": 61, "Io no.": 29, "Anch’io?": 44,
+          "Hai ragione.": 63, "Non sono d’accordo.": 108, "Ti do una mano?": 85, "Realismo ingenuo": 103, "Cinismo ingenuo": 97, "Punto cieco dei bias": 116 },
+        caps: [
+          "Gli altri li vedi solo <b>da fuori</b>.",
+          "Te stesso lo vedi <b>da dentro</b>, e questo ti aiuta ad agire con sicurezza.",
+          "Così ti sembra di vedere il mondo <b>com’è</b>…",
+          "…e chi non è d’accordo deve essere <b>ignorante</b>.",
+          "Qualcuno si offre di aiutarti? Sospetti un motivo <b>egoista</b>.",
+          "Vedi <b>bias</b> in tutti, tranne nel volto allo specchio.",
+          "<b>La soluzione:</b> noti un bias in qualcuno? Cercalo <b>in te</b>.",
+          "Poi trova un punto su cui <b>potrebbe avere ragione</b>. Gli animi si calmano."
+        ],
+        say: [
+          "Gli altri li vedi solo da fuori: ciò che fanno, non perché.",
+          "Te stesso lo vedi da dentro: le tue ragioni, le tue intenzioni, la tua situazione. Fidarti di questa visione ti aiuta ad agire con sicurezza.",
+          "Così ti sembra di vedere il mondo com’è. È il realismo ingenuo...",
+          "...e chi non è d’accordo con te deve essere ignorante.",
+          "Qualcuno si offre di aiutarti? Sospetti un motivo egoista. È il cinismo ingenuo.",
+          "Vedi bias in tutti, tranne nel volto allo specchio. È il punto cieco dei bias.",
+          "La soluzione: quando noti un bias in qualcun altro, cerca lo stesso in te.",
+          "Poi trova un punto su cui potrebbe avere ragione. Gli animi si calmano, e impari anche qualcosa.",
+          "Difetti altrui. Qualunque bias noti negli altri, cercalo anche in te."
+        ]
       }
     },
     svg(T) {

@@ -207,6 +207,37 @@
           "Vergleiche das Ergebnis mit deiner Schätzung, und korrigiere Richtung Realität.",
           "Der Dunning-Kruger-Effekt. Je weniger du weißt, desto schwerer merkst du es. Hol dir Feedback von außen."
         ]
+      },
+      it: {
+        name: "Effetto Dunning-Kruger", shareTitle: "L’effetto Dunning-Kruger in 30 secondi",
+        ecline: "Meno sai, più è difficile accorgertene. Chiedi un parere esterno.",
+        yTitle: "Percentile", avg: "media", xTitle: "Gruppi per punteggio reale",
+        groups: [["25%", "inferiore"], ["Medio", "basso"], ["Medio", "alto"], ["25%", "superiore"]],
+        legA: "Posizione reale", legG: "La loro stima",
+        tooSure: ["troppa", "sicurezza"], modest: ["un po’", "modesti"],
+        noSee: "non vede errori", see: "nota gli errori",
+        fbT: "Valutazione", fbS: "simulazione corretta", score: "6/20",
+        caps: [
+          "Alcune persone fanno un test, poi stimano la loro <b>posizione</b> rispetto agli altri.",
+          "Ecco dove si è <b>davvero</b> classificato ogni gruppo.",
+          "E dove <b>pensavano</b> di essere: tutti sopra la media.",
+          "Chi ha i punteggi più bassi si sopravvaluta <b>più di tutti</b>.",
+          "Una spiegazione: per vedere gli errori serve la <b>stessa abilità</b> che serve a evitarli.",
+          "I migliori si <b>sottovalutano</b> un po’. Pensano che sia stato facile per tutti.",
+          "<b>La soluzione:</b> confrontati con un parere esterno.",
+          "Confronta il punteggio con la tua stima. Correggiti <b>verso la realtà</b>."
+        ],
+        say: [
+          "Alcune persone fanno un test, poi stimano la loro posizione rispetto agli altri.",
+          "Ecco dove si è davvero classificato ogni gruppo.",
+          "Ed ecco dove pensavano di essere. Tutti sopra la media.",
+          "Chi ha i punteggi più bassi si sopravvaluta più di tutti.",
+          "Una spiegazione: per vedere gli errori serve la stessa abilità che serve a evitarli.",
+          "I migliori si sottovalutano un po’. Pensano che sia stato facile per tutti.",
+          "La soluzione: confrontati con un parere esterno.",
+          "Confronta il punteggio con la tua stima, e correggiti verso la realtà.",
+          "L’effetto Dunning-Kruger. Meno sai, più è difficile accorgertene. Chiedi un parere esterno."
+        ]
       }
     },
     svg(T) {

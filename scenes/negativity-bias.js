@@ -219,6 +219,34 @@
           "Nimm aus dem einen das Nützliche mit. Aber behalte auch die neun.",
           "Der Negativitätseffekt. Ein schlechter Kommentar kann neun gute übertönen. Zähl sie, bevor du sie gewichtest."
         ]
+      },
+      it: {
+        name: "Bias di negatività", shareTitle: "Il bias di negatività in 30 secondi",
+        ecline: "Un commento negativo può soffocarne nove positivi. Contali prima di pesarli.",
+        count: n => (n === 1 ? "1 commento" : `${n} commenti`),
+        quote: "«Noioso.»", tagW: 87, danger: "pericolo!", dW: 53, opinion: "un’opinione",
+        of10: "9 su 10", liked: "positivi", note: "inizio lento?", noteW: 90,
+        caps: [
+          "Fai una presentazione. Poi arrivano <b>dieci commenti</b>.",
+          "Nove sono calorosi. <b>Uno</b> è tagliente.",
+          "La sera non smetti di pensare a <b>quell’uno</b>.",
+          "I nove positivi? <b>Già sbiaditi.</b>",
+          "Il negativo <b>pesa più</b> di un positivo equivalente.",
+          "Quell’allarme proteggeva i nostri antenati. Qui <b>distorce solo il quadro</b>.",
+          "<b>La soluzione:</b> contali. A <b>nove su dieci</b> è piaciuto.",
+          "Prendi lo spunto utile da quell’uno. <b>Ma tieni anche i nove.</b>"
+        ],
+        say: [
+          "Fai una presentazione. Poi arrivano dieci commenti.",
+          "Nove sono calorosi. Uno è tagliente. Dice solo: noioso.",
+          "La sera non smetti di pensare a quell’uno.",
+          "E i nove positivi? Già sbiaditi.",
+          "Il negativo pesa più di un positivo equivalente.",
+          "Quell’allarme proteggeva i nostri antenati. Qui distorce solo il quadro. È un’opinione.",
+          "La soluzione: contali. A nove su dieci è piaciuto.",
+          "Prendi lo spunto utile da quell’uno. Ma tieni anche i nove.",
+          "Il bias di negatività. Un commento negativo può soffocarne nove positivi. Contali prima di pesarli."
+        ]
       }
     },
     svg(T) {

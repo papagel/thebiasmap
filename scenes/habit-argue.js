@@ -219,6 +219,37 @@
           "Du ziehst es trotzdem durch, aber mit offenen Augen.",
           "Vertritt die Gegenseite. Sammle zuerst die stärksten Argumente gegen deinen Plan, dann zieh ihn mit offenen Augen durch."
         ]
+      },
+      it: {
+        name: "Difendi la tesi opposta", shareTitle: "Difendi la tesi opposta: un’abitudine in 30 secondi",
+        ecline: "Prima costruisci gli argomenti più forti contro il tuo piano, poi vai avanti a occhi aperti.",
+        forH: "Pro", agH: "Contro", empty: "vuoto",
+        pros: ["I bar vanno forte", "Fai ciò che ami", "Mettiti in proprio"],
+        cons: ["Affitto alto", "Primi mesi lenti", "Giornate di 12 ore"],
+        job: "Il tuo lavoro", cafe: "Il tuo bar", quit: "dimissioni", quitW: 58, notYet: "non ancora",
+        popup: "Chiosco", popupSub: "nel weekend",
+        sure: "Sicuro al 100%", sureW: 104, bias: "Bias di conferma", biasW: 130,
+        caps: [
+          "Vuoi lasciare il lavoro e aprire un <b>bar</b>. Non hai dubbi.",
+          "Tutto ciò che leggi sembra <b>darti ragione</b>.",
+          "Così raccogli solo ragioni <b>a favore</b>. L’altro lato resta vuoto.",
+          "<b>L’abitudine:</b> prima di impegnarti, difendi la tesi opposta.",
+          "Scrivi gli <b>argomenti più forti contro</b> il tuo stesso piano.",
+          "Poi adatta il piano: <b>mettilo alla prova</b> prima con un chiosco nel weekend.",
+          "Questa abitudine smaschera il <b>bias di conferma</b>: vedere solo ciò che ti dà ragione.",
+          "Vai avanti lo stesso, ma <b>a occhi aperti</b>."
+        ],
+        say: [
+          "Vuoi lasciare il lavoro e aprire un bar. Non hai dubbi.",
+          "Tutto ciò che leggi sembra darti ragione.",
+          "Così raccogli solo ragioni a favore. L’altro lato resta vuoto.",
+          "L’abitudine: prima di impegnarti, difendi la tesi opposta.",
+          "Scrivi gli argomenti più forti contro il tuo stesso piano. Affitto alto. Primi mesi lenti. Giornate di dodici ore.",
+          "Poi adatta il piano. Mettilo alla prova prima con un chiosco nel weekend.",
+          "Questa abitudine smaschera il bias di conferma: vedere solo ciò che ti dà ragione.",
+          "Vai avanti lo stesso, ma a occhi aperti.",
+          "Difendi la tesi opposta. Prima costruisci gli argomenti più forti contro il tuo piano, poi vai avanti a occhi aperti."
+        ]
       }
     },
     svg(T) {

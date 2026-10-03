@@ -257,6 +257,37 @@
           "Schreib auf, was du geprüft hast. Vertrau dem, nicht dem Echo.",
           "Priming und Wiederholung. Vertraut heißt nicht wahr: Vertrau dem, was du geprüft hast, nicht dem Echo."
         ]
+      },
+      it: {
+        name: "Innesco e ripetizione", shareTitle: "Perché ciò che si ripete sembra vero, in 30 secondi",
+        ecline: "Familiare non vuol dire vero: fidati di ciò che hai verificato, non dell’eco.",
+        today: "post oggi", ask: "Già visto?", yes: "sì → lo noti", no: "no → scorri oltre",
+        myth: ["I pipistrelli", "sono ciechi."], fact: ["I pipistrelli", "ci vedono!"], word: "umami", wordW: 27,
+        feel: ["sembra vero", "ti piace", "sembra comune"],
+        names: ["Effetto di verità illusoria", "Effetto di mera esposizione", "Illusione di frequenza"], pw: [158, 158, 131],
+        nf0: "fatti nuovi: 0", nf1: "fatti nuovi: 1",
+        notes: "I miei appunti", claim: "I pipistrelli sono ciechi?", claimW: 129, ok: "No, ci vedono.",
+        caps: [
+          "Ogni giorno scorrono <b>centinaia di post</b>. Non puoi verificarli tutti.",
+          "Così il cervello favorisce <b>ciò che ha già visto</b>. Di solito, fa risparmiare tempo.",
+          "Passa un’affermazione: <b>«I pipistrelli sono ciechi.»</b> Non sai se è vero.",
+          "Ogni ripetizione la fa <b>sembrare più vera</b>, eppure non hai imparato nulla di nuovo.",
+          "Con una canzone succede lo stesso: <b>più la senti, più ti piace</b>.",
+          "Impari una parola nuova, e d’un tratto è <b>ovunque</b>. C’era già prima.",
+          "<b>La soluzione:</b> cerca voci che <b>di solito non ascolti</b>.",
+          "Annota ciò che hai verificato. <b>Fidati di quello, non dell’eco.</b>"
+        ],
+        say: [
+          "Ogni giorno scorrono centinaia di post. Non puoi verificarli tutti.",
+          "Così il cervello favorisce ciò che ha già visto. Di solito, fa risparmiare tempo.",
+          "Passa un’affermazione. I pipistrelli sono ciechi. Non sai se è vero.",
+          "Torna, ancora e ancora, e ogni volta sembra un po’ più vera. Eppure non hai imparato nulla di nuovo. È l’effetto di verità illusoria.",
+          "Con una canzone succede lo stesso. Più la senti, più ti piace. L’effetto di mera esposizione.",
+          "Impari una parola nuova, e d’un tratto è ovunque. C’era già prima. È l’illusione di frequenza.",
+          "La soluzione: cerca voci che di solito non ascolti.",
+          "Annota ciò che hai verificato. Fidati di quello, non dell’eco.",
+          "Innesco e ripetizione. Familiare non vuol dire vero: fidati di ciò che hai verificato, non dell’eco."
+        ]
       }
     },
     svg(T) {

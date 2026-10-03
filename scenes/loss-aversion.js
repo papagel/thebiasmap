@@ -209,6 +209,35 @@
           "Über zehn Würfe kannst du mit hundert Euro Plus rechnen. Nimm gute Wetten an, deren Verlust du verkraften kannst.",
           "Die Verlustaversion. Verluste wiegen schwerer als Gewinne. Beurteile eine Wette nach ihren Chancen, nicht nach dem Schmerz."
         ]
+      },
+      it: {
+        name: "Avversione alla perdita", shareTitle: "L’avversione alla perdita in 30 secondi",
+        ecline: "Le perdite pesano più dei guadagni. Giudica una scommessa dalle probabilità, non da quanto brucia perdere.",
+        eur: v => `${v > 0 ? "+" : v < 0 ? "−" : ""}${Math.abs(v)} €`, heads: "Testa", tails: "Croce", hl: "T", tl: "C",
+        evs: "media per lancio", no: "No, grazie", yes: "Ci sto!",
+        feels: "Cosa si prova", win: "vincita", lose: "perdita",
+        gap1: "sembra un", gap2: "cattivo affare", after: n => `Dopo ${n} ${n === 1 ? "lancio" : "lanci"}`,
+        caps: [
+          "Testa o croce: con testa <b>vinci 120 €</b>, con croce <b>perdi 100 €</b>.",
+          "In media, ci <b>guadagneresti 10 €</b> a lancio.",
+          "Eppure quasi tutti <b>rifiutano</b>.",
+          "Perdere <b>fa più male</b> di quanto vincere faccia piacere.",
+          "Le perdite pesano <b>circa il doppio</b> di guadagni equivalenti.",
+          "Così una buona scommessa <b>sembra una cattiva</b>.",
+          "<b>La soluzione:</b> pensala come uno di tanti lanci.",
+          "Dieci lanci: aspettati <b>+100 €</b>. Accetta le buone scommesse che puoi permetterti di perdere."
+        ],
+        say: [
+          "Testa o croce. Con testa, vinci centoventi euro. Con croce, ne perdi cento.",
+          "In media, ci guadagneresti dieci euro a ogni lancio.",
+          "Eppure quasi tutti rifiutano.",
+          "Perdere fa più male di quanto vincere faccia piacere.",
+          "Le perdite pesano circa il doppio di guadagni equivalenti.",
+          "Così una buona scommessa sembra una cattiva.",
+          "La soluzione: pensala come uno di tanti lanci.",
+          "Su dieci lanci, ti aspetteresti di essere in attivo di cento euro. Accetta le buone scommesse che puoi permetterti di perdere.",
+          "L’avversione alla perdita. Le perdite pesano più dei guadagni. Giudica una scommessa dalle probabilità, non da quanto brucia perdere."
+        ]
       }
     },
     svg(T) {

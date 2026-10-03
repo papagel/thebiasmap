@@ -227,6 +227,33 @@
           "Atme durch und mach weiter. Kaum jemand hat’s gesehen.",
           "Der Spotlight-Effekt. Du fällst viel weniger auf, als du denkst. Alle sind mit ihrem eigenen Scheinwerfer beschäftigt."
         ]
+      },
+      it: {
+        name: "Effetto riflettore", shareTitle: "L’effetto riflettore in 30 secondi",
+        ecline: "Gli altri ti notano molto meno di quanto credi. Ognuno è preso dal proprio riflettore.",
+        spot: "riflettore", think: "pensi", actual: "in realtà", v8: "8 su 10", v2: "2 su 10",
+        shirt: ["maglietta imbarazzante"], guessed: "previsto", noticed: "notato", fewer: "molti meno",
+        caps: [
+          "Ti versi il caffè sulla camicia, proprio prima di una riunione.",
+          "Entri, e ti sembra di avere un <b>riflettore</b> puntato addosso.",
+          "Di sicuro <b>tutti</b> stanno guardando la macchia.",
+          "In realtà, quasi tutti sono presi dalle <b>proprie</b> preoccupazioni.",
+          "Solo <b>due</b> di loro l’hanno notata.",
+          "In uno studio classico, se ne sono accorte <b>molte meno</b> persone del previsto.",
+          "<b>La soluzione:</b> ricorda che ognuno è sotto il proprio riflettore.",
+          "Fai un respiro e vai avanti. <b>Quasi nessuno l’ha vista.</b>"
+        ],
+        say: [
+          "Ti versi il caffè sulla camicia, proprio prima di una riunione.",
+          "Entri, e ti sembra di avere un riflettore puntato addosso.",
+          "Di sicuro tutti stanno guardando la macchia.",
+          "In realtà, quasi tutti sono presi dalle proprie preoccupazioni. Il telefono, gli appunti, persino una macchia tutta loro.",
+          "Solo due di loro l’hanno notata.",
+          "In uno studio classico, alcuni studenti entravano in una stanza con una maglietta imbarazzante. Se ne sono accorte molte meno persone di quante ne avessero previste.",
+          "La soluzione: ricorda che ognuno è sotto il proprio riflettore.",
+          "Fai un respiro e vai avanti. Quasi nessuno l’ha vista.",
+          "L’effetto riflettore. Gli altri ti notano molto meno di quanto credi. Ognuno è preso dal proprio riflettore."
+        ]
       }
     },
     svg(T) {

@@ -252,6 +252,38 @@
           "Wieder ruhig, schreibst du sie neu und schickst die bessere Version.",
           "Geh auf Abstand zur Entscheidung. Im Eifer des Gefechts fühlt sich eine schlechte Entscheidung richtig an. Schlaf eine Nacht darüber, oder frag dich, was du einem Freund sagen würdest."
         ]
+      },
+      it: {
+        name: "Prendi le distanze dalla scelta",
+        shareTitle: "Prendi le distanze dalla scelta: un’abitudine in 30 secondi",
+        ecline: "A caldo, una scelta sbagliata sembra giusta: dormici sopra, o chiediti cosa diresti a un amico.",
+        time: m => { const [h, mm] = hm(m); return `${h}:${pad(mm)}`; }, from: "Luca", quote: "«Per la terza volta…»", repLab: "La tua risposta",
+        sharp: "«Impara a leggere!»", calm: "«Hai ragione. Eccolo:»",
+        save: "Salva bozza", saved: "Bozza salvata", send: "Invia", sent: "Inviata",
+        anger: "rabbia", think: "Se lo merita.", thinkW: 134, dont: "Non inviarla.", dontW: 124, dist: "distanza",
+        youAt: t => `tu alle ${t}`, cant1: "non immagini la calma", cant2: "non immagini la rabbia",
+        catches: "smaschera", gap: "Divario di empatia", gapFs: 15,
+        caps: [
+          "<b>Ore 23.</b> Arriva una mail irritante da un collega.",
+          "Ribolli di rabbia. Scrivi una risposta tagliente, il dito su <b>Invia</b>.",
+          "In questo stato, la risposta sembra <b>del tutto giustificata</b>.",
+          "<b>Prendi le distanze</b> dalla scelta: salvala come <b>bozza</b>.",
+          "Chiediti cosa diresti a <b>un amico</b> al tuo posto: «Non inviarla».",
+          "Poi <b>dormici sopra</b>. Al mattino, la rabbia si è calmata.",
+          "Smaschera il <b>divario di empatia</b>: nella rabbia, non immagini la calma.",
+          "Tornata la calma, la riscrivi e invii <b>la versione migliore</b>."
+        ],
+        say: [
+          "Sono le undici di sera. Arriva una mail irritante da un collega.",
+          "Ribolli di rabbia. Scrivi una risposta tagliente, e il dito resta sospeso su Invia.",
+          "In questo stato, la risposta sembra del tutto giustificata. Se lo merita.",
+          "Prendi le distanze dalla scelta. Salvala come bozza, e fai un passo indietro.",
+          "Chiediti cosa diresti a un amico al tuo posto. Gli diresti: non inviarla.",
+          "Poi dormici sopra. Al mattino, la rabbia si è calmata.",
+          "Smaschera il divario di empatia. Nella rabbia, non riesci a immaginare la calma. Quando torna la calma, non senti più la rabbia.",
+          "Tornata la calma, la riscrivi, e invii la versione migliore.",
+          "Prendi le distanze dalla scelta. A caldo, una scelta sbagliata sembra giusta. Dormici sopra, o chiediti cosa diresti a un amico."
+        ]
       }
     },
     svg(T) {

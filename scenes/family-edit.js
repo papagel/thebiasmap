@@ -256,6 +256,36 @@
           "Wenn es darauf ankommt, prüf deine Notizen und Quellen. Der Kern hält stand, und jede Zutat geht dorthin zurück, woher sie kam.",
           "Bearbeitete Erinnerungen. Jedes Erinnern baut eine Erinnerung neu auf, also schreib Wichtiges auf, solange es frisch ist."
         ]
+      },
+      it: {
+        name: "Ricordi ritoccati", shareTitle: "Perché i ricordi cambiano ogni volta che li richiamiamo, in 30 secondi",
+        ecline: "Ogni ricordo si ricostruisce quando lo richiami, quindi annota ciò che conta finché è fresco.",
+        title: "I miei 8 anni", ask: ["«Il pagliaccio", "era buffo?»"], film: "un film", tagFilm: "film", book: "un vecchio libro",
+        recalls: "volte", sure: ["certezza"],
+        date: "12 maggio", party: "La mia festa!", items: ["torta", "palloncini", "regali"],
+        bias: "bias", fix: "soluzione", tags: ["Suggestionabilità", "Confusione della fonte", "Criptomnesia", "Falso ricordo", "Prendi nota", "Controlla le fonti"],
+        tw: [157, 180, 116, 114, 120, 148],
+        caps: [
+          "La festa dei tuoi 8 anni: torta, palloncini, regali. Un ricordo, come una <b>foto</b>.",
+          "Ogni richiamo lo <b>ricostruisce</b> e lo <b>rafforza</b>. Di solito, è utile.",
+          "«Il <b>pagliaccio</b> era buffo?» Non c’era nessun pagliaccio. Ora <b>c’è</b>.",
+          "Un cane da un <b>film</b> si infila nel ricordo. Dimentichi <b>dove l’hai visto</b>.",
+          "La caccia al tesoro sembra <b>un’idea tua</b>. Veniva da un <b>libro</b>.",
+          "Ogni richiamo ha aumentato la tua <b>certezza</b>, non la tua <b>precisione</b>.",
+          "<b>La soluzione:</b> per ciò che conta, <b>annotalo</b> subito dopo.",
+          "Quando conta, <b>controlla appunti e fonti</b>. Il nucleo regge."
+        ],
+        say: [
+          "La festa dei tuoi otto anni. Torta, palloncini, regali. La conservi come un ricordo, come una foto.",
+          "Ogni volta che la richiami, il cervello ricostruisce il ricordo, che diventa più forte e più facile da raggiungere. È così che tieni aggiornato ciò che sai. Di solito, è utile.",
+          "Qualcuno ti chiede: il pagliaccio era buffo? Non c’era nessun pagliaccio. Ma la volta dopo che ripensi alla festa, eccolo lì. È la suggestionabilità.",
+          "Un cane da un film si infila nell’immagine, e dimentichi dove l’hai visto. È la confusione della fonte.",
+          "La caccia al tesoro sembra un’idea tua. In realtà l’avevi letta in un libro anni prima. È la criptomnesia.",
+          "Ogni richiamo ha aumentato la tua certezza, ma non la tua precisione. È un falso ricordo, e può sembrare vivido quanto uno vero.",
+          "La soluzione: per le cose che contano, annotale subito dopo, finché sono fresche.",
+          "Quando conta, controlla i tuoi appunti e le fonti. Il nucleo regge, e ogni aggiunta torna da dove è venuta.",
+          "Ricordi ritoccati. Ogni ricordo si ricostruisce quando lo richiami, quindi annota ciò che conta finché è fresco."
+        ]
       }
     },
     svg(T) {

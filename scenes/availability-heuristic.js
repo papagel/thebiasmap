@@ -199,6 +199,34 @@
           "Schau dir die echten Zahlen an, und entscheide dann, wie du reist.",
           "Die Verfügbarkeits-Heuristik. Was dir leicht einfällt, ist nicht unbedingt wahrscheinlich. Prüf, wie oft es wirklich passiert."
         ]
+      },
+      it: {
+        name: "Euristica della disponibilità", shareTitle: "L’euristica della disponibilità in 30 secondi",
+        ecline: "Ciò che ricordi facilmente non è per forza probabile. Controlla quanto spesso succede davvero.",
+        memory: "La tua memoria", or: "o", head: "Aereo caduto", cw: 128, note: "incidente", daily: "ogni giorno",
+        q1: ["Cosa mi viene", "in mente?"], q2: ["Quanto spesso", "succede davvero?"],
+        feels: "Rischio percepito", actual: "Rischio reale per km",
+        caps: [
+          "Al mare in aereo o in auto: cos’è <b>più rischioso</b>?",
+          "Questa settimana un aereo caduto è <b>su tutti i giornali</b>.",
+          "Gli incidenti d’auto avvengono <b>ogni giorno</b>, ma raramente fanno notizia.",
+          "La tua mente si chiede: quali esempi <b>vengono in mente prima</b>?",
+          "Così all’improvviso l’aereo <b>sembra</b> più pericoloso.",
+          "Ma a parità di chilometri, <b>l’auto è molto più rischiosa</b>.",
+          "<b>La soluzione:</b> chiediti quanto spesso succede, non quanto ti resta impresso.",
+          "Guarda i <b>numeri reali</b>, poi decidi come viaggiare."
+        ],
+        say: [
+          "Al mare in aereo o in auto. Cos’è più rischioso?",
+          "Questa settimana un aereo caduto è su tutti i giornali.",
+          "Gli incidenti d’auto avvengono ogni giorno, ma raramente fanno notizia.",
+          "La tua mente si chiede: quali esempi vengono in mente prima?",
+          "Così all’improvviso l’aereo sembra più pericoloso.",
+          "Ma a parità di chilometri percorsi, l’auto è molto più rischiosa.",
+          "La soluzione: chiediti quanto spesso succede, non quanto ti resta impresso.",
+          "Guarda i numeri reali, poi decidi come viaggiare.",
+          "L’euristica della disponibilità. Ciò che ricordi facilmente non è per forza probabile. Controlla quanto spesso succede davvero."
+        ]
       }
     },
     svg(T) {

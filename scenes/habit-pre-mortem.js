@@ -235,6 +235,36 @@
           "Der Start findet statt, mit diesen Risiken im Griff.",
           "Mach ein Pre-Mortem. Stell dir das Scheitern vor, bevor es passiert, und behebe seine wahrscheinlichsten Ursachen schon heute."
         ]
+      },
+      it: {
+        name: "Fai un pre-mortem", shareTitle: "Fai un pre-mortem: un’abitudine in 30 secondi",
+        ecline: "Immagina il fallimento prima che accada, poi correggi oggi le sue cause più probabili.",
+        today: "oggi", launch: "lancio", next: "il mese prossimo", later: "un anno dopo",
+        great: "Andrà benone!", bubW: 130, ask: "cosa potrebbe andare storto?", why: "perché è fallito",
+        reasons: ["nessuno lo conosceva", "server giù il primo giorno", "registrazione troppo lunga"], rw: [112.2, 126.8, 134.5],
+        fixes: ["piano di lancio", "test di carico", "registrazione più breve"],
+        bias: "Bias di ottimismo", tagW: 126,
+        caps: [
+          "Il tuo team lancia una nuova app <b>il mese prossimo</b>.",
+          "Tutti si aspettano che <b>vada alla grande</b>.",
+          "Nessuno si ferma a chiedersi <b>cosa potrebbe andare storto</b>.",
+          "<b>Pre-mortem:</b> immagina che sia passato un anno e che il lancio sia <b>fallito</b>.",
+          "Ognuno scrive le <b>cause più probabili</b> del fallimento.",
+          "Poi <b>sistema ciò che puoi</b> oggi, prima del lancio.",
+          "Smaschera il <b>bias di ottimismo</b>: «a noi non succederà».",
+          "Il lancio va avanti, <b>con quei rischi sotto controllo</b>."
+        ],
+        say: [
+          "Il tuo team lancia una nuova app il mese prossimo.",
+          "Tutti si aspettano che vada alla grande.",
+          "Nessuno si ferma a chiedersi cosa potrebbe andare storto.",
+          "Fai un pre-mortem. Immagina che sia passato un anno, e che il lancio sia fallito.",
+          "Ognuno scrive le cause più probabili del fallimento.",
+          "Poi sistema ciò che puoi oggi, prima del lancio.",
+          "Smaschera il bias di ottimismo: la convinzione che a noi non succederà.",
+          "Il lancio va avanti, con quei rischi sotto controllo.",
+          "Fai un pre-mortem. Immagina il fallimento prima che accada, poi correggi oggi le sue cause più probabili."
+        ]
       }
     },
     svg(T) {

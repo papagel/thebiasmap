@@ -298,6 +298,35 @@
           "Fünf freundliche Hunde, ein Biss. Behalte die Ausnahmen, und die Zusammenfassung bleibt fair.",
           "Verallgemeinern. Das Gedächtnis tauscht Details gegen Zusammenfassungen, also denk an die Ausnahmen, bevor du urteilst."
         ]
+      },
+      it: {
+        name: "Generalizzazioni", shareTitle: "Perché la memoria tiene il succo e perde i dettagli, in 30 secondi",
+        ecline: "La memoria scambia i dettagli con riassunti, quindi ricorda le eccezioni prima di giudicare.",
+        memory: "memoria", more: "+ centinaia di altri", dropped: "dettagli persi", left: "esclusi", newDog: "nuovo cane", count: "5 buoni · 1 morso",
+        dogs: "cani", friendly: "buoni", scary: "cattivi", mostly: "quasi tutti buoni",
+        trip: "il viaggio", perfect: "perfetto", link: "legame automatico", glasses: "occhiali → genio", imp: "cattivo",
+        names: ["Bias di negatività", "Sbiadimento delle emozioni", "Associazioni implicite"],
+        caps: [
+          "Hai incontrato <b>centinaia di cani</b>. La memoria non può tenerli <b>tutti</b>.",
+          "Così li pressa in <b>un unico riassunto</b>. Il prossimo cane? Una <b>stima veloce</b>.",
+          "Poi un cane <b>morde</b>. Quel ricordo <b>pesa più</b> di tutti gli altri.",
+          "Un viaggio passato: le <b>parti brutte sbiadiscono prima</b>. Ora era <b>«perfetto»</b>.",
+          "Sullo schermo, i <b>geni</b> portano gli <b>occhiali</b>. Presto il legame è <b>automatico</b>.",
+          "Il riassunto resta. Un <b>nuovo cane buono</b>? Pensi ancora <b>«cattivo»</b>.",
+          "<b>La soluzione:</b> ricorda <b>casi specifici</b>, soprattutto quelli che <b>non tornano</b>.",
+          "Cinque buoni, un morso. Tieni le <b>eccezioni</b>, e il riassunto resta <b>equo</b>."
+        ],
+        say: [
+          "Hai incontrato centinaia di cani. La memoria non può tenerli tutti.",
+          "Così li pressa in un unico riassunto: i cani sono buoni. La volta dopo, hai una stima veloce.",
+          "Poi un cane ti morde. Quel ricordo pesa più di tutti gli altri. È il bias di negatività.",
+          "Pensa a un viaggio passato. Le parti brutte sbiadiscono prima di quelle belle, così ora era perfetto. È lo sbiadimento delle emozioni.",
+          "Sullo schermo, i geni portano gli occhiali. Presto il legame è automatico. È un’associazione implicita.",
+          "E il riassunto resta. Passa un nuovo cane buono, e pensi ancora: cattivo.",
+          "La soluzione: ricorda casi specifici, soprattutto quelli che non tornano.",
+          "Cinque cani buoni, un morso. Tieni le eccezioni, e il riassunto resta equo.",
+          "Generalizzazioni. La memoria scambia i dettagli con riassunti, quindi ricorda le eccezioni prima di giudicare."
+        ]
       }
     },
     svg(T) {

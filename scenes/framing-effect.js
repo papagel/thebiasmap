@@ -201,6 +201,33 @@
           "Gleiche Fakten, in beide Richtungen. Jetzt beurteilst du das Fleisch, nicht das Etikett.",
           "Der Framing-Effekt. Dieselbe Tatsache klingt anders, je nachdem, wie man sie formuliert. Dreh sie um und sieh selbst."
         ]
+      },
+      it: {
+        name: "Effetto framing", shareTitle: "L’effetto framing in 30 secondi",
+        ecline: "Lo stesso fatto suona diverso a seconda di come lo dici. Ribaltalo e vedrai.",
+        lean: "75% magro", fat: "25% grasso", flipL: "= 25% grasso", flipR: "= 75% magro", tagW: 106,
+        pl: "magro", pf: "grasso", same: ["stessa", "carne"], rate: "Quanto ti convince",
+        caps: [
+          "Due confezioni di carne macinata sullo scaffale.",
+          "Su una c’è scritto «<b>75% magro</b>».",
+          "Sull’altra c’è scritto «<b>25% grasso</b>».",
+          "Quale sembra migliore? Quasi tutti <b>preferiscono quella «magra»</b>.",
+          "Ma guarda dentro: è <b>la stessa carne</b>.",
+          "Ogni etichetta ti porta l’occhio sulla <b>parte buona</b> o su <b>quella cattiva</b>.",
+          "<b>La soluzione:</b> ribalta la formulazione. Dillo al contrario.",
+          "Stessi fatti, in entrambi i modi. Ora giudichi <b>la carne, non l’etichetta</b>."
+        ],
+        say: [
+          "Due confezioni di carne macinata sullo scaffale.",
+          "Su una c’è scritto: settantacinque per cento magro.",
+          "Sull’altra c’è scritto: venticinque per cento grasso.",
+          "Quale sembra migliore? Quasi tutti preferiscono quella magra.",
+          "Ma guarda dentro. È la stessa carne.",
+          "Ogni etichetta ti porta l’occhio sulla parte buona, o su quella cattiva.",
+          "La soluzione: ribalta la formulazione. Dillo al contrario.",
+          "Stessi fatti, in entrambi i modi. Ora giudichi la carne, non l’etichetta.",
+          "L’effetto framing. Lo stesso fatto suona diverso a seconda di come lo dici. Ribaltalo e vedrai."
+        ]
       }
     },
     svg(T) {

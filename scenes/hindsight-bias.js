@@ -202,6 +202,35 @@
           "Schau auf deine Notiz: fünfzig Prozent. Lerne aus dem, was du wirklich gedacht hast.",
           "Der Rückschaufehler. Im Nachhinein wirkt alles offensichtlich. Schreib deine Prognosen vorher auf."
         ]
+      },
+      it: {
+        name: "Bias del senno di poi", shareTitle: "Il bias del senno di poi in 30 secondi",
+        ecline: "A cose fatte, tutto sembra ovvio. Scrivi prima le tue previsioni.",
+        hd0: "FINALE · 21:00", hd1: "FINALE · FINE PARTITA", home: "Casa", away: "Ospiti",
+        why: "perché era ovvio:", reasons: ["Attaccante in forma", "Difesa migliore", "Tifo di casa"],
+        dial: "chance di vittoria in casa", hind: "senno di poi",
+        noteH: "20:45 · prima della gara", noteL: "Vittoria in casa:", mark: "la nota",
+        caps: [
+          "Prima della finale, la partita ti sembra <b>in bilico</b>.",
+          "Daresti alla squadra di casa circa il <b>50%</b>.",
+          "Fischio finale: la squadra di casa vince <b>3–1</b>.",
+          "Ora la vittoria sembra <b>ovvia</b>. Elenchi i motivi.",
+          "La tua memoria ritocca in silenzio la tua stima: «Ero <b>sicuro all’80%</b>».",
+          "Col senno di poi, il passato sembra <b>più prevedibile</b> di quanto fosse.",
+          "<b>La soluzione:</b> scrivi le previsioni, con il tuo grado di certezza.",
+          "Controlla la nota: <b>50%</b>. Impara da ciò che pensavi davvero."
+        ],
+        say: [
+          "Prima della finale, la partita ti sembra in bilico.",
+          "Daresti alla squadra di casa circa il cinquanta per cento.",
+          "Fischio finale. La squadra di casa vince, tre a uno.",
+          "Ora la vittoria sembra ovvia. Elenchi i motivi.",
+          "La tua memoria ritocca in silenzio la tua stima. Ero sicuro all’ottanta per cento.",
+          "Col senno di poi, il passato sembra più prevedibile di quanto fosse.",
+          "La soluzione: scrivi le previsioni, con il tuo grado di certezza.",
+          "Controlla la nota: cinquanta per cento. Impara da ciò che pensavi davvero.",
+          "Il bias del senno di poi. A cose fatte, tutto sembra ovvio. Scrivi prima le tue previsioni."
+        ]
       }
     },
     svg(T) {

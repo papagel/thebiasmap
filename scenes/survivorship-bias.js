@@ -199,6 +199,33 @@
           "Panzere die Triebwerke. Untersuche die Ausfälle, nicht nur die Überlebenden.",
           "Der Survivorship Bias. Du siehst nur, was überlebt hat. Frag dich, was fehlt, bevor du Schlüsse ziehst."
         ]
+      },
+      it: {
+        name: "Bias di sopravvivenza", shareTitle: "Il bias di sopravvivenza in 30 secondi",
+        ecline: "Vedi solo ciò che è sopravvissuto. Chiediti cosa manca prima di trarre conclusioni.",
+        legend: "colpi sugli aerei rientrati", armour: "blindatura", back: "Rientrati", lost: "Non rientrati",
+        noHoles: "nessun foro", missing: "dati mancanti", armourHere: "blinda qui",
+        caps: [
+          "Nella seconda guerra mondiale, i bombardieri rientrano <b>crivellati di colpi</b>.",
+          "Gli ingegneri segnano dove sono stati colpiti gli <b>aerei rientrati</b>.",
+          "L’idea ovvia: rinforzare la blindatura <b>dove ci sono i fori</b>.",
+          "Ma questi sono solo gli aerei <b>riusciti a tornare</b>.",
+          "Gli aerei colpiti ai motori <b>tornavano di rado</b> per essere contati.",
+          "I punti senza fori sono quelli dove un colpo è <b>fatale</b>.",
+          "<b>La soluzione:</b> chiediti cosa manca nei tuoi dati.",
+          "Blinda i motori. Studia i fallimenti, <b>non solo i sopravvissuti</b>."
+        ],
+        say: [
+          "Nella seconda guerra mondiale, i bombardieri rientrano dalle loro missioni crivellati di colpi.",
+          "Gli ingegneri segnano dove sono stati colpiti gli aerei rientrati.",
+          "L’idea ovvia: rinforzare la blindatura dove ci sono i fori.",
+          "Ma questi sono solo gli aerei riusciti a tornare.",
+          "Gli aerei colpiti ai motori tornavano di rado per essere contati.",
+          "I punti senza fori sono quelli dove un colpo è fatale.",
+          "La soluzione: chiediti cosa manca nei tuoi dati.",
+          "Blinda i motori. Studia i fallimenti, non solo i sopravvissuti.",
+          "Il bias di sopravvivenza. Vedi solo ciò che è sopravvissuto. Chiediti cosa manca prima di trarre conclusioni."
+        ]
       }
     },
     svg(T) {

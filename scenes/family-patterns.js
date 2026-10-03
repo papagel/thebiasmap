@@ -240,6 +240,33 @@
           "Dann sammle mehr Punkte. Muster, die standhalten, verdienen Vertrauen.",
           "Geschichten und Muster. Dein Gehirn findet Geschichten selbst in zufälligen Punkten, also frag, was der Zufall zeichnen würde, bevor du einer glaubst."
         ]
+      },
+      it: {
+        name: "Storie e schemi", shareTitle: "Perché vediamo schemi nel rumore, in 30 secondi",
+        ecline: "Il cervello trova storie anche in punti casuali, quindi chiediti cosa disegnerebbe il caso prima di crederci.",
+        note: "meglio prevenire", b1: "Illusione di raggruppamento", b2: "Pareidolia", b3: "Insensibilità all’ampiezza del campione",
+        rand: "lanciati a caso", chance: "per caso", q1: "Cosa disegnerebbe il caso?", q2: "Bastano i punti?",
+        caps: [
+          "La vita ti dà solo <b>punti sparsi</b>: pochi indizi, mai il quadro completo.",
+          "Il cervello <b>unisce i puntini</b>: un lupo! Gli istinti rapidi hanno salvato i nostri antenati.",
+          "Vede schemi anche nel rumore: un gruppetto casuale sembra <b>voler dire qualcosa</b>.",
+          "Tre punti a triangolo, e d’un tratto <b>un volto</b> ti guarda.",
+          "Solo quattro punti, eppure sembrano <b>una tendenza sicura</b>.",
+          "Ma i punti sono caduti <b>a caso</b>. Le storie venivano dalla tua mente.",
+          "<b>La soluzione:</b> chiediti cosa disegnerebbe il caso da solo. Anche gruppi e volti.",
+          "Poi raccogli <b>più punti</b>. Gli schemi che reggono meritano fiducia."
+        ],
+        say: [
+          "La vita ti dà solo punti sparsi: pochi indizi, mai il quadro completo.",
+          "Il cervello unisce i puntini. Un lupo! Istinti rapidi come questo hanno salvato i nostri antenati. Meglio prevenire che curare.",
+          "Ma vede schemi anche nel rumore. Un gruppetto casuale sembra voler dire qualcosa. Si chiama illusione di raggruppamento.",
+          "Tre punti a triangolo, e d’un tratto un volto ti guarda. È la pareidolia.",
+          "Solo quattro punti, eppure sembrano una tendenza sicura. È l’insensibilità all’ampiezza del campione.",
+          "Ma i punti sono caduti a caso. Le storie venivano dalla tua mente.",
+          "La soluzione: chiediti cosa disegnerebbe il caso da solo. Anche il caso fa gruppi e volti.",
+          "Poi raccogli più punti. Gli schemi che reggono meritano fiducia.",
+          "Storie e schemi. Il cervello trova storie anche in punti casuali, quindi chiediti cosa disegnerebbe il caso prima di crederci."
+        ]
       }
     },
     svg(T) {

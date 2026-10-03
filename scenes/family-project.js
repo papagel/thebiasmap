@@ -260,6 +260,34 @@
           "Plane für dein späteres Ich als einen etwas anderen Menschen. Es wird es dir danken.",
           "Von sich ausgehen. Dein früheres und dein späteres Ich sind keine Kopien von heute, also prüf die Fakten und plane für sie."
         ]
+      },
+      it: {
+        name: "Proiettarsi", shareTitle: "Perché giudichiamo passato e futuro in base a come ci sentiamo oggi, in 30 secondi",
+        ecline: "Il te del passato e quello del futuro non sono copie del te di oggi, quindi verifica i fatti e pianifica per loro.",
+        times: ["prima", "ora", "dopo"], hungry: "con fame", full: "senza fame", setback: "brutto colpo", wasted: "sprecato",
+        months: "mesi", weeks: "settimane", felt: "come l’hai vissuto", recall: "come lo ricordi",
+        labs: ["Bias di proiezione", "Bias d’impatto", "Retrospettiva rosea"], note: ["previsto", "accaduto"], thanks: "grazie!",
+        caps: [
+          "Immaginarti nel passato o nel futuro è difficile. Il cervello parte da <b>oggi</b>.",
+          "Vede entrambi con <b>la lente di oggi</b>. Di solito, ci va abbastanza vicino.",
+          "Fai la spesa <b>con la fame</b>, e compri come se avessi fame anche dopo.",
+          "Poi la fame passa, e <b>metà</b> finisce nella spazzatura.",
+          "Pensi che un brutto colpo ti farà soffrire per <b>mesi</b>. Passa in poche <b>settimane</b>.",
+          "Ripensandoci, il viaggio dell’estate scorsa sembra <b>migliore</b> di com’era.",
+          "<b>La soluzione:</b> annota cosa ti aspetti, poi <b>verifica</b> com’è andata.",
+          "Pianifica per il te futuro come per <b>qualcuno un po’ diverso</b>. Ti ringrazierà."
+        ],
+        say: [
+          "Immaginarti nel passato o nel futuro è difficile. Così il cervello parte da oggi.",
+          "Vede entrambi con la lente di oggi, e presume che le cose resteranno più o meno come ora. Di solito, ci va abbastanza vicino.",
+          "Il bias di proiezione. Fai la spesa con la fame, e compri come se avessi fame anche dopo.",
+          "Poi la fame passa, e metà finisce nella spazzatura.",
+          "Il bias d’impatto. Pensi che un brutto colpo ti farà soffrire per mesi. Passa in poche settimane.",
+          "La retrospettiva rosea. Ripensandoci, il viaggio dell’estate scorsa sembra migliore di com’era in quel momento.",
+          "La soluzione: annota cosa ti aspetti, poi verifica com’è andata davvero.",
+          "Pianifica per il te futuro come per qualcuno un po’ diverso. Ti ringrazierà.",
+          "Proiettarsi. Il te del passato e quello del futuro non sono copie del te di oggi, quindi verifica i fatti e pianifica per loro."
+        ]
       }
     },
     svg(T) {

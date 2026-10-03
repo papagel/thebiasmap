@@ -253,6 +253,35 @@
           "Echte Antworten schlagen deine beste Vermutung, und andere fühlen sich gehört.",
           "Gedankenlesen. Andere Köpfe sind keine Kopien deines eigenen, also frag, statt zu vermuten."
         ]
+      },
+      it: {
+        name: "Leggere la mente", shareTitle: "Perché crediamo di sapere cosa pensano gli altri, in 30 secondi",
+        ecline: "Le menti degli altri non sono copie della tua, quindi chiedi invece di supporre.",
+        you: "tu", lg: ["la tua ipotesi", "ciò che pensano davvero"],
+        labs: ["Illusione di trasparenza", "Maledizione della conoscenza", "Illusione di comprensione asimmetrica"],
+        nervous: ["Che ansia!"], calm: ["Che calma!"], got: ["Capito!"], what: ["Cos’è", "la cache?"],
+        cache: ["Svuota solo", "la cache."], ask: ["Tu che", "ne pensi?"],
+        caps: [
+          "Non puoi vedere nella testa degli altri, quindi <b>tiri a indovinare</b>.",
+          "La scorciatoia del cervello: pensare che ragionino <b>come te</b>. Spesso funziona.",
+          "Sei in ansia e credi che <b>si veda</b>. Da fuori, si nota appena.",
+          "Lo sai bene, quindi pensi che <b>abbia capito</b>. Non è così.",
+          "Ti sembra di leggere gli altri <b>meglio</b> di quanto loro leggano te.",
+          "Intanto, loro sono altrettanto sicuri di leggere <b>te</b>.",
+          "<b>La soluzione:</b> non riempire tu i loro pensieri. <b>Chiedi</b>, e ascolta.",
+          "Le risposte vere battono la tua ipotesi migliore, e le persone <b>si sentono ascoltate</b>."
+        ],
+        say: [
+          "Non puoi vedere nella testa degli altri, quindi tiri a indovinare cosa pensano.",
+          "La scorciatoia del cervello: pensare che ragionino come te. Le persone hanno molto in comune, quindi spesso funziona.",
+          "L’illusione di trasparenza. Sei in ansia, e credi che si veda. Da fuori, si nota appena.",
+          "La maledizione della conoscenza. Lo sai bene, quindi pensi che abbia capito. Non è così.",
+          "L’illusione di comprensione asimmetrica. Ti sembra di leggere gli altri meglio di quanto loro leggano te.",
+          "Intanto, loro sono altrettanto sicuri di leggere te.",
+          "La soluzione: non riempire tu i loro pensieri. Chiedi, e ascolta.",
+          "Le risposte vere battono la tua ipotesi migliore, e le persone si sentono ascoltate.",
+          "Leggere la mente. Le menti degli altri non sono copie della tua, quindi chiedi invece di supporre."
+        ]
       }
     },
     svg(T) {

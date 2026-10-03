@@ -215,6 +215,34 @@
           "Du ergänzt den fehlenden Schritt. Jetzt funktioniert es auch für andere.",
           "Hol dir einen fremden Blick. Deine eigenen Lücken siehst du nicht, aber ein frischer Blick findet sie schnell."
         ]
+      },
+      it: {
+        name: "Chiedi uno sguardo esterno", shareTitle: "Chiedi uno sguardo esterno: un’abitudine in 30 secondi",
+        ecline: "Non vedi le tue lacune, ma un paio d’occhi nuovi le trova in fretta.",
+        title: "Primi passi", steps: ["Scarica l’app", "Accedi", "Crea una lista", "Invita gli amici"], missing: "Registrati",
+        head: "nella tua testa", you: "tu", fresh: "occhi nuovi", ask: "Trova la falla!", gap: "passo mancante",
+        stuck: ["Accedi", "con cosa?"], got: "Ora sì!", caught: "smaschera", bias: "Maledizione della conoscenza", tagW: 226,
+        caps: [
+          "Hai appena scritto la guida di configurazione della tua nuova app.",
+          "A te sembra perfetta. Ogni passaggio è <b>ovvio</b>.",
+          "La tua testa riempie in silenzio <b>un passaggio che non hai mai scritto</b>.",
+          "<b>L’abitudine:</b> falla leggere a qualcuno con un’esperienza diversa.",
+          "Chiedigli di <b>trovare la falla</b>, non di dirti che va bene.",
+          "Si blocca al passo 2: «<b>Accedi con cosa?</b>»",
+          "Smaschera la <b>maledizione della conoscenza</b>: non riesci a immaginare di non sapere.",
+          "Aggiungi il passaggio mancante. Ora funziona <b>anche per gli altri</b>."
+        ],
+        say: [
+          "Hai appena scritto la guida di configurazione della tua nuova app.",
+          "A te sembra perfetta. Ogni passaggio è ovvio.",
+          "Hai un account da secoli, quindi la tua testa riempie in silenzio un passaggio che non hai mai scritto: prima registrati.",
+          "L’abitudine: falla leggere a qualcuno con un’esperienza diversa.",
+          "Chiedigli di trovare la falla, non di dirti che va bene.",
+          "Si blocca al passo due. Accedi con cosa?",
+          "Smaschera la maledizione della conoscenza. Quando sai una cosa, non riesci a immaginare di non saperla.",
+          "Aggiungi il passaggio mancante. Ora funziona anche per gli altri.",
+          "Chiedi uno sguardo esterno. Non vedi le tue lacune, ma un paio d’occhi nuovi le trova in fretta."
+        ]
       }
     },
     svg(T) {

@@ -237,6 +237,37 @@
           "Grob reicht für Kleinigkeiten. Bei großen Entscheidungen öffne die Schublade.",
           "Einfachere Zahlen. Einfache Schubladen reichen für kleine Dinge, aber große Entscheidungen verdienen die echten Zahlen."
         ]
+      },
+      it: {
+        name: "Numeri più semplici", shareTitle: "Perché infiliamo rischi e soldi in scatole semplici, in 30 secondi",
+        ecline: "Le scatole semplici vanno bene per le piccole cose, ma le grandi scelte meritano i numeri veri.",
+        tok: ["3,7%", "1 su 250", "0,4%", "68%", "92%", "7/12"],
+        box: [["non succederà", "succederà"], ["sfizi", "bollette"], ["spiccioli", "da non toccare"]],
+        chip: ["Contabilità mentale", "Effetto taglio", "Bias di normalità"],
+        n50: "50 €", n10: "10 €", coin: "2", gift: "regalo", salary: "stipendio", coins: "cinque monete da 2 €", note: "una banconota da 10 €", spent: "speso",
+        flood: "alluvione", rate: "3% all’anno", bubble: "«Qui non è mai successo.»",
+        cnt: ["3 anni", "su 100"], legend: "1 casella = 1 anno",
+        caps: [
+          "Probabilità, percentuali, frazioni: il tuo cervello le trova <b>difficili</b>.",
+          "Così le divide in <b>scatole semplici</b>. È veloce, e di solito basta.",
+          "Un regalo di 50 € sembra <b>soldi per sfizi</b>. 50 € di stipendio vanno in bollette.",
+          "Le monete sembrano <b>spiccioli</b>. Se ne vanno prima di una banconota da 10 €.",
+          "Qui non è mai venuta un’alluvione, quindi il rischio finisce in <b>non succederà</b>.",
+          "Ma raro non vuol dire mai. L’etichetta <b>nascondeva il rischio reale</b>.",
+          "<b>La soluzione:</b> trasforma le probabilità in conteggi, come <b>3 anni su 100</b>.",
+          "Per le piccole cose va bene a occhio. Per le grandi scelte, <b>apri la scatola</b>."
+        ],
+        say: [
+          "Probabilità, percentuali, frazioni. Il tuo cervello le trova difficili.",
+          "Così le divide in scatole semplici. È veloce, e di solito basta.",
+          "Contabilità mentale: un regalo di cinquanta euro sembra soldi per sfizi. Cinquanta euro di stipendio vanno in bollette.",
+          "L’effetto taglio: le monete sembrano spiccioli, così se ne vanno prima di una banconota da dieci euro.",
+          "Bias di normalità: qui non è mai venuta un’alluvione, quindi il rischio finisce in non succederà.",
+          "Ma raro non vuol dire mai. L’etichetta nascondeva il rischio reale.",
+          "La soluzione: trasforma le probabilità in conteggi. Il tre per cento all’anno vuol dire tre anni su cento.",
+          "Per le piccole cose va bene a occhio. Per le grandi scelte, apri la scatola.",
+          "Numeri più semplici. Le scatole semplici vanno bene per le piccole cose, ma le grandi scelte meritano i numeri veri."
+        ]
       }
     },
     svg(T) {
