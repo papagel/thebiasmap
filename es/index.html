@@ -521,7 +521,10 @@ footer cite{font-style:italic}
 .dial{display:none}
 .dial-chips{display:flex;gap:6px;padding:0 16px 4px;overflow-x:auto;scrollbar-width:none}
 .dial-chips .chip{flex:none}
-.dial-svg{display:block;width:100%;height:auto;touch-action:none;user-select:none;-webkit-user-select:none;cursor:grab}
+.dial-svg{display:block;width:100%;height:auto;touch-action:pan-y;user-select:none;-webkit-user-select:none;cursor:grab}
+/* tapped: dragging turns it (until a tap elsewhere, or it leaves the screen) */
+.dial.on .dial-svg{touch-action:none;box-shadow:inset 0 0 0 2px color-mix(in srgb,var(--nem) 45%,transparent);border-radius:16px}
+.dial.on .dial-svg .band{stroke:var(--nem);stroke-width:1.5}
 .dial-svg:focus{outline:none}
 .dial-svg:focus-visible{outline:2px solid var(--nem);outline-offset:-4px}
 .dial-svg .dl{font-family:var(--display);fill:var(--ink);dominant-baseline:central;cursor:pointer}
@@ -542,9 +545,9 @@ footer cite{font-style:italic}
   .habits{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media (max-width:760px){
-  /* phones: things to do first, the map after them */
+  /* phones: the map right under the hero that promises it, then the things to do */
   .wrap{display:flex;flex-direction:column}
-  .top{order:0} .hero{order:1} #watch{order:2} #lab{order:3} #quiz{order:4} .map{order:5} #habits{order:6} #mine{order:7} #why{order:8} #browse{order:9} footer{order:10}
+  .top{order:0} .hero{order:1} .map{order:2} #watch{order:3} #lab{order:4} #quiz{order:5} #habits{order:6} #mine{order:7} #why{order:8} #browse{order:9} footer{order:10}
   .reel{margin-inline:calc(-1*clamp(16px,4vw,48px));padding:0 clamp(16px,4vw,48px) 8px;scroll-padding-inline:clamp(16px,4vw,48px)}
   .habits{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin-inline:calc(-1*clamp(16px,4vw,48px));padding:0 clamp(16px,4vw,48px) 8px;scroll-padding-inline:clamp(16px,4vw,48px);scrollbar-width:none}
   .reel .reel-item,.reel .reel-more{width:72vw;max-width:300px}
@@ -2157,7 +2160,7 @@ function dialReadout() {
   dialSvg.setAttribute("aria-valuetext", b.n);
   dialRead.innerHTML = `<span class="dq">${esc(b.q.name)} · ${esc(SHORT[b.g.id] || b.g.title)}</span><b>${esc(b.n)}</b>
     <div class="row">${v ? `<button class="btn primary" type="button" data-watch="${b.i}">▶ Ver el vídeo</button>` : `<button class="btn primary" type="button" data-i="${b.i}">Abrir la ficha</button>`}<button class="btn" type="button" data-dial-rand>Sorpréndeme</button></div>
-    ${dTouched ? "" : `<span class="dial-hint">Arrastra la rueda hacia arriba o hacia abajo para girarla</span>`}`;
+    ${dTouched ? "" : `<span class="dial-hint">Toca la rueda y luego arrástrala para girarla</span>`}`;
 }
 function dialTo(target, ms = 320) {
   cancelAnimationFrame(dAnim);
@@ -2175,16 +2178,26 @@ function dialGo(i, ms, extraTurns = 0) {   // turn to bias i the short way round
   dialTo(t * DSTEP, ms);
 }
 const touch = () => { if (!dTouched) { dTouched = true; dialReadout(); } };
+// On a touch screen a swipe over the dial scrolls the page until the dial is tapped; from then on dragging turns it,
+// until a tap elsewhere or the dial leaves the screen. High on the page, it would otherwise catch the thumb of anyone
+// scrolling past it. (A mouse can always drag it.)
+const dialEl = document.getElementById("dial");
+let dOn = false;
+const dialOn = on => { if (dOn !== on) { dOn = on; dialEl.classList.toggle("on", on); } };
+document.addEventListener("pointerdown", e => { if (dOn && !dialSvg.contains(e.target)) dialOn(false); }, true);
+if ("IntersectionObserver" in window) new IntersectionObserver(es => { if (!es[0].isIntersecting) dialOn(false); }).observe(dialSvg);
 let dDrag = null;
 dialSvg.addEventListener("pointerdown", e => {
   cancelAnimationFrame(dAnim);
-  dDrag = { y: e.clientY, r: dRot, moved: 0, samples: [[performance.now(), e.clientY]], hit: e.target.closest("[data-di]") };
+  dDrag = { y: e.clientY, r: dRot, moved: 0, samples: [[performance.now(), e.clientY]], hit: e.target.closest("[data-di]"),
+            idle: e.pointerType === "touch" && !dOn };   // not tapped yet: the page may scroll, the dial stays
   dialSvg.setPointerCapture(e.pointerId);
 });
 dialSvg.addEventListener("pointermove", e => {
   if (!dDrag) return;
   const scale = 360 / dialSvg.getBoundingClientRect().width;
   dDrag.moved = Math.max(dDrag.moved, Math.abs(e.clientY - dDrag.y));
+  if (dDrag.idle) return;
   dRot = dDrag.r - (e.clientY - dDrag.y) * scale / DPX * DSTEP;
   dDrag.samples.push([performance.now(), e.clientY]); if (dDrag.samples.length > 8) dDrag.samples.shift();
   dialDraw();
@@ -2193,12 +2206,14 @@ dialSvg.addEventListener("pointerup", () => {
   if (!dDrag) return;
   const d = dDrag; dDrag = null; touch();
   if (d.moved < 6) {   // a tap: turn to that name; one already at the pointer opens on the click that follows
+    if (d.idle) dialOn(true);
     const i = d.hit ? +d.hit.dataset.di : -1;
     dialSvg._open = i === dSel ? i : -1;
     if (i >= 0 && i !== dSel) dialGo(i); else if (i < 0) dialSnap();
     return;
   }
   dialSvg._open = -1;
+  if (d.idle) return dialSnap();
   const now = performance.now(), recent = d.samples.filter(([t]) => t > now - 120);
   const [t0, y0] = recent[0] || d.samples[0], [t1, y1] = d.samples[d.samples.length - 1];
   const v = t1 > t0 ? (y1 - y0) / (t1 - t0) : 0;   // px per ms: a flick coasts on a little
