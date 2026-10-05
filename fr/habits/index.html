@@ -41,13 +41,13 @@
       window.__bp = { finalAt: 0, seek: function () {} };   // capture.mjs waits for a player; this page is still
     }
   })();
-  document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('.theme-toggle');if(!b)return;var r=document.documentElement,t=r.getAttribute('data-theme')==='dark'?'light':'dark';r.setAttribute('data-theme',t);try{localStorage.setItem('theme',t)}catch(x){}});
+  document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('.theme-toggle');if(!b)return;var r=document.documentElement,t=r.getAttribute('data-theme')==='dark'?'light':'dark';r.setAttribute('data-theme',t);try{localStorage.setItem('theme',t)}catch(x){}});document.addEventListener('click',function(e){document.querySelectorAll('details.lang-menu[open]').forEach(function(d){if(!d.contains(e.target))d.open=false})});document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('details.lang-menu[open]').forEach(function(d){d.open=false;d.querySelector('summary').focus()})});(function(){var done={};document.addEventListener('toggle',function(e){var d=e.target,c=navigator.connection;if(!d.open||!d.matches||!d.matches('details.lang-menu')||c&&(c.saveData||/2g/.test(c.effectiveType||'')))return;d.querySelectorAll('a[hreflang]:not([aria-current])').forEach(function(a){var u=a.href.split('#')[0];if(done[u])return;done[u]=1;var l=document.createElement('link');if(l.relList&&l.relList.supports&&l.relList.supports('prefetch')){l.rel='prefetch';l.href=u;document.head.appendChild(l)}else if(window.fetch)fetch(u,{credentials:'same-origin'}).catch(function(){})})},true)})();
 </script>
 <style>
 :root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}[hidden]{display:none!important}
 :root{
   --ground:#f3f5f2; --surface:#ffffff; --surface-2:#e9ece7;
-  --ink:#191c21; --muted:#59606a; --faint:#8a9098; --rule:#d7dbd5;
+  --ink:#191c21; --muted:#59606a; --faint:#6c7077; --rule:#d7dbd5;
   --tmi:#16827d; --nem:#2f5fb3; --fast:#5a8a17; --mem:#7f766a;
   --good:#1f7a3f; --bad:#b3372c;
   --shadow:0 18px 50px -18px rgba(20,28,36,.35);
@@ -59,7 +59,7 @@
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --ground:#101317; --surface:#171b20; --surface-2:#20262d;
-    --ink:#e8ebe6; --muted:#a2a9b1; --faint:#737b84; --rule:#2a3139;
+    --ink:#e8ebe6; --muted:#a2a9b1; --faint:#7d848d; --rule:#2a3139;
     --tmi:#4cc3bb; --nem:#86a9f0; --fast:#a2d05a; --mem:#b9af9f;
     --good:#5fcf86; --bad:#ff8a7a;
     --shadow:0 18px 50px -12px rgba(0,0,0,.7);
@@ -68,7 +68,7 @@
 }
 :root[data-theme="dark"]{
   --ground:#101317; --surface:#171b20; --surface-2:#20262d;
-  --ink:#e8ebe6; --muted:#a2a9b1; --faint:#737b84; --rule:#2a3139;
+  --ink:#e8ebe6; --muted:#a2a9b1; --faint:#7d848d; --rule:#2a3139;
   --tmi:#4cc3bb; --nem:#86a9f0; --fast:#a2d05a; --mem:#b9af9f;
   --good:#5fcf86; --bad:#ff8a7a;
   --shadow:0 18px 50px -12px rgba(0,0,0,.7);
@@ -103,20 +103,20 @@ a{color:inherit}
 .vi circle{fill:var(--q)}
 .vi path{fill:var(--surface)}
 .h-s{font:11.5px/1.5 var(--mono);color:var(--faint);margin:0}
-.h-s a{color:var(--muted);text-decoration:none}
+.h-s a{color:var(--muted);text-decoration:none;padding-block:4px}
 .h-s a:hover{color:var(--ink);text-decoration:underline}
-.h-w{align-self:flex-start;font:500 13px/1 var(--mono);color:var(--q);text-decoration:underline;text-underline-offset:3px}
+.h-w{align-self:flex-start;font:500 13px/1 var(--mono);color:var(--q);text-decoration:underline;text-underline-offset:3px;padding-block:12px;margin-block:-12px}
 .q-tmi{--q:var(--tmi)} .q-nem{--q:var(--nem)} .q-fast{--q:var(--fast)} .q-mem{--q:var(--mem)}
 .hp-foot{margin-top:36px;padding-top:18px;border-top:1px solid var(--rule);font-size:13.5px;color:var(--muted);display:flex;flex-direction:column;gap:6px}
 :focus-visible{outline:2px solid var(--nem);outline-offset:3px;border-radius:4px}
 @media (max-width:1060px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:560px){.grid{grid-template-columns:minmax(0,1fr)}.hp-top .btn{display:none}}
+@media (max-width:560px){.grid{grid-template-columns:minmax(0,1fr)}.hp-top a.btn{display:none}}
 .pf{display:none}
 /* printed (or saved as PDF): the eight habits on one page, A4 or US Letter, in the light theme's colours and with no
    background colours (browsers leave them out by default); the footer's QR code leads back to this page */
 @page{margin:12mm 13mm}
 @media print{
-  html[data-theme]:root{--ground:#fff;--surface:#fff;--surface-2:#eef0ec;--ink:#191c21;--muted:#4f5660;--faint:#7d838b;--rule:#d5d9d3;
+  html[data-theme]:root{--ground:#fff;--surface:#fff;--surface-2:#eef0ec;--ink:#191c21;--muted:#4f5660;--faint:#6c7077;--rule:#d5d9d3;
     --tmi:#16827d;--nem:#2f5fb3;--fast:#5a8a17;--mem:#7f766a;color-scheme:light}
   body{background:#fff;color:var(--ink);padding:0;font-size:9pt}
   .hp{max-width:none;padding:0}
@@ -155,14 +155,14 @@ html.cap-og .og{display:grid;grid-template-columns:minmax(0,1fr) 300px;align-ite
 .og-g div{background:var(--surface);border-radius:10px;padding:6px;border-top:3px solid var(--q)}
 .og-g svg{display:block;width:100%;height:auto}
 
-.theme-toggle{display:inline-flex;align-items:center;justify-content:center;flex:none;width:34px;height:34px;padding:0;border:1px solid var(--rule);border-radius:999px;background:var(--surface);color:var(--muted);cursor:pointer}.theme-toggle:hover{color:var(--ink);border-color:var(--ink)}.theme-toggle svg{width:16px;height:16px}.theme-toggle .icon-moon{display:none}:root[data-theme="dark"] .theme-toggle .icon-sun{display:none}:root[data-theme="dark"] .theme-toggle .icon-moon{display:block}
+.theme-toggle{display:inline-flex;align-items:center;justify-content:center;flex:none;width:34px;height:34px;padding:0;border:1px solid var(--rule);border-radius:999px;background:var(--surface);color:var(--muted);cursor:pointer}.theme-toggle:hover{color:var(--ink);border-color:var(--ink)}.theme-toggle svg{width:16px;height:16px}.theme-toggle .icon-moon{display:none}:root[data-theme="dark"] .theme-toggle .icon-sun{display:none}:root[data-theme="dark"] .theme-toggle .icon-moon{display:block}.lang-menu{position:relative;display:inline-flex}.lang-menu:has(>.home-link){margin-left:auto}.lang-menu>.home-link{margin-left:0}.lang-menu>summary{list-style:none;cursor:pointer;user-select:none;display:inline-flex;align-items:center;white-space:nowrap}.lang-menu>summary::-webkit-details-marker{display:none}.lang-menu>summary::after{content:"";display:inline-block;width:.38em;height:.38em;margin-left:.5em;border:solid currentColor;border-width:0 1.5px 1.5px 0;transform:translateY(-.2em) rotate(45deg)}.lang-menu ul{position:absolute;right:0;top:calc(100% + 6px);z-index:30;margin:0;padding:6px;list-style:none;min-width:11rem;background:var(--surface);border:1px solid var(--rule);border-radius:12px;box-shadow:0 12px 28px -14px rgba(0,0,0,.45)}.lang-menu li a{display:flex;align-items:baseline;justify-content:space-between;gap:14px;padding:9px 11px;border-radius:8px;font:500 15px/1.2 var(--display);color:var(--ink);text-decoration:none;white-space:nowrap}.lang-menu li a:hover{background:var(--ground)}.lang-menu li a[aria-current]{color:var(--muted)}.lang-menu li small{font:500 11px/1 var(--mono);letter-spacing:.06em;color:var(--muted)}
 .hp-nav{display:flex;gap:8px;align-items:center}
 @media print{.theme-toggle{display:none}}
 </style>
 </head>
 <body>
 <div class="hp">
-  <header class="hp-top"><a class="hp-brand" href="/fr/"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="8.2" cy="7.6" r="5" style="fill:var(--ink)"/><circle cx="5.4" cy="11.2" r="4.8" style="fill:var(--ink)"/><circle cx="9.6" cy="11.8" r="5.3" style="fill:var(--ink)"/><circle cx="6.4" cy="15.6" r="4.7" style="fill:var(--ink)"/><circle cx="10.2" cy="17.4" r="4.4" style="fill:var(--ink)"/><circle cx="15.8" cy="7.6" r="5" style="fill:var(--ink)"/><circle cx="18.6" cy="11.2" r="4.8" style="fill:var(--ink)"/><circle cx="14.4" cy="11.8" r="5.3" style="fill:var(--ink)"/><circle cx="17.6" cy="15.6" r="4.7" style="fill:var(--ink)"/><circle cx="13.8" cy="17.4" r="4.4" style="fill:var(--ink)"/><circle cx="8.2" cy="7.6" r="3.9" style="fill:var(--tmi)"/><circle cx="5.4" cy="11.2" r="3.7" style="fill:var(--tmi)"/><circle cx="9.6" cy="11.8" r="4.2" style="fill:var(--tmi)"/><circle cx="6.4" cy="15.6" r="3.6" style="fill:var(--fast)"/><circle cx="10.2" cy="17.4" r="3.3" style="fill:var(--fast)"/><circle cx="15.8" cy="7.6" r="3.9" style="fill:var(--nem)"/><circle cx="18.6" cy="11.2" r="3.7" style="fill:var(--nem)"/><circle cx="14.4" cy="11.8" r="4.2" style="fill:var(--nem)"/><circle cx="17.6" cy="15.6" r="3.6" style="fill:var(--mem)"/><circle cx="13.8" cy="17.4" r="3.3" style="fill:var(--mem)"/><g fill="none" stroke="#2a2320" stroke-width="1.2" stroke-linecap="round"><path d="M12 3.4V8M12 18.6V21M5.2 9.6Q7 9.4 7.6 11M6.4 17.4Q7.6 16.2 9 16.8M18.8 9.6Q17 9.4 16.4 11M17.6 17.4Q16.4 16.2 15 16.8"/><path d="M10.3 14.6Q12 16.3 13.7 14.6" stroke-width="1.4"/></g><circle cx="9.7" cy="12.4" r="1.1" fill="#2a2320"/><circle cx="14.3" cy="12.4" r="1.1" fill="#2a2320"/></svg>Explorateur de biais cognitifs</a><span class="hp-nav"><a class="btn" href="/fr/">Explorer les 188 biais</a><button class="theme-toggle" type="button" aria-label="Thème clair ou sombre" title="Thème clair ou sombre"><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button></span></header>
+  <header class="hp-top"><a class="hp-brand" href="/fr/"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="8.2" cy="7.6" r="5" style="fill:var(--ink)"/><circle cx="5.4" cy="11.2" r="4.8" style="fill:var(--ink)"/><circle cx="9.6" cy="11.8" r="5.3" style="fill:var(--ink)"/><circle cx="6.4" cy="15.6" r="4.7" style="fill:var(--ink)"/><circle cx="10.2" cy="17.4" r="4.4" style="fill:var(--ink)"/><circle cx="15.8" cy="7.6" r="5" style="fill:var(--ink)"/><circle cx="18.6" cy="11.2" r="4.8" style="fill:var(--ink)"/><circle cx="14.4" cy="11.8" r="5.3" style="fill:var(--ink)"/><circle cx="17.6" cy="15.6" r="4.7" style="fill:var(--ink)"/><circle cx="13.8" cy="17.4" r="4.4" style="fill:var(--ink)"/><circle cx="8.2" cy="7.6" r="3.9" style="fill:var(--tmi)"/><circle cx="5.4" cy="11.2" r="3.7" style="fill:var(--tmi)"/><circle cx="9.6" cy="11.8" r="4.2" style="fill:var(--tmi)"/><circle cx="6.4" cy="15.6" r="3.6" style="fill:var(--fast)"/><circle cx="10.2" cy="17.4" r="3.3" style="fill:var(--fast)"/><circle cx="15.8" cy="7.6" r="3.9" style="fill:var(--nem)"/><circle cx="18.6" cy="11.2" r="3.7" style="fill:var(--nem)"/><circle cx="14.4" cy="11.8" r="4.2" style="fill:var(--nem)"/><circle cx="17.6" cy="15.6" r="3.6" style="fill:var(--mem)"/><circle cx="13.8" cy="17.4" r="3.3" style="fill:var(--mem)"/><g fill="none" stroke="#2a2320" stroke-width="1.2" stroke-linecap="round"><path d="M12 3.4V8M12 18.6V21M5.2 9.6Q7 9.4 7.6 11M6.4 17.4Q7.6 16.2 9 16.8M18.8 9.6Q17 9.4 16.4 11M17.6 17.4Q16.4 16.2 15 16.8"/><path d="M10.3 14.6Q12 16.3 13.7 14.6" stroke-width="1.4"/></g><circle cx="9.7" cy="12.4" r="1.1" fill="#2a2320"/><circle cx="14.3" cy="12.4" r="1.1" fill="#2a2320"/></svg>Explorateur de biais cognitifs</a><span class="hp-nav"><a class="btn" href="/fr/">Explorer les 188 biais</a><details class="lang-menu"><summary class="btn" title="Langue" aria-label="Langue: Français">FR</summary><ul><li><a href="/habits/" hreflang="en" lang="en">English<small>EN</small></a></li><li><a href="/el/habits/" hreflang="el" lang="el">Ελληνικά<small>ΕΛ</small></a></li><li><a href="/es/habits/" hreflang="es" lang="es">Español<small>ES</small></a></li><li><a href="/fr/habits/" hreflang="fr" lang="fr" aria-current="true">Français<small>FR</small></a></li><li><a href="/de/habits/" hreflang="de" lang="de">Deutsch<small>DE</small></a></li><li><a href="/it/habits/" hreflang="it" lang="it">Italiano<small>IT</small></a></li></ul></details><button class="theme-toggle" type="button" aria-label="Thème clair ou sombre" title="Thème clair ou sombre"><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button></span></header>
   <main>
     <h1>8 habitudes pour déjouer la plupart des biais</h1>
     <p class="hp-lede">Vous ne pouvez pas désactiver vos biais, mais quelques vérifications suffisent à en déjouer la plupart. Faites-les avant les décisions coûteuses ou difficiles à défaire.</p>
